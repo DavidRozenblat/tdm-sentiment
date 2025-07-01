@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>410271228</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>NEA Teams With Arena Stage to Launch New Plays</Title>
+      </TitleAtt>
+      <NumericDate>2008-01-30</NumericDate>
+      <StartDate>2008-01-30</StartDate>
+      <EndDate>2008-01-30</EndDate>
+      <AlphaDate>Jan 30, 2008</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright The Washington Post Company Jan 30, 2008</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>C.5</StartPage>
+         <Pagination>C.5</Pagination>
+         <DocSection>STYLE</DocSection>
+         <DocEdition>FINAL</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>1420740271</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>38231991</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXX200801300D1D2986</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1570</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Horwitz, Jane</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Horwitz</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Jane</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Jane Horwitz</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <CompanyTerm TermSource="ABI" PndxHeader="true">
+            <CompanyNameAtt>
+               <CompanyName>Arena Stage</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>711110</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="NA" PndxHeader="true">
+            <CompanyNameAtt>
+               <CompanyName>National Endowment for the Arts</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813211</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Nonprofit organizations</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Musical theater</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Artistic directors</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Theater</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="87">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;"For us it is very important . . . that the ultimate beneficiary for this program is a wider group of people and organizations than the limited group that are getting the direct project support," said Bill O'Brien, director of the NEA's theater and musical theater division.  Dower, now in his second season at Arena, has an extensive background in new play development as founding artistic director of Z Space in San Francisco and as a new play development consultant to the Andrew W. Mellon Foundation.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="1045" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Arena  Stage has been chosen by the National Endowment for the Arts to host the federal agency's New Play Development Project. The program will support the development of seven plays at nonprofit theaters around the country, and will offer other theaters a kind of road map of "best practices" gleaned from that effort. &lt;/p&gt;              &lt;p&gt;"For us it is very important . . . that the ultimate beneficiary for this program is a wider group of people and organizations than the limited group that are getting the direct project support," said Bill O'Brien, director of the NEA's theater and musical theater division.&lt;/p&gt;              &lt;p&gt;The winning scripts will be chosen by a panel of theater artists. The two top choices, to be called Outstanding New American Plays, will receive up to $90,000 each in project support for "advanced development" and a full production. Five other works with "strong potential" will receive up to $20,000 each for "early stages of development." &lt;/p&gt;              &lt;p&gt;Arena Artistic Associate David Dower, who will oversee the partnership with the NEA, said the company will raise another $230,000 to $250,000 in order to mount a festival of all seven works here, probably in fall 2010, right after Arena (fingers crossed) has moved back into its newly renovated home in Southwest Washington.&lt;/p&gt;              &lt;p&gt;The NEA was very interested, Dower said, in finding "a way for the public to actually see the NEA funding in action."&lt;/p&gt;              &lt;p&gt;In reviewing Arena's application to host the project, O'Brien said he was struck "not so much [by] what we were giving to them but what we were getting back."&lt;/p&gt;              &lt;p&gt;Dower, now in his second season at Arena, has an extensive background in new play development as founding artistic director of Z Space in San Francisco and as a new play development consultant to the Andrew W. Mellon Foundation. He expects the application process for theaters developing new plays to get underway in March and the awardees to be announced in the fall.&lt;/p&gt;              &lt;p&gt;Even while she was back in her native Dublin, exiled from living full time in Washington due to visa complications between March 2006 and August 2007, Solas Nua Artistic Director Linda Murray kept her hand in. She worked, saved money, kept abreast of new writers in Ireland and flew back for short stretches to work with the tiny troupe she founded with Producing Director Dan Brick.&lt;/p&gt;              &lt;p&gt;Solas Nua, which means "new light," is dedicated to contemporary Irish playwrights unknown in the States. If you are a Martin McDonagh or Conor McPherson whose work has been done on Broadway, Murray says, "you're done. You don't need my little theater in D.C. anymore."&lt;/p&gt;              &lt;p&gt;Her latest production is "Trad" by Irish comedian, actor and writer Mark Doherty. It runs at Flashpoint's Mead Theatre Lab till Feb. 17.&lt;/p&gt;              &lt;p&gt;Michael John Casey and Chris Davenport play, respectively, a 100-year-old man and his even more ancient Da in Doherty's spoof of Irish stereotypes and traditions. ("Trad" is a slang shortening of "tradition," referring to "the Celtic culture before it was infiltrated" by the English, Murray says.) The two men dodder off in search of the son's 70-year-old love child, bickering and telling tales on the way.&lt;/p&gt;              &lt;p&gt;"I think it's a wonderful spoof of everything that's considered to be Irish and everything that's put onstage as being Irish," Murray says. Irish writers working in English, she adds, tend to reflect their native tongue in the way they use "10 words to say something that could be said in one . . . It kind of conjures up images rather than stating facts, and I think that is inherently within Irish people."&lt;/p&gt;              &lt;p&gt;Ireland is in the midst of a literary golden age, she believes, sparked by the country's new high-tech industry and affluence. "Everything that Irish people have ever based their identity on has shifted in the last 10 or 15 years," Murray says. "Any environment like that is going to make creative people feel the need to comment upon it."&lt;/p&gt;              &lt;p&gt;"Trad" is Solas Nua's 11th production since Murray, 31, and Brick, 32 and a Maryland native, launched the company in 2005. The couple  --  they married in October  --  take no salaries so they can pay guest artists. They've garnered some impressive reviews for such a young company, for shows such as Owen McCafferty's "Scenes From the Big Picture."&lt;/p&gt;              &lt;p&gt;That 2007 hit aside, Murray says, "my benchmark is, would I be embarrassed to take this work back to Ireland." If the answer is no, "I'm happy."&lt;/p&gt;              &lt;p&gt;Washington Stage Guild's Ann Norton hopes the company will be able to move into its space in the new office building at 505 Ninth St. NW in the fall. "I can stand in the box office window already," she says. "It's very exciting."&lt;/p&gt;              &lt;p&gt;Since losing its temporary home at 14th and T streets NW this year (Arena Stage, which owns the building, needed it while its Southwest campus undergoes renovation), Stage Guild is presenting a series of readings at Flashpoint's Mead Theatre Lab. The next, Tuesday at 7:30 p.m., will be Hugh Whitemore's "The Best of Friends," a glimpse at the epistolary friendship among George Bernard Shaw, a Dominican abbess and a museum curator. Alan Wade is directing.&lt;/p&gt;              &lt;p&gt;Future offerings are: Shaw's "Don Juan in Hell" (Feb. 26); "The Rising of the Moon" and "Spreading the News" (March 2 and 4), comic one-acts about Irish life by Abbey Theatre co-founder Lady Gregory, penned in the early 20th century; "Widowers' Houses" (March 18), Shaw's very first play; "Lord Arthur Savile's Crime" (March 25), adapted by company member Bill Largess from an Oscar Wilde story; "Dangerous Corner" (April 29) by J.B. Priestley; and "The War With the Newts" (May 6), Karel Capek's sci-fi social satire adapted by Emily Solomon.&lt;/p&gt;              &lt;p&gt;After years in low-ceilinged rented spaces, Artistic Director John MacDonald looks forward to doing shows "that require some more production values." With the help of an ongoing $6 million capital campaign, he and Norton, who are married and have run the literary-minded Stage Guild on a shoestring since 1986, plan to hire production and box office managers for the new venue.&lt;/p&gt;              &lt;p&gt;"Mom and Pop are not going to be running the candy store by themselves anymore," MacDonald says.&lt;/p&gt;              &lt;p&gt;Credit: Special to The Washington Post&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jan 30, 2008</AlphaDate>
+         <StartDate>2008-01-30</StartDate>
+         <EndDate>2008-01-30</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>38231991</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

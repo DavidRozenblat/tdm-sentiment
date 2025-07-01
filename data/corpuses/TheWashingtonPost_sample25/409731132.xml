@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>409731132</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>For Whitman, Gut-Check Time; Vikings Play Tough in Win Over W. Johnson</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[FINAL Edition]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2005-01-30</NumericDate>
+<StartDate>2005-01-30</StartDate>
+<EndDate>2005-01-30</EndDate>
+<AlphaDate>Jan 30, 2005</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Jan 30, 2005</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>E.06</StartPage>
+<Pagination>E06</Pagination>
+<DocSection>SPORTS</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>786242771</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>14593981</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2005013007E89BCC</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1670</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Steinberg, Dan</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Steinberg</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Dan</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Dan Steinberg</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Abstract>
+<Short WordCount="136">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   [Zoe Walsh] didn't come close to dunking during Friday night's Montgomery County 4A West girls' game at [Walter Johnson], but she did the next best thing with her 23-inch vertical leap, soaring from behind to swat a breakaway layup that would have tied the game in the final minute. [Whitman] freshman guard Julie McCabe then jumped to knock away the ensuing inbounds pass, and five fouls and 22 seconds later the visiting Vikings finally had a 47-44 win.&lt;/p&gt;              &lt;p&gt;   In fact, Whitman (12-2, 7-2) began preparing for this game more than three weeks ago, immediately following its last loss to Walter Johnson (12-3, 7-2). Whitman Coach Pete Kenah thought his team needed to score in traffic to beat the physical Wildcats, so he and his assistants began nudging the Vikings with football pads during layup drills.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="452">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Whitman 47,&lt;/p&gt;              &lt;p&gt;   Walter Johnson 44&lt;/p&gt;              &lt;p&gt;   Reprinted from yesterday's late editions&lt;/p&gt;              &lt;p&gt;   Zoe Walsh may be 5 feet 91/2 inches, but the Whitman sophomore guard has already decided her "goal in life" is to dunk a basketball. She makes her teammates watch as she touches the backboard during practice, and she amuses herself by grabbing the net and hoisting herself up to the rim.&lt;/p&gt;              &lt;p&gt;   Walsh didn't come close to dunking during Friday night's Montgomery County 4A West girls' game at Walter Johnson, but she did the next best thing with her 23-inch vertical leap, soaring from behind to swat a breakaway layup that would have tied the game in the final minute. Whitman freshman guard Julie McCabe then jumped to knock away the ensuing inbounds pass, and five fouls and 22 seconds later the visiting Vikings finally had a 47-44 win.&lt;/p&gt;              &lt;p&gt;   It was Whitman's first victory over Walter Johnson in at least five years, a span of eight games.&lt;/p&gt;              &lt;p&gt;   "Unbelievable, I can't describe it, it felt like we just won the state championship," said senior guard Ellen O'Brien, who scored a game-high 16 points. "We deserved this one."&lt;/p&gt;              &lt;p&gt;   In fact, Whitman (12-2, 7-2) began preparing for this game more than three weeks ago, immediately following its last loss to Walter Johnson (12-3, 7-2). Whitman Coach Pete Kenah thought his team needed to score in traffic to beat the physical Wildcats, so he and his assistants began nudging the Vikings with football pads during layup drills.&lt;/p&gt;              &lt;p&gt;   "A lot of us really got into it, throwing our elbows into the pads," O'Brien said, and her coach concurred, joking that his chest has taken an increasing pounding as his team embraced the drill.&lt;/p&gt;              &lt;p&gt;   This week, the Vikings put mats on the gymnasium floor and practiced taking charges, preparing for another meeting with Wildcat forward Alex Porter. The senior finished with 13 points and 15 rebounds, but she met two or three bodies virtually every time she received the ball inside.&lt;/p&gt;              &lt;p&gt;   "When you get used to physical contact, you don't even think about it when it happens in a game," said Whitman's Jordann Wine (eight points), whose layup in traffic broke a 44-44 tie and proved to be the winning basket. "Up and down, every time, I got hit a few times. Those girls play rough and so do we -- that's what you have to expect."&lt;/p&gt;              &lt;p&gt;   The bruising play kept the game close -- neither team led by more than six -- and claimed one victim, Walter Johnson's Casey Collier, whose head was bloodied in a third quarter collision. She returned in the fourth quarter.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jan 30, 2005</AlphaDate>
+<StartDate>2005-01-30</StartDate>
+<EndDate>2005-01-30</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>14593981</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>-0.0009856630824372778</text_blob_sentiment><bert_sentiment>0.4875783423582713</bert_sentiment></grades></RECORD>

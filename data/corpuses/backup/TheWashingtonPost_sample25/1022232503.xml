@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1022232503</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">Commentary</other>
+         <mstar>Commentary</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Feeling the Arizona heat</Title>
+      </TitleAtt>
+      <NumericDate>2012-06-27</NumericDate>
+      <StartDate>2012-06-27</StartDate>
+      <EndDate>2012-06-27</EndDate>
+      <AlphaDate>Jun 27, 2012</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright The Washington Post Company, Jun 27, 2012)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>A.17</StartPage>
+         <Pagination>A.17</Pagination>
+         <DocSection>EDITORIAL-OPINION</DocSection>
+         <DocEdition>REGIONAL - Every Zone</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2696836341</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>70086452</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXXWP20120627Feelinge2df8062</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1380</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Parker, Kathleen</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Parker</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Kathleen</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Kathleen Parker</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <CompanyTerm TermSource="ABI" PndxHeader="true">
+            <CompanyNameAtt>
+               <CompanyName>Republican Party</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813940</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="NA" PndxHeader="true">
+            <CompanyNameAtt>
+               <CompanyName>Supreme Court-US</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>922110</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Political campaigns</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>State laws</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Racial profiling</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Immigration policy</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Presidential elections</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Geographic>Arizona</Geographic>
+         </Term>
+         <Term TermSource="NA" PndxHeader="true">
+            <Personal>Romney, W Mitt</Personal>
+         </Term>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="37">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;[...]why, except that he looked Hispanic, would the officer have asked for his papers?  [...]how likely is it that Hispanic-looking folks will be pulled over for "suspicious behavior" for the sole purpose of checking those papers?&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="744" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;As the Supreme Court rules this week on a variety of volatile issues, the question has come up: Is Barack Obama really running against the high court?&lt;/p&gt;              &lt;p&gt;It might seem so on the surface, especially given the potential fallout, should the justices overturn portions or all of the Affordable Care Act.&lt;/p&gt;              &lt;p&gt;Instead, the justices have caused problems for Mitt Romney.&lt;/p&gt;              &lt;p&gt;Monday's ruling on Arizona's immigration law is a case in point. Although the majority ruled against some parts of the law, including a provision that would have made failure to carry registration documents a state misdemeanor, the court left in place other provisions that may raise antipathy toward Republicans to new levels.&lt;/p&gt;              &lt;p&gt;One among them allows state law enforcement officers to determine whether someone they stop, detain or arrest for some other reason is in the country legally. The obvious concern is that enforcement would lead to racial profiling. And of course it will because we can be pretty certain that Caucasians pulled over for, say, speeding won't be required to produce proof of citizenship.&lt;/p&gt;              &lt;p&gt;Unless, that is, state officials realize that treating everyone equally is the only way to avoid charges of racial profiling. Arizona Gov. Jan Brewer (R) has promised that mechanisms are in place to ensure that Hispanics are not singled out.&lt;/p&gt;              &lt;p&gt;What those mechanisms might be isn't clear, but one can imagine at least one possible scenario - a reiteration of the sort of willy-nilly, random granny-search ops we've witnessed since 9/11.&lt;/p&gt;              &lt;p&gt;Taking a stroll through probability, let's say that Officer Smith pulls over Paco Ramirez and asks for proof of citizenship, and it turns out that Paco is descended from three generations ofU.S.-born, tax-paying Ramirezes. Paco is probably going to be annoyed. He may be sufficiently annoyed to file a profiling (or harassment) complaint with the courts. After all, why, except that he looked Hispanic, would the officer have asked for his papers?&lt;/p&gt;              &lt;p&gt;Moreover, how likely is it that Hispanic-looking folks will be pulled over for "suspicious behavior" for the sole purpose of checking those papers?&lt;/p&gt;              &lt;p&gt;The only way to avoid such charges, of course, is to also pull over Karen Miller and insist that she produce proof of citizenship. This is what random airport checks are all about. Officers can't pull out Muhammad bin Laden even if he's sweating profusely and chanting "Allahu Akbar" unless they also pull over Betty White.&lt;/p&gt;              &lt;p&gt;What we have here is a sticky wicket.&lt;/p&gt;              &lt;p&gt;And no one is in greater need of Goo Gone than Mitt Romney, who has said that Arizona's law is a model for the rest of the nation. Not only has that law been deemed at least partly unconstitutional, but Romney is now positioned to be associated with profiling. Not the best way to court the Hispanic vote. Worse, if Arizona and other similarly minded states begin to apply the equal-treatment template across races and ethnicities, he'll have everybody mad at him.&lt;/p&gt;              &lt;p&gt;Not that the Arizona law is his fault, obviously. But angry people will pick the easiest target, and the Obama campaign will make sure those dots are connected. One thing is for certain: Romney can't change his mind. He's stuck with a position that, though appealing to Arizonans and others who are justifiably angry with our inert (inept) federal government, is profoundly offensive to our American sense of fairness. We simply don't single out groups of people in this country for special scrutiny. What is expedient or even logical isn't always ethical, and better that we err on the side of the latter standard.&lt;/p&gt;              &lt;p&gt;One may argue that any smallish inconvenience is an acceptable price to pay in exchange for law and order. In fact, many Americans don't mind airport searches or even X-ray examinations of their nethers. But the fact is, these security measures are unprecedented intrusions into our personal spaces - inarguably violations of our civil rights.&lt;/p&gt;              &lt;p&gt;Thus, today's bargain is an exchange of freedom for greater security, and the question is whether it's worth it. If you're not here illegally, you might feel the trade-off is acceptable. But if you are citizen Paco Ramirez or one of the tens of millions of Americans of Hispanic descent, you might think something else. You might think you live in a police state, that your civil rights are in jeopardy, and that your family is under siege.&lt;/p&gt;              &lt;p&gt;And you might not be inclined to vote Republican.&lt;/p&gt;              &lt;p&gt;kathleenparker@washpost.com&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jun 27, 2012</AlphaDate>
+         <StartDate>2012-06-27</StartDate>
+         <EndDate>2012-06-27</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>70086452</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

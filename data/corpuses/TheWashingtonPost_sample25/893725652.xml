@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>893725652</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Feature</other>
+<mstar>Feature</mstar>
+<mstar>Article</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>The weed whisperer</Title>
+</TitleAtt>
+<NumericDate>2011-09-22</NumericDate>
+<StartDate>2011-09-22</StartDate>
+<EndDate>2011-09-22</EndDate>
+<AlphaDate>Sep 22, 2011</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright The Washington Post Company, Sep 22, 2011)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>T.9</StartPage>
+<Pagination>PGE.9</Pagination>
+<DocSection>LOCAL LIVING</DocSection>
+<DocEdition>FINAL - Virginia</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2466210271</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>64431571</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXXWP20110922The422a5f00</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1330</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Anonymous</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Anonymous</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Anonymous</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Herbicides</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Lawns</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Weeds</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Grasses</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="42">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A broadleaf weed killer such as Weed B Gone will work against clover, though two or three sprayings may be necessary and you must wait four weeks between the last application and sowing grass seed - too late for this season.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="520">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Lawn weeds may look unsightly, but in number they are also telling you that your grass upkeep is deficient. Weeds tend to fill the void left by declining grass and are not the cause of it.&lt;/p&gt;              &lt;p&gt;Weeds can be addressed during fall lawn repair. Ultimately, the best defense against weeds is a healthy stand of grass. Don't trust your compost pile to kill their seeds or roots - bag them and trash them as you work the lawn this fall. Here are some common weeds and how to tackle them.&lt;/p&gt;              &lt;p&gt;Crabgrass&lt;/p&gt;              &lt;p&gt;uCrabgrass is an annual that will be killed by the frost. It perpetuates itself by seed, now dispersed and waiting to sprout next May and June.&lt;/p&gt;              &lt;p&gt;Hand-pull old plants as part of the soil preparation for seeding. Don't apply a pre- or post-emergent crabgrass herbicide now, which will inhibit grass seed germination. Make a note to apply pre-emergent crabgrass killer next March or April. Corn gluten is an organic alternative for pre-emergent control in the spring.&lt;/p&gt;              &lt;p&gt;Bermuda grass&lt;/p&gt;              &lt;p&gt;Bermuda grass or wire grass is a tenacious perennial that spreads by stolons and rhizomes. It is difficult to dig out because it can grow deeply and sprout from remnant pieces. The best tool for removing a patch of Bermuda grass is a garden fork. If Bermuda grass is a major problem, you can pull surface runners and overseed this fall, but plan for a complete renovation next year by applying a nonselective herbicide in the summer. More than one application may be needed to kill the Bermuda grass, and the last application should be a month before seeding grass, less if using glyphosate (without extended control). Bayer Advanced sells an herbicide targeted for this weed (Bermudagrass Control for Lawns), but it may need to be applied monthly for seven months for full effect. Fescues can be sown soon after application, but bluegrass needs a three-week interval.&lt;/p&gt;              &lt;p&gt;Wild Violets&lt;/p&gt;              &lt;p&gt;vHerbicides make short work of the foliage, but mature violets have robust rhizomes that just keep coming back. Dig out violets using a fishtail weeder or a mattock.&lt;/p&gt;              &lt;p&gt;Clover&lt;/p&gt;              &lt;p&gt;uWhite clover can take over large areas of lawn. Many people see clover as a desirable part of an environmentally friendly lawn and leave it. A broadleaf weed killer such as Weed B Gone will work against clover, though two or three sprayings may be necessary and you must wait four weeks between the last application and sowing grass seed - too late for this season. Alternatively, you can dig out clover or reduce its stand with a rake or core aerator as you prepare for seeding.&lt;/p&gt;              &lt;p&gt;Dandelions&lt;/p&gt;              &lt;p&gt;Control dandelions by digging out weeds using a fishtail weeder, or use a broadleaf herbicide next year after your new lawn is established.&lt;/p&gt;              &lt;p&gt;Nutsedge&lt;/p&gt;              &lt;p&gt;Nutsedge, also called nutgrass, regrows from small underground corms and is difficult to eradicate. Professional landscapers have access to target herbicides not available to consumers. If pulled repeatedly when young, the plants will die off eventually.&lt;/p&gt;              &lt;p&gt;As with ground ivy and wild strawberry, nutsedge flourishes where the lawn is poorly drained.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Sep 22, 2011</AlphaDate>
+<StartDate>2011-09-22</StartDate>
+<EndDate>2011-09-22</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>64431571</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.061499577658114264</text_blob_sentiment><bert_sentiment>-0.8042902797460556</bert_sentiment></grades></RECORD>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1442899918</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Mexico a driving force in auto manufacturing</Title>
+</TitleAtt>
+<NumericDate>2013-10-19</NumericDate>
+<StartDate>2013-10-19</StartDate>
+<EndDate>2013-10-19</EndDate>
+<AlphaDate>Oct 19, 2013</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright The Washington Post Company, Oct 19, 2013)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.8</StartPage>
+<Pagination>A.8</Pagination>
+<DocSection>A-SECTION</DocSection>
+<DocEdition>SUBURBAN - Every Zone</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>3102629131</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>82385722</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXXWP20131019Mexicoadrivingforceinautomanufacturing480b4e92</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1380</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Plumer, Brad</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Plumer</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Brad</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Brad Plumer</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Expansion</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Automobile industry</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Manufacturing</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="NA">
+<Geographic>Mexico</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="42">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Nissan, Mazda and Audi are all building plants in Mexico, and jobs have followed.  Since 2000, overall auto industry employment in North America has fallen from 2 million to 1.5 million - partly because more and more positions have been automated.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: /builds/sis980007/sis/gs40/RCS/gs40.xslt,v 2.29 2011/07/06 15:21:17 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="623">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Mexico takes the wheelin auto manufacturing&lt;/p&gt;              &lt;p&gt;Starting in the 1980s, the U.S. auto industry went through a major upheaval. Automakers and suppliers began opening more and more plants in the South, taking advantage of the region's weaker unions and lower labor costs. That, in turn, undercut the historically dominant position of Detroit and the Midwest.&lt;/p&gt;              &lt;p&gt;Now, half a century later, the U.S. auto industry is going through yet another major churn. And this time around, Mexico is the driving force.&lt;/p&gt;              &lt;p&gt;That's one upshot of an intriguing new report on the auto industry from the Brookings Institution. The report is ostensibly a case study focused on Tennessee's automotive sector, but it also offers a glimpse into the way the entire North American auto industry has shifted over the past 20 years.&lt;/p&gt;              &lt;p&gt;The big story here is Mexico, which has massively expanded its share of North American auto manufacturing since the North American Free Trade Agreement in 1994. Automakers from General Motors to Nissan have been opening plants south of the border, attracted by Mexico's low wages and dense industrial clusters.&lt;/p&gt;              &lt;p&gt;Last year, Mexico produced more than 3 million vehicles, compared with 10.8 million in the United States. Automotive plants in Mexico assemble everything from GM Silverado pickups to Chrysler engines. Nissan, Mazda and Audi are all building plants in Mexico, and jobs have followed.&lt;/p&gt;              &lt;p&gt;Since 2000, overall auto industry employment in North America has fallen from 2 million to 1.5 million - partly because more and more positions have been automated. But Mexico actually added jobs in that time, going from 554,000 to 579,000. Today, nearly 40 percent of auto jobs on the continent are in Mexico.&lt;/p&gt;              &lt;p&gt;And that trend is expected to continue. "Over the next decade, the U.S. share of auto employment is likely to drift down below 50 percent," says Mark Muro, one of the co-authors of the Brookings report.&lt;/p&gt;              &lt;p&gt;What's the significance of this? For starters, it means that the South's position in the auto industry is no longer quite so secure. In the 1980s, foreign automakers such as Toyota, BMW and Hyundai set up factories in Tennessee, Kentucky and Alabama to take advantage of lower labor costs, weaker union rules and state tax incentives. Tennessee's economy was utterly transformed when Nissan located its first plant in Smyrna 30 years ago.&lt;/p&gt;              &lt;p&gt;But the South's cost advantage over the Midwest is narrowing - and no U.S. state can compete with Mexico on labor costs alone.&lt;/p&gt;              &lt;p&gt;"That completely changes the competitive challenge," Muro said. "No longer will Southern states be able to win on cost alone. They'll have to find some other way to compete."&lt;/p&gt;              &lt;p&gt;That includes technological innovation and making their supply chains more nimble to reduce costs. The Brookings report notes that in Tennessee - one of the few states that has been resilient in the face of Mexico's rise - nearly 78 percent of the jobs are in the supply chain, building the parts, chassis or electronics rather than manufacturing the actual vehicles.&lt;/p&gt;              &lt;p&gt;In an interesting twist, Muro suspects that Michigan and the rest of the Midwest might be fairly well-positioned here, in part because the region has been forced to compete against low-cost suppliers for many years now.&lt;/p&gt;              &lt;p&gt;"Their labor costs have been coming down, but they also have very dense supply chains and can get more efficiencies and cluster benefits there," Muro said. "And Michigan still has its technology centers."&lt;/p&gt;              &lt;p&gt;Still, the overall trends are striking. Even as the auto industry is rebounding from the recession, the number of jobs across North America keeps shrinking, as automation improves and the robots take over. Meanwhile, Mexico is quickly establishing its dominance on the continent.&lt;/p&gt;              &lt;p&gt;- Brad Plumer&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 19, 2013</AlphaDate>
+<StartDate>2013-10-19</StartDate>
+<EndDate>2013-10-19</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>11504296</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.14315927128427128</text_blob_sentiment><bert_sentiment>0.11249072477221489</bert_sentiment></grades></RECORD>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>422216858</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>ACLU faults decision on group; Letter to Chapman University says Jewish fraternity should get OK to recruit on campus.</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[ORANGE COUNTY EDITION]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2007-10-04</NumericDate>
+<StartDate>2007-10-04</StartDate>
+<EndDate>2007-10-04</EndDate>
+<AlphaDate>Oct 4, 2007</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2007 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>B.1</StartPage>
+<Pagination>B.1</Pagination>
+<DocSection>California; Part B; Metro Desk</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1353327691</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>37149601</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM070052105</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1610</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Mehta, Seema</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Mehta</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Seema</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Seema Mehta</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Abstract>
+<Short WordCount="119">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   "Chapman, we have a problem," said Hector Villagra, director of the Orange County office of the American Civil Liberties Union of Southern California. "These students have free speech rights."&lt;/p&gt;              &lt;p&gt;   "They've been wearing those shirts all semester. There has been no action taken. That's ridiculous," she said. "The university's only aim throughout all this is to assure that this group, as with any group, does not call itself an officially sanctioned [Chapman] organization when it's not, because . . . it leaves the university with considerable liability."&lt;/p&gt;              &lt;p&gt;   At the same time, the group's national organization gave the students "colony" status, a step below chapter status, and the Chapman students began wearing T-shirts emblazoned with the Greek letters on campus.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="726">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Chapman University officials violated the constitutional rights of students who were trying to form a Jewish fraternity when they ordered the men not to recruit on campus or wear T-shirts promoting Sigma Alpha Mu, according to a letter the ACLU sent university officials Tuesday.&lt;/p&gt;              &lt;p&gt;   "Chapman, we have a problem," said Hector Villagra, director of the Orange County office of the American Civil Liberties Union of Southern California. "These students have free speech rights."&lt;/p&gt;              &lt;p&gt;   The fraternity organizer, Pascal De Maria, now a senior, said he did not believe anti-Semitism was involved.&lt;/p&gt;              &lt;p&gt;   Chapman spokeswoman Mary Platt said the letter was under review and that some student contentions were untrue, such as being prohibited from wearing fraternity T-shirts.&lt;/p&gt;              &lt;p&gt;   "They've been wearing those shirts all semester. There has been no action taken. That's ridiculous," she said. "The university's only aim throughout all this is to assure that this group, as with any group, does not call itself an officially sanctioned Chapman organization when it's not, because . . . it leaves the university with considerable liability."&lt;/p&gt;              &lt;p&gt;   The controversy's roots are more than 2 years old, when De Maria and some friends decided to create a campus chapter of Sigma Alpha Mu, a historically Jewish fraternity. The students began recruiting members and meeting with university officials in spring 2005 about the application process. In April 2006, the university allowed a fraternity to set up on campus but turned down several, including Sigma Alpha Mu.&lt;/p&gt;              &lt;p&gt;   At the same time, the group's national organization gave the students "colony" status, a step below chapter status, and the Chapman students began wearing T-shirts emblazoned with the Greek letters on campus.&lt;/p&gt;              &lt;p&gt;   In September 2006, Joseph Kertes and administrator Chris Hutchinson sent De Maria a letter ordering him to stop advertising fraternity events on campus and forbade him to hold fraternity events on campus or meeting at Chapman before heading to off-campus events.&lt;/p&gt;              &lt;p&gt;   They also said the group must clearly indicate that it is not affiliated with Chapman and request that the national organization send a letter to university officials stating that there is no chapter at the campus, and to agree to carry insurance coverage for Chapman students who associate with the local fraternity.&lt;/p&gt;              &lt;p&gt;   The letter was sent to several administrators, as well as the leaders of the university's sanctioned fraternities and sororities.&lt;/p&gt;              &lt;p&gt;   Chapman also sent leaders of these groups letters urging them to report to university officials if De Maria or the other Sigma Alpha Mu members were seen congregating on campus or wearing their T- shirts, Villagra said.&lt;/p&gt;              &lt;p&gt;   "I felt like a prisoner at the school I go to," De Maria said.&lt;/p&gt;              &lt;p&gt;   Platt said she could not comment on the September 2006 letter because it would violate De Maria's privacy rights.&lt;/p&gt;              &lt;p&gt;   The university's decision to distribute the letter to other students is the subject of a complaint De Maria filed with the federal government.&lt;/p&gt;              &lt;p&gt;   She said the group was offered the option of becoming a school club, which is a much simpler process than becoming a fraternity.&lt;/p&gt;              &lt;p&gt;   The only difference is that the group would have to admit any man or woman who applied, she said.&lt;/p&gt;              &lt;p&gt;   The ACLU letter does not question the university's decision to deny the group its imprimatur but seeks a retraction of the restrictions in the September 2006 letter, as well as expunging students' records of anything relating to the fraternity issue.&lt;/p&gt;              &lt;p&gt;   Villagra said that the restrictions were applied only to Sigma Alpha Mu and not to any other unauthorized group that claims a Chapman affiliation, such as the Assn. of IntellegentPot Smokers and the Under age Drinkers (CU Chapter), both of which assert school affiliation on their Facebook pages.&lt;/p&gt;              &lt;p&gt;   Platt said university officials lacked the resources to police the Internet.&lt;/p&gt;              &lt;p&gt;   Villagra said if the university failed to act, the ACLU would consider suing.&lt;/p&gt;              &lt;p&gt;   De Maria said he would be happy if his group could do what other fraternal groups do -- play Ultimate Frisbee on the quad and hold meetings, charity benefits and social events.&lt;/p&gt;              &lt;p&gt;   "We have no intention of making the university angry or provoking them," he said.&lt;/p&gt;              &lt;p&gt;   "We really just wanted to associate ourselves with a brotherhood."&lt;/p&gt;              &lt;p&gt;   seema.mehta@latimes.com&lt;/p&gt;              &lt;p&gt; Credit: Times Staff Writer&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 4, 2007</AlphaDate>
+<StartDate>2007-10-04</StartDate>
+<EndDate>2007-10-04</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>37149601</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.022372372372372377</text_blob_sentiment><bert_sentiment>-0.9797776807909426</bert_sentiment></grades></RECORD>

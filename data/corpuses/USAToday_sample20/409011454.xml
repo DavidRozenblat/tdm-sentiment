@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>409011454</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>S&amp; P 500 could still be a bargain ; Global factors favor index of large stocks</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[FINAL Edition]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2007-07-06</NumericDate>
+<StartDate>2007-07-06</StartDate>
+<EndDate>2007-07-06</EndDate>
+<AlphaDate>Jul 6, 2007</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2007 USA Today. All Rights Reserved.)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>B.6</StartPage>
+<Pagination>B.6</Pagination>
+<DocSection>MONEY</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1300428241</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>36298201</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7631</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>USA</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>USAT16348812</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1290</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Waggoner, John</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Waggoner</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>John</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>John Waggoner</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Standard &amp; Poors Corp</CompanyName>
+</CompanyNameAtt>
+<CompanyDUNSAtt>
+<CompanyDUNS>00-136-7697</CompanyDUNS>
+</CompanyDUNSAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>523999</CompanyNAIC>
+</CompanyNAICAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>511120</CompanyNAIC>
+</CompanyNAICAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>541519</CompanyNAIC>
+</CompanyNAICAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>561450</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Investment policy</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Personal finance</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Index funds</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Short WordCount="185">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Bargain-hunter Wallace Weitz, manager of Weitz Partners fund, notes that many stocks that were darlings of the 1990s bull market are still languishing. Case in point: Wal-Mart, the retail giant that is selling for about the same price that it did eight years ago. In the meantime, its earnings have more than doubled. "I'd say it was overvalued then, but it's undervalued now," Weitz says.&lt;/p&gt;              &lt;p&gt;   *Globalization. "We're seeing strong economic growth in Europe and Asia, and the S&amp;amp;P 500 companies are getting about 45% of their sales there," says Alec Young, equity analyst for S&amp;amp;P. The boom in sales abroad, Young says, made up for any weakness in the U.S. market in the first half of the year.&lt;/p&gt;              &lt;p&gt;   These funds typically mirror a very broad index, such as the Russell 3000 or the S&amp;amp;P 1500 supercomposite. They're weighted by capitalization -- market price multiplied by number of shares outstanding -- so you'll still own a big dose of large-cap stocks. (Large-company stocks make up about 87% of the S&amp;amp;P 1500, Young says.) Yet you'll also enjoy a boost if small-company stocks continue to soar.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="833">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   If you're looking for a place to invest the stock portion of your retirement portfolio in the coming months, your best bet could well be a fund that tracks the Standard &amp;amp; Poor's 500-stock index.&lt;/p&gt;              &lt;p&gt;   Large-company stocks are still reasonably cheap, mildly out of favor and a solid beneficiary of a vibrant world economy.&lt;/p&gt;              &lt;p&gt;   Index funds are about as plain-vanilla an investment as you can get. They throw out the fund manager and just try to mirror the results of a stock index. Because they aren't actively managed, they can limit expenses to a bare minimum. Those low costs let you keep more money in your account.&lt;/p&gt;              &lt;p&gt;   You can buy index funds that invest in large companies, small companies and everything in between. But large-company index funds, such as those that track the S&amp;amp;P 500 or the Russell 1000, are particularly compelling now, even though the S&amp;amp;P 500 has gained a stronger-than-average 7% this year, assuming dividends were reinvested. Here are three reasons to move part of your 401(k) to a large-cap index fund now:&lt;/p&gt;              &lt;p&gt;   *Price. The S&amp;amp;P 500 index now sells for about 16  times its estimated 2007 earnings -- about its long-term average. (The price- earnings ratio shows how cheap a stock is, relative to earnings. The lower the P-E, the cheaper the stock or stock index.) By contrast, the S&amp;amp;P SmallCap 600 index has a considerably higher P-E: about 19.7 times its estimated 2007 earnings.&lt;/p&gt;              &lt;p&gt;   Bargain-hunter Wallace Weitz, manager of Weitz Partners fund, notes that many stocks that were darlings of the 1990s bull market are still languishing. Case in point: Wal-Mart, the retail giant that is selling for about the same price that it did eight years ago. In the meantime, its earnings have more than doubled. "I'd say it was overvalued then, but it's undervalued now," Weitz says.&lt;/p&gt;              &lt;p&gt;   In addition, the forces that have driven up small-company stocks might not last. Small companies have been the darlings of Wall Street since about 2000, when the bull market in large-company stocks turned into an epic bear market. After seven years, though, the surge in small-cap stocks is starting to look a bit old, says Larry Puglia, manager of T. Rowe Price Blue Chip Growth fund.&lt;/p&gt;              &lt;p&gt;   "It's a longer cycle than we typically see," Puglia says.&lt;/p&gt;              &lt;p&gt;   One reason for the longevity of the bull market for small-cap stocks: A flurry of buyouts, particularly from private-equity firms, has kept small-company stock prices rising. But if the buyout boom falters, small-company stocks could falter.&lt;/p&gt;              &lt;p&gt;   *Momentum. It's a curious fact that on Wall Street, as in physics, objects in motion tend to continue in motion. Recently, large-company stocks have picked up a bit of steam. The S&amp;amp;P 500, for example, outperformed its comparable small-cap and midcap indexes in the second quarter.&lt;/p&gt;              &lt;p&gt;   *Globalization. "We're seeing strong economic growth in Europe and Asia, and the S&amp;amp;P 500 companies are getting about 45% of their sales there," says Alec Young, equity analyst for S&amp;amp;P. The boom in sales abroad, Young says, made up for any weakness in the U.S. market in the first half of the year.&lt;/p&gt;              &lt;p&gt;   Strong overseas sales boost corporate earnings, and so does the dollar's fall on international currency markets. Example: Say a company earned 1 million euros 12 months ago. At $1.28 per euro, that equals nearly $1.3 million. But a euro is now worth $1.36. So 1 million euros in overseas earnings now equals nearly $1.4 million.&lt;/p&gt;              &lt;p&gt;   Large-caps could also fare well if investors sense an economic slowdown. Typically, investors flee to large-caps when the financial world seems uncertain.&lt;/p&gt;              &lt;p&gt;   Finally, while any rise in interest rates will hurt stocks of any size, it will hurt small-company stocks the most. That's because small companies are most dependent on borrowing to fuel growth. Larger companies can typically manage their borrowing and spending to reduce the ill effects of higher rates.&lt;/p&gt;              &lt;p&gt;   Because the S&amp;amp;P 500 closely mirrors the performance of large- company stocks, an S&amp;amp;P 500 index fund is a logical place to put the stock portion of your 401(k) money now. Because of their low expenses, these funds have outperformed the average managed fund over the long term.&lt;/p&gt;              &lt;p&gt;   If you don't want to miss out on any lingering small-cap rallies, there's another option, too: an index fund that mirrors the total stock market.&lt;/p&gt;              &lt;p&gt;   These funds typically mirror a very broad index, such as the Russell 3000 or the S&amp;amp;P 1500 supercomposite. They're weighted by capitalization -- market price multiplied by number of shares outstanding -- so you'll still own a big dose of large-cap stocks. (Large-company stocks make up about 87% of the S&amp;amp;P 1500, Young says.) Yet you'll also enjoy a boost if small-company stocks continue to soar.&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;GRAPHIC, B/W, Adrienne Lewis, USA TODAY, Source: Ibbotson &amp;amp; Associates; GRAPHICS, B/W, Source: Lipper (CHART) (5)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>USA TODAY</Title>
+<MpubId>15008</MpubId>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<JournalCode>USA</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19820101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+<PublisherAddress>
+<Address1>7950 Jones Branch Drive</Address1>
+<City>MacLean</City>
+<Province>VA</Province>
+<ZipCode>22108</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.usatoday.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>USA TODAY</Title>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19890102</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jul 6, 2007</AlphaDate>
+<StartDate>2007-07-06</StartDate>
+<EndDate>2007-07-06</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>36298201</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.10453455687830684</text_blob_sentiment><bert_sentiment>-0.13651845190260145</bert_sentiment></grades></RECORD>

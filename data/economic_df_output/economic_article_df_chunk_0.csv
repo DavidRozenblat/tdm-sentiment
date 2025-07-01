@@ -1,0 +1,349 @@
+GOID,Publisher,Date,Section,Type,Tags,is_economic,text_blob_sentiment
+1034336215,new york times,2012-08-21,a,news,stop & frisk,1,0.04885681490226945
+1531107677,new york times,2014-05-18,sp,news,,1,0.0
+1620547810,new york times,2014-11-06,d,news,furniture,1,0.23571428571428574
+1625069727,new york times,2014-11-15,a,news,battleships,1,0.030058275058275068
+1690306948,new york times,2015-06-23,a,news,budgets,1,0.07245482031196315
+2230022157,new york times,2019-05-26,a,news,,1,0.0
+2293461759,new york times,2019-09-20,c,review,art galleries & museums,1,0.11741224948886239
+2300505438,new york times,2019-10-04,a,news,political parties,1,0.10698830095524309
+2460220538,new york times,2020-11-14,a,news,"students
+education",1,0.14674565738244985
+432653848,new york times,2004-01-22,f,news,interior design,1,0.14695713751269307
+433205165,new york times,2005-11-19,a,news,,1,0.2
+433279398,new york times,2006-02-15,a,news,,1,0.10757575757575755
+433388794,new york times,2006-08-06,3,commentary,investment banking,1,0.11136164601681842
+433598660,new york times,2007-05-03,b,news,,1,0.06818181818181818
+433960340,new york times,2008-10-04,a,commentary,peace,1,-0.019655483405483405
+434085489,new york times,2009-05-05,c,review,classical music,1,0.1817768016297428
+434115084,new york times,2009-06-02,a,news,kidnapping,1,0.005263157894736842
+434241934,new york times,2009-12-10,a,commentary,public prosecutors,1,0.23397415272415265
+856687362,new york times,2011-03-13,wk,commentary,mass transit,1,0.09614519252677146
+906325499,new york times,2011-11-29,b,news,,1,0.03712962962962963
+1027415041,usa today,2012-07-23,life,news,actors,1,0.19289256198347107
+1030272053,usa today,2012-07-31,life,news,fund raising,1,0.10732128232128235
+1370951270,usa today,2013-06-25,money,news,computer & video games,1,0.14630751964085295
+1399380296,usa today,2013-07-11,news,news,mortgage rates,1,0.09749417249417248
+1537995822,usa today,2014-06-20,news,news,,1,0.024509121830550408
+1664310509,usa today,2015-03-18,sports,news,college basketball,1,0.18867753623188407
+1923782015,usa today,2017-04-02,,news,sports injuries,1,0.049895030443810925
+2108734278,usa today,2018-09-19,life,news,bans,1,0.1567772152517915
+2175224680,usa today,2019-02-04,life,news,asian americans,1,0.10559755720470006
+220045304,usa today,2010-04-28,sports,news,,1,0.04603274811608144
+2560568321,usa today,2021-08-13,money,news,gasoline prices,1,0.0
+2825988423,usa today,2023-06-16,business,news,"parents & parenting
+psychology",1,0.19031111293769518
+3034860955,usa today,2024-04-10,sports,news,rehabilitation,1,0.1295616883116883
+408904445,usa today,2004-10-15,life,news,income taxes,1,0.10846375846375846
+408923166,usa today,2005-06-06,life,news,publishing industry,1,0.1688882063882064
+408986117,usa today,2006-07-26,life,feature,trees,1,0.17775530681042492
+409011454,usa today,2007-07-06,money,news,investment policy,1,0.10453455687830684
+409032685,usa today,2007-03-16,news,news,native north americans,1,0.137178069515026
+749393180,usa today,2010-09-03,life,news,tourism -- united states--us,1,0.26885642135642135
+817520566,usa today,2010-12-14,life,commentary,television programs,1,0.19302849927849927
+1368532619,los angeles times,2013-06-18,latextra; part aa; metro desk,news,capital punishment,1,-0.08712121212121211
+1643930801,los angeles times,2015-01-10,california; part aa; metro desk,news,furniture industry,1,0.20000000000000004
+1778923103,los angeles times,2016-04-07,main news; part a; foreign desk,news,truces & cease fires,1,-0.13493506493506496
+1825336436,los angeles times,2016-10-04,main news; part a; metro desk,news,rape,1,0.1456044060367369
+2098943050,los angeles times,2018-09-04,california; part b; metro desk,news,automobiles,1,0.03333333333333333
+2869108043,los angeles times,2023-09-27,california; part b; sports desk,news,scandals,1,0.1961038961038961
+421898473,los angeles times,2004-05-21,sports; part d; sports desk,news,,1,0.13075757575757577
+421943496,los angeles times,2004-09-04,main news; part a; national desk,news,conservatism,1,0.05794423830138114
+422038591,los angeles times,2006-07-23,sports; part d; sports desk,news,,1,0.1027692895339954
+422068435,los angeles times,2006-05-16,sports; part d; sports desk,commentary,coaches & managers,1,0.23953184242657924
+422084781,los angeles times,2006-08-13,west magazine; part i; lat magazine desk,feature,ratings & rankings,1,0.11303653652102354
+422115807,los angeles times,2006-12-16,main news; part a; national desk,news,,1,-0.0625
+422212886,los angeles times,2008-07-07,main news; part a; editorial pages desk,news,social promotion,1,0.11287878787878788
+422216858,los angeles times,2007-10-04,california; part b; metro desk,news,,1,0.022372372372372377
+422225372,los angeles times,2008-04-28,sports; part d; sports desk,news,professional basketball,1,0.07003801239912351
+422244463,los angeles times,2010-01-18,main news; part a; foreign desk,news,presidency,1,0.02686245572609209
+422244975,los angeles times,2008-11-02,sunday calendar; part e; calendar desk,general information,,1,-0.25
+422341989,los angeles times,2008-07-12,california; part b; metro desk,news,television programs,1,0.2441539115646258
+734750209,los angeles times,2010-08-04,calendar; part d; entertainment desk,general information,,1,0.0
+849371414,los angeles times,2011-02-06,main news; part a; metro desk,news,new year,1,0.08372819100091829
+1022232503,washington post the,2012-06-27,editorial-opinion,commentary,political campaigns,1,0.023113214469146676
+1442899918,washington post the,2013-10-19,a-section,news,expansion,1,0.14315927128427128
+1678440923,washington post the,2015-05-05,health,general information,salt,1,0.09461376353462686
+1771998110,washington post the,2016-03-11,editorial - opinion,commentary,politics,1,-0.010533453887884266
+1939404332,washington post the,2017-09-17,sports,news,emmy awards,1,0.22348484848484848
+1993706424,washington post the,2018-02-04,arts,news,critics,1,0.14791666666666667
+2149891732,washington post the,2018-12-02,a-section,news,public prosecutors,1,0.07462312197606316
+409725169,washington post the,2004-12-10,weekend,news,,1,0.07164351851851852
+409731132,washington post the,2005-01-30,sports,news,,1,-0.0009856630824372778
+409882336,washington post the,2005-11-10,montgomery extra,news,,1,0.16095075757575755
+409883681,washington post the,2005-10-08,style,news,,1,0.09405594405594409
+409927667,washington post the,2006-01-22,sports,commentary,college basketball -- georgetown university,1,0.20900303742896337
+409964788,washington post the,2005-08-10,metro,news,political campaigns,1,0.18679931179931178
+410026901,washington post the,2006-02-24,weekend,news,,1,0.5
+410138563,washington post the,2007-07-26,editorial,commentary,fuel economy standards,1,0.06941250300625301
+410159212,washington post the,2007-08-30,3,news,,1,0.07540684624017956
+410172286,washington post the,2007-12-05,metro,news,shootings,1,0.05064102564102565
+410271228,washington post the,2008-01-30,style,news,nonprofit organizations,1,0.17128158406219632
+410304651,washington post the,2009-02-21,sports,news,tournaments & championships,1,0.10428571428571433
+410323492,washington post the,2009-11-27,weekend,news,,1,0.03605307735742518
+742633964,washington post the,2010-08-13,a section,news,gays & lesbians,1,0.03637853692201518
+755900909,washington post the,2010-10-01,a section,commentary,renovation & restoration,1,0.08239319602955963
+893725652,washington post the,2011-09-22,local living,feature,herbicides,1,0.061499577658114264
+894525606,washington post the,2011-09-29,style,general information,,1,0.10991666666666669
+923420398,washington post the,2012-02-26,extras,news,,1,0.15260227272727273
+1034336215,new york times,2012-08-21,a,news,stop & frisk,1,0.04885681490226945
+1531107677,new york times,2014-05-18,sp,news,,1,0.0
+1620547810,new york times,2014-11-06,d,news,furniture,1,0.23571428571428574
+1625069727,new york times,2014-11-15,a,news,battleships,1,0.030058275058275068
+1690306948,new york times,2015-06-23,a,news,budgets,1,0.07245482031196315
+2230022157,new york times,2019-05-26,a,news,,1,0.0
+2293461759,new york times,2019-09-20,c,review,art galleries & museums,1,0.11741224948886239
+2300505438,new york times,2019-10-04,a,news,political parties,1,0.10698830095524309
+2460220538,new york times,2020-11-14,a,news,"students
+education",1,0.14674565738244985
+432653848,new york times,2004-01-22,f,news,interior design,1,0.14695713751269307
+433205165,new york times,2005-11-19,a,news,,1,0.2
+433279398,new york times,2006-02-15,a,news,,1,0.10757575757575755
+433388794,new york times,2006-08-06,3,commentary,investment banking,1,0.11136164601681842
+433598660,new york times,2007-05-03,b,news,,1,0.06818181818181818
+433960340,new york times,2008-10-04,a,commentary,peace,1,-0.019655483405483405
+434085489,new york times,2009-05-05,c,review,classical music,1,0.1817768016297428
+434115084,new york times,2009-06-02,a,news,kidnapping,1,0.005263157894736842
+434241934,new york times,2009-12-10,a,commentary,public prosecutors,1,0.23397415272415265
+856687362,new york times,2011-03-13,wk,commentary,mass transit,1,0.09614519252677146
+906325499,new york times,2011-11-29,b,news,,1,0.03712962962962963
+1027415041,usa today,2012-07-23,life,news,actors,1,0.19289256198347107
+1030272053,usa today,2012-07-31,life,news,fund raising,1,0.10732128232128235
+1370951270,usa today,2013-06-25,money,news,computer & video games,1,0.14630751964085295
+1399380296,usa today,2013-07-11,news,news,mortgage rates,1,0.09749417249417248
+1537995822,usa today,2014-06-20,news,news,,1,0.024509121830550408
+1664310509,usa today,2015-03-18,sports,news,college basketball,1,0.18867753623188407
+1923782015,usa today,2017-04-02,,news,sports injuries,1,0.049895030443810925
+2108734278,usa today,2018-09-19,life,news,bans,1,0.1567772152517915
+2175224680,usa today,2019-02-04,life,news,asian americans,1,0.10559755720470006
+220045304,usa today,2010-04-28,sports,news,,1,0.04603274811608144
+2560568321,usa today,2021-08-13,money,news,gasoline prices,1,0.0
+2825988423,usa today,2023-06-16,business,news,"parents & parenting
+psychology",1,0.19031111293769518
+3034860955,usa today,2024-04-10,sports,news,rehabilitation,1,0.1295616883116883
+408904445,usa today,2004-10-15,life,news,income taxes,1,0.10846375846375846
+408923166,usa today,2005-06-06,life,news,publishing industry,1,0.1688882063882064
+408986117,usa today,2006-07-26,life,feature,trees,1,0.17775530681042492
+409011454,usa today,2007-07-06,money,news,investment policy,1,0.10453455687830684
+409032685,usa today,2007-03-16,news,news,native north americans,1,0.137178069515026
+749393180,usa today,2010-09-03,life,news,tourism -- united states--us,1,0.26885642135642135
+817520566,usa today,2010-12-14,life,commentary,television programs,1,0.19302849927849927
+1368532619,los angeles times,2013-06-18,latextra; part aa; metro desk,news,capital punishment,1,-0.08712121212121211
+1643930801,los angeles times,2015-01-10,california; part aa; metro desk,news,furniture industry,1,0.20000000000000004
+1778923103,los angeles times,2016-04-07,main news; part a; foreign desk,news,truces & cease fires,1,-0.13493506493506496
+1825336436,los angeles times,2016-10-04,main news; part a; metro desk,news,rape,1,0.1456044060367369
+2098943050,los angeles times,2018-09-04,california; part b; metro desk,news,automobiles,1,0.03333333333333333
+2869108043,los angeles times,2023-09-27,california; part b; sports desk,news,scandals,1,0.1961038961038961
+421898473,los angeles times,2004-05-21,sports; part d; sports desk,news,,1,0.13075757575757577
+421943496,los angeles times,2004-09-04,main news; part a; national desk,news,conservatism,1,0.05794423830138114
+422038591,los angeles times,2006-07-23,sports; part d; sports desk,news,,1,0.1027692895339954
+422068435,los angeles times,2006-05-16,sports; part d; sports desk,commentary,coaches & managers,1,0.23953184242657924
+422084781,los angeles times,2006-08-13,west magazine; part i; lat magazine desk,feature,ratings & rankings,1,0.11303653652102354
+422115807,los angeles times,2006-12-16,main news; part a; national desk,news,,1,-0.0625
+422212886,los angeles times,2008-07-07,main news; part a; editorial pages desk,news,social promotion,1,0.11287878787878788
+422216858,los angeles times,2007-10-04,california; part b; metro desk,news,,1,0.022372372372372377
+422225372,los angeles times,2008-04-28,sports; part d; sports desk,news,professional basketball,1,0.07003801239912351
+422244463,los angeles times,2010-01-18,main news; part a; foreign desk,news,presidency,1,0.02686245572609209
+422244975,los angeles times,2008-11-02,sunday calendar; part e; calendar desk,general information,,1,-0.25
+422341989,los angeles times,2008-07-12,california; part b; metro desk,news,television programs,1,0.2441539115646258
+734750209,los angeles times,2010-08-04,calendar; part d; entertainment desk,general information,,1,0.0
+849371414,los angeles times,2011-02-06,main news; part a; metro desk,news,new year,1,0.08372819100091829
+1022232503,washington post the,2012-06-27,editorial-opinion,commentary,political campaigns,1,0.023113214469146676
+1442899918,washington post the,2013-10-19,a-section,news,expansion,1,0.14315927128427128
+1678440923,washington post the,2015-05-05,health,general information,salt,1,0.09461376353462686
+1771998110,washington post the,2016-03-11,editorial - opinion,commentary,politics,1,-0.010533453887884266
+1939404332,washington post the,2017-09-17,sports,news,emmy awards,1,0.22348484848484848
+1993706424,washington post the,2018-02-04,arts,news,critics,1,0.14791666666666667
+2149891732,washington post the,2018-12-02,a-section,news,public prosecutors,1,0.07462312197606316
+409725169,washington post the,2004-12-10,weekend,news,,1,0.07164351851851852
+409731132,washington post the,2005-01-30,sports,news,,1,-0.0009856630824372778
+409882336,washington post the,2005-11-10,montgomery extra,news,,1,0.16095075757575755
+409883681,washington post the,2005-10-08,style,news,,1,0.09405594405594409
+409927667,washington post the,2006-01-22,sports,commentary,college basketball -- georgetown university,1,0.20900303742896337
+409964788,washington post the,2005-08-10,metro,news,political campaigns,1,0.18679931179931178
+410026901,washington post the,2006-02-24,weekend,news,,1,0.5
+410138563,washington post the,2007-07-26,editorial,commentary,fuel economy standards,1,0.06941250300625301
+410159212,washington post the,2007-08-30,3,news,,1,0.07540684624017956
+410172286,washington post the,2007-12-05,metro,news,shootings,1,0.05064102564102565
+410271228,washington post the,2008-01-30,style,news,nonprofit organizations,1,0.17128158406219632
+410304651,washington post the,2009-02-21,sports,news,tournaments & championships,1,0.10428571428571433
+410323492,washington post the,2009-11-27,weekend,news,,1,0.03605307735742518
+742633964,washington post the,2010-08-13,a section,news,gays & lesbians,1,0.03637853692201518
+755900909,washington post the,2010-10-01,a section,commentary,renovation & restoration,1,0.08239319602955963
+893725652,washington post the,2011-09-22,local living,feature,herbicides,1,0.061499577658114264
+894525606,washington post the,2011-09-29,style,general information,,1,0.10991666666666669
+923420398,washington post the,2012-02-26,extras,news,,1,0.15260227272727273
+1034336215,new york times,2012-08-21,a,news,stop & frisk,1,0.04885681490226945
+1531107677,new york times,2014-05-18,sp,news,,1,0.0
+1620547810,new york times,2014-11-06,d,news,furniture,1,0.23571428571428574
+1625069727,new york times,2014-11-15,a,news,battleships,1,0.030058275058275068
+1690306948,new york times,2015-06-23,a,news,budgets,1,0.07245482031196315
+2230022157,new york times,2019-05-26,a,news,,1,0.0
+2293461759,new york times,2019-09-20,c,review,art galleries & museums,1,0.11741224948886239
+2300505438,new york times,2019-10-04,a,news,political parties,1,0.10698830095524309
+2460220538,new york times,2020-11-14,a,news,"students
+education",1,0.14674565738244985
+432653848,new york times,2004-01-22,f,news,interior design,1,0.14695713751269307
+433205165,new york times,2005-11-19,a,news,,1,0.2
+433279398,new york times,2006-02-15,a,news,,1,0.10757575757575755
+433388794,new york times,2006-08-06,3,commentary,investment banking,1,0.11136164601681842
+433598660,new york times,2007-05-03,b,news,,1,0.06818181818181818
+433960340,new york times,2008-10-04,a,commentary,peace,1,-0.019655483405483405
+434085489,new york times,2009-05-05,c,review,classical music,1,0.1817768016297428
+434115084,new york times,2009-06-02,a,news,kidnapping,1,0.005263157894736842
+434241934,new york times,2009-12-10,a,commentary,public prosecutors,1,0.23397415272415265
+856687362,new york times,2011-03-13,wk,commentary,mass transit,1,0.09614519252677146
+906325499,new york times,2011-11-29,b,news,,1,0.03712962962962963
+1027415041,usa today,2012-07-23,life,news,actors,1,0.19289256198347107
+1030272053,usa today,2012-07-31,life,news,fund raising,1,0.10732128232128235
+1370951270,usa today,2013-06-25,money,news,computer & video games,1,0.14630751964085295
+1399380296,usa today,2013-07-11,news,news,mortgage rates,1,0.09749417249417248
+1537995822,usa today,2014-06-20,news,news,,1,0.024509121830550408
+1664310509,usa today,2015-03-18,sports,news,college basketball,1,0.18867753623188407
+1923782015,usa today,2017-04-02,,news,sports injuries,1,0.049895030443810925
+2108734278,usa today,2018-09-19,life,news,bans,1,0.1567772152517915
+2175224680,usa today,2019-02-04,life,news,asian americans,1,0.10559755720470006
+220045304,usa today,2010-04-28,sports,news,,1,0.04603274811608144
+2560568321,usa today,2021-08-13,money,news,gasoline prices,1,0.0
+2825988423,usa today,2023-06-16,business,news,"parents & parenting
+psychology",1,0.19031111293769518
+3034860955,usa today,2024-04-10,sports,news,rehabilitation,1,0.1295616883116883
+408904445,usa today,2004-10-15,life,news,income taxes,1,0.10846375846375846
+408923166,usa today,2005-06-06,life,news,publishing industry,1,0.1688882063882064
+408986117,usa today,2006-07-26,life,feature,trees,1,0.17775530681042492
+409011454,usa today,2007-07-06,money,news,investment policy,1,0.10453455687830684
+409032685,usa today,2007-03-16,news,news,native north americans,1,0.137178069515026
+749393180,usa today,2010-09-03,life,news,tourism -- united states--us,1,0.26885642135642135
+817520566,usa today,2010-12-14,life,commentary,television programs,1,0.19302849927849927
+1368532619,los angeles times,2013-06-18,latextra; part aa; metro desk,news,capital punishment,1,-0.08712121212121211
+1643930801,los angeles times,2015-01-10,california; part aa; metro desk,news,furniture industry,1,0.20000000000000004
+1778923103,los angeles times,2016-04-07,main news; part a; foreign desk,news,truces & cease fires,1,-0.13493506493506496
+1825336436,los angeles times,2016-10-04,main news; part a; metro desk,news,rape,1,0.1456044060367369
+2098943050,los angeles times,2018-09-04,california; part b; metro desk,news,automobiles,1,0.03333333333333333
+2869108043,los angeles times,2023-09-27,california; part b; sports desk,news,scandals,1,0.1961038961038961
+421898473,los angeles times,2004-05-21,sports; part d; sports desk,news,,1,0.13075757575757577
+421943496,los angeles times,2004-09-04,main news; part a; national desk,news,conservatism,1,0.05794423830138114
+422038591,los angeles times,2006-07-23,sports; part d; sports desk,news,,1,0.1027692895339954
+422068435,los angeles times,2006-05-16,sports; part d; sports desk,commentary,coaches & managers,1,0.23953184242657924
+422084781,los angeles times,2006-08-13,west magazine; part i; lat magazine desk,feature,ratings & rankings,1,0.11303653652102354
+422115807,los angeles times,2006-12-16,main news; part a; national desk,news,,1,-0.0625
+422212886,los angeles times,2008-07-07,main news; part a; editorial pages desk,news,social promotion,1,0.11287878787878788
+422216858,los angeles times,2007-10-04,california; part b; metro desk,news,,1,0.022372372372372377
+422225372,los angeles times,2008-04-28,sports; part d; sports desk,news,professional basketball,1,0.07003801239912351
+422244463,los angeles times,2010-01-18,main news; part a; foreign desk,news,presidency,1,0.02686245572609209
+422244975,los angeles times,2008-11-02,sunday calendar; part e; calendar desk,general information,,1,-0.25
+422341989,los angeles times,2008-07-12,california; part b; metro desk,news,television programs,1,0.2441539115646258
+734750209,los angeles times,2010-08-04,calendar; part d; entertainment desk,general information,,1,0.0
+849371414,los angeles times,2011-02-06,main news; part a; metro desk,news,new year,1,0.08372819100091829
+1022232503,washington post the,2012-06-27,editorial-opinion,commentary,political campaigns,1,0.023113214469146676
+1442899918,washington post the,2013-10-19,a-section,news,expansion,1,0.14315927128427128
+1678440923,washington post the,2015-05-05,health,general information,salt,1,0.09461376353462686
+1771998110,washington post the,2016-03-11,editorial - opinion,commentary,politics,1,-0.010533453887884266
+1939404332,washington post the,2017-09-17,sports,news,emmy awards,1,0.22348484848484848
+1993706424,washington post the,2018-02-04,arts,news,critics,1,0.14791666666666667
+2149891732,washington post the,2018-12-02,a-section,news,public prosecutors,1,0.07462312197606316
+409725169,washington post the,2004-12-10,weekend,news,,1,0.07164351851851852
+409731132,washington post the,2005-01-30,sports,news,,1,-0.0009856630824372778
+409882336,washington post the,2005-11-10,montgomery extra,news,,1,0.16095075757575755
+409883681,washington post the,2005-10-08,style,news,,1,0.09405594405594409
+409927667,washington post the,2006-01-22,sports,commentary,college basketball -- georgetown university,1,0.20900303742896337
+409964788,washington post the,2005-08-10,metro,news,political campaigns,1,0.18679931179931178
+410026901,washington post the,2006-02-24,weekend,news,,1,0.5
+410138563,washington post the,2007-07-26,editorial,commentary,fuel economy standards,1,0.06941250300625301
+410159212,washington post the,2007-08-30,3,news,,1,0.07540684624017956
+410172286,washington post the,2007-12-05,metro,news,shootings,1,0.05064102564102565
+410271228,washington post the,2008-01-30,style,news,nonprofit organizations,1,0.17128158406219632
+410304651,washington post the,2009-02-21,sports,news,tournaments & championships,1,0.10428571428571433
+410323492,washington post the,2009-11-27,weekend,news,,1,0.03605307735742518
+742633964,washington post the,2010-08-13,a section,news,gays & lesbians,1,0.03637853692201518
+755900909,washington post the,2010-10-01,a section,commentary,renovation & restoration,1,0.08239319602955963
+893725652,washington post the,2011-09-22,local living,feature,herbicides,1,0.061499577658114264
+894525606,washington post the,2011-09-29,style,general information,,1,0.10991666666666669
+923420398,washington post the,2012-02-26,extras,news,,1,0.15260227272727273
+1034336215,new york times,2012-08-21,a,news,stop & frisk,1,0.04885681490226945
+1531107677,new york times,2014-05-18,sp,news,,1,0.0
+1620547810,new york times,2014-11-06,d,news,furniture,1,0.23571428571428574
+1625069727,new york times,2014-11-15,a,news,battleships,1,0.030058275058275068
+1690306948,new york times,2015-06-23,a,news,budgets,1,0.07245482031196315
+2230022157,new york times,2019-05-26,a,news,,1,0.0
+2293461759,new york times,2019-09-20,c,review,art galleries & museums,1,0.11741224948886239
+2300505438,new york times,2019-10-04,a,news,political parties,1,0.10698830095524309
+2460220538,new york times,2020-11-14,a,news,"students
+education",1,0.14674565738244985
+432653848,new york times,2004-01-22,f,news,interior design,1,0.14695713751269307
+433205165,new york times,2005-11-19,a,news,,1,0.2
+433279398,new york times,2006-02-15,a,news,,1,0.10757575757575755
+433388794,new york times,2006-08-06,3,commentary,investment banking,1,0.11136164601681842
+433598660,new york times,2007-05-03,b,news,,1,0.06818181818181818
+433960340,new york times,2008-10-04,a,commentary,peace,1,-0.019655483405483405
+434085489,new york times,2009-05-05,c,review,classical music,1,0.1817768016297428
+434115084,new york times,2009-06-02,a,news,kidnapping,1,0.005263157894736842
+434241934,new york times,2009-12-10,a,commentary,public prosecutors,1,0.23397415272415265
+856687362,new york times,2011-03-13,wk,commentary,mass transit,1,0.09614519252677146
+906325499,new york times,2011-11-29,b,news,,1,0.03712962962962963
+1027415041,usa today,2012-07-23,life,news,actors,1,0.19289256198347107
+1030272053,usa today,2012-07-31,life,news,fund raising,1,0.10732128232128235
+1370951270,usa today,2013-06-25,money,news,computer & video games,1,0.14630751964085295
+1399380296,usa today,2013-07-11,news,news,mortgage rates,1,0.09749417249417248
+1537995822,usa today,2014-06-20,news,news,,1,0.024509121830550408
+1664310509,usa today,2015-03-18,sports,news,college basketball,1,0.18867753623188407
+1923782015,usa today,2017-04-02,,news,sports injuries,1,0.049895030443810925
+2108734278,usa today,2018-09-19,life,news,bans,1,0.1567772152517915
+2175224680,usa today,2019-02-04,life,news,asian americans,1,0.10559755720470006
+220045304,usa today,2010-04-28,sports,news,,1,0.04603274811608144
+2560568321,usa today,2021-08-13,money,news,gasoline prices,1,0.0
+2825988423,usa today,2023-06-16,business,news,"parents & parenting
+psychology",1,0.19031111293769518
+3034860955,usa today,2024-04-10,sports,news,rehabilitation,1,0.1295616883116883
+408904445,usa today,2004-10-15,life,news,income taxes,1,0.10846375846375846
+408923166,usa today,2005-06-06,life,news,publishing industry,1,0.1688882063882064
+408986117,usa today,2006-07-26,life,feature,trees,1,0.17775530681042492
+409011454,usa today,2007-07-06,money,news,investment policy,1,0.10453455687830684
+409032685,usa today,2007-03-16,news,news,native north americans,1,0.137178069515026
+749393180,usa today,2010-09-03,life,news,tourism -- united states--us,1,0.26885642135642135
+817520566,usa today,2010-12-14,life,commentary,television programs,1,0.19302849927849927
+1368532619,los angeles times,2013-06-18,latextra; part aa; metro desk,news,capital punishment,1,-0.08712121212121211
+1643930801,los angeles times,2015-01-10,california; part aa; metro desk,news,furniture industry,1,0.20000000000000004
+1778923103,los angeles times,2016-04-07,main news; part a; foreign desk,news,truces & cease fires,1,-0.13493506493506496
+1825336436,los angeles times,2016-10-04,main news; part a; metro desk,news,rape,1,0.1456044060367369
+2098943050,los angeles times,2018-09-04,california; part b; metro desk,news,automobiles,1,0.03333333333333333
+2869108043,los angeles times,2023-09-27,california; part b; sports desk,news,scandals,1,0.1961038961038961
+421898473,los angeles times,2004-05-21,sports; part d; sports desk,news,,1,0.13075757575757577
+421943496,los angeles times,2004-09-04,main news; part a; national desk,news,conservatism,1,0.05794423830138114
+422038591,los angeles times,2006-07-23,sports; part d; sports desk,news,,1,0.1027692895339954
+422068435,los angeles times,2006-05-16,sports; part d; sports desk,commentary,coaches & managers,1,0.23953184242657924
+422084781,los angeles times,2006-08-13,west magazine; part i; lat magazine desk,feature,ratings & rankings,1,0.11303653652102354
+422115807,los angeles times,2006-12-16,main news; part a; national desk,news,,1,-0.0625
+422212886,los angeles times,2008-07-07,main news; part a; editorial pages desk,news,social promotion,1,0.11287878787878788
+422216858,los angeles times,2007-10-04,california; part b; metro desk,news,,1,0.022372372372372377
+422225372,los angeles times,2008-04-28,sports; part d; sports desk,news,professional basketball,1,0.07003801239912351
+422244463,los angeles times,2010-01-18,main news; part a; foreign desk,news,presidency,1,0.02686245572609209
+422244975,los angeles times,2008-11-02,sunday calendar; part e; calendar desk,general information,,1,-0.25
+422341989,los angeles times,2008-07-12,california; part b; metro desk,news,television programs,1,0.2441539115646258
+734750209,los angeles times,2010-08-04,calendar; part d; entertainment desk,general information,,1,0.0
+849371414,los angeles times,2011-02-06,main news; part a; metro desk,news,new year,1,0.08372819100091829
+1022232503,washington post the,2012-06-27,editorial-opinion,commentary,political campaigns,1,0.023113214469146676
+1442899918,washington post the,2013-10-19,a-section,news,expansion,1,0.14315927128427128
+1678440923,washington post the,2015-05-05,health,general information,salt,1,0.09461376353462686
+1771998110,washington post the,2016-03-11,editorial - opinion,commentary,politics,1,-0.010533453887884266
+1939404332,washington post the,2017-09-17,sports,news,emmy awards,1,0.22348484848484848
+1993706424,washington post the,2018-02-04,arts,news,critics,1,0.14791666666666667
+2149891732,washington post the,2018-12-02,a-section,news,public prosecutors,1,0.07462312197606316
+409725169,washington post the,2004-12-10,weekend,news,,1,0.07164351851851852
+409731132,washington post the,2005-01-30,sports,news,,1,-0.0009856630824372778
+409882336,washington post the,2005-11-10,montgomery extra,news,,1,0.16095075757575755
+409883681,washington post the,2005-10-08,style,news,,1,0.09405594405594409
+409927667,washington post the,2006-01-22,sports,commentary,college basketball -- georgetown university,1,0.20900303742896337
+409964788,washington post the,2005-08-10,metro,news,political campaigns,1,0.18679931179931178
+410026901,washington post the,2006-02-24,weekend,news,,1,0.5
+410138563,washington post the,2007-07-26,editorial,commentary,fuel economy standards,1,0.06941250300625301
+410159212,washington post the,2007-08-30,3,news,,1,0.07540684624017956
+410172286,washington post the,2007-12-05,metro,news,shootings,1,0.05064102564102565
+410271228,washington post the,2008-01-30,style,news,nonprofit organizations,1,0.17128158406219632
+410304651,washington post the,2009-02-21,sports,news,tournaments & championships,1,0.10428571428571433
+410323492,washington post the,2009-11-27,weekend,news,,1,0.03605307735742518
+742633964,washington post the,2010-08-13,a section,news,gays & lesbians,1,0.03637853692201518
+755900909,washington post the,2010-10-01,a section,commentary,renovation & restoration,1,0.08239319602955963
+893725652,washington post the,2011-09-22,local living,feature,herbicides,1,0.061499577658114264
+894525606,washington post the,2011-09-29,style,general information,,1,0.10991666666666669
+923420398,washington post the,2012-02-26,extras,news,,1,0.15260227272727273

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1993706424</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other>News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt HTMLContent="true">
+         <Title>Our critics help you see art</Title>
+      </TitleAtt>
+      <NumericDate>2018-02-04</NumericDate>
+      <StartDate>2018-02-04</StartDate>
+      <EndDate>2018-02-04</EndDate>
+      <AlphaDate>Feb 4, 2018</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright WP Company LLC d/b/a The Washington Post Feb 4, 2018</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>E.3</StartPage>
+         <DocSection>ARTS</DocSection>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID>
+            <MSTARLegacyID>WPXXWP20180204Ourcriticshelpyouseeart0d3327d6</MSTARLegacyID>
+         </ObjectID>
+         <ObjectID>
+            <PublisherXID>WPXXWP20180204Ourcriticshelpyouseeart0d3327d6</PublisherXID>
+         </ObjectID>
+         <ObjectID>
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <PCID>PQ_7653_Feb42018______</PCID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1440</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Pressley, Nelson</NormalizedDisplayForm>
+               <LastNameAtt>
+                  <LastName>Pressley</LastName>
+               </LastNameAtt>
+               <FirstNameAtt>
+                  <FirstName>Nelson</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt>
+                  <OriginalForm>Nelson Pressley</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Streep, Meryl</Personal>
+         </Term>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Critics</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="200" HTMLContent="true">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+		&lt;p&gt;Not everyone's a critic. There's a difference between going to a show or a concert and going to&lt;i&gt; work&lt;/i&gt; seeing a show or hearing a concert, and then turning the experience into prose.&lt;/p&gt;
+	&lt;p&gt;We have our little ways, we cockeyed critics - tips and techniques picked up over years of writing reviews, sometimes at leisure and sometimes under extreme deadline pressure, responding to something familiar (Beethoven again, or Meryl Streep) or to something barely identifiable flying in from left field.&lt;/p&gt;
+	&lt;p&gt;It's a reporting job, in part, because critics are the front-line eyes for people thinking about seeing something. Like everyone else, critics want to be swept away. But, as movie critic Ann Hornaday writes in an enviably graceful phrase at the end of her notes (not spoiled here), they also have to keep a keen watch.&lt;/p&gt;
+	&lt;p&gt;What follows is a guide from Washington Post critics across the pop and fine arts spectrum: how to really get something out of that trip to the gallery, even how to open your muscles to music (see Chris Richards). It's a mantra - if you want to get more out of the art and entertainment, be ready to stretch.&lt;/p&gt;
+	&lt;p&gt;nelson.pressley@washpost.com&lt;/p&gt;
+&lt;p&gt;Credit: Nelson Pressley&lt;/p&gt;
+	&lt;/body&gt;&lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Feb 4, 2018</AlphaDate>
+         <StartDate>2018-02-04</StartDate>
+         <EndDate>2018-02-04</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>PQ_7653_Feb42018______</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

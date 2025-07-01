@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1923782015</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other>News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>Major League salaries: Dodgers' Clayton Kershaw leads with $33 million</Title>
+</TitleAtt>
+<NumericDate>2017-04-02</NumericDate>
+<StartDate>2017-04-02</StartDate>
+<EndDate>2017-04-02</EndDate>
+<AlphaDate>Apr 2, 2017</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2017 USA Today. All Rights Reserved.)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>n/a</StartPage>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<MSTARLegacyID>USAT89978698</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<PublisherXID>USAT89978698</PublisherXID>
+</ObjectID>
+<ObjectID>
+<PMID>7631</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7631_Apr22017</PCID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1620</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Ortiz, Jorge L</NormalizedDisplayForm>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Jorge</FirstName>
+</FirstNameAtt>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Jorge L Ortiz</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Ortiz</LastName>
+</LastNameAtt>
+<MiddleNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<MiddleName>L</MiddleName>
+</MiddleNameAtt>
+<OriginalFormAtt>
+<OriginalForm>Jorge L Ortiz</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Pittsburgh Pennsylvania</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Clemente, Roberto</Personal>
+</Term>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>San Diego Padres</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="Editorial">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Department of Justice</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>922130</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Hunter, Torii</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Polanco, Gregory</Personal>
+</Term>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Sports injuries</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Professional baseball</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="943">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;The full-fledged opening of the baseball season evokes a similar excitement to the start of a long-distance race, where the competitors know they're in for an endurance test but still can't wait to get going.  &lt;/p&gt;
+&lt;p&gt;Monday's Opening Day presents a number of intriguing storylines that could set the initial tone for the six months to come. Among them:  &lt;/p&gt;
+&lt;p&gt;Back with a flourish: Los Angeles Dodgers ace Clayton Kershaw was well on his way to a fourth Cy Young Award-- with an 11-2 record and 1.79 ERA through June 26 -- when a back injury sidelined him for 2 A 1/2 months. Kershaw was equally sharp upon his return, but wound up with just 21 starts, the fewest since his rookie season of 2008.  &lt;/p&gt;
+&lt;p&gt;Now he's back in full health as the leader of a club that has claimed the last four NL West crowns but has failed to reach the World Series in nearly three decades.  &lt;/p&gt;
+&lt;p&gt;As was the case last season, Kershaw and the Dodgers will get started by facing the hapless San Diego Padres, though this time at Dodger Stadium. Last year, some 120 miles south, he yielded one hit over seven innings in a 15-0 win. That outing improved Kershaw's record to 4-0 with a 0.93 ERA in six Opening Day starts, with 44 strikeouts and just six walks in 38 1/3 innings. In other words, he's ready to dominate from the get-go.  &lt;/p&gt;
+&lt;p&gt;Be afraid. Be very afraid.  &lt;/p&gt;
+&lt;p&gt;McCutchen's switch: Andrew McCutchen has played no other defensive position than center field in his eight major league seasons, all of them with the Pittsburgh Pirates. Today he makes his debut as a right fielder in aA| Fenway Park?  &lt;/p&gt;
+&lt;p&gt;Yes, the need for at least one interleague game every day, due to having 15 teams in each league, brings about the hardly traditional matchup of the Pirates and Boston Red Sox on Day One. That means McCutchen will have to be mindful of the Pesky Pole corner and the short fence in right field -- Torii Hunter can tell him how easy it is to flip over into the bullpen --  but at least the Green Monster will be Gregory Polanco's concern.  &lt;/p&gt;
+&lt;p&gt;Polanco will be switching outfield corners, going from right to left as part of a new alignment that sends two-time Gold Glove-winner Starling Marte to center.  &lt;/p&gt;
+&lt;p&gt;McCutchen, the 2013 MVP and the face of the Pirates for years, has made it clear he's not crazy about the move but will not fight it. He does have a pretty good figure to emulate in Hall of Famer Roberto Clemente, a 12-time Gold Glover who set the standard for right field play in Pittsburgh.  &lt;/p&gt;
+&lt;p&gt;National attention: President Trump won't be bringing his hardball style to Nationals Park -- the Washington Nationals said he turned down a chance to throw out the ceremonial first pitch -- but the local club has a pretty hard thrower in store nonetheless in Stephen Strasburg.  &lt;/p&gt;
+&lt;p&gt;The eternally tantalizing right-hander will be taking the ball for the inaugural against the Miami Marlins because Cy Young Award winner Max Scherzer is still recovering from a fractured finger, but Strasburg has plenty of experience and star power of his own.  &lt;/p&gt;
+&lt;p&gt;Strasburg, who forsook free agency to sign a seven-year, $175 million extension in May, will be making his fourth Opening Day start in the last six years and registered a 2.25 ERA in the previous three. He's coming off a 15-4 season but missed most of the last month and the playoffs with an injury and has pitched more than 185 innings just once. Fans of the defending NL East-champ Nationals keep waiting for him to deliver on his promise.  &lt;/p&gt;
+&lt;p&gt;The Marlins will be wearing a patch with the No. 16 in memory of star pitcher Jose Fernandez, killed in a boating accident in September.  &lt;/p&gt;
+&lt;p&gt;"The guy coming in after Vin:" Those are the words used by Joe Davis, who understandably eschews the term "replacing" when describing his duties as the Dodgers' new lead TV play-by-play announcer following the retirement of the legendary Vin Scully after last season.  &lt;/p&gt;
+&lt;p&gt;Scully's lyrical descriptions and unmatchable storytelling informed and entertained Dodgers fans for 67 seasons, dating back to their Brooklyn days. Davis, 29, was not even a year old when Los Angeles made its last World Series appearance in 1988.  &lt;/p&gt;
+&lt;p&gt;The change could be jarring for a fan base that adored the silky-smooth Scully, but at least Davis' voice won't be entirely new. He called 52 road games last season as the club groomed him for the full-time post.  &lt;/p&gt;
+&lt;p&gt;Just don't expect him to urge listeners to "pull up a chair." The one thing Davis has already learned is he may emulate, but never imitate.  &lt;/p&gt;
+&lt;p&gt;Big man in town: In an offseason that saw several big-name free agents re-sign with their clubs -- such as Yoenis Cespedes, Kenley Jansen and Jose Bautista -- slugger Edwin Encarnacion was an exception, leaving the Toronto Blue Jays after eight years to sign a three-year, $60 million deal with the Cleveland Indians.  &lt;/p&gt;
+&lt;p&gt;Monday marks his debut with the defending AL champions in a clash of 2016 division winners against the host Texas Rangers.  &lt;/p&gt;
+&lt;p&gt;Encarnacion, who averaged 39 homers, 110 RBI and a .912 on-base-plus-slugging percentage over the last five years, adds big-time thump to a lineup that is also welcoming outfielder Michael Brantley back from a shoulder injury that wiped out most of his 2016 season.  &lt;/p&gt;
+&lt;p&gt;Considering the quality of the pitching matchup, both might wind up playing a secondary role in the opener at Globe Life Park, where strikeout artists Corey Kluber and Yu Darvish will lock horns.&lt;/p&gt;
+&lt;p&gt;Credit: Jorge L. Ortiz @JorgeLOrtiz USA TODAY Sports&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>USA TODAY</Title>
+<MpubId>15008</MpubId>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<JournalCode>USA</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19820101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+<PublisherAddress>
+<Address1>7950 Jones Branch Drive</Address1>
+<City>MacLean</City>
+<Province>VA</Province>
+<ZipCode>22108</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.usatoday.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>USA TODAY</Title>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19890102</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Apr 2, 2017</AlphaDate>
+<StartDate>2017-04-02</StartDate>
+<EndDate>2017-04-02</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7631_Apr22017</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.049895030443810925</text_blob_sentiment><bert_sentiment>0.50628047097813</bert_sentiment></grades></RECORD>

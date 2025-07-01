@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>3034860955</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="EXT">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>Monday, April 1</Title>
+</TitleAtt>
+<NumericDate>2024-04-10</NumericDate>
+<StartDate>2024-04-10</StartDate>
+<EndDate>2024-04-10</EndDate>
+<AlphaDate>Apr 10, 2024</AlphaDate>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Copyright>
+<CopyrightData>Copyright 2024 - USA TODAY - All Rights Reserved.</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>Z.2</StartPage>
+<DocSection>Sports</DocSection>
+<ColumnHeader>mlB transactions</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<PMID>7631</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7631_Apr102024</PCID>
+</ObjectID>
+<ObjectID>
+<MSTARLegacyID>GNETUSAT20240410USA2736934871</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<PublisherXID>GNETUSAT20240410USA2736934871</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1080</LexileScore>
+<Terms>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Houston Astros</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Miami Marlins</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Los Angeles Dodgers</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Los Angeles California</Geographic>
+</Term>
+<Term SubTermType="Country" TermSource="DBLookup" TermVocab="GEOG">
+<Geographic>United States--US</Geographic>
+</Term>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Rehabilitation</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Free agency</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Surgery</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQBUS">
+<GenSubjValue>Maternity &amp; paternity leaves</GenSubjValue>
+<GenSubjCategory>HUMANRESOURCES</GenSubjCategory>
+</GenSubjTerm>
+</Terms>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="973">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;ARIZONA DIAMONDBACKS — Jorge Barrosa called up from Minors. CF Alek Thomas placed on 10-Day IL (Strained left hamstring).&lt;/p&gt;
+&lt;p&gt;KANSAS CITY ROYALS — C Brian O'Keefe signed to a Minor League contract.&lt;/p&gt;
+&lt;p&gt;MIAMI MARLINS — Kent Emanuel purchased from Minors. P Vladimir Gutierrez designated for assignment.&lt;/p&gt;
+&lt;p&gt;MILWAUKEE BREWERS — C Eric Haase outrighted to Minors.&lt;/p&gt;
+&lt;p&gt;NEW YORK METS — P Yohan Ramirez starting to serve suspension. Reed Garrett called up from Minors. P Tylor Megill placed on 15-Day IL (Strained right shoulder).&lt;/p&gt;
+&lt;p&gt;NEW YORK YANKEES — Jake Cousins purchased from Minors. Tanner Tully designated for assignment.&lt;/p&gt;
+&lt;p&gt;OAKLAND ATHLETICS — LF Esteury Ruiz sent to Minors.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Tuesday, April 2&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ARIZONA DIAMONDBACKS — 3B Emmanuel Rivera traded to Miami Marlins for cash considerations.&lt;/p&gt;
+&lt;p&gt;ATLANTA BRAVES — C Sandy Leon signed to a Minor League contract.&lt;/p&gt;
+&lt;p&gt;CHICAGO WHITE SOX — P Sammy Peralta acquired off waivers to Seattle Mariners. Max Stassi Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;HOUSTON ASTROS — Dylan Coleman called up from Minors. P J.P. France placed on paternity leave list.&lt;/p&gt;
+&lt;p&gt;LOS ANGELES ANGELS — P Angel Felipe signed to a Minor League contract.&lt;/p&gt;
+&lt;p&gt;LOS ANGELES DODGERS — P Matt Gage designated for assignment. Taylor Trammell acquired off waivers.&lt;/p&gt;
+&lt;p&gt;MIAMI MARLINS — SS Jacob Amaya designated for assignment. 3B Emmanuel Rivera traded for cash considerations.&lt;/p&gt;
+&lt;p&gt;NEW YORK YANKEES — P Phil Bickford signed to a Minor League contract.&lt;/p&gt;
+&lt;p&gt;PHILADELPHIA PHILLIES — P Connor Brogdon designated for assignment. Ricardo Pinto purchased from Minors.&lt;/p&gt;
+&lt;p&gt;PITTSBURGH PIRATES — P Jackson Wolf traded to San Diego Padres for INF Kervin Pichardo.&lt;/p&gt;
+&lt;p&gt;SAN DIEGO PADRES — P Jackson Wolf Sent to Minors. P Jackson Wolf traded for INF Kervin Pichardo.&lt;/p&gt;
+&lt;p&gt;SEATTLE MARINERS — Taylor Trammell acquired off waivers to Los Angeles Dodgers. P Sammy Peralta acquired off waivers.&lt;/p&gt;
+&lt;p&gt;TEXAS RANGERS — Justin Foscue called up from Minors.&lt;/p&gt;
+&lt;p&gt;TORONTO BLUE JAYS — P Genesis Cabrera starting to serve suspension.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Wednesday, April 3&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;LOS ANGELES DODGERS — RF Jason Heyward placed on 10-Day IL (Lower back tightness).&lt;/p&gt;
+&lt;p&gt;MILWAUKEE BREWERS — JB Bukauskas called up from Minors. P Trevor Megill placed on 7-Day IL (Concussion).&lt;/p&gt;
+&lt;p&gt;NEW YORK METS — Julio Teheran signed as Free Agent one-year contract.&lt;/p&gt;
+&lt;p&gt;PITTSBURGH PIRATES — C Jason Delay placed on 10-Day IL (Right knee inflammation).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Thursday, April 4&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;CHICAGO WHITE SOX — P Mike Clevinger Sent to Minors. P Mike Clevinger signed as Free Agent one-year contract. 2B Jose Rodriguez designated for assignment.&lt;/p&gt;
+&lt;p&gt;DETROIT TIGERS — Miguel Diaz acquired off waivers to Houston Astros. Matt Manning called up from Minors recalled as 27th roster player.&lt;/p&gt;
+&lt;p&gt;HOUSTON ASTROS — Penn Murfee Transferred to 60-Day IL (Recovery from right elbow surgery). Luis Garcia Transferred to 60-Day IL Recovery from right elbow surgery. Miguel Diaz acquired off waivers. DH Cooper Hummel acquired off waivers.&lt;/p&gt;
+&lt;p&gt;MIAMI MARLINS — Otto Lopez acquired off waivers. Eury Perez transferred to 60-Day IL Right elbow surgery - out for season. Matt Andriese purchased from Minors. Emmanuel Rivera called up from Minors. 3B Jonah Bride Sent to Minors. P Kent Emanuel designated for assignment.&lt;/p&gt;
+&lt;p&gt;NEW YORK METS — Jose Butto called up from Minors recalled as 27th roster player. P Yohan Ramirez reinstated from suspension.&lt;/p&gt;
+&lt;p&gt;SAN FRANCISCO GIANTS — Otto Lopez acquired off waivers to Miami Marlins. DH Cooper Hummel acquired off waivers to Houston Astros.&lt;/p&gt;
+&lt;p&gt;ST. LOUIS CARDINALS — DH Matt Carpenter placed on 10-Day IL (Strained right oblique). Pedro Pages called up from Minors.&lt;/p&gt;
+&lt;p&gt;TORONTO BLUE JAYS — P Genesis Cabrera reinstated from league suspension.&lt;/p&gt;
+&lt;p&gt;WASHINGTON NATIONALS — Jacob Young called up from Minors. CF Victor Robles placed on 10-Day IL (Left hamstring strain).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Saturday, April 6&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;CHICAGO CUBS — Patrick Wisdom Sent to Minors for rehabilitation.&lt;/p&gt;
+&lt;p&gt;CHICAGO WHITE SOX — P Alex Speas traded to Oakland Athletics for cash considerations. CF Luis Robert Jr. placed on 10-Day IL (Right hip flexor strain). Lenyn Sosa called up from Minors.&lt;/p&gt;
+&lt;p&gt;CLEVELAND GUARDIANS — P Shane Bieber placed on 15-Day IL (Right elbow surgery - out for season). Peter Strzelecki called up from Minors.&lt;/p&gt;
+&lt;p&gt;LOS ANGELES DODGERS — P Connor Brogdon traded for LHP Benony Robles. P Gus Varland called up from Minors. P Dinelson Lamet designated for assignment.&lt;/p&gt;
+&lt;p&gt;MILWAUKEE BREWERS — P Jakob Junis placed on 15-Day IL (Right shoulder impingement). Aaron Ashby called up from Minors.&lt;/p&gt;
+&lt;p&gt;OAKLAND ATHLETICS — P Alex Speas Sent to Minors. P Alex Speas traded for cash considerations.&lt;/p&gt;
+&lt;p&gt;PHILADELPHIA PHILLIES — P Connor Brogdon traded to Los Angeles Dodgers for LHP Benony Robles.&lt;/p&gt;
+&lt;p&gt;SEATTLE MARINERS — P Sean Poppen Released.&lt;/p&gt;
+&lt;p&gt;TEXAS RANGERS — Codi Heuer signed to a Minor League contract.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sunday, April 7&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ARIZONA DIAMONDBACKS — SS Geraldo Perdomo placed on 10-Day IL Right meniscus tear. Corbin Martin designated for assignment. Kevin Newman purchased from Minors.&lt;/p&gt;
+&lt;p&gt;ATLANTA BRAVES — P Spencer Strider placed on 15-Day IL UCL damage, right elbow. Allan Winans called up from Minors.&lt;/p&gt;
+&lt;p&gt;CHICAGO CUBS — P Julian Merryweather placed on 15-Day IL Strained right shoulder. Daniel Palencia called up from Minors. Jameson Taillon Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;DETROIT TIGERS — Sawyer Gipson-Long Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;HOUSTON ASTROS — Shawn Dubin Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;KANSAS CITY ROYALS — Josh Taylor Transferred to 60-Day IL Left biceps nerve injury. P Colin Selby Sent to Minors. P Colin Selby traded for LHP Connor Oliver.&lt;/p&gt;
+&lt;p&gt;MIAMI MARLINS — Braxton Garrett Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;NEW YORK METS — Max Kranick Sent to Minors for Rehabilitation.&lt;/p&gt;
+&lt;p&gt;PITTSBURGH PIRATES — P Colin Selby traded to Kansas City Royals for LHP Connor Oliver. Ji Hwan Bae Sent to Minors for Rehabilitation. P Ryan Borucki placed on 15-Day IL Left triceps inflammation. P Jose Hernandez called up from Minors.&lt;/p&gt;
+&lt;p&gt;TEXAS RANGERS — Grant Anderson called up from Minors. P Josh Sborz placed on 15-Day IL Right rotator cuff strain.&lt;/p&gt;
+&lt;p&gt;TORONTO BLUE JAYS — Alek Manoah Sent to Minors for Rehabilitation. Erik Swanson Sent to Minors for Rehabilitation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>USA TODAY</Title>
+<MpubId>15008</MpubId>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<JournalCode>USA</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19820101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+<PublisherAddress>
+<Address1>7950 Jones Branch Drive</Address1>
+<City>MacLean</City>
+<Province>VA</Province>
+<ZipCode>22108</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.usatoday.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>USA TODAY</Title>
+<SortTitle>USA TODAY</SortTitle>
+<Qualifier>McLean, Va.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7631</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>07347456</Name>
+</Locator>
+</Locators>
+<CatalogNum>60430.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19890102</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Apr 10, 2024</AlphaDate>
+<StartDate>2024-04-10</StartDate>
+<EndDate>2024-04-10</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7631_Apr102024</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.1295616883116883</text_blob_sentiment><bert_sentiment>-0.6326397041142997</bert_sentiment></grades></RECORD>

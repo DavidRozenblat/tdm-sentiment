@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>434085489</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">Performance Review-Favorable</other>
+         <mstar>Review</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Reviews - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Resilience of the Human Spirit, in Song</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[Review]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2009-05-05</NumericDate>
+      <StartDate>2009-05-05</StartDate>
+      <EndDate>2009-05-05</EndDate>
+      <AlphaDate>May 5, 2009</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company May 5, 2009</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>C.6</StartPage>
+         <Pagination>C.6</Pagination>
+         <DocSection>C</DocSection>
+         <ColumnHeader>Music Review</ColumnHeader>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>1699039181</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>42980721</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <CODEN>NYTIAO</CODEN>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>NYT</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="NYT">
+            <PublisherXID>825735-20090505</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1540</LexileScore>
+      <Desk>The Arts/Cultural Desk</Desk>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Smith, Steve</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Smith</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Steve</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Steve Smith</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Classical music</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Musical performances -- von Otter, Anne Sofie</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Personal>von Otter, Anne Sofie</Personal>
+         </Term>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Personal>Forsberg, Bengt</Personal>
+         </Term>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="42">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Viktor Ullmann's "Beryozkele" ("Birch Tree"), sung in Yiddish, and Zikmund Schul's "Two Chassidic Dances," for violin (originally viola) and cello, showed that the Nazi depredations had actually intensified a sense of Jewish identity among artists and other intellectuals in the camp.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="472" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The mezzo-soprano Anne Sofie von Otter has a knack for creating coherently themed programs, especially on her CDs. Bengt Forsberg, a pianist and Ms. von Otter's regular accompanist, likes to champion lesser-known, underperformed composers. The violinist Daniel Hope takes pains to connect the music he plays to broader social and cultural issues. All three inclinations were fruitfully combined in "Terezin-Theresienstadt," the fascinating, deeply moving program these artists presented with Daniel Muller-Schott, a cellist, at Zankel Hall on Saturday night.&lt;/p&gt;              &lt;p&gt;  The music, much of it included on a CD of the same title issued by Deutsche Grammophon last year, was primarily written by composers interned at Theresienstadt, a concentration camp near Prague. Despite perilous circumstances and constant degradation, art flourished in the camp, a fact the Nazis eventually used for propaganda.&lt;/p&gt;              &lt;p&gt;  At either end of the program was a plaintive song by Ilse Weber, a gifted poet and author who became a nurse at the camp, before she was sent to her death at Auschwitz. "Ich Wandre Durch Theresienstadt," which opened the concert, spoke to a desperate longing for freedom and home. "Wiegala," the tender lullaby that ended the program, was a haunting paean to nocturnal silence.&lt;/p&gt;              &lt;p&gt;  What came between spoke to the resilience of the human spirit, even as it endures the unthinkable. There was a mordant humor in Karel Svenk's "Vsechno Jde" ("Anything Goes," also known as the "Terezin March") and in an anonymous recasting of a selection from Kalman's operetta "Grafin Mariza."&lt;/p&gt;              &lt;p&gt;  Viktor Ullmann's "Beryozkele" ("Birch Tree"), sung in Yiddish, and Zikmund Schul's "Two Chassidic Dances," for violin (originally viola) and cello, showed that the Nazi depredations had actually intensified a sense of Jewish identity among artists and other intellectuals in the camp.&lt;/p&gt;              &lt;p&gt;  Still other works by Ullmann, Pavel Haas and Karel Berman (the sole composer in the program who survived the war) proved that these composers were versed in the latest international styles and trends.&lt;/p&gt;              &lt;p&gt;  Bartok's spirit hovered over two works by Erwin Schulhoff, a Czech composer who was never in Theresienstadt but died in the nearby Wulzburg camp. His Duo for Violin and Cello, from 1925, featured beguiling blends of timbre and a technically dazzling Zingaresca movement. The Violin Sonata No. 2, written two years later, was lean, muscular and energetic.&lt;/p&gt;              &lt;p&gt;  Always a lucid, insightful interpreter, Ms. von Otter found the expressive heart of everything she sang. Mr. Forsberg, Mr. Hope and Mr. Muller-Schott were superb collaborators. A running commentary from the performers usefully illuminated the unimaginable circumstances under which this affecting music was created.&lt;/p&gt;              &lt;p&gt;  &lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="Photograph_content"&gt;&lt;p&gt;Terezin-Theresienstadt: Anne Sofie von Otter, Right, and the Pianist Bengt Forsberg at Zankel Hall On Saturday.(Photograph by Hiroyuki Ito for the New York Times)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>May 5, 2009</AlphaDate>
+         <StartDate>2009-05-05</StartDate>
+         <EndDate>2009-05-05</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>42980721</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>
