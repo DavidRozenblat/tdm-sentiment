@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>755900909</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Commentary</other>
+<mstar>Commentary</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>A hollow session puts the 'un-' in U.N.</Title>
+</TitleAtt>
+<NumericDate>2010-10-01</NumericDate>
+<StartDate>2010-10-01</StartDate>
+<EndDate>2010-10-01</EndDate>
+<AlphaDate>Oct 1, 2010</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Oct 1, 2010</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.18</StartPage>
+<Pagination>A.18</Pagination>
+<DocSection>A SECTION</DocSection>
+<DocEdition>FINAL</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2151163201</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>54663051</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2010100113F276C2</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1450</LexileScore>
+<DateLine>A</DateLine>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<DisplayForm>Al Kamen AL KAMEN</DisplayForm>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Al Kamen AL KAMEN</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="NA">
+<CompanyNameAtt>
+<CompanyName>United Nations--UN</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>928120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Renovation &amp; restoration</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Summit conferences</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>United States--US</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="92">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Speaking of the United Nations, Equatorial Guinea's foreign minister used the General Assembly meeting to call on the U.N. Educational, Scientific and Cultural Organization (UNESCO) to stop stalling and start giving out the life sciences award set up in the name of that country's dictator, Teodoro Obiang Nguema.  The Agency for International Development, supposedly running the third prong of the Obama foreign policy of defense, diplomacy and development, didn't have an administrator for the first year of the administration - despite all the earnest talk about elevating the importance of development.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="968">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A               colleague, walking by the 38-story United Nations headquarters last week during the 65th meeting of the General Assembly, looked up to see that the windows on several of the top floors appeared blown out, the wind whipping off the East River through the seemingly abandoned shell.&lt;/p&gt;              &lt;p&gt;It was as if former U.S. ambassador John Bolton's fondest dream had come true!&lt;/p&gt;              &lt;p&gt;"If the U.N. . . . building . . . lost 10 stories, it wouldn't make a bit of difference,'' Bolton famously said back in 1994. Asked this week about the building's appearance, Bolton e-mailed: "It's a start!"&lt;/p&gt;              &lt;p&gt;Actually, the entire building has been gutted for a renovation project, scheduled for completion in three years or so, at best.&lt;/p&gt;              &lt;p&gt;Maybe that's why last month's diplomatic gabfest just didn't have the same feel, the same excitement and side-splitting hilarity that these sessions generally have.&lt;/p&gt;              &lt;p&gt;President Obama delivered a perfectly fine speech, nothing earth-shattering. And Iran's wacky president, Mahmoud Ahmadinejad, lamely tried to match prior ravings, but, aside from saying the United States orchestrated 9/11 to save the economy, his act seemed to have gotten a little stale and predictable.&lt;/p&gt;              &lt;p&gt;Venezuela's Hugo Chavez perhaps feared he could never top that 2006 slam of President George W. Bush, when he called Bush "the devil" and said "you can still smell the sulfur" after Bush had spoken in the chamber. Chavez, who didn't fare all that well in Venezuelan elections this week, was a no-show this time.&lt;/p&gt;              &lt;p&gt;Ditto Loop Favorite Moammar Gaddafi of Libya, with his elite virgin-female bodyguard detail and collapsible tent. His spectacular fashion shows and dazzling incoherence of past years - demanding $7.77 trillion in reparations for colonialism - were a perennial highlight.&lt;/p&gt;              &lt;p&gt;France's Nicolas Sarkozy, always entertaining with his stunning wife, Carla Bruni-Sarkozy, gave but a cameo appearance. Neither of the Castro brothers was there. (Fidel last made an appearance in 2000.)&lt;/p&gt;              &lt;p&gt;There wasn't so much as a drop-by from Sudanese President Omar Hassan al-Bashir. That's probably because he faces international war crimes charges, accused of orchestrating a campaign of murder, torture and forced expulsions in Darfur, and would probably be arrested on the spot.         &lt;/p&gt;              &lt;p&gt;Speaking of the United Nations, Equatorial Guinea's foreign minister used the General Assembly meeting to call on the U.N. Educational, Scientific and Cultural Organization (UNESCO) to stop stalling and start giving out the life sciences award set up in the name of that country's dictator, Teodoro Obiang Nguema.&lt;/p&gt;              &lt;p&gt;Loop Fans may recall that the award, endowed for five years by a $3 million gift from Obiang, was set up two years ago - over objections by Washington and the European Union - and then stalled over outrage from the human rights community.&lt;/p&gt;              &lt;p&gt;The issue popped up again in June as Obiang, in power for 31 years, accused opponents who were trying to block the prize of being "colonialist, discriminatory, racist and prejudiced."&lt;/p&gt;              &lt;p&gt;But Archbishop Emeritus Desmond Tutu of South Africa told UNESCO, "a beacon for hope and development," not to allow "itself to burnish the unsavory reputation of a dictator" whose regime "has been marked by corruption and abuse."&lt;/p&gt;              &lt;p&gt;UNESCO's executive board agreed to study the matter further, deferring the question again. Hard to imagine UNESCO would destroy once and for all its reputation for a lousy $3 million.&lt;/p&gt;              &lt;p&gt;So, what's with all that digging on West Executive Drive between the West Wing and the Eisenhower Executive Office Building? The drilling and pounding, which started in May, are driving folks in nearby offices to distraction. A new bunker in the works?&lt;/p&gt;              &lt;p&gt;Not so, says the General Services Administration. The official response: "The construction [is] to replace aged and service-interruption-prone heating, cooling, electrical, fire alarm equipment and systems serving the West Wing."&lt;/p&gt;              &lt;p&gt;The GSA says it's "constantly working to mitigate as much as possible any impact on the day to day work at the White House." Sounded like the end of the world a couple of days ago.&lt;/p&gt;              &lt;p&gt;When will this end - and, more important for some, when will the parking perks on the drive be restored? Ah, well, "looks like it will be more than a year," we were told.&lt;/p&gt;              &lt;p&gt;Private sector, anyone?&lt;/p&gt;              &lt;p&gt;The Agency for International Development, supposedly running the third prong of the Obama foreign policy of defense, diplomacy and development, didn't have an administrator for the first year of the administration - despite all the earnest talk about elevating the importance of development.&lt;/p&gt;              &lt;p&gt;After Administrator Rajiv Shah was sworn in to run the place, his picture joined those of Obama, Vice President Biden and Secretary of State Hillary Rodham Clinton on the wall in the agency lobby.&lt;/p&gt;              &lt;p&gt;But Shah's photo recently disappeared. AID folks, prone to Machiavellian thinking, wondered whether this was a sign, a la the Soviets erasing photos of Trotsky.&lt;/p&gt;              &lt;p&gt;"Maybe they're trying to send a message that he's no higher than a deputy secretary so why should his picture hang there?" one employee speculated.&lt;/p&gt;              &lt;p&gt;Not really. Seems the problem is that you can't drill into metal wall, so the pictures are hung with Velcro, and sometimes they fall down. "Part of elevating development will involve upgrading to industrial-strength Velcro," said spokeswoman Lynne Weil. A visit to Home Depot appears to be in order.&lt;/p&gt;              &lt;p&gt;As expected, Morgan Stanley executive Tom Nides, formerly at Credit Suisse First Boston, Fannie Mae and the Bill Clinton-era U.S. trade rep's office, has been nominated as deputy secretary of state for management and resources. He would replace Jack Lew, whose nomination to run the Office of Management and Budget has been held by Sen. Mary Landrieu (D-La.) to protest the gulf oil-drilling moratorium. &lt;/p&gt;              &lt;p&gt;Michael Vickers, now assistant secretary of defense for Special Operations/low-intensity conflict and interdependent capabilities (SOLIC&amp;amp;IC), has been picked to move up to undersecretary for intelligence.&lt;/p&gt;              &lt;p&gt;kamena@washpost.com&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 1, 2010</AlphaDate>
+<StartDate>2010-10-01</StartDate>
+<EndDate>2010-10-01</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>54663051</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.08239319602955963</text_blob_sentiment><bert_sentiment>-0.28943372435039944</bert_sentiment></grades></RECORD>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1778923103</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>WORLD BRIEFING; AZERBAIJAN; Truce with Armenia holds</Title>
+</TitleAtt>
+<NumericDate>2016-04-07</NumericDate>
+<StartDate>2016-04-07</StartDate>
+<EndDate>2016-04-07</EndDate>
+<AlphaDate>Apr 7, 2016</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2016 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.4</StartPage>
+<Pagination>A.4</Pagination>
+<DocSection>Main News; Part A; Foreign Desk</DocSection>
+<DocEdition>HOME EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>4012410531</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>103666772</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM1600009755</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1350</LexileScore>
+<Terms>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>Wire</TitleKeyword>
+</FlexTerm>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>Brief</TitleKeyword>
+</FlexTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Truces &amp; cease fires</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="29">
+<AbsText HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Azerbaijan's Defense Ministry said its troops have been observing a cease-fire in the region since midday Tuesday after three days of intense battles involving heavy artillery and rockets.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="151">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A cease-fire largely held around Nagorno-Karabakh after an outburst of fighting that raised fear of a new all-out war between Azerbaijani and Armenian forces. Russia sought to allay tension by reaching out to both sides.&lt;/p&gt;              &lt;p&gt;Azerbaijan's Defense Ministry said its troops have been observing a cease-fire in the region since midday Tuesday after three days of intense battles involving heavy artillery and rockets. The ministry accused Armenian forces of breaking the truce on several occasions Wednesday by firing mortars, adding that Azerbaijani forces had not returned fire.&lt;/p&gt;              &lt;p&gt;The ministry late Wednesday also claimed Armenian forces had shelled the Azerbaijani exclave of Nakhchivan after the cease-fire. Nakhchivan is surrounded by Armenia, Iran and Turkey.&lt;/p&gt;              &lt;p&gt;Fighting that erupted over the weekend killed at least 63 people and marked the worst violence since a separatist war ended in 1994.&lt;/p&gt;              &lt;p&gt;Credit: Times Wire Reports&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Apr 7, 2016</AlphaDate>
+<StartDate>2016-04-07</StartDate>
+<EndDate>2016-04-07</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>103666772</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>-0.13493506493506496</text_blob_sentiment><bert_sentiment>-0.4938391149044037</bert_sentiment></grades></RECORD>

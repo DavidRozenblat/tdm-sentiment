@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>410172286</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Stray Bullet Strikes A Man in His Home</Title>
+</TitleAtt>
+<NumericDate>2007-12-05</NumericDate>
+<StartDate>2007-12-05</StartDate>
+<EndDate>2007-12-05</EndDate>
+<AlphaDate>Dec 5, 2007</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Dec 5, 2007</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>B.2</StartPage>
+<Pagination>B.2</Pagination>
+<DocSection>METRO</DocSection>
+<DocEdition>FINAL</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1393255571</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>37756711</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX200712050CDD8D36</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1290</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Williams, Clarence</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Williams</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Clarence</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Clarence Williams</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+<Contributor ContribOrder="2">
+<Author>
+<DisplayForm>Martin Weil - Washington Post Staff Writers</DisplayForm>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Martin Weil - Washington Post Staff Writers</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Shootings</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Washington DC</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="27">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The shooting yesterday came at a time when the number of assaults involving firearms has increased over the previous year, according to recently released police statistics. &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="270">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;In some parts of Washington, shots are heard on the streets, but people still feel safe in their homes. Last night, however, a shot fired on a Northeast Washington street crashed into a house and hit a man inside, police said. &lt;/p&gt;              &lt;p&gt;According to Cmdr. Robert Contee of the 6th Police District, the shot smashed through a second-floor window in the 5300 block of Clay Terrace. Contee called the man inside an "unintended victim."&lt;/p&gt;              &lt;p&gt;The man, whose name was not released, was struck in the back and taken to a hospital. Police said he remained conscious, and they said they thought he would survive. &lt;/p&gt;              &lt;p&gt;Shortly after the 7 p.m. incident, police said they found an automobile at 46th and Lee streets NE that appeared to fit descriptions given by witnesses. They said they found two guns inside, and they took a man in his 20s into custody. &lt;/p&gt;              &lt;p&gt;Two neighbors said they heard several shots but did not know what happened.&lt;/p&gt;              &lt;p&gt;"I stay in my apartment and mind my business," said one.&lt;/p&gt;              &lt;p&gt;Since 1999, five people have been found fatally shot on Clay Terrace, a one-block street near the eastern corner of the city.&lt;/p&gt;              &lt;p&gt;The shooting yesterday came at a time when the number of assaults involving firearms has increased over the previous year, according to recently released police statistics. &lt;/p&gt;              &lt;p&gt;Several people have been hit by what were believed to be stray bullets fired in the streets. In 2004, an 8-year-old girl was killed indoors by a bullet fired on a Northeast street.&lt;/p&gt;              &lt;p&gt;Credit: Washington Post Staff Writers&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Dec 5, 2007</AlphaDate>
+<StartDate>2007-12-05</StartDate>
+<EndDate>2007-12-05</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>37756711</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.05064102564102565</text_blob_sentiment><bert_sentiment>-0.7395676043298509</bert_sentiment></grades></RECORD>

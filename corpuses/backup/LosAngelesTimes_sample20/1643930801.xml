@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1643930801</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>CALIFORNIA BRIEFING; SAN DIEGO; Charges filed in smuggling case</Title>
+      </TitleAtt>
+      <NumericDate>2015-01-10</NumericDate>
+      <StartDate>2015-01-10</StartDate>
+      <EndDate>2015-01-10</EndDate>
+      <AlphaDate>Jan 10, 2015</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2015 Los Angeles Times)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>AA.7</StartPage>
+         <Pagination>AA.7</Pagination>
+         <DocSection>California; Part AA; Metro Desk</DocSection>
+         <DocEdition>HOME EDITION</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>3552783011</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>93171842</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7683</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>ANGE</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>LATM150000982</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1520</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Perry, Tony</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Perry</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Tony</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Tony Perry</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Furniture industry</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Public prosecutors</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Geographic>Mexico</Geographic>
+         </Term>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Geographic>China</Geographic>
+         </Term>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="28">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The owner of a Los Angeles furniture business was charged Friday with smuggling endangered sea creatures from Mexico and shipping them to China, where they are delicacies.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="144" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The owner of a Los Angeles furniture business was charged Friday with smuggling endangered sea creatures from Mexico and shipping them to China, where they are delicacies.&lt;/p&gt;              &lt;p&gt;Kam Wing Chan, 61, of Monterey Park, is charged with eight felony counts of smuggling abalone, sea cucumber and totoaba fish from Mexico to San Diego.&lt;/p&gt;              &lt;p&gt;Charges have also been filed against Chan's business, Kaven Co., which imports furniture from China.&lt;/p&gt;              &lt;p&gt;The company was used as a front for bringing the sea creatures, worth more than $3 million, into the U.S. and then shipping them to China to companies owned by Chan's relatives, according to federal prosecutors.&lt;/p&gt;              &lt;p&gt;A dried totoaba swim bladder, used for soup, can be sold for $1,400 to $4,000 in Mexico, and for up to $40,000 in Asia, prosecutors said.&lt;/p&gt;              &lt;p&gt;-- Tony Perry&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>Los Angeles Times</Title>
+         <MpubId>46999</MpubId>
+         <SortTitle>Los Angeles Times</SortTitle>
+         <Qualifier>Los Angeles, Calif.</Qualifier>
+         <JournalCode>ANGE</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18860101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>Los Angeles Times Communications LLC</PublisherName>
+            <PublisherAddress>
+               <City>Los Angeles</City>
+               <Province>CA</Province>
+               <Country>United States</Country>
+            </PublisherAddress>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7683</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>04583035</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60200.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">N</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>Los Angeles Times</Title>
+            <SortTitle>Los Angeles Times</SortTitle>
+            <Qualifier>Los Angeles, Calif.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7683</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>04583035</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60200.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>Los Angeles Daily Times</Title>
+               <Qualifier>Los Angeles, Calif.</Qualifier>
+               <EndIssueDate>18861022</EndIssueDate>
+               <CatalogNum>60200.A0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19961204</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jan 10, 2015</AlphaDate>
+         <StartDate>2015-01-10</StartDate>
+         <EndDate>2015-01-10</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>93171842</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

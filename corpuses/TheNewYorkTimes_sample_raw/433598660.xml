@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>433598660</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">Caption</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>I Got the Horse Right Here</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[Caption]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2007-05-03</NumericDate>
+      <StartDate>2007-05-03</StartDate>
+      <EndDate>2007-05-03</EndDate>
+      <AlphaDate>May 3, 2007</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company May 3, 2007</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>B.1</StartPage>
+         <Pagination>1</Pagination>
+         <DocSection>B</DocSection>
+         <ColumnNumber>2</ColumnNumber>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>1264226731</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>35716071</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <CODEN>NYTIAO</CODEN>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>NYT</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="NYT">
+            <PublisherXID>766470-20070503</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1010</LexileScore>
+      <Desk>Metropolitan Desk</Desk>
+      <Abstract>
+         <Short WordCount="12">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Steve Mendoza, left, Irwin Johnson and Wesley Williams, all from Brooklyn,...&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="54" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="mstar_entity_caption"&gt;&lt;p&gt; Steve Mendoza, left, Irwin Johnson and Wesley Williams, all from Brooklyn, attended opening day at Belmont Park yesterday, hoping for some horse racing thrills. Page B2. (Photo by Todd Heisler/The New York Times)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>May 3, 2007</AlphaDate>
+         <StartDate>2007-05-03</StartDate>
+         <EndDate>2007-05-03</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>35716071</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

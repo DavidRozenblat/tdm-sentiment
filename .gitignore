@@ -1,0 +1,4 @@
+venv/
+.venv/
+data/processed/real_results/
+src/sentiment/sentiment_model

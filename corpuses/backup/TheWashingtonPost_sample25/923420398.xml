@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>923420398</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Loudoun County news in brief</Title>
+      </TitleAtt>
+      <NumericDate>2012-02-26</NumericDate>
+      <StartDate>2012-02-26</StartDate>
+      <EndDate>2012-02-26</EndDate>
+      <AlphaDate>Feb 26, 2012</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright The Washington Post Company, Feb 26, 2012)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>T.2</StartPage>
+         <Pagination>T.2</Pagination>
+         <DocSection>EXTRAS</DocSection>
+         <DocEdition>EE</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2594852251</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>67606092</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXXWP20120226Loudouncc050116</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1500</LexileScore>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="604" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Loudoun data center cluster to grow with new facility&lt;/p&gt;              &lt;p&gt;The Loudoun Department of Economic Development announced this week that county-based businesses Equinix and Carpathia Hosting have united to add a 64,000-square-foot data center to the county's expanding facilities.&lt;/p&gt;              &lt;p&gt;The center is aimed at supporting industry-specific compliant solutions for health-care companies, federal agencies and commercial industries. The new data center will be built adjacent to the Carpathia Vault in Dulles.&lt;/p&gt;              &lt;p&gt;Leesburg is seeking inputon master plans for parks&lt;/p&gt;              &lt;p&gt;Leesburg's Parks and Recreation Department is seeking residents' comments on new or revised master plans for the town's 16 parks, town officials said in a statement.&lt;/p&gt;              &lt;p&gt;The plans will be on display in the lobby of the Ida Lee Park Recreation Center, 60 Ida Lee Dr. NW, Leesburg, from Tuesday through March 4. Staff members will be available to discuss the plans and answer questions from 10 to 11:30 a.m. Tuesday and 6 to 7:30 p.m. Wednesday.&lt;/p&gt;              &lt;p&gt;The plans to be displayed show the features and facilities of each park, along with the suggested improvements.&lt;/p&gt;              &lt;p&gt;Residents can submit ideas, comments and suggestions for how Leesburg can meet the recreational needs of the community in several ways:&lt;/p&gt;              &lt;p&gt;3 Deliver comments in person to the Recreation Center's front desk. Cards will be available at the master plan display to complete on site.&lt;/p&gt;              &lt;p&gt;3 Mail comments to: Bill Ference, Parks and Public Space Planner, Leesburg Parks and Recreation Department, 50 Ida Lee Dr. NW, Leesburg, Va. 20176.&lt;/p&gt;              &lt;p&gt;3 E-mail ideas to wference@leesburgva.gov.&lt;/p&gt;              &lt;p&gt;3Go to www.idalee.org and follow the link to the Parks Master Plans - Online Public Input Form.&lt;/p&gt;              &lt;p&gt;Comments will be accepted through March 6.&lt;/p&gt;              &lt;p&gt;Residents can take partin commuter lot survey&lt;/p&gt;              &lt;p&gt;Loudoun County is seeking public input regarding the use of a commuter parking lot in the Brambleton area of Ashburn.&lt;/p&gt;              &lt;p&gt;Via an online survey, residents can share their opinions regarding the 100-space commuter parking lot east of Route 659 on Creighton Road, as well as their interest in connecting Brambleton to Loudoun bus routes.&lt;/p&gt;              &lt;p&gt;A link to the survey and a map detailing the parking lot location are available at www.loudoun.gov/commute.&lt;/p&gt;              &lt;p&gt;The survey can also be completed at www.surveymonkey.com/s/Brambletontransit.&lt;/p&gt;              &lt;p&gt;March 12 is the deadline for completing the survey.&lt;/p&gt;              &lt;p&gt;Comments may also be mailed to the Loudoun County Office of Transportation Services, 1 Harrison St. SE, MSC 69, Leesburg, Va. 20175.&lt;/p&gt;              &lt;p&gt;Tuesday is deadline to apply for an absentee ballot&lt;/p&gt;              &lt;p&gt;Virginia voters who want to cast absentee ballots by mail for the March 6 Republican presidential primary must submit their completed applications by Tuesday.&lt;/p&gt;              &lt;p&gt;Only former governor Mitt Romney and Rep. Ron Paul (Tex.) will appear on the primary ballot. The other candidates, former House speaker Newt Gingrich and former senator Rick Santorum (Pa.), did not qualify.&lt;/p&gt;              &lt;p&gt;To vote absentee, voters must meet one of 18 eligibility requirements. To view the requirements, go to www.sbe.virginia.gov.&lt;/p&gt;              &lt;p&gt;Eligible voters may cast their absentee ballot by mail or at their local registrar's office during normal business hours before March 3.&lt;/p&gt;              &lt;p&gt;Virginia does not allow write-in votes in primary elections.&lt;/p&gt;              &lt;p&gt;School system needs judges for science, engineering fair &lt;/p&gt;              &lt;p&gt;Loudoun County public schools are seeking judges for the 31st annual science and engineering fair, in which more than 200 high school students are expected to take part.&lt;/p&gt;              &lt;p&gt;Judges are needed in the following categories: biochemistry, cellular and molecular biology, chemistry, microbiology, physics and astronomy and plant sciences.&lt;/p&gt;              &lt;p&gt;The fair will be March 15 at Woodgrove High School.&lt;/p&gt;              &lt;p&gt;To register as a judge or sponsor, go to www.lcps.org/rsef. For information, e-mail rsef@lcps.org or call 571-252-1360.&lt;/p&gt;              &lt;p&gt;- Compiled by Caitlin Gibson&lt;/p&gt;              &lt;p&gt;and Anita Kumar&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Feb 26, 2012</AlphaDate>
+         <StartDate>2012-02-26</StartDate>
+         <EndDate>2012-02-26</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>67606092</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

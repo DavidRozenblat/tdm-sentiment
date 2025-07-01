@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>410323492</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Friday 4 Saturday 5 Sunday 6</Title>
+</TitleAtt>
+<NumericDate>2009-11-27</NumericDate>
+<StartDate>2009-11-27</StartDate>
+<EndDate>2009-11-27</EndDate>
+<AlphaDate>Nov 27, 2009</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Nov 27, 2009</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>T.46</StartPage>
+<Pagination>T.46</Pagination>
+<DocSection>WEEKEND</DocSection>
+<DocEdition>FINAL</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1911025521</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>49645811</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2009112711C6CD3B</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1390</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Anonymous</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Anonymous</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Anonymous</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Abstract>
+<Medium WordCount="49">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Hear him perform at the State Theatre at 9 p.m. 220 N. Washington St., Falls Church. 703-237-0300. www.thestatetheatre.com. $26.The growth of hip-hop among young Palestinians is the focus of "Slingshot Hip Hop," a documentary screening at 3 p.m. at the D.C. Arts Center, 2438 18th St. NW Metro: &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="369">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Friday 4Saturday 5Sunday 6Monday 7Tuesday 8Wednesday 9Thursday 10CityDance performs "Crush," a program of dances inspired by Iraqi refugees, at 8 p.m. on Friday and Saturday. Music Center at Strathmore, 5301 Tuckerman Lane, North Bethesda (Metro: Grosvenor). 301-581-5100. www.strathmore.org. $20."Jumpin' Jack Flash," "Rock and Roll, Hoochie Koo," "It's All Over Now" . . . there simply isn't enough space to list all of Johnny Winter's hits. Hear him perform at the State Theatre at 9 p.m. 220 N. Washington St., Falls Church. 703-237-0300. www.thestatetheatre.com. $26.The growth of hip-hop among young Palestinians is the focus of "Slingshot Hip Hop," a documentary screening at 3 p.m. at the D.C. Arts Center, 2438 18th St. NW (Metro: Woodley Park). 202-462-7833. www.dcartscenter.org. $5.The Neo-Futurists return to Woolly Mammoth for "Too Much Light Makes the Baby Go Blind," right, a show featuring 30 plays in 60 minutes. Through Jan. 2. Woolly Mammoth Theatre, 641 D St. NW (Metro: Archives). 202-393-3939. www.woollymammoth.net. $30.The New York City Ballet celebrates its choreographers past and present, including George Balanchine, with Suzanne Farrell, right, with mixed-repertory programs through Dec. 13. Kennedy Center, Opera House, 2700 F St. NW (Metro: Foggy Bottom). 202-467-4600. www.kennedy-center.org. $29-$85. Friday 11Saturday 12Sunday 13Monday 14Tuesday 15Wednesday 16Thursday 17Missed comedian Paula Poundstone when she sold out the Birchmere? Well, this is your second chance: She performs at 6:30 and 9:30 p.m. at Rams Head Tavern, 33 West St., Annapolis. 410-268-4545. www.ramsheadtavern.com. $37.50.Watch boats adorned with colorful, twinkling lights float along the Annapolis waterfront as part of the Eastport Yacht Club Lights Parade, right. The parade runs from 6 to 8 p.m. 410-991-0410. www.eastportyc.org. Free.Camera crews followed four physicians from Doctors Without Borders;  the resulting documentary, "Living in Emergency," will be shown at seven area theaters at 7:30 p.m. www.livinginemergency.com.Virginia native Cameron Outlaw, right, brings his smooth jazz stylings back to town as his Outlaw Collective performs at 8 and 10 p.m. at Blues Alley, 1073 Wisconsin Ave. NW (rear). 202-337-4141. www.bluesalley.com. $22.Sloan Wainwright carries on her brother Loudon's bluegrass tradition. She performs at 7:30 p.m. with the Kennedys. BlackRock Center for the Arts, 12901 Town Commons Dr., Germantown. 301-528-2260. www.blackrockcenter.org. $22 in advance, $27 at the door.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Nov 27, 2009</AlphaDate>
+<StartDate>2009-11-27</StartDate>
+<EndDate>2009-11-27</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>49645811</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.03605307735742518</text_blob_sentiment><bert_sentiment>-0.9993477463722229</bert_sentiment></grades></RECORD>

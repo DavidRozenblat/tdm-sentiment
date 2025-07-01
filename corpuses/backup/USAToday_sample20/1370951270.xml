@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1370951270</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Small Ouya could have mighty impact</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>Game console takes on big players today</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2013-06-25</NumericDate>
+      <StartDate>2013-06-25</StartDate>
+      <EndDate>2013-06-25</EndDate>
+      <AlphaDate>Jun 25, 2013</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2013 USA Today. All Rights Reserved.)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>B.2</StartPage>
+         <Pagination>B.2</Pagination>
+         <DocSection>MONEY</DocSection>
+         <DocEdition>FINAL</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>3004104401</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>80096942</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7631</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>USA</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>USAT56703112</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1270</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Molina, Brett</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Molina</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Brett</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Brett Molina</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Computer &amp; video games</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Product introduction</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Smartphones</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="27">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The console won't boast the technical advantages of future devices such as Microsoft's Xbox One and Sony's PlayStation 4, with realistic graphics and superior processing power.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="461" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The video game console wars welcome a new combatant.  &lt;/p&gt;              &lt;p&gt;Today  marks the arrival of Ouya, the home video-game console born through crowd-funding and introducing a lower-price alternative to higher-price competitors.  &lt;/p&gt;              &lt;p&gt;"The consoles are still incredibly expensive," Ouya CEO Julie Uhrman says. "The business model hasn't changed. We offer something very different." Uhrman joined Yves Behar, the console's product designer and chief creative officer of audio hardware company Jawbone, to create Ouya. It was unveiled last July through a campaign on crowd-funding site Kickstarter, raising more than $8.5 million in  a month. Backers got early versions in March.  &lt;/p&gt;              &lt;p&gt;The $99 device has  drawn  big retailers, including Amazon, Best Buy and Target. More than 150  games will be available at launch, from indie titles such as BombSquad to games from big publishers such as Square Enix's Final Fantasy III.  Entertainment apps will also be available.  &lt;/p&gt;              &lt;p&gt;Ouya's price is far lower than traditional video game consoles, which range from $250 to $500. "You really have something that's quite compelling for someone that doesn't have a lot of money, but they want to get a game console in their living room," says Gartner analyst Brian Blau.  &lt;/p&gt;              &lt;p&gt;Ouya,  the size of a Rubik's Cube, boasts  traditional features of a home gaming console, including HDMI inputs for high-definition TVs and a controller similar to what's found on a PlayStation 3 or Xbox 360.  &lt;/p&gt;              &lt;p&gt;However, its DNA is mobile.  It runs on a version of Google's Android operating system, with games priced as low as $2 to $3.  Titles hosted on Ouya will be required to provide free demos before purchase.  &lt;/p&gt;              &lt;p&gt;Also, like smartphones, new versions  will launch on an annual basis. The standard home video game console cycle runs four to six years.  &lt;/p&gt;              &lt;p&gt;"The $99 price point is very attractive and conducive to replacing a device every year," says Al Hilwa of IDC.  &lt;/p&gt;              &lt;p&gt;Ouya faces  hurdles. The console won't boast the technical advantages of future devices such as Microsoft's Xbox One and Sony's PlayStation 4, with realistic graphics and superior processing power. Uhrman disputes the value of console horsepower.  &lt;/p&gt;              &lt;p&gt;"Those are all nice to have, but at the end of the day, the only thing the gamer cares about is that games are fun to play," Uhrman says.  &lt;/p&gt;              &lt;p&gt;Ouya must also contend with smartphone and tablet games.  &lt;/p&gt;              &lt;p&gt;Hilwa says Ouya's success will come down to content. "The quality of the games, the quality of the playing experiences ultimately is going to decide whether this really wins or not," he says.&lt;/p&gt;              &lt;p&gt;Credit: Brett Molina, @bam923, USA TODAY&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;photo     Ouya     Ouya console and controller.; Caption: &lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>USA TODAY</Title>
+         <MpubId>15008</MpubId>
+         <SortTitle>USA TODAY</SortTitle>
+         <Qualifier>McLean, Va.</Qualifier>
+         <JournalCode>USA</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19820101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>7950 Jones Branch Drive</Address1>
+               <City>MacLean</City>
+               <Province>VA</Province>
+               <ZipCode>22108</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.usatoday.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7631</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>07347456</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60430.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>USA TODAY</Title>
+            <SortTitle>USA TODAY</SortTitle>
+            <Qualifier>McLean, Va.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7631</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>07347456</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60430.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19890102</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jun 25, 2013</AlphaDate>
+         <StartDate>2013-06-25</StartDate>
+         <EndDate>2013-06-25</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>80096942</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

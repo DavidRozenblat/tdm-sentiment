@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>433279398</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>National Briefing Washington: $364 Million For Military Ousters</Title>
+      </TitleAtt>
+      <NumericDate>2006-02-15</NumericDate>
+      <StartDate>2006-02-15</StartDate>
+      <EndDate>2006-02-15</EndDate>
+      <AlphaDate>Feb 15, 2006</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company Feb 15, 2006</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>A.20</StartPage>
+         <Pagination>20</Pagination>
+         <DocSection>A</DocSection>
+         <ColumnNumber>5</ColumnNumber>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>986904911</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>17443161</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <CODEN>NYTIAO</CODEN>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>NYT</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="NYT">
+            <PublisherXID>752878-20060215</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1610</LexileScore>
+      <Desk>National Desk</Desk>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Files, John</NormalizedDisplayForm>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>John</FirstName>
+               </FirstNameAtt>
+               <ContribPersonNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <ContribPersonName>John Files</ContribPersonName>
+               </ContribPersonNameAtt>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Files</LastName>
+               </LastNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>John Files (Nyt)</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Abstract>
+         <Short WordCount="33">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A new report says the Pentagon's policy of discharging gay military personnel cost the Defense Department about $364 million over 10 years, more than what a government study concluded a year ago.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="134" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A new report says the Pentagon's policy of discharging gay military personnel cost the Defense Department about $364 million over 10 years, more than what a government study concluded a year ago. The new study, released by a commission organized by the Center for the Study of Sexual Minorities in the Military at the University of California, Santa Barbara, found that the government had underestimated the cost of recruiting and training military personnel to replace those who had been discharged. The panel also cited money lost in training personnel who were discharged for being gay. Last February, the Government Accountability Office, an investigative arm of Congress, reported that the military had spent about $200 million on training and recruiting such replacements.   JOHN FILES (NYT)&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Feb 15, 2006</AlphaDate>
+         <StartDate>2006-02-15</StartDate>
+         <EndDate>2006-02-15</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>17443161</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

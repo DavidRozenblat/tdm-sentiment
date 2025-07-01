@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>434241934</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Commentary</other>
+<mstar>Commentary</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>The Joys Of Political Sex</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Op-Ed]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2009-12-10</NumericDate>
+<StartDate>2009-12-10</StartDate>
+<EndDate>2009-12-10</EndDate>
+<AlphaDate>Dec 10, 2009</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Dec 10, 2009</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.43</StartPage>
+<Pagination>A.43</Pagination>
+<DocSection>A</DocSection>
+<ColumnHeader>Op-Ed Columnist</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1918178301</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>49797661</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>557102-20091210</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1550</LexileScore>
+<Desk>Editorial Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Collins, Gail</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Collins</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Gail</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Gail Collins</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Public prosecutors</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Health care policy</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Congressional committees</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Political ethics</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Scandals</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Politicians</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Conflicts of interest</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>United States--US</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Personal>Baucus, Max</Personal>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="49">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Joe Bruno, the former majority leader of the New York State Senate who was convicted of corruption this week, is in a mature and happy relationship with Kay Stafford, the chairwoman and president of CMA Consulting Services.  [...] the relationship is really, really mature, since Bruno is 80.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="907">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;It's time for political sex scandals to reclaim their rightful place in our national discourse. The way things have been going lately, you'd think extramarital sex only happened to professional athletes.&lt;/p&gt;              &lt;p&gt;  Consider the case of Senator Max Baucus of Montana. We learned last week that the recently divorced Baucus had nominated his girlfriend, Melodee Hanes, to be a U.S. attorney without warning the White House that they were an item. You would expect this to create quite a buzz. Particularly since Baucus is a major player in the health care debate, which makes it possible to talk about his sex life while pretending to be discussing the prospects for a public option.&lt;/p&gt;              &lt;p&gt; But, no, it's been Tiger Woods, Tiger Woods. How much can you say about a guy who golfs? A politician with a compulsively wandering eye is not just a hound dog with a famous name. He's a commentary about our judgment as voters, and the viability of our social standards. Plus, gossiping about him almost brings some useful information about the political process into the conversation. What would any of us know about how impeachment works if it hadn't been for Monica Lewinsky?&lt;/p&gt;              &lt;p&gt;  I just cannot get excited about sexual misbehavior that is never going to be investigated by a legislative committee. &lt;/p&gt;              &lt;p&gt;  To be fair, although the Republicans instantly called on the Senate ethics committee to look into the Baucus affair, Max and Melodee are not likely to actually get investigated. Hanes, who was one of three nominees being considered for the U.S. attorney post, withdrew when she and Baucus moved in together. If the story lives on in memory, it may be for a statement issued by the senator's office, which began: "Senator Baucus is currently in a mature and happy relationship with Melodee Hanes."&lt;/p&gt;              &lt;p&gt;  This is a turn of phrase that could be put to good use on so many sensitive occasions, the Baucus press office should really go for a copyright.&lt;/p&gt;              &lt;p&gt;  Joe Bruno, the former majority leader of the New York State Senate who was convicted of corruption this week, is in a mature and happy relationship with Kay Stafford, the chairwoman and president of CMA Consulting Services. (Actually, the relationship is really, really mature, since Bruno is 80.) When Bruno resigned from the Senate last year, he quickly got a great job as C.E.O. of CMA.&lt;/p&gt;              &lt;p&gt;  A guy who was being investigated by federal prosecutors for his consulting activities would not normally be regarded as a perfect hire for an information technology consulting business, particularly when he seems to know as much about information technology as he does about quantum physics. Still, it was nice to finally see a woman on the powerful, job-dispensing side of these stories.&lt;/p&gt;              &lt;p&gt;  One of the positive aspects of recent political gossip is that the women seem to be getting tougher. Jenny Sanford, who won public acclaim for refusing to stand by her husband, South Carolina Gov. Mark Sanford, during the Appalachian Trail debacle, was just named one of the "10 Most Fascinating People in 2009" on a Barbara Walters special. (Her fellow honorees included Kate Gosselin, the betrayed-wife-and-mother-of-sextuplets, Lady Gaga and Adam Lambert. The clear message here is that the best routes to being fascinating are an adulterous husband or lots of eye makeup.) &lt;/p&gt;              &lt;p&gt;  On the show, she repeated her contention that even if her husband had asked her to stand next to him during his confessional press conference, she wouldn't have complied. We can probably look back on 2009 as the year that finished off the loyal-wife-photo-op, even though in the Sanfords' case, having Jenny in the room would have helped. She might not have looked all that supportive, but when the governor promised to give the assembled press corps "way more detail than you'll ever want," she probably would have slapped her hand over his mouth.&lt;/p&gt;              &lt;p&gt;  A subcommittee in the State Legislature voted on Wednesday not to impeach Sanford and merely voted unanimously to censure him for bringing "ridicule, dishonor, disgrace and shame" to his state. A great victory! Sanford will be able to finish his term and perhaps go on to a rewarding career as an adventure vacation guide, or professional wrestling referee.&lt;/p&gt;              &lt;p&gt;  That leaves Senator John Ensign of Nevada as the current holder of the Most Likely to Be Turned Out of Office title. The ethics committee is investigating efforts Ensign made to help his ex-aide, Doug Hampton, get a lobbying job after Hampton found out that his boss was sleeping with Mrs. Hampton.&lt;/p&gt;              &lt;p&gt;  Hampton, you may remember, first told his story with the remark: "All of those tentacles were birthed because John needed things to go down like this." Obviously not the easiest guy to place.&lt;/p&gt;              &lt;p&gt;  This could be a new rule of political sex: Never have an affair with the wife of an employee. But if you do, make sure you are not the only person in the world who would hire the cuckolded husband.&lt;/p&gt;              &lt;p&gt;  Of course, that comes after the prime directive: Never have an affair with anyone who would enjoy seeing themselves on the cover of "In Touch" magazine.&lt;/p&gt;              &lt;p&gt;  That was the point where Tiger should have been paying attention. &lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="16"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="AuthorAffiliation"/&gt;&lt;div class="AuthorAffiliation_content"&gt;&lt;p&gt;GAIL COLLINS   Nicholas D. Kristof is off today. &lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Dec 10, 2009</AlphaDate>
+<StartDate>2009-12-10</StartDate>
+<EndDate>2009-12-10</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>49797661</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.23397415272415265</text_blob_sentiment><bert_sentiment>-0.15277144838781917</bert_sentiment></grades></RECORD>

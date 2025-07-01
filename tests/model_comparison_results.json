@@ -1,0 +1,31 @@
+{
+  "dataset": "Newyork20042023",
+  "num_samples": 10,
+  "load_times": {
+    "original": 0.1561746597290039,
+    "optimized": 1.5099842548370361
+  },
+  "execution_times": {
+    "original": 0.4535527229309082,
+    "optimized": 0.2447819709777832
+  },
+  "memory_usage": {
+    "original": 418.6787223815918,
+    "optimized": 23.025146484375
+  },
+  "diff_stats": {
+    "total_samples": 10,
+    "identical_outputs": 4,
+    "mean_diff": {
+      "positive": 0.05515877655270742,
+      "negative": 0.0679875540203426,
+      "neutral": 0.013769338588654279
+    },
+    "max_diff": {
+      "positive": 0.44524188339710236,
+      "negative": 0.44554388523101807,
+      "neutral": 0.12866488099098206
+    },
+    "identical_classifications": 9
+  }
+}

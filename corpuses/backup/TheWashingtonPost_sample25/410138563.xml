@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>410138563</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">Editorial</other>
+         <mstar>Commentary</mstar>
+         <mstar>Editorial</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Leadership Needed; Higher fuel economy standards may be doomed without Nancy Pelosi's support.</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[FINAL Edition]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2007-07-26</NumericDate>
+      <StartDate>2007-07-26</StartDate>
+      <EndDate>2007-07-26</EndDate>
+      <AlphaDate>Jul 26, 2007</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright The Washington Post Company Jul 26, 2007</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>A.20</StartPage>
+         <Pagination>A.20</Pagination>
+         <DocSection>EDITORIAL</DocSection>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>1310242341</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>36458921</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXX200707260C39A5DB</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1530</LexileScore>
+      <Terms>
+         <CompanyTerm TermSource="ABI" PndxHeader="true">
+            <CompanyNameAtt>
+               <CompanyName>House of Representatives</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>921120</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Fuel economy standards</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Energy policy</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Federal legislation</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Political leadership</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Editorials -- Fuel economy standards</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Personal>Pelosi, Nancy</Personal>
+         </Term>
+      </Terms>
+      <Abstract>
+         <Short WordCount="152">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Ms. [Nancy Pelosi] is already on record supporting higher CAFE standards for cars and light trucks. Considering that Mr. [Edward J. Markey] is a close ally of Ms. Pelosi, it is not difficult to imagine her backing his  bill. But she has yet to commit to allowing it  --  or any other CAFE legislation  --  to be offered as an amendment when the energy bill comes to the floor. It is vitally important that the House pass its own CAFE legislation. To hope and pray that the Senate version survives the conference process, during which Mr. [John D. Dingell] will assuredly have a role, is a bad strategy. So is putting off action until Mr. Dingell's climate change legislation is introduced.  The momentum is there for strong CAFE standards. A public nod from Ms. Pelosi could be all Mr. Markey needs to get his amendment the support it requires to pass.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="594" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;THERE IS a pitched battle underway in the House of Representatives over whether to introduce an amendment to increase the corporate average fuel economy (CAFE) standard in the energy package due to hit the floor before Congress takes off for its August recess. While one camp is eager to follow the Senate's aggressive boost in CAFE requirements for the first time since 1975, another advocates tapping the brakes.  Leadership from Speaker Nancy Pelosi (D-Calif.) could help resolve this fight. But she has been loath to exert it publicly. &lt;/p&gt;              &lt;p&gt;When the Senate passed its energy bill in June, it raised CAFE standards, which rest around 25 miles per gallon today, to an average of 35 mpg for all cars, light trucks and sport-utility vehicles by 2020. Yet an initial attempt to address fuel economy in the House was scuttled by powerful Energy Committee Chairman John D. Dingell (D-Mich.). He wants to address the issue in the climate change legislation he plans to introduce this fall. Environmental advocates rightly worry that such a punt means a boost in CAFE standards won't happen. But one must. The transportation sector accounts for a third of U.S. carbon dioxide emissions, a major contributor to global warming. Even the National Petroleum Council,  charged by President Bush to study the nation's energy sector, urged in a report released last week that the fuel economy of cars and light trucks be improved "at the maximum rate possible." &lt;/p&gt;              &lt;p&gt;The bill from Rep. Edward J. Markey (D-Mass.) has 150 sponsors and would go a long way toward achieving that.  It would require a boost in CAFE standards for both cars and light trucks to an average of 35 mpg by 2018. But a rival bill from Rep. Baron P. Hill (D-Ind.) and Rep. Lee Terry (R-Neb.) that has 103 sponsors, including Mr. Dingell, would proceed more slowly by creating separate standards for cars and trucks and allowing the government to set a standard for cars of not less than an average of 32 miles per gallon but not more than 35 miles per gallon by 2022. In addition, the bill attempts to undermine California's tough new air pollution laws by getting the Transportation Department, which deals with fuel economy, into the business of regulating carbon emissions, which the Supreme Court ruled in the spring is within the purview of the Environmental Protection Agency. An all-Republican bill from Rep. Joe L. Barton (R-Tex.) and more than two dozen other sponsors seeks to slow things down even further by proposing a fuel efficiency average of 35 mpg for cars and 27.5 mpg for light trucks by 2022. &lt;/p&gt;              &lt;p&gt;Ms. Pelosi is already on record supporting higher CAFE standards for cars and light trucks. Considering that Mr. Markey is a close ally of Ms. Pelosi, it is not difficult to imagine her backing his  bill. But she has yet to commit to allowing it  --  or any other CAFE legislation  --  to be offered as an amendment when the energy bill comes to the floor. It is vitally important that the House pass its own CAFE legislation. To hope and pray that the Senate version survives the conference process, during which Mr. Dingell will assuredly have a role, is a bad strategy. So is putting off action until Mr. Dingell's climate change legislation is introduced.  The momentum is there for strong CAFE standards. A public nod from Ms. Pelosi could be all Mr. Markey needs to get his amendment the support it requires to pass.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jul 26, 2007</AlphaDate>
+         <StartDate>2007-07-26</StartDate>
+         <EndDate>2007-07-26</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>36458921</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

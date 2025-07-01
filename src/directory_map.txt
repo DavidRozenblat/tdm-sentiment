@@ -1,0 +1,42 @@
+project_root/
+│
+├── README.md
+├── project_structure.txt
+│
+├── data/ # raw data is located outside project structure 
+│   ├── file_names/ # Contains datasets of file names (from one specific corpus) chosen for specific tasks  
+│   └── processed/ # processed data 
+│       ├── results/
+|       └── results_to_export/
+│
+├── notebooks/ # Exploratory notebooks, experiments, 
+|   ├── run.ipynb
+|   ├── experiments/
+│   ├── check_results/
+│   └── visualization/
+|
+├── logs/
+|
+├── src/
+│   ├── config.py # 
+│   ├── main.py # TODO
+│   ├── data_utils/           # Data input/output and processing utilities
+│   │   ├── tdm_parser.py       # parser class for data xml files 
+│   │   ├── samples_creator.py # TODO get a sample of file names out of a selected corpus 
+|   |   ├── properties_modifier.py # modify csv files, for example add sentiment or topic analysis
+|   |   └── xml_to_df.py    # get attributes of xml files into a df and save data in chunced df's or load df 
+│   │     
+|   |
+│   ├── sentiment/
+│   │   ├── sentiment_model/
+│   │   └── salience_index/ 
+│   │
+│   └── topic_modeling/
+│       ├── tf_idf_model/ #TODO TF-IDF model to get article tags
+│       │   ├── keyword_extractor.py # tf idf keyword extractor model class 
+│       │   └── tf_idf_trainer.py # train TfidfKeywordExtractor vectorizer using reprasentative sample (of 1M rendomally selected articlaes)
+│       │
+│       └─ is_economic_model/ # Logistic Regression model to select economic articles      
+│
+└── tests/
+    └── manual_check.ipynb

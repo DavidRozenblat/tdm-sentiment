@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>2149891732</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="ECMS">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>Mueller's probe unearths liars surrounding Trump</Title>
+</TitleAtt>
+<NumericDate>2018-12-02</NumericDate>
+<StartDate>2018-12-02</StartDate>
+<EndDate>2018-12-02</EndDate>
+<AlphaDate>Dec 2, 2018</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright WP Company LLC d/b/a The Washington Post Dec 2, 2018</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.2</StartPage>
+<DocSection>A-SECTION</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<MSTARLegacyID>WPXXWP20181202MuellersprobeunearthsliarssurroundingTru956ef508</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<PublisherXID>WPXXWP20181202MuellersprobeunearthsliarssurroundingTru956ef508</PublisherXID>
+</ObjectID>
+<ObjectID>
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7653_Dec22018______</PCID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1870</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Balz, Dan</NormalizedDisplayForm>
+<LastNameAtt>
+<LastName>Balz</LastName>
+</LastNameAtt>
+<FirstNameAtt>
+<FirstName>Dan</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt>
+<OriginalForm>Dan Balz</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Congress</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>921120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Group of Twenty</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>926110</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>New York Post</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>511110</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Wikileaks.org</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>519130</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Public prosecutors</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Political campaigns</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Presidents</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Conspiracy</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Criminal investigations</GenSubjValue>
+</GenSubjTerm>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Trump, Donald J</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Papadopoulos, George</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Russia</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>New York</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Mueller, Robert S III</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Manafort, Paul</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Argentina</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Clinton, Hillary Rodham</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Ukraine</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Gates, Richard</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Putin, Vladimir</Personal>
+</Term>
+<Term TermSource="Editorial" TermVocab="PERS">
+<Personal>Cohen, Michael D</Personal>
+</Term>
+</Terms>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1087">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+		&lt;p&gt;As special counsel Robert S. Mueller III moves toward the summation of his investigation - and whatever his eventual report produces - there is no escaping the sleaze factor that existed around President Trump before and during his campaign for the White House in 2016.&lt;/p&gt;
+	&lt;p&gt;It was there in the presence of Paul Manafort, who arrived at the campaign in the spring of 2016 and lasted until embarrassing and continued disclosures about his past work with pro-Russian officials in Ukraine forced him to step aside, and whose recent plea agreement was tossed out this past week because prosecutors say he has continued to lie to them.&lt;/p&gt;
+	&lt;p&gt;It was there in the presence of Michael Cohen, Trump's longtime personal lawyer and fixer, who did the deals and arranged the payoffs that were designed to suppress damaging allegations about Trump and other women during the final months of the campaign and whose new guilty plea about lying to Congress has put renewed focus on the president's words and actions.&lt;/p&gt;
+	&lt;p&gt;It was there in the presence of Roger Stone, a practitioner of the dark arts of politics and a one-time business partner with Manafort, who acted over the years as a political adviser and confidant to Trump and whose apparent knowledge of leaks of emails damaging to Hillary Clinton's campaign has put him in the crosshairs of the Mueller team.&lt;/p&gt;
+	&lt;p&gt;It was there in the presence of Rick Gates, Manafort's business partner, who continued in the Trump campaign after Manafort had departed and who had participated with Manafort in a series of fraudulent money-laundering schemes and other escapades that came to light thanks to Mueller's team of prosecutors.&lt;/p&gt;
+	&lt;p&gt;It was there in the presence of Jerome Corsi, an inveterate right-wing conspiracy theorist, whose statements to prosecutors about the leaks of Democratic and Clinton campaign emails via WikiLeaks produced a draft plea agreement for lying that he ultimately refused to sign, leaving him still dangling for future legal action.&lt;/p&gt;
+	&lt;p&gt;It was even there in the presence of George Papadopoulos, the low-level foreign policy adviser to the campaign currently serving a two-week prison sentence for lying to federal prosecutors, who sought to leverage his access within the campaign to aggrandize himself in the eyes of foreign diplomats and others.&lt;/p&gt;
+	&lt;p&gt;No one yet knows where all this will ultimately lead or when it will end, in terms of the legal jeopardy for these and others who have been caught up in the Mueller's web. But the tawdriness factor alone with this rogues' gallery of characters is enough to put the lie to Trump's claim of hiring "only the best" to advise him in business or government.&lt;/p&gt;
+	&lt;p&gt;Collectively, you can't make it up. Which is why there is again so much focus on the president as central to the investigation. Trump has suffered through other bad moments since Mueller was appointed to investigate the role Russia played in the 2016 election and the degree to which there was cooperation, collusion, conspiracy, advance knowledge or any other kind of involvement by anyone associated with the Trump campaign. By any measure, the past week ranks as one of the worst for the president.&lt;/p&gt;
+	&lt;p&gt;What is striking at this point, although not a surprise given past histories and the people involved, is the mountain of lying that has taken place. If Cohen's admission that he lied to Congress is corroborated by additional evidence from materials seized from his office or testimony, the president has long been lying about his business ventures in Russia, especially when he was a candidate in 2016 and went soft on Russian President Vladimir Putin. And as Cohen's plea makes clear, others have been lying on Trump's behalf.&lt;/p&gt;
+	&lt;p&gt;As he left the White House on Thursday for the Group of 20 meeting in Argentina, the president said Cohen is now lying about having lied to Congress. He also said that, even if he did what Cohen said, what does it matter? He was a businessman while he was a candidate.&lt;/p&gt;
+	&lt;p&gt;Rudolph W. Giuliani, one of the president's personal legal advisers, has said repeatedly that Cohen has lied for years. Why did Trump keep as his personal lawyer someone whose word was so untrustworthy for so many years? Because, Trump said, "a long time ago he did me a favor." Apparently, for Trump, a past transaction overrode questions of honesty and integrity in the selection of a personal attorney. Is that believable?&lt;/p&gt;
+	&lt;p&gt;Whether Cohen's latest confession contradicts the president's written answers to Mueller is, of course, of great interest and importance. Mueller and his team know the answer by now.&lt;/p&gt;
+	&lt;p&gt;Giuliani has said that nothing Cohen is now saying contradicts what Trump said in his filing to the special counsel. Which then begs the question of why Trump is accusing Cohen of lying now, unless Trump's answer to the special counsel about any efforts to make a deal with the Russians was so vague, so anodyne, so full of caveats that it could protect him against all contingencies no matter how much Cohen's testimony has changed.&lt;/p&gt;
+	&lt;p&gt;The web of lies thrown up by the characters who were most prominent in the Mueller investigation this past week is difficult to overstate, although perhaps easy to dismiss as typical, given their histories. In any criminal case like this, targets of the prosecutors and some of the eventual witnesses for the prosecution are rarely saints. They come with their own baggage, which must be weighed by jurors.&lt;/p&gt;
+	&lt;p&gt;That was the case when Gates testified against Manafort and was confronted during cross-examination by Manafort's lawyers with his own history of lying and fraud. Yet in the end, Manafort was convicted on most counts in that case, leading him to cut a deal with prosecutors ahead of a second trial, a deal now on the rocks because of more lies.&lt;/p&gt;
+	&lt;p&gt;The flurry of activity over the past week has highlighted the various pieces that Mueller and his team are working and the degree that they could involve Trump directly. The connection is Trump and Russia. The president's statement to the New York Post that a pardon for Manafort is not off the table adds to the other element for the investigators to assess.&lt;/p&gt;
+	&lt;p&gt;There will be more surprises ahead from the special counsel's office, which must worry those now feeling the glare from the Mueller team. There also will be more evidence of lying - which is to be expected given the unsavory band of actors who are at the center of it all.&lt;/p&gt;
+	&lt;p&gt;dan.balz@washpost.com&lt;/p&gt;
+&lt;p&gt;Credit: Dan Balz&lt;/p&gt;
+	&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Dec 2, 2018</AlphaDate>
+<StartDate>2018-12-02</StartDate>
+<EndDate>2018-12-02</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7653_Dec22018______</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.07462312197606316</text_blob_sentiment><bert_sentiment>-0.3187083668178982</bert_sentiment></grades></RECORD>
