@@ -10,6 +10,13 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
+try:
+    from config import PROJECT_PATH, PROJECT_DATA_PATH
+except Exception:
+    root = Path(__file__).resolve().parents[3]
+    PROJECT_PATH = root
+    PROJECT_DATA_PATH = root / 'data'
+
 def get_doc_str(row, body_text_col, title_col):
     """
     Combine an article's title and body text into a single string.
@@ -92,8 +99,8 @@ def get_title_body_str(result_folder_path, corpus_name):
     return title_body_str_lst
 
 
-project_path = Path("c:/Users/pc/Documents/work/bank of israel/financial division/yossi/tdm-sentiment")
-data_path = project_path / 'data'
+project_path = PROJECT_PATH
+data_path = PROJECT_DATA_PATH
 corpus_name = 'LosAngelesTimes_sample20'
 
 lst = get_title_body_str(data_path, corpus_name)
