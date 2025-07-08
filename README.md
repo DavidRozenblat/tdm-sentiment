@@ -140,4 +140,5 @@ Available steps:
 - `paragraph_sentiment_prob` – compute sentiment probabilities for paragraphs
 - `tfidf_tags` – append TF-IDF keywords
 
+
 With these steps you can reproduce the entire pipeline.

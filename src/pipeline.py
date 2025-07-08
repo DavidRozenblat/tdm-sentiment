@@ -8,7 +8,6 @@ import argparse
 from pathlib import Path
 import ast
 import pandas as pd
-
 from config import (
     FILE_NAMES_PATH,
     RESULTS_PATH,
@@ -23,6 +22,7 @@ from topic_modeling.is_economic_model.train_model import EconomicClassifier
 
 def step_xml_to_df(corpus_name: str, output_dir: Path):
     """Extract XML articles and store them as CSV chunks."""
+
     file_names_path = FILE_NAMES_PATH / corpus_name
     results_path = output_dir / corpus_name
     results_path.mkdir(parents=True, exist_ok=True)
@@ -104,6 +104,13 @@ def parse_args():
         default=','.join(STEP_FUNCTIONS.keys()),
         help='Comma separated list of steps to run. Available steps: ' + steps_list
     )
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run the sentiment pipeline")
+    parser.add_argument('--corpus-dir', required=True, help='Name of corpus folder under CORPUSES_PATH')
+    parser.add_argument('--output-dir', default=str(RESULTS_PATH), help='Destination folder for processed data')
+    parser.add_argument('--steps', default=','.join(STEP_FUNCTIONS.keys()), help='Comma separated list of steps to run')
     return parser.parse_args()
 
 
