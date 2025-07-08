@@ -120,4 +120,14 @@ python src/main.py
 ```
 for scripted runs.
 
+### Command-Line Pipeline
+`src/pipeline.py` exposes the main steps of the project as a simple command line interface. The default paths are read from `src/config.py` but can be overridden.
+
+Example:
+```bash
+python src/pipeline.py --corpus-dir Newyork20042023 \
+    --steps xml_to_df,title_sentiment_prob
+```
+This runs XML extraction and sentiment scoring for the specified corpus using the configured directories.
+
 With these steps you can reproduce the entire pipeline.
