@@ -372,15 +372,15 @@ def add_a_tdm_tag_to_csv(result_folder_path, corpus_name, tag_name):
         print(f"Processing chunk {i}: {file_name} {corpus_name}")
         file_path = Path(result_folder_path) / file_name
         df = pd.read_csv(file_path) # Read the CSV file.
-        # Each row is passed to tf_idf_tags along with the tf_idf_extractor.
+        # Each row is passed to tag_to_add 
         goids = df['goid']
-        poblishers = df['publisher']
-        
-        
+        poblishers = df['publisher'] 
+
+        # Create a list of rows to process
         with tqdm(total=len(df), desc=f"Processing chunk {i}", bar_format="{l_bar}{bar:10}{r_bar}{bar:-10b}") as pbar:
             # Use ProcessPoolExecutor to parallelize the row processing.
             with ProcessPoolExecutor() as executor:
-                results = list(executor.map( # Map the tf_idf_tags function to each row.
+                results = list(executor.map( # Map the tag_to_add function to each row.
                     tag_to_add,
                     poblishers,
                     [tag_name]*len(goids),
@@ -388,7 +388,7 @@ def add_a_tdm_tag_to_csv(result_folder_path, corpus_name, tag_name):
                 ))
             pbar.update(len(df)) # Update progress bar after completion
         
-        # Add the computed TF-IDF tags to the DataFrame.
+        # Add the computed tags to the DataFrame.
         df[f'{tag_name.lower()}'] = results
         # Save the modified DataFrame back to CSV.
         df.to_csv(file_path, index=False)
