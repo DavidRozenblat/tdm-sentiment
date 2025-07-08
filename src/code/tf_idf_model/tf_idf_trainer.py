@@ -10,6 +10,13 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
+try:
+    from config import PROJECT_PATH, PROJECT_DATA_PATH
+except Exception:
+    root = Path(__file__).resolve().parents[3]
+    PROJECT_PATH = root
+    PROJECT_DATA_PATH = root / 'data'
+
 def get_doc_str(row, body_text_col, title_col):
     """
     Combine an article's title and body text into a single string.
@@ -90,6 +97,7 @@ def get_title_body_str(result_folder_path, corpus_name):
         title_body_str_lst.extend(chunk_results)
     
     return title_body_str_lst
+
 
 
 def train_model(train_lst, tdf_vectorizer):

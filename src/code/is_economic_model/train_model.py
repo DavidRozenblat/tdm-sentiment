@@ -2,17 +2,36 @@ import pandas as pd
 import numpy as np
 import re
 import sklearn.metrics
-from sklearn.model_selection import train_test_split 
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 from pathlib import Path
 
+try:
+    from config import PROJECT_PATH
+except Exception:
+    PROJECT_PATH = Path(__file__).resolve().parents[3]
+
 
 class EconomicClassifier:
-    def __init__(self, initialize=False):
-        # Get the directory where the current module file is located
-        self.module_dir = Path('c:/Users/97253/OneDrive/Documents/work/bank of israel/financial division/yossi/tdm sentiment/tdm-sentiment/code/is_economic_model/')  #TODO
+    def __init__(self, initialize: bool = False, module_dir: Path | None = None):
+        """Initialize the classifier.
+
+        Parameters
+        ----------
+        initialize : bool, optional
+            Whether to initialize a fresh model and vectorizer instead of
+            loading them from disk.
+        module_dir : Path, optional
+            Directory containing the saved model and vectorizer. If not
+            provided, defaults to ``PROJECT_PATH / 'src/code/is_economic_model'``.
+        """
+
+        if module_dir is None:
+            module_dir = PROJECT_PATH / 'src/code/is_economic_model'
+
+        self.module_dir = Path(module_dir)
         
         # Construct paths to the model and vectorizer
         self.model_path = self.module_dir / 'model/is_economy_model.joblib'
