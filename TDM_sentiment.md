@@ -6,10 +6,10 @@ This project implements a comprehensive pipeline for analyzing sentiment and top
 
 ## Project Goals
 
-1. Process and analyze news articles from major US newspapers
-2. Identify sentiment trends in financial/economic news
-3. Extract key topics and keywords from news articles
-4. Classify articles as economic or non-economic
+1. Process and extract news articles from major US newspapers stored in xml files and store them in csv tables (2000 articles in each table)
+2. Classify articles as economic or non-economic using a a logistic regression model (under src/topic_modeling/is_economic_model) and select economic articles for the following steps 
+3. Extract keywords from classified economic articles using tf idf method
+4. Analyze sentiment score for classified economic articles
 5. Create a structured dataset for further analysis
 
 ## Directory Structure
@@ -81,18 +81,7 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 - Contains parsers specifically for TDM XML format
 - Acknowledges TDM Studio's Jupyter environment constraints
 - Optimized for TDM Studio's virtual machine setup
-
-## Questions Claude Can Help With
-
-Claude can assist with:
-1. Understanding the architecture and data flow
-2. Explaining NLP techniques used (BERT, TF-IDF)
-3. Adding new features or analysis components
-4. Debugging processing issues
-5. Optimizing code for performance
-6. Extracting specific data from the processed results
-7. Creating visualizations of sentiment trends
-8. Extending the project to analyze new data sources
+- fited for python version 10 
 
 ## Constraints and Limitations
 
@@ -104,47 +93,11 @@ Claude can assist with:
 ## Setup and Running Instructions
 
 ### Requirements
-- Python 3.7+
+- Python 3.7-10.9 
 - PyTorch
 - Transformers
 - Scikit-learn
 - Pandas
 - BeautifulSoup
 - NLTK
-
-### Running the Analysis Pipeline
-
-1. **Configure paths**:
-   - Modify `src/config.py` to point to the correct directories
-
-2. **Convert XML to DataFrames**:
-   - Run `notebooks/run/run.ipynb`
-
-3. **Perform Sentiment Analysis**:
-   - Run `notebooks/run/run_title_sentiment.ipynb`
-
-4. **Extract Keywords**:
-   - Run `notebooks/run/run_tf_idf_tags.ipynb`
-
-5. **Visualize Results**:
-   - Use notebooks in `notebooks/visualization/`
-
-### Working with Results
-Processed results are stored in:
-- `data/processed/results/[Newspaper]/chunk_0_data.csv`
-
-## Data Flow
-
-1. XML files from TDM Studio → `tdm_parser.py` → Structured data
-2. Structured data → `xml_to_df.py` → Pandas DataFrames
-3. DataFrames → Sentiment Analysis → Scored articles
-4. DataFrames → Topic Modeling → Tagged articles
-5. Tagged and scored articles → Final dataset for analysis
-
-## Future Development Opportunities
-
-1. Integrate more advanced language models
-2. Add entity recognition for companies, people, and locations
-3. Develop temporal analysis of sentiment trends
-4. Implement cross-newspaper comparison tools
-5. Add automated report generation
+- Torch
