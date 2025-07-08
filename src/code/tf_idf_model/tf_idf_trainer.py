@@ -92,13 +92,6 @@ def get_title_body_str(result_folder_path, corpus_name):
     return title_body_str_lst
 
 
-project_path = Path("c:/Users/pc/Documents/work/bank of israel/financial division/yossi/tdm-sentiment")
-data_path = project_path / 'data'
-corpus_name = 'LosAngelesTimes_sample20'
-
-lst = get_title_body_str(data_path, corpus_name)
-
-#print(lst)
 def train_model(train_lst, tdf_vectorizer):
     """
     Train the vectorizer on the provided training documents and save the model to disk.
@@ -118,22 +111,26 @@ def train_model(train_lst, tdf_vectorizer):
     tdf_vectorizer.save('tfidf_vectorizer.pkl')
 
     
-# load df of representative sample
-texts = [
-    "This is a sample document about machine learning and data science.",
-    "Another example document discussing natural language processing techniques.",
-    "More text data helps the model learn vocabulary and contextual information.",
-    "This is the first document. It contains text about machine learning and data science.",
-    "The second document focuses on natural language processing and machine learning applications.",
-    "Text analysis is a part of data science that includes extracting keywords using TF-IDF.",
-    "More documents may discuss different topics such as computer vision, AI, and deep learning."
-]
-title = "this is the title"
+if __name__ == "__main__":
+    project_path = Path("c:/Users/pc/Documents/work/bank of israel/financial division/yossi/tdm-sentiment")
+    data_path = project_path / 'data'
+    corpus_name = 'LosAngelesTimes_sample20'
 
+    lst = get_title_body_str(data_path, corpus_name)
 
+    # load df of representative sample
+    texts = [
+        "This is a sample document about machine learning and data science.",
+        "Another example document discussing natural language processing techniques.",
+        "More text data helps the model learn vocabulary and contextual information.",
+        "This is the first document. It contains text about machine learning and data science.",
+        "The second document focuses on natural language processing and machine learning applications.",
+        "Text analysis is a part of data science that includes extracting keywords using TF-IDF.",
+        "More documents may discuss different topics such as computer vision, AI, and deep learning."
+    ]
+    title = "this is the title"
 
-path = data_path / corpus_name
-file_list = [f.name for f in path.glob('*.csv')]
-print(file_list)
-
-#print(list(path.glob('*.csv')))
+    path = data_path / corpus_name
+    file_list = [f.name for f in path.glob('*.csv')]
+    print(file_list)
+    #print(list(path.glob('*.csv')))
