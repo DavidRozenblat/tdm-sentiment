@@ -1,8 +1,7 @@
 # Project base paths
 from pathlib import Path
-PROJECT_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/')  #TODO change on pc
-#CORPUSES_PATH = Path('/home/ec2-user/SageMaker/data/')  # e.g., TheWashingtonPostDavid
-CORPUSES_PATH = PROJECT_PATH / 'corpuses/'
+PROJECT_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/') 
+CORPUSES_PATH = Path('/home/ec2-user/SageMaker/data/')  # e.g., TheWashingtonPostDavid
 
 SRC_PATH = PROJECT_PATH / 'src/'
 PROJECT_DATA_PATH = PROJECT_PATH / 'data/'
@@ -10,21 +9,6 @@ RESULTS_PATH = PROJECT_PATH / 'data/processed/results/'  # path to store results
 FILE_NAMES_PATH = PROJECT_PATH / 'data/' / 'file_names/'  # Path to store file names
 LOGS_PATH = PROJECT_PATH / 'logs/'
 
-# Bert sentiment models
-SENTIMENT_MODEL_NAME_CLASSIC = 'distilbert-base-uncased-finetuned-sst-2-english'
-SENTIMENT_MODEL_PATH_CLASSIC = PROJECT_PATH / 'src/sentiment/sentiment_model/' / SENTIMENT_MODEL_NAME_CLASSIC
-SENTIMENT_MODEL_NAME = 'finbert_local'
-FINBERT_LOCAL_NAME = 'finbert_local'
-FINBERT_LOCAL_MODEL_PATH = PROJECT_PATH / 'src/sentiment/sentiment_model'/FINBERT_LOCAL_NAME
-OPTIMIZED_FINBERT_NAME = 'optimized_finbert'
-OPTIMIZED_FINBERT_MODEL_PATH = PROJECT_PATH / 'src/sentiment/sentiment_model/' / OPTIMIZED_FINBERT_NAME
-
-SENTIMENT_MODEL_PATH = PROJECT_PATH / 'src/sentiment/sentiment_model/' / SENTIMENT_MODEL_NAME_CLASSIC
-
-TF_IDF_MODEL_PATH = SRC_PATH / 'topic_modeling/tf_idf_model/tfidf_vectorizer.pkl'
-
-# corpus names list
-CORPUSES_LIST = ['Newyork20042023','LosAngelesTimesDavid','TheWashingtonPostDavid','ChicagoTribune','USATodayDavid']
 
 # sys path
 import sys
