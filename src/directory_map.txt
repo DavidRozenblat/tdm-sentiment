@@ -32,7 +32,7 @@ project_root/
 │   │   └── salience_index/ 
 │   │
 │   └── topic_modeling/
-│       ├── tf_idf_model/ #TODO TF-IDF model to get article tags
+│       ├── tf_idf_model/ # TF-IDF model to get article tags
 │       │   ├── keyword_extractor.py # tf idf keyword extractor model class 
 │       │   └── tf_idf_trainer.py # train TfidfKeywordExtractor vectorizer using reprasentative sample (of 1M rendomally selected articlaes)
 │       │

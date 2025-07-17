@@ -15,26 +15,27 @@ This project implements a comprehensive pipeline for analyzing sentiment and top
 ## Directory Structure
 
 ### `/corpuses/`
-Contains XML files from five major news sources:
-- ChicagoTribune
-- LosAngelesTimesDavid
-- Newyork20042023
-- TheWashingtonPostDavid
-- USATodayDavid
+Contains XML files from major news sources including:
+- Chicago Tribune
+- Los Angeles Times
+- Newyork Times
+- The Washington Post
+- USA Today
 
 ### `/data/`
 - `/file_names/`: Lists of files from each corpus selected for specific tasks
-- `/processed/results/`: Contains processed data with rich details (full articles)
+- `/processed/classic_bert/results/`
+- `/processed/results/`: Contains processed data with rich details (full articles) #TODO will add here a new folder for FinBert 
 - `/processed/results_to_export/`: Contains processed data without raw content that can be exported
 
 ### `/logs/`
 Contains execution logs that track sentiment analysis runs and other processing activities.
 
 ### `/notebooks/`
-- `/run/`: Main execution notebooks used to run functions (preferred over main.py since TDM runs in Jupyter)
+- `/run/`: Main execution notebooks used to run functions (preferred over pipline.py since TDM runs in Jupyter)
 - `/experiments/`: Test notebooks for trying functions before running
 - `/check_results/`: Notebooks for verifying processed results
-- `/visualization/`: Notebooks for data visualization and reporting
+- `/visualization/`: Notebooks for data visualization and reporting (including text_view to look at a specific article)
 
 ### `/src/`
 Core source code:
@@ -48,9 +49,21 @@ Core source code:
 - `/sentiment/`: Sentiment analysis components
   - `/sentiment_model/`: BERT sentiment models stored locally
   - `/salience_index/`: Weighted BERT sentiment model
-- `/topic_modeling/`: Topic modeling components
-  - `/tf_idf_model/`: TF-IDF model for extracting article tags
-  - `/is_economic_model/`: Classifier for economic articles
+- `topic_modeling/`: Core topic‑modeling modules  
+  - `tf_idf_model/`: Extracts article tags using TF‑IDF  
+    ```txt
+    tfidf(t, d, D) = tf(t, d) * log(|D| / |{d' in D : t in d'}|)
+
+    where:
+      t            = term
+      d            = document
+      D            = corpus (set of all documents)
+      tf(t, d)     = term frequency of t in d
+    ```  
+  - `is_economic_model/`: Logistic‑regression classifier for economic articles  
+    - **Labels:** predefined sections  
+    - **Features:** TF‑IDF–vectorized text  
+
 
 ## Key Files and Entry Points
 
@@ -102,7 +115,7 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 - NLTK
 - Torch
 
-### Installation
+### Installation #TODO
 1. Clone the repository:
    ```bash
    git clone https://github.com/<user>/tdm-sentiment.git
@@ -112,7 +125,7 @@ This project is specifically designed to work with TDM Studio (ProQuest):
    pip install -r requirements.txt
    ```
 
-### Execution
+### Execution #TODO
 Run the notebooks under `notebooks/run/` to process the data and calculate
 sentiment scores, or execute:
 ```bash
