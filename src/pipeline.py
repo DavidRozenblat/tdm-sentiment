@@ -3,7 +3,7 @@
 Each function corresponds to a stage in the end-to-end workflow. Steps can be
 selected individually using the ``--steps`` argument.
 """
-
+       
 import argparse
 from pathlib import Path
 import ast
@@ -17,17 +17,29 @@ from config import (
     tf_idf_trainer,
     tf_idf_extractor,
 )
+import config as config
 from topic_modeling.is_economic_model.train_model import EconomicClassifier
 
 
 def step_xml_to_df(corpus_name: str, output_dir: Path):
     """Extract XML articles and store them as CSV chunks."""
-
     file_names_path = FILE_NAMES_PATH / corpus_name
     results_path = output_dir / corpus_name
     results_path.mkdir(parents=True, exist_ok=True)
     xml_to_df.xml_to_df(file_names_path, results_path)
 
+
+def add_xml_tags_to_csvs(corpus_name: str, output_dir: Path, tag_name: str):
+    """add XML tags to the csv files. matches the XML files to the CSVs using the file names. compared to GOID column in the CSVs.
+    in each csv file there is a column 'goid' which is the GOID of the article. the GOID is the file name of the XML file without the extension.
+    This function will add the XML tags to the CSV files by matching the GOID with the file names in the XML directory.
+    """
+    result_folder_path = output_dir / corpus_name
+    #TODO
+    
+    
+    
+    #add_a_tdm_tag_to_csv(result_folder_path, corpus_name, tag_name)
 
 def step_economic(corpus_name: str, output_dir: Path):
     """Label each paragraph as economic or not."""
