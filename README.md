@@ -24,7 +24,7 @@ Contains XML files from major news sources including:
 
 ### `/data/`
 - `/file_names/`: Lists of files from each corpus selected for specific tasks
-- `/processed/classic_bert/results/`
+- `/processed/classic_bert/results/` #TODO
 - `/processed/results/`: Contains processed data with rich details (full articles) #TODO will add here a new folder for FinBert 
 - `/processed/results_to_export/`: Contains processed data without raw content that can be exported
 
@@ -32,7 +32,7 @@ Contains XML files from major news sources including:
 Contains execution logs that track sentiment analysis runs and other processing activities.
 
 ### `/notebooks/`
-- `/run/`: Main execution notebooks used to run functions (preferred over pipline.py since TDM runs in Jupyter)
+- `/run/`: Main execution notebooks used to run functions, runs on GPU if available (preferred over pipline.py since TDM runs in Jupyter)
 - `/experiments/`: Test notebooks for trying functions before running
 - `/check_results/`: Notebooks for verifying processed results
 - `/visualization/`: Notebooks for data visualization and reporting (including text_view to look at a specific article)
@@ -142,5 +142,16 @@ python src/pipeline.py --corpus-dir Newyork20042023 \
     --steps xml_to_df,title_sentiment_prob
 ```
 This runs XML extraction and sentiment scoring for the specified corpus using the configured directories.
+
+
+Available steps:
+- `xml_to_df` – convert XML files to CSV
+- `economic` – classify paragraphs as economic
+- `train_tfidf` – train the TF-IDF keyword extractor
+- `title_sentiment` – add sentiment label to titles
+- `title_sentiment_prob` – store sentiment probabilities for titles
+- `paragraph_sentiment_prob` – compute sentiment probabilities for paragraphs
+- `tfidf_tags` – append TF-IDF keywords
+
 
 With these steps you can reproduce the entire pipeline.
