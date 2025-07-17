@@ -143,8 +143,8 @@ python src/pipeline.py --corpus-dir Newyork20042023 \
 ```
 This runs XML extraction and sentiment scoring for the specified corpus using the configured directories.
 
-
 Available steps:
+
 - `xml_to_df` – convert XML files to CSV
 - `economic` – classify paragraphs as economic
 - `train_tfidf` – train the TF-IDF keyword extractor

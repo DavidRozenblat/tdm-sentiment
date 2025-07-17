@@ -3,11 +3,12 @@
 Each function corresponds to a stage in the end-to-end workflow. Steps can be
 selected individually using the ``--steps`` argument.
 """
-       
+
 import argparse
 from pathlib import Path
 import ast
 import pandas as pd
+
 from config import (
     FILE_NAMES_PATH,
     RESULTS_PATH,
@@ -22,7 +23,6 @@ from topic_modeling.is_economic_model.train_model import EconomicClassifier
 
 
 def step_xml_to_df(corpus_name: str, output_dir: Path):
-    """Extract XML articles and store them as CSV chunks."""
     file_names_path = FILE_NAMES_PATH / corpus_name
     results_path = output_dir / corpus_name
     results_path.mkdir(parents=True, exist_ok=True)
