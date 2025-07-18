@@ -9,15 +9,13 @@ class Logger:
         
     @staticmethod
     # --- Logging Functions ---
-    def write_logger_file_names(result_folder_path, log_file_name, corpus_name):
-        """
-        Write the list of CSV file names in result_folder_path to the log file.
-        """
+    def write_logger_file_names(result_folder_path, log_file_name, corpus_name, pattern='*.csv'):
+        """Write file names in ``result_folder_path`` matching ``pattern`` to a log file."""
         result_folder_path = Path(result_folder_path)
         log_file = LOGS_PATH / f'{corpus_name}_{log_file_name}_log_.txt'
 
-        # Get all CSV file names in the result folder.
-        file_list = [f.name for f in result_folder_path.glob('*.csv')]
+        # Get all file names in the result folder matching the pattern.
+        file_list = [f.name for f in result_folder_path.glob(pattern)]
         # WARNING: This sorting lambda assumes that file names have an underscore and an integer at index 1.
         # Ensure your files follow the expected naming pattern.
         file_list = sorted(file_list, key=lambda x: int(x.split('_')[1]))
@@ -42,7 +40,7 @@ class Logger:
         return file_names_lst
 
     @staticmethod
-    def get_logger_file_names(log_file_name, result_folder_path, corpus_name):
+    def get_logger_file_names(log_file_name, result_folder_path, corpus_name, pattern='*.csv'):
         """
         Ensure the log file exists and return its contents as a list of file names.
         If the log file is empty, prompt the user for further action.
@@ -50,8 +48,8 @@ class Logger:
         log_file = LOGS_PATH / f'{corpus_name}_{log_file_name}_log_.txt'
 
         if not log_file.exists():
-            # Create the log file by writing CSV file names from result_folder_path.
-            Logger.write_logger_file_names(result_folder_path, log_file_name, corpus_name)
+            # Create the log file by writing file names from result_folder_path.
+            Logger.write_logger_file_names(result_folder_path, log_file_name, corpus_name, pattern)
 
         # Read file names into a list.
         file_names_lst = Logger.read_logger_file_names(log_file_name, corpus_name)
