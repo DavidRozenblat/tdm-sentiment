@@ -9,6 +9,10 @@ import ast
 import pandas as pd
 from config import *
 from topic_modeling.is_economic_model.train_model import EconomicClassifier
+import logger
+
+# Instantiate logger for pipeline steps
+logger = logger.Logger()
 
 
 
@@ -34,16 +38,22 @@ def step_get_economic_file_names(corpus_dir: Path, prob_threshold: float = 0.5):
     return None
 
 
-def step_tfidf_tags(corpus_dir: Path, model_path: Path): #TODO add logging    
+def step_tfidf_tags(corpus_dir: Path, model_path: Path): #TODO add logging
     """Append TF-IDF keyword tags to each article."""
-    extractor = tf_idf_extractor.TfidfKeywordExtractor(model_path) # load the TF-IDF extractor model
-    economic_files = [file_name for file_name in FILE_NAMES_PATH / f"{corpus_dir.stem}/economic_files.txt"] # get economic file names in a list 
-    
-    # Loop through each XML file in the corpus directory
-    for xml_file in corpus_dir.glob('*.xml'):
-        if xml_file.stem in economic_files: # only process economic files
-            tf_idf_values = extractor.extract_top_keywords(txt_str=tdm_parser.get_article_text(xml_file))
-            tdm_parser.modify_tags(xml_file, tf_idf_values, 'tf_idf')
+    extractor = tf_idf_extractor.TfidfKeywordExtractor(model_path)  # load the TF-IDF extractor model
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+
+    log_list = logger.get_logger_file_names('tfidf_tags_xml', corpus_dir, corpus_dir.stem, pattern='*.xml')
+
+    for xml_name in list(log_list):
+        xml_file = corpus_dir / xml_name
+        if xml_file.stem in economic_files:  # only process economic files
+            paragraphs = tdm_parser.get_art_text(xml_file)
+            text = ' '.join(paragraphs) if paragraphs else ''
+            tf_idf_values = extractor.extract_top_keywords(txt_str=text)
+            tdm_parser.modify_tag(xml_file, 'tf_idf', tf_idf_values)
+        log_list.remove(xml_name)
+        logger.update_log_file(corpus_dir, 'tfidf_tags_xml', log_list, corpus_dir.stem)
 
 
 def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label: str):
