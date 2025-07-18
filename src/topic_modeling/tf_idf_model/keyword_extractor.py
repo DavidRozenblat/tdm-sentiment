@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 
 
+
 class TfidfKeywordExtractor:
     def __init__(self, stop_words='english', model_path=None):
         """
@@ -20,12 +21,11 @@ class TfidfKeywordExtractor:
                 self.load(model_path)
             except Exception as e:
                 print(f"Failed to load model from '{model_path}'. Error: {e}")
-        
+                
 
     def train(self, corpus):
         """
         Train the TfidfVectorizer on a provided corpus.
-        
         Parameters:
             corpus (list of str): List of documents to train on.
         """
@@ -45,13 +45,13 @@ class TfidfKeywordExtractor:
     def load(self, filepath):
         """
         Load a TfidfVectorizer model from disk.
-        
         Parameters:
             filepath (str): File path from which to load the model.
         """
         self.vectorizer = joblib.load(filepath)
         self.trained = True
         print(f"TF-IDF Vectorizer model loaded from '{filepath}'.")
+
 
     def transform(self, documents):
         """
@@ -67,17 +67,10 @@ class TfidfKeywordExtractor:
             raise ValueError("The vectorizer has not been trained or loaded yet.")
         return self.vectorizer.transform(documents)
 
-    def extract_top_keywords(self, tfidf_vector, top_n, score=False):
-        """
-        Extract the top_n keywords from a single document's TF-IDF vector.
-        
-        Parameters:
-            tfidf_vector: A TF-IDF vector (in sparse format) for one document.
-            top_n (int): Number of top keywords to extract.
-        
-        Returns:
-            List of tuples (keyword, score) sorted in descending order by score.
-        """
+    def extract_top_keywords(self, txt_str, top_n=None, score=True):
+        """Extract the top_n keywords from a text."""
+        # convert txt_str into a tfidf_vector
+        tfidf_vector = self.transform([txt_str])
         # Convert the sparse vector to a dense array and flatten it
         dense_vector = tfidf_vector.toarray().flatten()
         # Get indices that would sort the vector in descending order
@@ -89,14 +82,12 @@ class TfidfKeywordExtractor:
         return [feature_names[i] for i in top_indices]
     
 
-    def extract_keywords_from_documents(self, documents, top_n):
+    def extract_keywords_from_documents(self, documents, top_n=None):
         """
         Extract top keywords for each document in a list of documents.
-        
         Parameters:
             documents (list of str): List of new documents.
             top_n (int): Number of top keywords to extract from each document.
-        
         Returns:
             List of lists, where each sublist contains tuples (keyword, score) for a document.
         """
@@ -106,3 +97,5 @@ class TfidfKeywordExtractor:
             keywords = self.extract_top_keywords(tfidf_matrix[i], top_n)
             keywords_list.append(keywords)
         return keywords_list
+    
+    

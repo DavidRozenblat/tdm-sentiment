@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import copy
+from pathlib import Path
 
 class TdmXmlParser:
     TDM_PROPERTY_TAGS = [
@@ -18,7 +18,7 @@ class TdmXmlParser:
         return self.TDM_PROPERTY_TAGS, self.PROPERTY_NAMES
 
     def get_xml_soup(self, file_path):
-        """Parse an XML file and return the BeautifulSoup object."""
+        """helper functon, Parse an XML file and return the BeautifulSoup object."""
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 xml_data = file.read()
@@ -30,8 +30,9 @@ class TdmXmlParser:
 
 
     # function for extracting valid paragraphs from soup
-    def get_art_text(self, soup):
-        """Extract and clean text from the soup object, returning a list of valid paragraphs."""
+    def get_art_text(self, path: Path):
+        """Extract and clean text from the XML file, returning a list of valid paragraphs."""
+        soup = self.get_xml_soup(path)
         if not soup:
             return None
 
@@ -64,11 +65,10 @@ class TdmXmlParser:
         except Exception as e:
             return f"Error extracting text: {e}"
 
-        
-    def get_word_count(self, soup):
-        """Extract and clean text from the soup object, returning number of words in text."""
-        if not soup:
-            return None
+
+    def get_word_count(self, path: Path):
+        """Extract and clean text from the xml file, returning number of words in text."""
+        soup = self.get_xml_soup(path)
 
         text_tag = soup.find('Text')
         if not text_tag:
@@ -92,8 +92,8 @@ class TdmXmlParser:
         except Exception as e:
             return f"Error extracting text: {e}"
 
-     
-    def soup_to_dict(self, soup, tdm_property_tags, property_names):
+
+    def soup_to_dict(self, path: Path, tdm_property_tags: list, property_names: list):
         """
         Convert XML content to a dictionary based on predefined tags.
         Handles 'Text' and 'WordCount' specially, then processes remaining tags.
@@ -101,7 +101,7 @@ class TdmXmlParser:
         # Make local copies so we don't mutate the original lists outside this function
         local_tags = tdm_property_tags.copy()
         local_names = property_names.copy()
-
+        soup = self.get_xml_soup(path)
         # Initialize the dictionary to hold our extracted data
         content_dict = {}
 
@@ -143,7 +143,7 @@ class TdmXmlParser:
 
     
     
-    def soup_to_dict1(self, soup, tdm_property_tags, property_names):
+    def soup_to_dict1(self, soup, tdm_property_tags, property_names): #TODO: remove this function
         """Convert XML content to a dictionary based on predefined tags."""
         content_dict = {}
         local_property_names = property_names.copy()
@@ -179,14 +179,30 @@ class TdmXmlParser:
        
         return content_dict
     
+    
+    def get_tag_value(self, path: Path, tag_name: str):
+        """Retrieve the value of a specified tag from a xml file."""
+        soup = self.get_xml_soup(path)
+        tag = soup.find(tag_name)
+        if tag:
+            return tag.get_text(strip=True)
+        else:
+            print(f"Tag '{tag_name}' not found.")
+            return None
 
 
-    def modify_tag(self, soup, tag_name, value):
-        """Add or update a tag with a given value within the 'grades' tag."""
+    def modify_tag(self, xml_path: Path, tag_name: str, value: str, modify: bool = True):
+        """Add or update a tag with a given value."""
+        soup = self.get_xml_soup(xml_path)
         existing_tag = soup.find(tag_name)
         if existing_tag:
             print(f"Element '{tag_name}' already exists. Updating value.")
-            existing_tag.string = str(value)
+            if modify:
+                # Update the existing tag's value
+                existing_tag.string = str(value)
+            else:
+                print(f"Element '{tag_name}' already exists but not modifying it.")
+                return soup  # If not modifying, just return the soup without changes
         else:
             record = soup.find('RECORD')
             if not record:
@@ -203,11 +219,16 @@ class TdmXmlParser:
             grades.append(new_element)
         return soup
 
-    def delete_tag(self, soup, tag_name):
-        """Delete a specified tag from the soup object."""
+
+    def delete_tag(self, path: Path, tag_name: str):
+        """Delete a specified tag from a xml file."""
+        soup = self.get_xml_soup(path)
         tag = soup.find(tag_name)
         if tag:
             tag.decompose()
         else:
             print(f"Tag '{tag_name}' not found.")
         return soup
+
+
+    
