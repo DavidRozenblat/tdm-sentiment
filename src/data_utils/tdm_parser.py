@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from pathlib import Path
 
 class TdmXmlParser:
@@ -30,7 +30,7 @@ class TdmXmlParser:
 
 
     # function for extracting valid paragraphs from soup
-    def get_art_text(self, path: Path):
+    def get_art_text(self, path: Path, return_str=True):
         """Extract and clean text from the XML file, returning a list of valid paragraphs."""
         soup = self.get_xml_soup(path)
         if not soup:
@@ -47,7 +47,7 @@ class TdmXmlParser:
             
             # Initialize an empty list to store valid paragraphs
             valid_paragraphs = []
-            
+            valid_str = ''
             for p in paragraphs:
                 # Extract and clean the text
                 cleaned_text = p.get_text(strip=True).lower()
@@ -59,8 +59,11 @@ class TdmXmlParser:
                     'credit:' not in p.text.lower()
                 ):
                     valid_paragraphs.append(cleaned_text)
-            
-            return valid_paragraphs if valid_paragraphs else None
+                    valid_str += cleaned_text
+            if return_str:
+                return valid_str if valid_str else None
+            if not return_str:
+                return valid_paragraphs if valid_paragraphs else None
 
         except Exception as e:
             return f"Error extracting text: {e}"
@@ -192,32 +195,35 @@ class TdmXmlParser:
 
 
     def modify_tag(self, xml_path: Path, tag_name: str, value: str, modify: bool = True):
-        """Add or update a tag with a given value."""
+        """Add or update a <tag_name> under <processed> with the given value."""
         soup = self.get_xml_soup(xml_path)
-        existing_tag = soup.find(tag_name)
-        if existing_tag:
-            print(f"Element '{tag_name}' already exists. Updating value.")
+        # Ensure <processed> container exists
+        record = soup.find("RECORD")
+        processed = record.find('processed')
+        if not processed:
+            processed = soup.new_tag('processed')
+            record.append(NavigableString('\n'))
+            record.append(processed)
+            record.append(NavigableString('\n'))
+
+        # Look for existing tag inside <processed>
+        existing = processed.find(tag_name)
+        if existing:
+            print(f"Element '{tag_name}' already exists.")
             if modify:
-                # Update the existing tag's value
-                existing_tag.string = str(value)
+                existing.string = str(value)
             else:
-                print(f"Element '{tag_name}' already exists but not modifying it.")
-                return soup  # If not modifying, just return the soup without changes
+                print(f"Not modifying '{tag_name}' as requested.")
+                return
         else:
-            record = soup.find('RECORD')
-            if not record:
-                print("No 'RECORD' tag found.")
-                return soup
+             # Create and append new tag under <processed> with surrounding newlines in one line
+            new_tag = soup.new_tag(tag_name)
+            new_tag.string = str(value)
+            processed.extend([NavigableString('\n'), new_tag, NavigableString('\n')])
 
-            grades = record.find('grades')
-            if not grades:
-                grades = soup.new_tag('grades')
-                record.append(grades)
-
-            new_element = soup.new_tag(tag_name)
-            new_element.string = str(value)
-            grades.append(new_element)
-        return soup
+        # Save back to file
+        with open(xml_path, 'w', encoding='utf-8') as f:
+            f.write(str(soup))
 
 
     def delete_tag(self, path: Path, tag_name: str):
@@ -231,4 +237,10 @@ class TdmXmlParser:
         return soup
 
 
-    
+
+if __name__ == '__main__':
+    parser = TdmXmlParser()
+    path = '/home/ec2-user/SageMaker/data/LosAngelesTimesDavid/422216858.xml'
+    val = parser.get_tag_value(path=path, tag_name='tf_idf')
+    #soup = parser.get_xml_soup(path)
+    print(val)

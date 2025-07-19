@@ -16,7 +16,6 @@ from concurrent.futures import ProcessPoolExecutor
 from bs4 import BeautifulSoup
 
 # Create a Logger instance
-logger = logger.Logger()
 tdm_parser = tdm_parser.TdmXmlParser()
 
 publisher_corpus_dic = {

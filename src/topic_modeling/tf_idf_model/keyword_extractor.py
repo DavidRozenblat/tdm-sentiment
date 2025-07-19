@@ -1,11 +1,11 @@
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
-
+from pathlib import Path
 
 
 class TfidfKeywordExtractor:
-    def __init__(self, stop_words='english', model_path=None):
+    def __init__(self, model_path:Path, stop_words='english'):
         """
         Initialize the TfidfKeywordExtractor. If model_path is provided and the file exists,
         load the model automatically.
@@ -99,3 +99,11 @@ class TfidfKeywordExtractor:
         return keywords_list
     
     
+    
+if __name__ == '__main__':
+    #parser = TdmXmlParser()
+    #path = '/home/ec2-user/SageMaker/data/LosAngelesTimesDavid/422225372.xml'
+    #val = parser.get_tag_value(path=path, tag_name='is_economic')
+    #soup = parser.get_xml_soup(path)
+    #print(val)
+    pass

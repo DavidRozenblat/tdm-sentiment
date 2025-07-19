@@ -206,4 +206,7 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<grades><is_economic>1</is_economic><text_blob_sentiment>0.05794423830138114</text_blob_sentiment><bert_sentiment>0.3190219061715262</bert_sentiment></grades></RECORD>
+<processed>
+<is_economic>0.06051303925355762</is_economic>
+</processed>
+</RECORD>

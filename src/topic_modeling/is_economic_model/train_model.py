@@ -7,16 +7,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 from pathlib import Path
-
-
+import config 
 class EconomicClassifier:
     def __init__(self, initialize=False):
         # Get the directory where the current module file is located
-        self.module_dir = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/code/is_economic_model/') 
+        self.module_dir = config.IS_ECONOMIC_MODEL
         
         # Construct paths to the model and vectorizer
-        self.model_path = self.module_dir / 'model/is_economy_model.joblib'
-        self.vectorizer_path = self.module_dir / 'model/is_economy_vectorizer.joblib'
+        self.model_path = self.module_dir / 'is_economy_model.joblib'
+        self.vectorizer_path = self.module_dir / 'is_economy_vectorizer.joblib'
 
         if initialize:
             self.vectorizer = TfidfVectorizer(stop_words='english', max_features=1000, norm='l2')
@@ -27,6 +26,7 @@ class EconomicClassifier:
                 self.model = joblib.load(self.model_path)
                 self.vectorizer = joblib.load(self.vectorizer_path)
             except Exception as e:
+                
                 print(f'Failed to load models: {e}')
                 raise IOError("Model files could not be loaded.")
         self.positive_set = {'money', 'business', 'finance/business', 'business; part b; business desk', 'financial'}
@@ -61,12 +61,12 @@ class EconomicClassifier:
         self.model.fit(X_train, y_train)
         return X_test, y_test
 
-    def is_economic(self, article):
-        """Classifies a string of an article as economic or not using the trained model."""
-        processed_article = self.preprocess_text(article)
+    def is_economic_prob(self, text):
+        """return probability of a text being economic."""
+        processed_article = self.preprocess_text(text)
         vectorized_article = self.vectorize_text(processed_article)
         probability = self.model.predict_proba(vectorized_article)[:, 1][0]
-        return (probability > 0.7).astype(int)
+        return probability
 
     def save_model(self):
         """Save the trained model and vectorizer to disk."""
