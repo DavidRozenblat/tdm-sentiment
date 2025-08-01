@@ -1,8 +1,8 @@
 """Command-line pipeline for running article processing steps.
-
 Each function corresponds to a stage in the end-to-end workflow. Steps can be
 selected individually using the ``--steps`` argument.
 """
+
 import argparse
 from pathlib import Path
 import ast
