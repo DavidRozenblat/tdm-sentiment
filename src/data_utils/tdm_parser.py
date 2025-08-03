@@ -29,10 +29,18 @@ class TdmXmlParser:
             return None
 
 
+    def write_xml_soup(self, soup: BeautifulSoup, file_path: Path):
+        """Write the BeautifulSoup object back to an XML file."""
+        try:
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(str(soup))
+        except Exception as e:
+            print(f"Error writing to the file '{file_path}': {e}")
+
+
     # function for extracting valid paragraphs from soup
-    def get_art_text(self, path: Path, return_str=True):
-        """Extract and clean text from the XML file, returning a list of valid paragraphs."""
-        soup = self.get_xml_soup(path)
+    def get_art_text(self, soup: BeautifulSoup, return_str=True):
+        """Extract and clean text from soup, returning a list of valid paragraphs if return_str = False."""
         if not soup:
             return None
 
@@ -69,10 +77,8 @@ class TdmXmlParser:
             return f"Error extracting text: {e}"
 
 
-    def get_word_count(self, path: Path):
+    def get_word_count(self, soup: BeautifulSoup):
         """Extract and clean text from the xml file, returning number of words in text."""
-        soup = self.get_xml_soup(path)
-
         text_tag = soup.find('Text')
         if not text_tag:
             return None
@@ -96,15 +102,14 @@ class TdmXmlParser:
             return f"Error extracting text: {e}"
 
 
-    def soup_to_dict(self, path: Path, tdm_property_tags: list, property_names: list):
+    def soup_to_dict(self, soup: BeautifulSoup, tdm_property_tags: list, property_names: list):
         """
-        Convert XML content to a dictionary based on predefined tags.
+        Convert soup to a dictionary based on predefined tags.
         Handles 'Text' and 'WordCount' specially, then processes remaining tags.
         """
         # Make local copies so we don't mutate the original lists outside this function
         local_tags = tdm_property_tags.copy()
         local_names = property_names.copy()
-        soup = self.get_xml_soup(path)
         # Initialize the dictionary to hold our extracted data
         content_dict = {}
 
@@ -145,47 +150,8 @@ class TdmXmlParser:
         return content_dict
 
     
-    
-    def soup_to_dict1(self, soup, tdm_property_tags, property_names): #TODO: remove this function
-        """Convert XML content to a dictionary based on predefined tags."""
-        content_dict = {}
-        local_property_names = property_names.copy()
-        if not soup:
-            return {}
-        text_tag = soup.find('Text')
-        if not text_tag:
-            return {}
-        # Handle 'Text' if it is in tdm_property_tags
-        if 'Text' in tdm_property_tags:
-            index = tdm_property_tags.index('Text')
-            name = local_property_names[index]
-            text_content = self.get_art_text(soup)
-            if text_content:
-                content_dict[name] = text_content
-            # Remove 'Text' from tdm_property_tags and property_names
-            tdm_property_tags.pop(index)
-            local_property_names.pop(index)
-        # Handle 'WordCount' if it is in tdm_property_tags
-        if 'WordCount' in tdm_property_tags:
-            index = tdm_property_tags.index('WordCount')
-            name = local_property_names[index]
-            # Extract the 'WordCount' attribute from the 'Text' tag
-            word_count = text_tag.get('WordCount', None)
-            content_dict[name] = word_count
-            # Remove 'WordCount' from tdm_property_tags and property_names
-            tdm_property_tags.pop(index)
-            local_property_names.pop(index)
-        # Continue processing the remaining tags
-        for tag, name in zip(tdm_property_tags, local_property_names):
-            prop = soup.find(tag)
-            content_dict[name] = prop.get_text(strip=True).lower() if prop else None
-       
-        return content_dict
-    
-    
-    def get_tag_value(self, path: Path, tag_name: str):
-        """Retrieve the value of a specified tag from a xml file."""
-        soup = self.get_xml_soup(path)
+    def get_tag_value(self, soup: BeautifulSoup, tag_name: str):
+        """Retrieve the value of a specified tag from a soup."""
         tag = soup.find(tag_name)
         if tag:
             return tag.get_text(strip=True)
@@ -194,9 +160,8 @@ class TdmXmlParser:
             return None
 
 
-    def modify_tag(self, xml_path: Path, tag_name: str, value: str, modify: bool = True):
+    def modify_tag(self, soup: BeautifulSoup, tag_name: str, value: str, modify: bool = True):
         """Add or update a <tag_name> under <processed> with the given value."""
-        soup = self.get_xml_soup(xml_path)
         # Ensure <processed> container exists
         record = soup.find("RECORD")
         processed = record.find('processed')
@@ -221,21 +186,17 @@ class TdmXmlParser:
             new_tag.string = str(value)
             processed.extend([NavigableString('\n'), new_tag, NavigableString('\n')])
 
-        # Save back to file
-        with open(xml_path, 'w', encoding='utf-8') as f:
-            f.write(str(soup))
+        return soup
+        
 
-
-    def delete_tag(self, path: Path, tag_name: str):
+    def delete_tag(self, soup: BeautifulSoup, tag_name: str):
         """Delete a specified tag from a xml file."""
-        soup = self.get_xml_soup(path)
         tag = soup.find(tag_name)
         if tag:
             tag.decompose()
         else:
             print(f"Tag '{tag_name}' not found.")
         return soup
-
 
 
 if __name__ == '__main__':

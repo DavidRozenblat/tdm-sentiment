@@ -8,23 +8,27 @@ from pathlib import Path
 import ast
 import pandas as pd
 from config import *
-from topic_modeling.is_economic_model.train_model import EconomicClassifier
+from topic_modeling.is_economic_model.is_economic_model import EconomicClassifier
 
 # Instantiate logger for pipeline steps
 
 parser = tdm_parser.TdmXmlParser()
 
 
-def step_identify_economic(corpus_dir: Path):
+def step_identify_economic(corpus_dir: Path): # TODO: add logger
     """for each xml file on corpus add probability tag that it's economic article."""
     economic_classifier = EconomicClassifier() # load the economic classifier
     
     # Loop through each XML file in the corpus directory
     for xml_path in corpus_dir.glob('*.xml'):
         goid = xml_path.stem
-        text = parser.get_art_text(xml_path)
+        soup = parser.get_xml_soup(xml_path)
+        text = parser.get_art_text(soup)
         value = economic_classifier.is_economic_prob(text)
-        parser.modify_tag(xml_path, tag_name='is_economic', value=value, modify=True)
+        parser.modify_tag(soup, tag_name='is_economic', value=value, modify=True)
+        
+        # rewrite to file
+        parser.write_xml_soup(soup, xml_path)
         
 
 def step_write_economic_file_names(corpus_dir: Path, prob_threshold: float = 0.7):
@@ -34,7 +38,8 @@ def step_write_economic_file_names(corpus_dir: Path, prob_threshold: float = 0.7
     with open(file_path, 'w') as f:
         for xml_file in corpus_dir.glob('*.xml'):
             goid = xml_file.stem
-            is_economic = parser.get_tag_value(xml_file, 'is_economic')
+            soup = parser.get_xml_soup(xml_file)
+            is_economic = parser.get_tag_value(soup, 'is_economic')
             # try if is_economic can be converted to numeric
             try:
                 is_economic = float(is_economic)
@@ -55,59 +60,92 @@ def step_tfidf_tags(corpus_dir: Path, model_path: Path):
 
     for xml_name in list(log_list):
         xml_file = corpus_dir / xml_name
-        text = parser.get_art_text(xml_file)
+        soup = parser.get_xml_soup(xml_file)
+        text = parser.get_art_text(soup)
         tf_idf_values = extractor.extract_top_keywords(txt_str=text)
-        parser.modify_tag(xml_file, 'tf_idf', tf_idf_values)
+        parser.modify_tag(soup, 'tf_idf', tf_idf_values)
+        
+        # rewrite to file
+        parser.write_xml_soup(soup, xml_file)
         log_list.remove(xml_name)
         logger_instance.update_log_file(log_list)
 
-
-
-def title_sentiment_probs(text, sentiment_analyzer):
-    """
-    Get the sentiment probabilities of a single title text.
-    """
-    # Note: The function expects a list of texts; we wrap text in a list.
-    # Truncate the text if it exceeds 512 characters (or tokens as needed)
-    if len(text) > 512:
-        print(f'text Truncate, len text is{len(text)}')
-        text = text[:511]
-    try:
-        return sentiment_analyzer.get_sentiment_dict(text)
-    except Exception as e:
-        print(f'error: {e}, input was:{text}')
-        return None
-
-    
-    
+      
 def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict):
     """Add a sentiment label to each article title."""
     analyzer = sentiment_score.TextAnalysis(model_path)
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     
-    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'roberta_sentiment', corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'title_sentiment', corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
     log_list = logger_instance.get_file_names()
-    
     
     # Loop through each XML file in the corpus directory
     for xml_name in list(log_list):
         xml_file = corpus_dir / xml_name
-        title = parser.get_article_title(xml_file)
-        sentiment_dict = analyzer.title_sentiment_probs(title, analyzer) #TODO
-        tdm_parser.modify_tag(xml_file, label_dict['negative'], sentiment_dict['negative']) # modify_negative
-        tdm_parser.modify_tag(xml_file, label_dict['netural'], sentiment_dict['netural']) # modify_netural
-        tdm_parser.modify_tag(xml_file, label_dict['positive'], sentiment_dict['positive']) # modify_positive
-    
+        soup = parser.get_xml_soup(xml_file)
+        title = parser.get_tag_value(soup, 'Title')
+        sentiment_dict = analyzer.txt_sentiment_dict(title) 
+        for label in sentiment_dict.keys():
+            soup = parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
+            
+        # rewrite to file
+        parser.write_xml_soup(soup, xml_file)
         log_list.remove(xml_name)
         logger_instance.update_log_file(log_list)
 
-def step_title_sentiment_prob(corpus_dir: Path):
-    """Store sentiment probabilities for each title."""
-    pass
 
-def step_paragraph_sentiment_prob(corpus_dir: Path):
+def article_average_sentiment_helper(paragraphs, analyzer):
+        """
+        Compute the average positive, neutral, and negative scores
+        over a list of paragraphs.
+        """
+        # initialize sums
+        sums = {'positive': 0.0, 'neutral': 0.0, 'negative': 0.0}
+        if not paragraphs:
+            print("Warning: No paragraphs provided for sentiment analysis.")
+            return sums
+        n = len(paragraphs)
+
+        for p in paragraphs:
+            probs = analyzer.txt_sentiment_dict(p) or {}
+            sums['negative'] += probs.get('negative', 0)
+            sums['neutral']  += probs.get('neutral',  0)
+            sums['positive'] += probs.get('positive', 0)
+
+
+        if n == 0:
+            return {k: 0.0 for k in sums}
+
+        return {k: v / n for k, v in sums.items()}
+
+
+
+def step_paragraph_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict):
     """Calculate sentiment probabilities for article paragraphs."""
-    pass
+    
+    analyzer = sentiment_score.TextAnalysis(model_path)
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines() 
+    
+    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'article_sentiment', corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    log_list = logger_instance.get_file_names()
+    
+    # Loop through each XML file in the corpus directory
+    for xml_name in list(log_list):
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = parser.get_xml_soup(xml_file)
+            paragraphs_lst = parser.get_art_text(soup, return_str=False)
+            sentiment_dict = article_average_sentiment_helper(paragraphs_lst, analyzer)
+            for label in sentiment_dict.keys():
+                soup = parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
+
+            # rewrite to file
+            parser.write_xml_soup(soup, xml_file)
+            log_list.remove(xml_name)
+            logger_instance.update_log_file(log_list)
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+            continue
 
     
 
@@ -116,7 +154,7 @@ def step_xml_to_csv(corpus_dir: Path, output_dir: Path):
     pass
     
 STEP_FUNCTIONS = {
-    'economic': step_identify_economic,
+    #'economic': step_identify_economic,
     #'title_sentiment': step_title_sentiment,
     #'title_sentiment_prob': step_title_sentiment_prob,
     #'paragraph_sentiment_prob': step_paragraph_sentiment_prob,
@@ -124,7 +162,7 @@ STEP_FUNCTIONS = {
 }
 
 STEP_DESCRIPTIONS = {
-    'economic': 'classify article as economic',
+    #'economic': 'classify article as economic',
     #'title_sentiment': 'add sentiment label to titles',
     #'title_sentiment_prob': 'compute sentiment probabilities for titles',
     #'paragraph_sentiment_prob': 'compute sentiment probabilities for paragraphs',
@@ -161,8 +199,11 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid'
-    #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
+    corpus_dir = CORPUSES_PATH / 'TheWashingtonPostDavid'  #'LosAngelesTimesDavid'
     #step_identify_economic(corpus_dir)
-    step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
-
+    #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
+    #step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
+    #title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
+    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict)
+    paragraph_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
+    step_paragraph_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=paragraph_label_dict)

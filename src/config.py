@@ -11,7 +11,7 @@ LOGS_PATH = PROJECT_PATH / 'logs/'
 
 IS_ECONOMIC_MODEL = SRC_PATH / 'topic_modeling/is_economic_model/model/'
 TF_IDF_MODEL_PATH = SRC_PATH / 'topic_modeling/tf_idf_model/tfidf_vectorizer.pkl'
-
+BERT_MODEL_PATH = SRC_PATH / 'sentiment/sentiment_model/distilbert-base-uncased-finetuned-sst-2-english/'
 
 # sys path
 import sys

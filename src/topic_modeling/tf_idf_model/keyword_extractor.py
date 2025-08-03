@@ -78,7 +78,7 @@ class TfidfKeywordExtractor:
         # Get the feature names from the vectorizer
         feature_names = self.vectorizer.get_feature_names_out()
         if score:
-            return [(feature_names[i], dense_vector[i]) for i in top_indices]
+            return [(feature_names[i], round(dense_vector[i], 4)) for i in top_indices]
         return [feature_names[i] for i in top_indices]
     
 
@@ -107,3 +107,4 @@ if __name__ == '__main__':
     #soup = parser.get_xml_soup(path)
     #print(val)
     pass
+
