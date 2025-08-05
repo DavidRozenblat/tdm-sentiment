@@ -153,11 +153,17 @@
 <tf_idf>[('avg', 0.9415), ('unleaded', 0.1934), ('ago', 0.1876), ('gallon', 0.1408), ('yesterday', 0.0927), ('regular', 0.0894), ('175', 0.0675)]</tf_idf>
 <bert_title_negative>0.3894</bert_title_negative>
 <bert_title_positive>0.6106</bert_title_positive>
-
 <roberta_title_negative>0.0015</roberta_title_negative>
-
 <roberta_title_neutral>0.9971</roberta_title_neutral>
-
 <roberta_title_positive>0.0013</roberta_title_positive>
+<bert_paragraph_positive>0.039485714285714284</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.9605142857142858</bert_paragraph_negative>
+
+<roberta_paragraph_positive>0.0007428571428571429</roberta_paragraph_positive>
+
+<roberta_paragraph_neutral>0.9981142857142856</roberta_paragraph_neutral>
+
+<roberta_paragraph_negative>0.001157142857142857</roberta_paragraph_negative>
 </processed>
 </RECORD>
