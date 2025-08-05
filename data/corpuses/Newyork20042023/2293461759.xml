@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>2293461759</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="EXT">Review</other>
+<mstar>Review</mstar>
+</ObjectTypes>
+<ObjectRollupType>Reviews - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>A Rebellion Brought Into Focus</Title>
+</TitleAtt>
+<SubTitleAtt HTMLContent="true">
+<SubTitle>[Review]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2019-09-20</NumericDate>
+<StartDate>2019-09-20</StartDate>
+<EndDate>2019-09-20</EndDate>
+<AlphaDate>Sep 20, 2019</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Sep 20, 2019</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>C.13</StartPage>
+<Pagination>C.13</Pagination>
+<DocSection>C</DocSection>
+<ColumnNumber>0</ColumnNumber>
+<ColumnHeader>Critic's Pick</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7818_Sep202019______</PCID>
+</ObjectID>
+<ObjectID>
+<MSTARLegacyID>199036-20190920</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<FullTextLinkID>https://www.nytimes.com/2019/09/19/arts/design/alvin-baltrop-photographs.html</FullTextLinkID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1490</LexileScore>
+<Desk>Movies, Performing Arts/Weekend Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Cotter, Holland</NormalizedDisplayForm>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Holland</FirstName>
+</FirstNameAtt>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Holland Cotter</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Cotter</LastName>
+</LastNameAtt>
+<OriginalFormAtt>
+<OriginalForm>Holland Cotter</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Links>
+<OtherLink>
+<DocUrl>https://www.nytimes.com/2019/09/19/arts/design/alvin-baltrop-photographs.html</DocUrl>
+</OtherLink>
+</Links>
+<Terms>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Bronx Museum of the Arts-New York City NY</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>712110</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Art galleries &amp; museums</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Photographs</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Working class</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Homeless people</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Vietnam War</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Piers</GenSubjValue>
+</GenSubjTerm>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>New York City New York</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>New York</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Hudson River</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Vietnam</Geographic>
+</Term>
+</Terms>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1523">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Alvin Baltrop's photographs of the abandoned Hudson River piers and the people who populated them in the 1970s and '80s have been all but ignored. Until now.&lt;/p&gt;&lt;p&gt;New York City is a gateway for fresh art talent but it's also an archive of art careers past. Some are visible, in the "active" file. Most are buried deep. A few surface only after artists have departed, as is the case with the American photographer Alvin Baltrop, who was unknown to the mainstream art world when he died in 2004 at 55, and who now has a bright, tough monument of a retrospective at the Bronx Museum of the Arts.&lt;/p&gt;&lt;p&gt;The show, "The Life and Times of Alvin Baltrop," is also a monument to New York itself during the 1970s and '80s, when Mr. Baltrop did his major work. During those decades, the city was physically falling apart. At the same time, it radiated creative energy. Among other things, in the wake of the 1969 Stonewall uprising, it was home base for a new gay consciousness.&lt;/p&gt;&lt;p&gt;Disintegration and rebellion dovetailed in a line of derelict shipping piers that stretched the Hudson River between Chelsea and Greenwich Village. Isolated from the rest of the city after the collapse of the southernmost section of the elevated West Side Highway, the piers became a preserve for gay sex and communion, and the primary subject of Mr. Baltrop's surviving photographs. These include architectural studies of the piers, but also shots of their semi-residential population of homeless people, teenage runaways, sexual adventurers, criminals and artists, a company that Mr. Baltrop, in effect, joined.&lt;/p&gt;&lt;p&gt;At a glance, he might have seemed an outsider to the adjacent West Village world. Bronx-born, working-class, African-American, bisexual, he came to the scene directly from a three-year stint as a Navy medic. The earliest pictures in the show, which has been organized by Antonio Sergio Bessa, director of curatorial and education programs at the Bronx Museum, were taken aboard the destroyer William K. Pratt, where he was stationed at the height of the Vietnam War.&lt;/p&gt;&lt;p&gt;Some shots are of the ship itself as a functioning war machine, which, although it never actually went to Southeast Asia during Mr. Baltrop's time, kept its crew busy with on-deck drills. Far more interesting and experimental are images of domestic life at sea: sailors sunbathing; napping on deck, and rubbing shoulders in tight living quarters. And most daring, are dramatically posed and lighted studies of nude male bodies: torsos, buttocks, genitals. In these images, the mood is erotic without being furtive. These are clearly collaborations with willing models.&lt;/p&gt;&lt;p&gt;After discharge from the service, Mr. Baltrop returned to New York City, where he lived on the Lower East Side with a woman named Alice and made a living as a taxi driver. By this point, just a few years after Stonewall, the piers had become the main stage for an openly expressed gay sexuality, and they drew Mr. Baltrop in. Initially he used his flexible hours as a cabby to visit and photograph them. Then, to gain more time, he quit driving, bought a van and, supporting himself as a freelance mover, camped there for days and nights on end.&lt;/p&gt;&lt;p&gt;There's no question that he considered his photographs -- particularly of Pier 52, then located at the end of Gansevoort Street, just beyond where the Whitney Museum of American Art now stands -- a long-term project, a mix of historical documentation, insider anthropology, and autobiography. Life on the piers, with its definable demographic and culture of confinement, was not so different from that on board a ship, and Mr. Baltrop viewed it both from afar and up close. The more than 200 pictures in the Bronx show are very much about pulling back for the broad view, then zeroing in.&lt;/p&gt;&lt;p&gt;He was careful to give the piers a context. He shot the waterfront neighborhood with its bars (The Ramrod, Badlands, the Stud), its transient hotels, and its commercial truck parking lots (which also served as nocturnal trysting places). And he photographed, at varying distances, the abandoned shipping depots and warehouse sheds on the piers themselves.&lt;/p&gt;&lt;p&gt;As a group, these images are invaluable contributions to American urban visual history, but also to art history. A lot of new art was happening on the piers. In 1975, the New York artist Gordon Matta-Clark sliced a huge crescent-shaped, light flooded hole in a west-facing wall on Pier 52 and titled it "Day's End"; a painter named Tava (Gustav von Will) was doing murals, as were younger contemporaries like Mike Bidlo and David Wojnarowicz. Mr. Baltrop recorded some of this work, though it seemed incidental to his true interest. What really gripped him was the grandeur and danger of structural ruin, and the people who occupied it.&lt;/p&gt;&lt;p&gt;Look closely at his panoramic views of pier exteriors and you'll see, in many, the presence of tiny figures, clothed or nude, leaning from windows, lounging around, having sex. And the majority of his shots were of populated interiors. In Pier 52, he used a homemade version of a window-cleaner's harness to suspend himself from the ceiling and survey activities below. At the same time, because he became a regular, unthreatening presence, he was able to photograph on-the-ground action, much of it sexual, from an intimate vantage.&lt;/p&gt;&lt;p&gt;The piers were not benign places, and Mr. Baltrop knew it. Muggings were common. Murders happened. He took chilling pictures of the police fishing bodies from the Hudson. (One locally famous waterfront habitué, the drag queen and activist Marsha P. Johnson, of whom Mr. Baltrop made a wonderful portrait, was found dead in the river in 1992.) He spoke, later in his life, of "the frightening, mad, unbelievable, violent, beautiful things that were going on" at the piers. He was aware that his own attraction to them had a pathological element. "It became an addiction," he said. "It was like a drug. It was a drug."&lt;/p&gt;&lt;p&gt;Yet you find little sense of menace in the photographs, most of which are black and white, with a few in color. Raw, cavernous interiors have a church-like luminosity. And, despite repeated images of bare flesh the work can feel erotic but chaste, the way Thomas Eakins's paintings of adolescent boys at a swimming hole do. Much has been made of the "classical" poise of explicitly sexual images by Baltrop's celebrated contemporaries Peter Hujar and Robert Mapplethorpe. But Mr. Baltrop's a classicist too, just a less self-conscious one.&lt;/p&gt;&lt;p&gt;So why has he been all but ignored until fairly recently? Again, his outsider status as a queer working-class African-American is a big part of the answer. (He had two small shows, one in a bar where he moonlighted as a bouncer, but one gallery owner who saw the pictures referred to him as "a real sewer rat type"; another accused him of stealing work by a white photographer.) Fortunately, toward the end of his life, he met the painter Randal Wilcox, who immediately saw the value of his photography and, after Mr. Baltrop's death from cancer in 2004, rescued it from what could easily have been obliteration.&lt;/p&gt;&lt;p&gt;In addition to a cache of personal items -- identity cards, medical records, cameras -- that are in the Bronx show, Mr. Baltrop left behind a handful of beat-up photographic prints and thousands of rolls of film that he couldn't afford to have processed. In 2008, an Artforum essay by the writer and curator Douglas Crimp (reprinted in the exhibition catalog) put Mr. Baltrop's name into circulation, and his reputation continues to grow. This fall his work will be included in the rehang of the Museum of Modern Art's permanent collection. He's also in the Whitney's collection. (On the site of Pier 52, which served for more than a decade as his studio and sometime home, a public art project by the artist David Hammons, organized by the Whitney and the Hudson River Park Trust, began construction this week.)&lt;/p&gt;&lt;p&gt;Mr. Baltrop himself might well be hard pressed today to recognize the part of the city he once recorded. Among the show's latest images is one of a pier engulfed in flames and smoke. The picture may well date from around 1986, when the "sex piers" began to be demolished by the city, to be replaced by the luxury condos, entertainment centers and the transplanted uptown museum there today. It's gratifying to think of Mr. Baltrop, brilliant, persistent, and fully resurrected in the Bronx show, as the true phoenix arising from the ashes.&lt;/p&gt;&lt;p&gt;The Life and Times of Alvin Baltrop&lt;/p&gt;&lt;p&gt;Through Feb. 9 at the Bronx Museum of the Arts, 1040 Grand Concourse; 718-681-6000, bronxmuseum.org.&lt;/p&gt;&lt;p&gt;The Life and Times of Alvin Baltrop Through Feb. 9 at the Bronx Museum of the Arts; 718-681-6000, bronxmuseum.org.&lt;/p&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="mstar_entity_type" value="Photograph" /&gt;&lt;param name="mstar_entity_inline" value="Y" /&gt;&lt;div class="Photograph_content"&gt;&lt;photo_caption&gt;Alvin Baltrop viewed life on the piers both from afar and up close. Left, a man on a ledge (1975-86). (C13); Clockwise from top: a photograph (1969-72) taken during Alvin Baltrop's stint as a Navy medic during the Vietnam War; the drag queen and activist Marsha P. Johnson, (1975-86); crumbling West Side piers in New York (1975-86); a man walking amid the ruins (1975-86); and sunbathers at the abandoned West Side piers (1975-86). (PHOTOGRAPHS VIA THE ALVIN BALTROP TRUST; THIRD STREAMING AND GALERIE BUCHHOLZ) (C18)&lt;/photo_caption&gt;&lt;/div&gt;&lt;/object&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Sep 20, 2019</AlphaDate>
+<StartDate>2019-09-20</StartDate>
+<EndDate>2019-09-20</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7818_Sep202019______</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.11741224948886239</text_blob_sentiment><bert_sentiment>0.7248445215978121</bert_sentiment></grades>
+<processed>
+<is_economic>0.0179</is_economic>
+<tf_idf>[('baltrop', np.float64(0.7798)), ('piers', np.float64(0.2798)), ('mr', np.float64(0.1504)), ('bronx', np.float64(0.1414)), ('pier', np.float64(0.1124)), ('alvin', np.float64(0.1001)), ('museum', np.float64(0.0912)), ('art', np.float64(0.0902)), ('images', np.float64(0.072)), ('hudson', np.float64(0.0675)), ('bronxmuseum', np.float64(0.0614)), ('whitney', np.float64(0.0563)), ('pictures', np.float64(0.0547)), ('life', np.float64(0.0544)), ('52', np.float64(0.0531)), ('photographs', np.float64(0.0523)), ('river', np.float64(0.0506)), ('681', np.float64(0.048)), ('city', np.float64(0.0456)), ('gay', np.float64(0.0446)), ('contemporaries', np.float64(0.0443)), ('erotic', np.float64(0.0432)), ('stonewall', np.float64(0.0432)), ('interiors', np.float64(0.0413)), ('718', np.float64(0.0411)), ('6000', np.float64(0.0405)), ('nude', np.float64(0.0404)), ('sexual', np.float64(0.0402)), ('sex', np.float64(0.0393)), ('bidlo', np.float64(0.0392)), ('arts', np.float64(0.0386)), ('outsider', np.float64(0.0385)), ('waterfront', np.float64(0.0382)), ('shots', np.float64(0.038)), ('american', np.float64(0.0375)), ('populated', np.float64(0.0372)), ('monument', np.float64(0.0369)), ('bessa', np.float64(0.0368)), ('painter', np.float64(0.0363)), ('tava', np.float64(0.0359)), ('habitué', np.float64(0.0359)), ('work', np.float64(0.035)), ('trysting', np.float64(0.0348)), ('shipping', np.float64(0.0347)), ('rehang', np.float64(0.0345)), ('hujar', np.float64(0.0338)), ('wojnarowicz', np.float64(0.0333)), ('deck', np.float64(0.0332)), ('80s', np.float64(0.033)), ('ignored', np.float64(0.0315)), ('york', np.float64(0.0311)), ('definable', np.float64(0.0311)), ('ship', np.float64(0.0309)), ('artforum', np.float64(0.0308)), ('abandoned', np.float64(0.0305)), ('end', np.float64(0.0302)), ('moonlighted', np.float64(0.03)), ('new', np.float64(0.03)), ('unthreatening', np.float64(0.0296)), ('obliteration', np.float64(0.0296)), ('muggings', np.float64(0.0294)), ('luminosity', np.float64(0.0293)), ('1970s', np.float64(0.0293)), ('bodies', np.float64(0.0292)), ('classicist', np.float64(0.0291)), ('eakins', np.float64(0.029)), ('cabby', np.float64(0.0289)), ('hole', np.float64(0.0287)), ('mapplethorpe', np.float64(0.0287)), ('gansevoort', np.float64(0.0285)), ('hammons', np.float64(0.0284)), ('organized', np.float64(0.0282)), ('ramrod', np.float64(0.028)), ('west', np.float64(0.0279)), ('dovetailed', np.float64(0.0277)), ('recorded', np.float64(0.0276)), ('sunbathing', np.float64(0.0272)), ('badlands', np.float64(0.0272)), ('artists', np.float64(0.0271)), ('torsos', np.float64(0.027)), ('org', np.float64(0.027)), ('radiated', np.float64(0.0267)), ('artist', np.float64(0.0267)), ('runaways', np.float64(0.0265)), ('matta', np.float64(0.0264)), ('collection', np.float64(0.0261)), ('furtive', np.float64(0.0261)), ('presence', np.float64(0.026)), ('randal', np.float64(0.026)), ('chaste', np.float64(0.0259)), ('feb', np.float64(0.0258)), ('african', np.float64(0.0258)), ('zeroing', np.float64(0.0257)), ('studies', np.float64(0.0257)), ('depots', np.float64(0.0256)), ('village', np.float64(0.0254)), ('adventurers', np.float64(0.0254)), ('southernmost', np.float64(0.0253)), ('exteriors', np.float64(0.0253)), ('pathological', np.float64(0.0251)), ('napping', np.float64(0.025)), ('derelict', np.float64(0.025)), ('crimp', np.float64(0.025)), ('disintegration', np.float64(0.0248)), ('bouncer', np.float64(0.0247)), ('1040', np.float64(0.0244)), ('photograph', np.float64(0.0244)), ('2004', np.float64(0.0243)), ('curatorial', np.float64(0.0243)), ('medic', np.float64(0.0242)), ('mover', np.float64(0.0242)), ('drug', np.float64(0.0242)), ('gustav', np.float64(0.0242)), ('genitals', np.float64(0.0242)), ('nocturnal', np.float64(0.0241)), ('buttocks', np.float64(0.0239)), ('destroyer', np.float64(0.0239)), ('places', np.float64(0.0239)), ('incidental', np.float64(0.0237)), ('clothed', np.float64(0.0236)), ('reprinted', np.float64(0.0234)), ('transient', np.float64(0.0233)), ('lounging', np.float64(0.0233)), ('concourse', np.float64(0.0233)), ('wilcox', np.float64(0.0231)), ('stud', np.float64(0.023)), ('transplanted', np.float64(0.0229)), ('anthropology', np.float64(0.0228)), ('served', np.float64(0.0226)), ('panoramic', np.float64(0.0226)), ('communion', np.float64(0.0226)), ('resurrected', np.float64(0.0226)), ('arising', np.float64(0.0225)), ('gratifying', np.float64(0.0224)), ('camped', np.float64(0.0224)), ('bisexual', np.float64(0.0222)), ('sheds', np.float64(0.0222)), ('cache', np.float64(0.022)), ('marsha', np.float64(0.022)), ('grandeur', np.float64(0.022)), ('true', np.float64(0.022)), ('murals', np.float64(0.0219)), ('afar', np.float64(0.0219)), ('collaborations', np.float64(0.0219)), ('project', np.float64(0.0218)), ('named', np.float64(0.0218)), ('gripped', np.float64(0.0217)), ('rubbing', np.float64(0.0217)), ('cavernous', np.float64(0.0216)), ('queer', np.float64(0.0216)), ('vantage', np.float64(0.0215)), ('class', np.float64(0.0214)), ('invaluable', np.float64(0.0212)), ('confinement', np.float64(0.0212)), ('uptown', np.float64(0.0212)), ('poise', np.float64(0.0212)), ('engulfed', np.float64(0.0211)), ('times', np.float64(0.021)), ('harness', np.float64(0.0209)), ('living', np.float64(0.0209)), ('menace', np.float64(0.0208)), ('photographic', np.float64(0.0208)), ('discharge', np.float64(0.0207)), ('distances', np.float64(0.0207)), ('ashes', np.float64(0.0207)), ('benign', np.float64(0.0206)), ('pratt', np.float64(0.0206)), ('saw', np.float64(0.0206)), ('crescent', np.float64(0.0206)), ('time', np.float64(0.0206)), ('sailors', np.float64(0.0205)), ('condos', np.float64(0.0204)), ('retrospective', np.float64(0.0203)), ('autobiography', np.float64(0.0203)), ('demolished', np.float64(0.0202)), ('sewer', np.float64(0.0202)), ('lighted', np.float64(0.0201)), ('rat', np.float64(0.0199)), ('adolescent', np.float64(0.0198)), ('sergio', np.float64(0.0198)), ('archive', np.float64(0.0198)), ('documentation', np.float64(0.0197)), ('rebellion', np.float64(0.0197)), ('war', np.float64(0.0196)), ('circulation', np.float64(0.0196)), ('photographer', np.float64(0.0195)), ('uprising', np.float64(0.0194)), ('functioning', np.float64(0.0193)), ('greenwich', np.float64(0.0192)), ('frightening', np.float64(0.0192)), ('gateway', np.float64(0.0192)), ('processed', np.float64(0.0192)), ('daring', np.float64(0.0191)), ('drills', np.float64(0.0191)), ('sexuality', np.float64(0.0191)), ('explicitly', np.float64(0.019)), ('photographed', np.float64(0.019)), ('stationed', np.float64(0.019)), ('david', np.float64(0.019)), ('suspend', np.float64(0.0189)), ('cleaner', np.float64(0.0189)), ('chilling', np.float64(0.0189)), ('ruin', np.float64(0.0188)), ('catalog', np.float64(0.0188)), ('varying', np.float64(0.0187)), ('departed', np.float64(0.0187)), ('flesh', np.float64(0.0186)), ('taxi', np.float64(0.0186)), ('sliced', np.float64(0.0186)), ('prints', np.float64(0.0185)), ('glance', np.float64(0.0185)), ('von', np.float64(0.0185)), ('structural', np.float64(0.0185)), ('rescued', np.float64(0.0184)), ('homemade', np.float64(0.0184)), ('murders', np.float64(0.0184)), ('unbelievable', np.float64(0.0183)), ('history', np.float64(0.0182)), ('demographic', np.float64(0.0182)), ('flooded', np.float64(0.0182)), ('insider', np.float64(0.0182)), ('essay', np.float64(0.0182)), ('curator', np.float64(0.0182)), ('consciousness', np.float64(0.0181)), ('experimental', np.float64(0.0181)), ('chelsea', np.float64(0.018)), ('addiction', np.float64(0.018)), ('semi', np.float64(0.018)), ('freelance', np.float64(0.0179)), ('architectural', np.float64(0.0179)), ('began', np.float64(0.0179)), ('persistent', np.float64(0.0179)), ('working', np.float64(0.0178)), ('flexible', np.float64(0.0178)), ('fortunately', np.float64(0.0178)), ('earliest', np.float64(0.0177)), ('stint', np.float64(0.0177)), ('warehouse', np.float64(0.0177)), ('surviving', np.float64(0.0176)), ('attraction', np.float64(0.0176)), ('locally', np.float64(0.0176)), ('elevated', np.float64(0.0175)), ('criminals', np.float64(0.0174)), ('stretched', np.float64(0.0174)), ('flames', np.float64(0.0174)), ('stealing', np.float64(0.0173)), ('people', np.float64(0.0173)), ('1969', np.float64(0.0172)), ('photography', np.float64(0.0172)), ('adjacent', np.float64(0.0171)), ('1975', np.float64(0.0171)), ('white', np.float64(0.0171)), ('alice', np.float64(0.0171)), ('like', np.float64(0.017)), ('drag', np.float64(0.017)), ('bare', np.float64(0.017)), ('openly', np.float64(0.0169)), ('shoulders', np.float64(0.0169)), ('conscious', np.float64(0.0169)), ('just', np.float64(0.0168)), ('rolls', np.float64(0.0168)), ('classical', np.float64(0.0168)), ('leaning', np.float64(0.0167)), ('fishing', np.float64(0.0167)), ('paintings', np.float64(0.0166)), ('posed', np.float64(0.0166)), ('isolated', np.float64(0.0166)), ('intimate', np.float64(0.0165)), ('things', np.float64(0.0165)), ('occupied', np.float64(0.0165)), ('aboard', np.float64(0.0164)), ('homeless', np.float64(0.0164)), ('height', np.float64(0.0163)), ('careers', np.float64(0.0163)), ('element', np.float64(0.0163)), ('titled', np.float64(0.0162)), ('brilliant', np.float64(0.0162)), ('portrait', np.float64(0.0162)), ('buried', np.float64(0.0161)), ('swimming', np.float64(0.0161)), ('ceiling', np.float64(0.0161)), ('used', np.float64(0.0161)), ('mad', np.float64(0.0161)), ('physically', np.float64(0.016)), ('vietnam', np.float64(0.016)), ('mainstream', np.float64(0.016)), ('1986', np.float64(0.0159)), ('visual', np.float64(0.0159)), ('hotels', np.float64(0.0159)), ('today', np.float64(0.0159)), ('dramatically', np.float64(0.0159)), ('raw', np.float64(0.0158)), ('context', np.float64(0.0158)), ('pressed', np.float64(0.0157)), ('visible', np.float64(0.0157)), ('southeast', np.float64(0.0157)), ('teenage', np.float64(0.0157)), ('quit', np.float64(0.0155)), ('mood', np.float64(0.0155)), ('shaped', np.float64(0.0155)), ('collapse', np.float64(0.0154)), ('pulling', np.float64(0.0154)), ('gordon', np.float64(0.0154)), ('activist', np.float64(0.0154)), ('smoke', np.float64(0.0154)), ('preserve', np.float64(0.0153)), ('cameras', np.float64(0.0153)), ('unknown', np.float64(0.0153)), ('careful', np.float64(0.0153)), ('douglas', np.float64(0.0153)), ('phoenix', np.float64(0.0153)), ('quarters', np.float64(0.0153)), ('exhibition', np.float64(0.0151)), ('located', np.float64(0.0151)), ('luxury', np.float64(0.0151)), ('referred', np.float64(0.0151)), ('celebrated', np.float64(0.015)), ('models', np.float64(0.015)), ('viewed', np.float64(0.015)), ('residential', np.float64(0.015)), ('fairly', np.float64(0.015)), ('repeated', np.float64(0.015)), ('bars', np.float64(0.015)), ('asia', np.float64(0.015)), ('gallery', np.float64(0.0149)), ('clark', np.float64(0.0149)), ('queen', np.float64(0.0148)), ('nights', np.float64(0.0147)), ('contributions', np.float64(0.0146)), ('surface', np.float64(0.0146)), ('navy', np.float64(0.0145)), ('permanent', np.float64(0.0145)), ('recognize', np.float64(0.0145)), ('historical', np.float64(0.0144)), ('antonio', np.float64(0.0144)), ('handful', np.float64(0.0144)), ('danger', np.float64(0.0144)), ('identity', np.float64(0.0143)), ('windows', np.float64(0.0143)), ('truck', np.float64(0.0143)), ('wonderful', np.float64(0.0143)), ('world', np.float64(0.0143)), ('cards', np.float64(0.0142)), ('reputation', np.float64(0.0142)), ('violent', np.float64(0.0142)), ('crew', np.float64(0.0141)), ('machine', np.float64(0.0141)), ('busy', np.float64(0.0141)), ('1992', np.float64(0.0141)), ('supporting', np.float64(0.014)), ('afford', np.float64(0.014)), ('creative', np.float64(0.014)), ('highway', np.float64(0.014)), ('male', np.float64(0.014)), ('replaced', np.float64(0.0139)), ('happening', np.float64(0.0139)), ('closely', np.float64(0.0139)), ('bright', np.float64(0.0139)), ('wake', np.float64(0.0138)), ('tiny', np.float64(0.0137)), ('survey', np.float64(0.0137)), ('apart', np.float64(0.0137)), ('falling', np.float64(0.0137)), ('studio', np.float64(0.0136)), ('talent', np.float64(0.0136)), ('file', np.float64(0.0136)), ('initially', np.float64(0.0136)), ('tight', np.float64(0.0136)), ('urban', np.float64(0.0136)), ('interesting', np.float64(0.0135)), ('sea', np.float64(0.0135)), ('aware', np.float64(0.0135)), ('window', np.float64(0.0135)), ('broad', np.float64(0.0135)), ('lots', np.float64(0.0135)), ('cancer', np.float64(0.0134)), ('views', np.float64(0.0134)), ('parking', np.float64(0.0134)), ('van', np.float64(0.0134)), ('mix', np.float64(0.0134)), ('items', np.float64(0.0133)), ('gain', np.float64(0.0133)), ('centers', np.float64(0.0133)), ('active', np.float64(0.0133)), ('stands', np.float64(0.0132)), ('domestic', np.float64(0.0132)), ('home', np.float64(0.0132)), ('beautiful', np.float64(0.0132)), ('expressed', np.float64(0.0132)), ('driver', np.float64(0.0132)), ('famous', np.float64(0.0131)), ('activities', np.float64(0.0131)), ('boys', np.float64(0.0131)), ('entertainment', np.float64(0.0131)), ('primary', np.float64(0.0129)), ('trust', np.float64(0.0129)), ('directly', np.float64(0.0128)), ('grow', np.float64(0.0128)), ('commercial', np.float64(0.0128)), ('status', np.float64(0.0128)), ('easily', np.float64(0.0127)), ('fully', np.float64(0.0127)), ('population', np.float64(0.0127)), ('drew', np.float64(0.0126)), ('figures', np.float64(0.0126)), ('fresh', np.float64(0.0125)), ('facing', np.float64(0.0125)), ('55', np.float64(0.0125)), ('willing', np.float64(0.0125)), ('bar', np.float64(0.0125)), ('type', np.float64(0.0125)), ('2008', np.float64(0.0124)), ('clearly', np.float64(0.0124)), ('younger', np.float64(0.0124)), ('construction', np.float64(0.0124)), ('picture', np.float64(0.0124)), ('bought', np.float64(0.0124)), ('subject', np.float64(0.0123)), ('modern', np.float64(0.0123)), ('spoke', np.float64(0.0123)), ('peter', np.float64(0.0122)), ('continues', np.float64(0.0122)), ('grand', np.float64(0.0122)), ('section', np.float64(0.0122)), ('driving', np.float64(0.0121)), ('neighborhood', np.float64(0.0121)), ('lived', np.float64(0.0121)), ('culture', np.float64(0.0121)), ('value', np.float64(0.012)), ('accused', np.float64(0.012)), ('writer', np.float64(0.012)), ('joined', np.float64(0.012)), ('date', np.float64(0.012)), ('johnson', np.float64(0.0119)), ('records', np.float64(0.0118)), ('scene', np.float64(0.0118)), ('majority', np.float64(0.0117)), ('immediately', np.float64(0.0117)), ('energy', np.float64(0.0117)), ('answer', np.float64(0.0116)), ('decade', np.float64(0.0116)), ('base', np.float64(0.0116)), ('effect', np.float64(0.0115)), ('dead', np.float64(0.0115)), ('version', np.float64(0.0115)), ('tough', np.float64(0.0115)), ('returned', np.float64(0.0115)), ('william', np.float64(0.0115)), ('born', np.float64(0.0114)), ('common', np.float64(0.0114)), ('addition', np.float64(0.0114)), ('stage', np.float64(0.0114)), ('regular', np.float64(0.0114)), ('deep', np.float64(0.0114)), ('owner', np.float64(0.0114)), ('huge', np.float64(0.0114)), ('film', np.float64(0.0113)), ('programs', np.float64(0.0113)), ('thomas', np.float64(0.0113)), ('wall', np.float64(0.0113)), ('education', np.float64(0.0113)), ('considered', np.float64(0.0112)), ('kept', np.float64(0.0112)), ('visit', np.float64(0.0112)), ('happened', np.float64(0.0111)), ('couldn', np.float64(0.0111)), ('beat', np.float64(0.0111)), ('lower', np.float64(0.0111)), ('thousands', np.float64(0.0111)), ('main', np.float64(0.0111)), ('particularly', np.float64(0.011)), ('decades', np.float64(0.011)), ('medical', np.float64(0.011)), ('self', np.float64(0.011)), ('church', np.float64(0.0109)), ('ground', np.float64(0.0109)), ('met', np.float64(0.0109)), ('light', np.float64(0.0108)), ('view', np.float64(0.0108)), ('latest', np.float64(0.0108)), ('knew', np.float64(0.0107)), ('200', np.float64(0.0107)), ('mike', np.float64(0.0107)), ('actually', np.float64(0.0106)), ('included', np.float64(0.0106)), ('personal', np.float64(0.0106)), ('rest', np.float64(0.0106)), ('color', np.float64(0.0105)), ('term', np.float64(0.0105)), ('site', np.float64(0.0104)), ('action', np.float64(0.0104)), ('shows', np.float64(0.0104)), ('died', np.float64(0.0104)), ('sense', np.float64(0.0103)), ('east', np.float64(0.0103)), ('robert', np.float64(0.0102)), ('woman', np.float64(0.0102)), ('shot', np.float64(0.01)), ('death', np.float64(0.01)), ('fall', np.float64(0.01)), ('question', np.float64(0.01)), ('board', np.float64(0.0099)), ('despite', np.float64(0.0098)), ('black', np.float64(0.0098)), ('include', np.float64(0.0096)), ('taken', np.float64(0.0095)), ('hours', np.float64(0.0094)), ('police', np.float64(0.0093)), ('able', np.float64(0.0093)), ('street', np.float64(0.0093)), ('park', np.float64(0.0092)), ('recently', np.float64(0.0092)), ('doing', np.float64(0.0092)), ('feel', np.float64(0.0092)), ('close', np.float64(0.0091)), ('service', np.float64(0.0091)), ('having', np.float64(0.009)), ('real', np.float64(0.0089)), ('different', np.float64(0.0089)), ('small', np.float64(0.0088)), ('major', np.float64(0.0088)), ('line', np.float64(0.0087)), ('ll', np.float64(0.0087)), ('case', np.float64(0.0087)), ('hard', np.float64(0.0086)), ('went', np.float64(0.0086)), ('company', np.float64(0.0084)), ('director', np.float64(0.0084)), ('far', np.float64(0.0083)), ('look', np.float64(0.0083)), ('past', np.float64(0.0083)), ('later', np.float64(0.0082)), ('point', np.float64(0.0081)), ('took', np.float64(0.008)), ('came', np.float64(0.008)), ('really', np.float64(0.008)), ('lot', np.float64(0.0079)), ('group', np.float64(0.0079)), ('days', np.float64(0.0078)), ('public', np.float64(0.0077)), ('big', np.float64(0.0077)), ('little', np.float64(0.0075)), ('left', np.float64(0.0073)), ('think', np.float64(0.0072)), ('going', np.float64(0.0068)), ('week', np.float64(0.0068)), ('did', np.float64(0.0068)), ('long', np.float64(0.0067)), ('day', np.float64(0.0065)), ('way', np.float64(0.0064)), ('years', np.float64(0.0056)), ('year', np.float64(0.005)), ('said', np.float64(0.0043))]</tf_idf>
+<roberta_title_negative>0.0003</roberta_title_negative>
+<roberta_title_neutral>0.9989</roberta_title_neutral>
+<roberta_title_positive>0.0009</roberta_title_positive>
+<bert_title_negative>0.0073</bert_title_negative>
+<bert_title_positive>0.9927</bert_title_positive>
+</processed>
+</RECORD>

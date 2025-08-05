@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1531107677</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Sports Briefing</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Sports Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2014-05-18</NumericDate>
+<StartDate>2014-05-18</StartDate>
+<EndDate>2014-05-18</EndDate>
+<AlphaDate>May 18, 2014</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company May 18, 2014</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>SP.4</StartPage>
+<Pagination>SP.4</Pagination>
+<DocSection>SP</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>3321817401</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>87652622</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>873624-20140518</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1920</LexileScore>
+<Desk>Sports Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<DisplayForm>The Associated Press</DisplayForm>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>The Associated Press</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<LegacyDataMapping>
+<MappingVersion>$Header: /users/z/azastrow/pqd/sis/gs40/RCS/gs51.xslt,v 2.1 2014/01/21 18:05:18 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="51">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Peter Sagan of Slovakia won the seventh stage of the Tour of California -- the 88.7-mile Santa Clarita road race -- in 3 hours 24 minutes 33 seconds, and Bradley Wiggins maintained his 30-second overall lead over Rohan Dennis. (AP)&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>May 18, 2014</AlphaDate>
+<StartDate>2014-05-18</StartDate>
+<EndDate>2014-05-18</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>87652622</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.0</text_blob_sentiment><bert_sentiment>0.9987200498580933</bert_sentiment></grades>
+<processed>
+<is_economic>0.5275</is_economic>
+<tf_idf>[('sagan', np.float64(0.347)), ('rohan', np.float64(0.3338)), ('wiggins', np.float64(0.2897)), ('slovakia', np.float64(0.2802)), ('clarita', np.float64(0.2777)), ('bradley', np.float64(0.205)), ('maintained', np.float64(0.1956)), ('88', np.float64(0.1893)), ('dennis', np.float64(0.1858)), ('seventh', np.float64(0.1663)), ('mile', np.float64(0.1659)), ('ap', np.float64(0.1648)), ('santa', np.float64(0.1588)), ('seconds', np.float64(0.1562)), ('peter', np.float64(0.1533)), ('tour', np.float64(0.153)), ('33', np.float64(0.1517)), ('overall', np.float64(0.1497)), ('stage', np.float64(0.143)), ('race', np.float64(0.1389)), ('road', np.float64(0.1268)), ('minutes', np.float64(0.1225)), ('california', np.float64(0.1208)), ('24', np.float64(0.1206)), ('hours', np.float64(0.1183)), ('lead', np.float64(0.1143)), ('won', np.float64(0.0985)), ('30', np.float64(0.0933)), ('second', np.float64(0.0905))]</tf_idf>
+<roberta_title_negative>0.0003</roberta_title_negative>
+<roberta_title_neutral>0.9984</roberta_title_neutral>
+<roberta_title_positive>0.0013</roberta_title_positive>
+<bert_title_negative>0.0466</bert_title_negative>
+<bert_title_positive>0.9534</bert_title_positive>
+</processed>
+</RECORD>

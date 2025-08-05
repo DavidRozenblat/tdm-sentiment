@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>409725169</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Area Attractions The Washin ...</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[FINAL Edition]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2004-12-10</NumericDate>
+<StartDate>2004-12-10</StartDate>
+<EndDate>2004-12-10</EndDate>
+<AlphaDate>Dec 10, 2004</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Dec 10, 2004</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>T.21</StartPage>
+<Pagination>T21</Pagination>
+<DocSection>WEEKEND</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>759763831</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>14259541</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2004121007B53CEC</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1040</LexileScore>
+<Abstract>
+<Short WordCount="218">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   The Washington, D.C., Visitor Information Center is in the Ronald Reagan Building and International Trade Center, 1300 Pennsylvania Ave. NW (Metro: Federal Triangle, Metro Center). Call 202-328-4748 for more information.&lt;/p&gt;              &lt;p&gt;   2700 F St. NW. 202-416-8340 (TDD: 202-416- 8728). Free guided tours of the Kennedy Center are given in English Monday through Friday from 10 to 5 and Saturday and Sunday from 10 to 1. Reservations recommended for groups of 20 or more. Printed guides are available in English, Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Polish, Russian, Spanish and Turkish. Tours depart from the parking plaza on Level A, and feature the Hall of States and Hall of Nations, the center's theaters, and the dozens of paintings, sculptures, and other artworks given to the center by foreign countries.&lt;/p&gt;              &lt;p&gt;   U.S. CAPITOL  --  East Capitol Street and First Street NW (Metro: Capitol South, Union Station); 202-225-6827. Open daily from 9 a.m. to 3:30 p.m. (closed Sundays, open national holidays) March through August, 9 to 3:30. September through February. Guided tours offered Monday through Saturday from 9:30 to 3:30. Free timed tickets distributed at 8:15 each morning. The line forms at the southwest corner of the Capitol grounds at the corner of Independence Avenue and First Street SW, across from the Botanic Gardens.  (One ticket per person.) Free admission.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="752">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Area Attractions&lt;/p&gt;              &lt;p&gt;   The Washington, D.C., Visitor Information Center is in the Ronald Reagan Building and International Trade Center, 1300 Pennsylvania Ave. NW (Metro: Federal Triangle, Metro Center). Call 202-328-4748 for more information.&lt;/p&gt;              &lt;p&gt;   The National Park Service can answer questions about many events, monuments and memorials in town. Call 202-619-7222.&lt;/p&gt;              &lt;p&gt;   Here are some of the major tourist attractions in the Washington area:&lt;/p&gt;              &lt;p&gt;   ARLINGTON NATIONAL CEMETERY  --  Memorial Drive, at southern end of Memorial Bridge (Metro: Arlington National Cemetery); 703-607- 8000. The cemetery is open to the public at 8 a.m. daily. From April 1 to Sept. 30 the cemetery closes at 7; the other six months it closes at 5. Major attractions include the Tomb of the Unknowns, where a formal changing of the guard ceremony is held every half- hour in the summer and on the hour the rest of the year.&lt;/p&gt;              &lt;p&gt;   BUREAU OF ENGRAVING &amp;amp; PRINTING  --  14th and C streets SW (Metro: Smithsonian); 202-874-3188. Guided tours of the currency printing facility available Monday through Friday 9 to 2 (and from 5 to 6:40 June through August). Admission is free. From September through February, no tickets are required.&lt;/p&gt;              &lt;p&gt;   FORD'S THEATRE AND LINCOLN MUSEUM -- 517 10th St. NW (Metro: Metro Center, Federal Triangle); 202-426-6924. Tours are free and self-guided. Open daily 9 to 5 except during rehearsals and performances. Ranger talks are offered at 15 minutes after the hour daily.&lt;/p&gt;              &lt;p&gt;   FRANKLIN DELANO ROOSEVELT MEMORIAL  --  In West Potomac Park, between the Lincoln and Jefferson memorials; 202-426-6841. Open 8 a.m. to midnight daily. Free admission. The seven-acre, outdoor memorial has four galleries, each representing a different term in FDR's presidency.&lt;/p&gt;              &lt;p&gt;   JEFFERSON MEMORIAL  --  South bank of the Tidal Basin (Metro: Smithsonian); 202-426-6821. Open daily 8 a.m. to midnight.&lt;/p&gt;              &lt;p&gt;   KENNEDY CENTER  --  2700 F St. NW. 202-416-8340 (TDD: 202-416- 8728). Free guided tours of the Kennedy Center are given in English Monday through Friday from 10 to 5 and Saturday and Sunday from 10 to 1. Reservations recommended for groups of 20 or more. Printed guides are available in English, Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Polish, Russian, Spanish and Turkish. Tours depart from the parking plaza on Level A, and feature the Hall of States and Hall of Nations, the center's theaters, and the dozens of paintings, sculptures, and other artworks given to the center by foreign countries.&lt;/p&gt;              &lt;p&gt;   KOREAN WAR VETERANS MEMORIAL  --  Constitution Avenue, between 21st and 22nd streets NW; 202-426-6841. Open 24 hours a day; staffed daily from 8 a.m. to 11:45 p.m.  This memorial consists of 19 larger- than-life statues of soldiers from each branch of the armed forces whose images are reflected in a 164-foot-long wall bearing this message inlaid in silver: Freedom Is Not Free.&lt;/p&gt;              &lt;p&gt;   LINCOLN MEMORIAL  --  23rd Street NW, between Constitution and Independence avenues; 202-426-6842. Open daily 8 a.m. to midnight. Free admission.&lt;/p&gt;              &lt;p&gt;   MOUNT VERNON  --  At the south end of the George Washington Parkway, eight miles south of Alexandria; 703-780-2000. The 45-acre estate, home and burial place of George Washington is open daily 9 to 4 November through February, 8 to 5 April through August, 9 to 5 in other months. Adults $11, seniors $10.50, ages 6 through 11 $5, under 6 free.&lt;/p&gt;              &lt;p&gt;   U.S. CAPITOL  --  East Capitol Street and First Street NW (Metro: Capitol South, Union Station); 202-225-6827. Open daily from 9 a.m. to 3:30 p.m. (closed Sundays, open national holidays) March through August, 9 to 3:30. September through February. Guided tours offered Monday through Saturday from 9:30 to 3:30. Free timed tickets distributed at 8:15 each morning. The line forms at the southwest corner of the Capitol grounds at the corner of Independence Avenue and First Street SW, across from the Botanic Gardens.  (One ticket per person.) Free admission.&lt;/p&gt;              &lt;p&gt;   VIETNAM VETERANS MEMORIAL  --  23rd Street and Constitution Avenue NW; 202-634-1568. Free admission. Open 24 hours, staffed from 8 a.m. to 11:45 p.m.&lt;/p&gt;              &lt;p&gt;   WASHINGTON NATIONAL CATHEDRAL  --  Wisconsin and Massachusetts avenues NW; 202-537-6200. Open fall, winter, and spring Mondays through Fridays 10-5:30; Saturdays 10-4:30; Sundays 8-6:30; May 1 through Labor Day, weekdays 10 to 8, weekends 10 to 4:30. Suggested donation $3 adults, $1 children. Guided tours also available; call for schedules.&lt;/p&gt;              &lt;p&gt;   WHITE HOUSE  --  1600 Pennsylvania Ave. NW. 202-208-1631 or 202- 456-7041 (TDD: 202-208-1636 or 202-456-2121). Tours of the White House can be arranged only through the office of a member of Congress.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Dec 10, 2004</AlphaDate>
+<StartDate>2004-12-10</StartDate>
+<EndDate>2004-12-10</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>14259541</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.07164351851851852</text_blob_sentiment><bert_sentiment>0.5593900575357325</bert_sentiment></grades>
+<processed>
+<is_economic>0.1135</is_economic>
+<tf_idf>[('202', np.float64(0.4637)), ('nw', np.float64(0.2486)), ('metro', np.float64(0.2116)), ('memorial', np.float64(0.2072)), ('tours', np.float64(0.198)), ('426', np.float64(0.1919)), ('daily', np.float64(0.1809)), ('open', np.float64(0.1662)), ('free', np.float64(0.1524)), ('guided', np.float64(0.1474)), ('admission', np.float64(0.1346)), ('30', np.float64(0.1178)), ('center', np.float64(0.1086)), ('6841', np.float64(0.1017)), ('capitol', np.float64(0.0985)), ('cemetery', np.float64(0.0979)), ('tdd', np.float64(0.0829)), ('midnight', np.float64(0.0821)), ('street', np.float64(0.0815)), ('constitution', np.float64(0.0788)), ('10', np.float64(0.0779)), ('416', np.float64(0.0756)), ('456', np.float64(0.0756)), ('lincoln', np.float64(0.0755)), ('staffed', np.float64(0.0723)), ('attractionsthe', np.float64(0.0723)), ('washington', np.float64(0.0708)), ('sw', np.float64(0.0688)), ('208', np.float64(0.0687)), ('23rd', np.float64(0.0684)), ('triangle', np.float64(0.0675)), ('printing', np.float64(0.0672)), ('national', np.float64(0.0667)), ('smithsonian', np.float64(0.0663)), ('south', np.float64(0.0654)), ('attractions', np.float64(0.0654)), ('february', np.float64(0.0647)), ('avenues', np.float64(0.0644)), ('avenue', np.float64(0.0637)), ('august', np.float64(0.0634)), ('closes', np.float64(0.0625)), ('6842', np.float64(0.059)), ('sundays', np.float64(0.0585)), ('memorials', np.float64(0.0584)), ('45', np.float64(0.0582)), ('703', np.float64(0.0577)), ('7041', np.float64(0.0575)), ('jefferson', np.float64(0.0572)), ('korean', np.float64(0.0567)), ('6924', np.float64(0.0561)), ('6827', np.float64(0.0556)), ('3188', np.float64(0.0556)), ('1568', np.float64(0.0552)), ('11', np.float64(0.0552)), ('hour', np.float64(0.0551)), ('8728', np.float64(0.0546)), ('6821', np.float64(0.0541)), ('acre', np.float64(0.0538)), ('available', np.float64(0.0535)), ('independence', np.float64(0.0534)), ('4748', np.float64(0.0525)), ('veterans', np.float64(0.0517)), ('arlington', np.float64(0.0508)), ('pennsylvania', np.float64(0.0502)), ('kennedy', np.float64(0.0499)), ('1631', np.float64(0.0484)), ('7222', np.float64(0.0478)), ('tickets', np.float64(0.0475)), ('1636', np.float64(0.047)), ('adults', np.float64(0.0469)), ('inlaid', np.float64(0.0465)), ('8340', np.float64(0.0463)), ('monday', np.float64(0.0452)), ('engraving', np.float64(0.0449)), ('corner', np.float64(0.0449)), ('english', np.float64(0.0445)), ('874', np.float64(0.044)), ('2121', np.float64(0.0438)), ('streets', np.float64(0.0437)), ('ave', np.float64(0.0433)), ('delano', np.float64(0.043)), ('september', np.float64(0.0417)), ('fdr', np.float64(0.0414)), ('607', np.float64(0.0413)), ('517', np.float64(0.0405)), ('unknowns', np.float64(0.04)), ('botanic', np.float64(0.0396)), ('634', np.float64(0.0395)), ('hall', np.float64(0.0394)), ('619', np.float64(0.0391)), ('offered', np.float64(0.0389)), ('537', np.float64(0.0382)), ('tomb', np.float64(0.0381)), ('tidal', np.float64(0.038)), ('8000', np.float64(0.0376)), ('artworks', np.float64(0.0375)), ('328', np.float64(0.0375)), ('rehearsals', np.float64(0.0371)), ('6200', np.float64(0.0371)), ('780', np.float64(0.0366)), ('statues', np.float64(0.0366)), ('164', np.float64(0.0364)), ('april', np.float64(0.0363)), ('hebrew', np.float64(0.0363)), ('monuments', np.float64(0.0361)), ('george', np.float64(0.0358)), ('depart', np.float64(0.0354)), ('basin', np.float64(0.0353)), ('2700', np.float64(0.0352)), ('1300', np.float64(0.0349)), ('ranger', np.float64(0.0348)), ('arabic', np.float64(0.0345)), ('22nd', np.float64(0.034)), ('weekdays', np.float64(0.034)), ('1600', np.float64(0.0338)), ('24', np.float64(0.0338)), ('timed', np.float64(0.0337)), ('turkish', np.float64(0.0334)), ('sculptures', np.float64(0.0333)), ('hours', np.float64(0.0332)), ('st', np.float64(0.0331)), ('information', np.float64(0.033)), ('given', np.float64(0.0326)), ('burial', np.float64(0.0325)), ('parkway', np.float64(0.0325)), ('park', np.float64(0.0324)), ('guides', np.float64(0.0324)), ('consists', np.float64(0.0321)), ('cathedral', np.float64(0.032)), ('mondays', np.float64(0.0319)), ('galleries', np.float64(0.0317)), ('polish', np.float64(0.0315)), ('saturday', np.float64(0.0314)), ('federal', np.float64(0.0314)), ('area', np.float64(0.0313)), ('schedules', np.float64(0.0312)), ('fridays', np.float64(0.0308)), ('major', np.float64(0.0308)), ('visitor', np.float64(0.0306)), ('donation', np.float64(0.0305)), ('currency', np.float64(0.0303)), ('printed', np.float64(0.0302)), ('225', np.float64(0.0301)), ('white', np.float64(0.03)), ('tourist', np.float64(0.0299)), ('vernon', np.float64(0.0299)), ('bearing', np.float64(0.0298)), ('saturdays', np.float64(0.0295)), ('friday', np.float64(0.0294)), ('months', np.float64(0.0293)), ('weekends', np.float64(0.0292)), ('arranged', np.float64(0.0292)), ('paintings', np.float64(0.0292)), ('roosevelt', np.float64(0.0291)), ('holidays', np.float64(0.0289)), ('reservations', np.float64(0.0285)), ('14th', np.float64(0.0285)), ('distributed', np.float64(0.0285)), ('gardens', np.float64(0.0284)), ('plaza', np.float64(0.0284)), ('reagan', np.float64(0.0283)), ('reflected', np.float64(0.0283)), ('potomac', np.float64(0.0282)), ('house', np.float64(0.0281)), ('21st', np.float64(0.0281)), ('vietnam', np.float64(0.028)), ('theaters', np.float64(0.0279)), ('franklin', np.float64(0.0277)), ('15', np.float64(0.0277)), ('presidency', np.float64(0.0274)), ('alexandria', np.float64(0.0273)), ('southwest', np.float64(0.0269)), ('seniors', np.float64(0.0266)), ('end', np.float64(0.0265)), ('grounds', np.float64(0.0265)), ('ronald', np.float64(0.0263)), ('outdoor', np.float64(0.0263)), ('theatre', np.float64(0.0261)), ('formal', np.float64(0.0261)), ('representing', np.float64(0.026)), ('10th', np.float64(0.026)), ('massachusetts', np.float64(0.026)), ('forms', np.float64(0.0258)), ('mount', np.float64(0.0258)), ('branch', np.float64(0.0258)), ('japanese', np.float64(0.0258)), ('italian', np.float64(0.0257)), ('wisconsin', np.float64(0.0256)), ('ceremony', np.float64(0.0255)), ('recommended', np.float64(0.0255)), ('bureau', np.float64(0.0253)), ('ford', np.float64(0.0253)), ('spanish', np.float64(0.0252)), ('german', np.float64(0.0249)), ('bridge', np.float64(0.0249)), ('performances', np.float64(0.0248)), ('soldiers', np.float64(0.0246)), ('russian', np.float64(0.0245)), ('chinese', np.float64(0.0244)), ('ticket', np.float64(0.0243)), ('armed', np.float64(0.0242)), ('ages', np.float64(0.0241)), ('facility', np.float64(0.0239)), ('freedom', np.float64(0.0235)), ('parking', np.float64(0.0235)), ('silver', np.float64(0.0235)), ('feature', np.float64(0.0234)), ('nations', np.float64(0.0232)), ('dozens', np.float64(0.023)), ('changing', np.float64(0.0229)), ('museum', np.float64(0.0229)), ('day', np.float64(0.0228)), ('talks', np.float64(0.0226)), ('estate', np.float64(0.0223)), ('french', np.float64(0.0223)), ('labor', np.float64(0.0222)), ('winter', np.float64(0.022)), ('station', np.float64(0.0216)), ('larger', np.float64(0.0215)), ('forces', np.float64(0.0214)), ('suggested', np.float64(0.0214)), ('countries', np.float64(0.0211)), ('images', np.float64(0.0211)), ('guard', np.float64(0.021)), ('bank', np.float64(0.0206)), ('november', np.float64(0.0205)), ('2000', np.float64(0.0205)), ('answer', np.float64(0.0204)), ('foreign', np.float64(0.0204)), ('sept', np.float64(0.0203)), ('required', np.float64(0.0202)), ('closed', np.float64(0.0201)), ('wall', np.float64(0.0199)), ('miles', np.float64(0.0198)), ('trade', np.float64(0.0198)), ('union', np.float64(0.0197)), ('events', np.float64(0.0196)), ('congress', np.float64(0.0195)), ('message', np.float64(0.0194)), ('southern', np.float64(0.0194)), ('self', np.float64(0.0192)), ('spring', np.float64(0.019)), ('groups', np.float64(0.0187)), ('foot', np.float64(0.0187)), ('questions', np.float64(0.0186)), ('rest', np.float64(0.0185)), ('drive', np.float64(0.0185)), ('town', np.float64(0.0184)), ('term', np.float64(0.0184)), ('morning', np.float64(0.0181)), ('east', np.float64(0.0181)), ('june', np.float64(0.0178)), ('level', np.float64(0.0177)), ('fall', np.float64(0.0175)), ('march', np.float64(0.0174)), ('member', np.float64(0.0174)), ('summer', np.float64(0.0174)), ('building', np.float64(0.0173)), ('war', np.float64(0.0172)), ('minutes', np.float64(0.0172)), ('international', np.float64(0.0171)), ('include', np.float64(0.0169)), ('person', np.float64(0.0169)), ('19', np.float64(0.0166)), ('40', np.float64(0.0166)), ('west', np.float64(0.0164)), ('held', np.float64(0.0162)), ('seven', np.float64(0.0161)), ('service', np.float64(0.016)), ('children', np.float64(0.0158)), ('50', np.float64(0.0157)), ('different', np.float64(0.0156)), ('sunday', np.float64(0.0156)), ('line', np.float64(0.0153)), ('half', np.float64(0.0151)), ('office', np.float64(0.015)), ('states', np.float64(0.0147)), ('place', np.float64(0.0137)), ('life', np.float64(0.0136)), ('public', np.float64(0.0135)), ('20', np.float64(0.0135)), ('long', np.float64(0.0118)), ('home', np.float64(0.0116)), ('year', np.float64(0.0087))]</tf_idf>
+<title_negative>0.3241</title_negative>
+<title_positive>0.6759</title_positive>
+<bert_paragraph_positive>0.7840941176470587</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.21590588235294117</bert_paragraph_negative>
+</processed>
+</RECORD>

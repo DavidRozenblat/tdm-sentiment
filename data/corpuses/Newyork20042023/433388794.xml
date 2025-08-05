@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>433388794</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Commentary</other>
+<mstar>Commentary</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>My Country, Right and Wrong (but Why So Wrong?)</Title>
+</TitleAtt>
+<NumericDate>2006-08-06</NumericDate>
+<StartDate>2006-08-06</StartDate>
+<EndDate>2006-08-06</EndDate>
+<AlphaDate>Aug 6, 2006</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Aug 6, 2006</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>3.3</StartPage>
+<Pagination>3.3</Pagination>
+<DocSection>3</DocSection>
+<ColumnNumber>1</ColumnNumber>
+<ColumnHeader>Everybody's Business</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1089807971</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>32962201</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>676489-20060806</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1490</LexileScore>
+<Desk>Money and Business/Financial Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Stein, Ben</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Stein</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Ben</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Ben Stein</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Investment banking</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Petroleum industry</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Labor force</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Economic policy</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Corporate profits</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>United States</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>US</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Short WordCount="210">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;I agree the profits are very large in absolute numbers, but in relative terms they are nothing like investment bank profits. Why do we not raise an eyebrow when hedge funds make huge profits by moving around pieces of paper and roiling markets -- creating no social good I can see -- but raise a ruckus when oil companies make profits while keeping the whole nation going? &lt;/p&gt;              &lt;p&gt;In total, profits are by far the highest they have ever been, running at a rate of very roughly $1.38 trillion in the first quarter of 2006. As a percentage of gross domestic product, profits are also the highest they have been since the statistics began being kept in 1959 -- roughly 12.7 percent.&lt;/p&gt;              &lt;p&gt;Don't get me wrong. I like profits, a lot. They are what the capitalist society is all about. But why are we outsourcing, why are we moving our work overseas, if our corporations are so profitable? And if our corporate world is so profitable, how come so little of the growth goes to workers' wages? How come -- as an average number -- basically none of the growth goes to the ordinary worker's wages? I am not saying this to encourage strikes. I am genuinely puzzled about it.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1266">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="16"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="AuthorAffiliation"/&gt;&lt;div class="mstar_entity_caption"&gt;&lt;p&gt;Ben Stein is a lawyer, writer, actor and economist. E-mail: ebiz@nytimes.com.&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;              &lt;p&gt;LIKE many people, I am attracted to puzzles. I don't do crossword puzzles, and I no longer read many mysteries, but I am impressed at the number of conundrums there are in this world.&lt;/p&gt;              &lt;p&gt;One of the ones that continues to baffle me is the criticism of oil companies in Congress and in the mainstream media, because oil companies have been very profitable. No one has been able to prove price-fixing. The Federal Trade Commission specifically studied the subject, and found neither price-fixing nor gouging by any major oil company.&lt;/p&gt;              &lt;p&gt;I agree the profits are very large in absolute numbers, but in relative terms they are nothing like investment bank profits. Why do we not raise an eyebrow when hedge funds make huge profits by moving around pieces of paper and roiling markets -- creating no social good I can see -- but raise a ruckus when oil companies make profits while keeping the whole nation going? &lt;/p&gt;              &lt;p&gt;I see the hand of an archaic envy here, and it's a dangerous hand.&lt;/p&gt;              &lt;p&gt;A second puzzle, and this is a killer: ''Supply side'' economists say that by lowering taxes, we create more prosperity and more tax revenue because we stimulate economic activity. One way, supposedly, is that people work harder -- that is, more hours a week. With taxes cut, we keep more of what we earn, so we'll work more.&lt;/p&gt;              &lt;p&gt;(Of course, you could also say that if we keep more of what we earn, we won't need to work as much, so we'll work less. But no one pays much attention to that, so we won't either for right now.)&lt;/p&gt;              &lt;p&gt;And, in fact, if you think about it, how else could income tax cuts stimulate economic activity except by encouraging Americans to work more or else by having more Americans in the labor force?&lt;/p&gt;              &lt;p&gt;Yet, the number of hours Americans work per week has barely budged in the five years since President Bush's tax cuts, and is very much less than the number of hours worked per week on average in 1959, when tax rates were far, far higher than they are now.&lt;/p&gt;              &lt;p&gt;Moreover, the percentage of male Americans in the labor force has fallen by 10 full percentage points from 1959 to now. Overall labor force participation has barely changed since 1989 -- almost entirely because of very large growth in the female labor force -- and has moved almost not at all since the Bush tax cuts were passed.&lt;/p&gt;              &lt;p&gt;If the personal income tax cuts are not working to stimulate the economy through added labor, then just how are they working -- or are they working?&lt;/p&gt;              &lt;p&gt;A puzzle: we have all heard corporate executives say that American workers are paid too much; that our industries cannot compete with foreign makers because our labor costs are so high that if we used American union labor, we would see profits evaporate.&lt;/p&gt;              &lt;p&gt;And yet, hourly wages in this country, adjusted for inflation, are below what they were in 1972 (when my pal, Richard Nixon, was president) by a substantial amount. But to hear corporate leaders tell it, this is still far too high to allow competition with foreign entities.&lt;/p&gt;              &lt;p&gt;Now, you would think that if this high-priced American labor were in fact pressing corporate backs to the wall, profits would be stagnant or falling. But in fact, in the last several years -- and especially the last few quarters -- corporate profits as a percentage of sales were the highest they have been since 1965 -- roughly 9.6 percent before tax and roughly 7.4 percent after tax.&lt;/p&gt;              &lt;p&gt;In total, profits are by far the highest they have ever been, running at a rate of very roughly $1.38 trillion in the first quarter of 2006. As a percentage of gross domestic product, profits are also the highest they have been since the statistics began being kept in 1959 -- roughly 12.7 percent.&lt;/p&gt;              &lt;p&gt;Don't get me wrong. I like profits, a lot. They are what the capitalist society is all about. But why are we outsourcing, why are we moving our work overseas, if our corporations are so profitable? And if our corporate world is so profitable, how come so little of the growth goes to workers' wages? How come -- as an average number -- basically none of the growth goes to the ordinary worker's wages? I am not saying this to encourage strikes. I am genuinely puzzled about it.&lt;/p&gt;              &lt;p&gt;Could it be that just the threat of moving jobs overseas (very few have in fact actually been moved as yet) keeps labor cowed? Is the vast labor force of Asia and the Third World in fact something like ''the reserve army of the unemployed'' that Karl Marx described in his critique of capitalism? &lt;/p&gt;              &lt;p&gt;I hate and detest Marx and everything he stands for, but he was a shrewd observer. In any event, what's going on? How can retail stores keep wages so low? All service jobs that have to be done in person are not going to be shipped to Guangdong or Mumbai. Then why don't their wages rise? &lt;/p&gt;              &lt;p&gt;Next mystery: in a nation with stupendous deficits even at the peak of the business cycle, with forecast deficits of nuclear-disaster status, how can it be important to repeal the estate tax? Isn't there enough income and wealth inequality in America? Don't we need the revenue? How on earth can any social good come from making taxes on the rich even lower than they are? How does this bind the nation together in time of war?&lt;/p&gt;              &lt;p&gt;Don't get me wrong about this one, either. My father died in 1999. My sister paid a stunning tax on his estate and I would have preferred to keep the money. But my father was intensely grateful to this country for the opportunities it had afforded him. So are my sister and I. We don't see any unfairness in paying back to the government that pays the soldiers and marines and pilots and sailors who defend us and allowed our little family to move to the suburbs. (Actually my sister lives in Brooklyn, but that's another story.)&lt;/p&gt;              &lt;p&gt;Why should the very rich not pay their fair share of the burdens of government? I could see a different argument if we were not hundreds of billions in the red, but in the real world, how can repeal or a drastic cut in the estate tax make social, moral or fiscal policy sense?&lt;/p&gt;              &lt;p&gt;HERE'S my final puzzle: in a world that is clearly going down the tubes, where the forces of barbarism are on the march and the forces of civilization cannot stop them, why don't we all spend a large part of every day being grateful we are where we are? &lt;/p&gt;              &lt;p&gt;This country, with all of its problems, with all of its inequality and puzzles, is a verdant, lovely garden compared with the shrieking lunacy in so much of the world outside it. Let's appreciate it enough to keep it.&lt;/p&gt;              &lt;p&gt;Every question and criticism I make is within the context of a deep pride and thankfulness for being in America. I wake up in America the way I wake up in my own skin, to paraphrase my new hero, Philip Roth, and it's an old skin, but it's mine and I love it.&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="mstar_entity_caption"&gt;&lt;p&gt;Drawing (Drawing by Philip Anderson)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Aug 6, 2006</AlphaDate>
+<StartDate>2006-08-06</StartDate>
+<EndDate>2006-08-06</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>32962201</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.11136164601681842</text_blob_sentiment><bert_sentiment>-0.48689892888069153</bert_sentiment></grades>
+<processed>
+<is_economic>0.825</is_economic>
+<tf_idf>[('profits', np.float64(0.3267)), ('tax', np.float64(0.2737)), ('labor', np.float64(0.2704)), ('wages', np.float64(0.1795)), ('puzzles', np.float64(0.1387)), ('corporate', np.float64(0.1385)), ('stimulate', np.float64(0.1305)), ('puzzle', np.float64(0.1203)), ('1959', np.float64(0.1203)), ('percentage', np.float64(0.1152)), ('roughly', np.float64(0.1147)), ('cuts', np.float64(0.1135)), ('profitable', np.float64(0.1116)), ('force', np.float64(0.1105)), ('oil', np.float64(0.1083)), ('fact', np.float64(0.1052)), ('work', np.float64(0.1049)), ('don', np.float64(0.0983)), ('marx', np.float64(0.0956)), ('world', np.float64(0.0916)), ('americans', np.float64(0.0898)), ('taxes', np.float64(0.0861)), ('inequality', np.float64(0.0835)), ('repeal', np.float64(0.0816)), ('deficits', np.float64(0.0815)), ('estate', np.float64(0.0814)), ('income', np.float64(0.0786)), ('fixing', np.float64(0.0786)), ('highest', np.float64(0.0783)), ('sister', np.float64(0.0783)), ('growth', np.float64(0.0769)), ('number', np.float64(0.0753)), ('far', np.float64(0.071)), ('grateful', np.float64(0.0705)), ('moving', np.float64(0.0705)), ('thankfulness', np.float64(0.0682)), ('philip', np.float64(0.067)), ('overseas', np.float64(0.0667)), ('pays', np.float64(0.0666)), ('companies', np.float64(0.0663)), ('social', np.float64(0.0661)), ('skin', np.float64(0.0645)), ('america', np.float64(0.0615)), ('nation', np.float64(0.0613)), ('hours', np.float64(0.0606)), ('barely', np.float64(0.0603)), ('large', np.float64(0.0602)), ('baffle', np.float64(0.06)), ('earn', np.float64(0.0594)), ('conundrums', np.float64(0.0591)), ('wake', np.float64(0.0588)), ('drawing', np.float64(0.0585)), ('going', np.float64(0.0584)), ('barbarism', np.float64(0.0583)), ('percent', np.float64(0.0581)), ('activity', np.float64(0.058)), ('detest', np.float64(0.0578)), ('criticism', np.float64(0.0577)), ('stupendous', np.float64(0.0576)), ('working', np.float64(0.0572)), ('guangdong', np.float64(0.0555)), ('cowed', np.float64(0.0551)), ('lunacy', np.float64(0.0544)), ('budged', np.float64(0.0539)), ('shrieking', np.float64(0.0538)), ('make', np.float64(0.0534)), ('revenue', np.float64(0.0534)), ('unfairness', np.float64(0.0534)), ('rich', np.float64(0.053)), ('ruckus', np.float64(0.0529)), ('gouging', np.float64(0.0523)), ('country', np.float64(0.0522)), ('forces', np.float64(0.0521)), ('paraphrase', np.float64(0.0519)), ('verdant', np.float64(0.0512)), ('raise', np.float64(0.0509)), ('bush', np.float64(0.0507)), ('archaic', np.float64(0.0505)), ('crossword', np.float64(0.05)), ('evaporate', np.float64(0.0499)), ('foreign', np.float64(0.0496)), ('mumbai', np.float64(0.0491)), ('jobs', np.float64(0.049)), ('eyebrow', np.float64(0.0488)), ('outsourcing', np.float64(0.0488)), ('roiling', np.float64(0.0487)), ('like', np.float64(0.0486)), ('come', np.float64(0.0484)), ('wrong', np.float64(0.0482)), ('american', np.float64(0.0481)), ('workers', np.float64(0.0469)), ('economic', np.float64(0.0467)), ('shrewd', np.float64(0.0465)), ('paid', np.float64(0.0464)), ('price', np.float64(0.0457)), ('goes', np.float64(0.0455)), ('actually', np.float64(0.0454)), ('average', np.float64(0.0454)), ('bind', np.float64(0.0453)), ('stagnant', np.float64(0.0451)), ('puzzled', np.float64(0.0449)), ('moved', np.float64(0.0448)), ('afforded', np.float64(0.0447)), ('capitalist', np.float64(0.0447)), ('say', np.float64(0.0446)), ('burdens', np.float64(0.0444)), ('high', np.float64(0.0442)), ('tubes', np.float64(0.0439)), ('envy', np.float64(0.0438)), ('sailors', np.float64(0.0438)), ('week', np.float64(0.0437)), ('father', np.float64(0.0433)), ('capitalism', np.float64(0.0433)), ('hourly', np.float64(0.0431)), ('critique', np.float64(0.0429)), ('cut', np.float64(0.0429)), ('hand', np.float64(0.0428)), ('mysteries', np.float64(0.0424)), ('civilization', np.float64(0.0424)), ('pal', np.float64(0.0419)), ('drastic', np.float64(0.0419)), ('roth', np.float64(0.0418)), ('observer', np.float64(0.0416)), ('intensely', np.float64(0.0416)), ('genuinely', np.float64(0.0412)), ('entities', np.float64(0.0404)), ('marines', np.float64(0.0401)), ('lowering', np.float64(0.04)), ('prosperity', np.float64(0.0397)), ('unemployed', np.float64(0.0396)), ('hedge', np.float64(0.0391)), ('shipped', np.float64(0.039)), ('pilots', np.float64(0.0387)), ('supposedly', np.float64(0.0384)), ('1965', np.float64(0.038)), ('nixon', np.float64(0.038)), ('absolute', np.float64(0.0375)), ('ll', np.float64(0.0373)), ('karl', np.float64(0.037)), ('adjusted', np.float64(0.0368)), ('trillion', np.float64(0.0363)), ('government', np.float64(0.036)), ('1972', np.float64(0.036)), ('economists', np.float64(0.0359)), ('lovely', np.float64(0.0359)), ('participation', np.float64(0.0352)), ('pressing', np.float64(0.0352)), ('corporations', np.float64(0.0352)), ('stunning', np.float64(0.0348)), ('priced', np.float64(0.0347)), ('impressed', np.float64(0.0347)), ('preferred', np.float64(0.0346)), ('killer', np.float64(0.0345)), ('gross', np.float64(0.0342)), ('makers', np.float64(0.0342)), ('mainstream', np.float64(0.0341)), ('inflation', np.float64(0.034)), ('attracted', np.float64(0.034)), ('suburbs', np.float64(0.0339)), ('context', np.float64(0.0337)), ('forecast', np.float64(0.0336)), ('won', np.float64(0.0336)), ('wealth', np.float64(0.0336)), ('need', np.float64(0.0335)), ('industries', np.float64(0.0335)), ('cycle', np.float64(0.0334)), ('encouraging', np.float64(0.0334)), ('backs', np.float64(0.0333)), ('billions', np.float64(0.0332)), ('ordinary', np.float64(0.0332)), ('mystery', np.float64(0.0332)), ('strikes', np.float64(0.0331)), ('moral', np.float64(0.033)), ('appreciate', np.float64(0.033)), ('peak', np.float64(0.0328)), ('relative', np.float64(0.0327)), ('quarters', np.float64(0.0326)), ('studied', np.float64(0.0325)), ('substantial', np.float64(0.0323)), ('pride', np.float64(0.0323)), ('1989', np.float64(0.0323)), ('hero', np.float64(0.0323)), ('statistics', np.float64(0.0322)), ('little', np.float64(0.0322)), ('asia', np.float64(0.032)), ('defend', np.float64(0.0319)), ('disaster', np.float64(0.0318)), ('specifically', np.float64(0.0317)), ('nuclear', np.float64(0.0317)), ('hate', np.float64(0.0315)), ('basically', np.float64(0.0314)), ('anderson', np.float64(0.0313)), ('encourage', np.float64(0.0312)), ('fallen', np.float64(0.0311)), ('president', np.float64(0.0309)), ('think', np.float64(0.0309)), ('brooklyn', np.float64(0.0308)), ('fiscal', np.float64(0.0308)), ('argument', np.float64(0.0305)), ('retail', np.float64(0.0305)), ('soldiers', np.float64(0.03)), ('entirely', np.float64(0.03)), ('male', np.float64(0.0299)), ('vast', np.float64(0.0299)), ('worker', np.float64(0.0298)), ('compete', np.float64(0.0298)), ('harder', np.float64(0.0296)), ('earth', np.float64(0.0296)), ('good', np.float64(0.0294)), ('supply', np.float64(0.0294)), ('falling', np.float64(0.0293)), ('reserve', np.float64(0.0293)), ('keeps', np.float64(0.029)), ('garden', np.float64(0.0289)), ('prove', np.float64(0.0286)), ('opportunities', np.float64(0.0285)), ('executives', np.float64(0.0285)), ('pieces', np.float64(0.0284)), ('stands', np.float64(0.0283)), ('domestic', np.float64(0.0283)), ('female', np.float64(0.0282)), ('stores', np.float64(0.0281)), ('markets', np.float64(0.028)), ('dangerous', np.float64(0.0277)), ('agree', np.float64(0.0277)), ('way', np.float64(0.0275)), ('creating', np.float64(0.0274)), ('product', np.float64(0.0273)), ('status', np.float64(0.0273)), ('paper', np.float64(0.0271)), ('1999', np.float64(0.0271)), ('funds', np.float64(0.0269)), ('threat', np.float64(0.0268)), ('2006', np.float64(0.0267)), ('paying', np.float64(0.0267)), ('rates', np.float64(0.0265)), ('clearly', np.float64(0.0265)), ('38', np.float64(0.0265)), ('investment', np.float64(0.0265)), ('competition', np.float64(0.0264)), ('fair', np.float64(0.0264)), ('subject', np.float64(0.0264)), ('army', np.float64(0.0263)), ('keeping', np.float64(0.0262)), ('continues', np.float64(0.0262)), ('compared', np.float64(0.0257)), ('overall', np.float64(0.0256)), ('rise', np.float64(0.0254)), ('commission', np.float64(0.0254)), ('bank', np.float64(0.0251)), ('society', np.float64(0.0251)), ('ones', np.float64(0.025)), ('spend', np.float64(0.0249)), ('terms', np.float64(0.0248)), ('hundreds', np.float64(0.0247)), ('economy', np.float64(0.0247)), ('people', np.float64(0.0247)), ('hear', np.float64(0.0246)), ('described', np.float64(0.0246)), ('rate', np.float64(0.0246)), ('changed', np.float64(0.0245)), ('deep', np.float64(0.0244)), ('costs', np.float64(0.0243)), ('huge', np.float64(0.0243)), ('numbers', np.float64(0.0243)), ('wall', np.float64(0.0242)), ('passed', np.float64(0.0241)), ('trade', np.float64(0.0241)), ('union', np.float64(0.024)), ('years', np.float64(0.024)), ('just', np.float64(0.024)), ('kept', np.float64(0.0239)), ('quarter', np.float64(0.0238)), ('congress', np.float64(0.0238)), ('total', np.float64(0.0237)), ('sales', np.float64(0.0237)), ('lower', np.float64(0.0237)), ('heard', np.float64(0.0236)), ('read', np.float64(0.0234)), ('create', np.float64(0.0232)), ('allow', np.float64(0.0232)), ('richard', np.float64(0.0231)), ('event', np.float64(0.023)), ('higher', np.float64(0.023)), ('attention', np.float64(0.0228)), ('allowed', np.float64(0.0228)), ('policy', np.float64(0.0226)), ('personal', np.float64(0.0226)), ('leaders', np.float64(0.0226)), ('share', np.float64(0.0225)), ('longer', np.float64(0.0224)), ('died', np.float64(0.0221)), ('sense', np.float64(0.0221)), ('problems', np.float64(0.022)), ('red', np.float64(0.0218)), ('tell', np.float64(0.0217)), ('media', np.float64(0.0217)), ('lives', np.float64(0.0217)), ('stop', np.float64(0.0213)), ('question', np.float64(0.0213)), ('isn', np.float64(0.0212)), ('march', np.float64(0.0212)), ('points', np.float64(0.0212)), ('worked', np.float64(0.0211)), ('low', np.float64(0.0211)), ('war', np.float64(0.021)), ('especially', np.float64(0.0209)), ('course', np.float64(0.0207)), ('love', np.float64(0.0206)), ('person', np.float64(0.0205)), ('running', np.float64(0.0205)), ('outside', np.float64(0.0202)), ('final', np.float64(0.0202)), ('saying', np.float64(0.02)), ('pay', np.float64(0.02)), ('important', np.float64(0.0199)), ('able', np.float64(0.0199)), ('let', np.float64(0.0198)), ('story', np.float64(0.0196)), ('service', np.float64(0.0195)), ('added', np.float64(0.0194)), ('having', np.float64(0.0193)), ('began', np.float64(0.0191)), ('federal', np.float64(0.0191)), ('real', np.float64(0.0191)), ('different', np.float64(0.0191)), ('major', np.float64(0.0187)), ('money', np.float64(0.0182)), ('business', np.float64(0.0182)), ('company', np.float64(0.018)), ('does', np.float64(0.0178)), ('making', np.float64(0.0176)), ('family', np.float64(0.0173)), ('used', np.float64(0.0172)), ('12', np.float64(0.0171)), ('lot', np.float64(0.017)), ('second', np.float64(0.0155)), ('right', np.float64(0.0151)), ('old', np.float64(0.015)), ('day', np.float64(0.0139)), ('10', np.float64(0.0136)), ('time', np.float64(0.011)), ('new', np.float64(0.0107))]</tf_idf>
+<roberta_title_negative>0.9297</roberta_title_negative>
+<roberta_title_neutral>0.0698</roberta_title_neutral>
+<roberta_title_positive>0.0005</roberta_title_positive>
+<bert_title_negative>0.9982</bert_title_negative>
+<bert_title_positive>0.0018</bert_title_positive>
+</processed>
+</RECORD>

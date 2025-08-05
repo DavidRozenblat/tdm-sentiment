@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>923420398</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Loudoun County news in brief</Title>
+</TitleAtt>
+<NumericDate>2012-02-26</NumericDate>
+<StartDate>2012-02-26</StartDate>
+<EndDate>2012-02-26</EndDate>
+<AlphaDate>Feb 26, 2012</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright The Washington Post Company, Feb 26, 2012)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>T.2</StartPage>
+<Pagination>T.2</Pagination>
+<DocSection>EXTRAS</DocSection>
+<DocEdition>EE</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2594852251</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>67606092</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXXWP20120226Loudouncc050116</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1500</LexileScore>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="604">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Loudoun data center cluster to grow with new facility&lt;/p&gt;              &lt;p&gt;The Loudoun Department of Economic Development announced this week that county-based businesses Equinix and Carpathia Hosting have united to add a 64,000-square-foot data center to the county's expanding facilities.&lt;/p&gt;              &lt;p&gt;The center is aimed at supporting industry-specific compliant solutions for health-care companies, federal agencies and commercial industries. The new data center will be built adjacent to the Carpathia Vault in Dulles.&lt;/p&gt;              &lt;p&gt;Leesburg is seeking inputon master plans for parks&lt;/p&gt;              &lt;p&gt;Leesburg's Parks and Recreation Department is seeking residents' comments on new or revised master plans for the town's 16 parks, town officials said in a statement.&lt;/p&gt;              &lt;p&gt;The plans will be on display in the lobby of the Ida Lee Park Recreation Center, 60 Ida Lee Dr. NW, Leesburg, from Tuesday through March 4. Staff members will be available to discuss the plans and answer questions from 10 to 11:30 a.m. Tuesday and 6 to 7:30 p.m. Wednesday.&lt;/p&gt;              &lt;p&gt;The plans to be displayed show the features and facilities of each park, along with the suggested improvements.&lt;/p&gt;              &lt;p&gt;Residents can submit ideas, comments and suggestions for how Leesburg can meet the recreational needs of the community in several ways:&lt;/p&gt;              &lt;p&gt;3 Deliver comments in person to the Recreation Center's front desk. Cards will be available at the master plan display to complete on site.&lt;/p&gt;              &lt;p&gt;3 Mail comments to: Bill Ference, Parks and Public Space Planner, Leesburg Parks and Recreation Department, 50 Ida Lee Dr. NW, Leesburg, Va. 20176.&lt;/p&gt;              &lt;p&gt;3 E-mail ideas to wference@leesburgva.gov.&lt;/p&gt;              &lt;p&gt;3Go to www.idalee.org and follow the link to the Parks Master Plans - Online Public Input Form.&lt;/p&gt;              &lt;p&gt;Comments will be accepted through March 6.&lt;/p&gt;              &lt;p&gt;Residents can take partin commuter lot survey&lt;/p&gt;              &lt;p&gt;Loudoun County is seeking public input regarding the use of a commuter parking lot in the Brambleton area of Ashburn.&lt;/p&gt;              &lt;p&gt;Via an online survey, residents can share their opinions regarding the 100-space commuter parking lot east of Route 659 on Creighton Road, as well as their interest in connecting Brambleton to Loudoun bus routes.&lt;/p&gt;              &lt;p&gt;A link to the survey and a map detailing the parking lot location are available at www.loudoun.gov/commute.&lt;/p&gt;              &lt;p&gt;The survey can also be completed at www.surveymonkey.com/s/Brambletontransit.&lt;/p&gt;              &lt;p&gt;March 12 is the deadline for completing the survey.&lt;/p&gt;              &lt;p&gt;Comments may also be mailed to the Loudoun County Office of Transportation Services, 1 Harrison St. SE, MSC 69, Leesburg, Va. 20175.&lt;/p&gt;              &lt;p&gt;Tuesday is deadline to apply for an absentee ballot&lt;/p&gt;              &lt;p&gt;Virginia voters who want to cast absentee ballots by mail for the March 6 Republican presidential primary must submit their completed applications by Tuesday.&lt;/p&gt;              &lt;p&gt;Only former governor Mitt Romney and Rep. Ron Paul (Tex.) will appear on the primary ballot. The other candidates, former House speaker Newt Gingrich and former senator Rick Santorum (Pa.), did not qualify.&lt;/p&gt;              &lt;p&gt;To vote absentee, voters must meet one of 18 eligibility requirements. To view the requirements, go to www.sbe.virginia.gov.&lt;/p&gt;              &lt;p&gt;Eligible voters may cast their absentee ballot by mail or at their local registrar's office during normal business hours before March 3.&lt;/p&gt;              &lt;p&gt;Virginia does not allow write-in votes in primary elections.&lt;/p&gt;              &lt;p&gt;School system needs judges for science, engineering fair &lt;/p&gt;              &lt;p&gt;Loudoun County public schools are seeking judges for the 31st annual science and engineering fair, in which more than 200 high school students are expected to take part.&lt;/p&gt;              &lt;p&gt;Judges are needed in the following categories: biochemistry, cellular and molecular biology, chemistry, microbiology, physics and astronomy and plant sciences.&lt;/p&gt;              &lt;p&gt;The fair will be March 15 at Woodgrove High School.&lt;/p&gt;              &lt;p&gt;To register as a judge or sponsor, go to www.lcps.org/rsef. For information, e-mail rsef@lcps.org or call 571-252-1360.&lt;/p&gt;              &lt;p&gt;- Compiled by Caitlin Gibson&lt;/p&gt;              &lt;p&gt;and Anita Kumar&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Feb 26, 2012</AlphaDate>
+<StartDate>2012-02-26</StartDate>
+<EndDate>2012-02-26</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>67606092</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.15260227272727273</text_blob_sentiment><bert_sentiment>-0.015987036689635244</bert_sentiment></grades>
+<processed>
+<is_economic>0.7731</is_economic>
+<tf_idf>[('leesburg', np.float64(0.2818)), ('loudoun', np.float64(0.2181)), ('absentee', np.float64(0.2107)), ('comments', np.float64(0.2001)), ('parks', np.float64(0.1847)), ('carpathia', np.float64(0.1741)), ('recreation', np.float64(0.1666)), ('ida', np.float64(0.1601)), ('march', np.float64(0.1484)), ('plans', np.float64(0.1449)), ('commuter', np.float64(0.1431)), ('brambleton', np.float64(0.1423)), ('survey', np.float64(0.1367)), ('master', np.float64(0.1342)), ('www', np.float64(0.1173)), ('center', np.float64(0.1156)), ('seeking', np.float64(0.1146)), ('judges', np.float64(0.1145)), ('county', np.float64(0.1103)), ('residents', np.float64(0.1098)), ('parking', np.float64(0.1001)), ('primary', np.float64(0.0966)), ('mail', np.float64(0.0954)), ('lee', np.float64(0.0933)), ('voters', np.float64(0.0932)), ('equinix', np.float64(0.0902)), ('input', np.float64(0.0901)), ('data', np.float64(0.0863)), ('tuesday', np.float64(0.0852)), ('partin', np.float64(0.0824)), ('20176', np.float64(0.0822)), ('idalee', np.float64(0.0812)), ('sbe', np.float64(0.0801)), ('lot', np.float64(0.0792)), ('submit', np.float64(0.0791)), ('nw', np.float64(0.0784)), ('engineering', np.float64(0.0781)), ('ballot', np.float64(0.0771)), ('public', np.float64(0.0768)), ('surveymonkey', np.float64(0.0764)), ('available', np.float64(0.0759)), ('woodgrove', np.float64(0.0752)), ('requirements', np.float64(0.075)), ('ference', np.float64(0.0748)), ('link', np.float64(0.0739)), ('deadline', np.float64(0.0739)), ('regarding', np.float64(0.0738)), ('msc', np.float64(0.0726)), ('facilities', np.float64(0.07)), ('va', np.float64(0.069)), ('display', np.float64(0.0683)), ('department', np.float64(0.0666)), ('biochemistry', np.float64(0.0653)), ('microbiology', np.float64(0.0646)), ('completed', np.float64(0.0638)), ('20175', np.float64(0.0632)), ('science', np.float64(0.0628)), ('cast', np.float64(0.0615)), ('fair', np.float64(0.0615)), ('gov', np.float64(0.0603)), ('school', np.float64(0.0601)), ('registrar', np.float64(0.06)), ('dr', np.float64(0.0594)), ('santorum', np.float64(0.0583)), ('659', np.float64(0.0575)), ('creighton', np.float64(0.0575)), ('astronomy', np.float64(0.0572)), ('compliant', np.float64(0.057)), ('virginia', np.float64(0.0569)), ('online', np.float64(0.0569)), ('kumar', np.float64(0.0564)), ('molecular', np.float64(0.0554)), ('space', np.float64(0.054)), ('caitlin', np.float64(0.0536)), ('meet', np.float64(0.0526)), ('town', np.float64(0.0522)), ('needs', np.float64(0.051)), ('ashburn', np.float64(0.0509)), ('vault', np.float64(0.0503)), ('31st', np.float64(0.05)), ('newt', np.float64(0.0497)), ('gingrich', np.float64(0.0497)), ('physics', np.float64(0.0485)), ('cluster', np.float64(0.0482)), ('biology', np.float64(0.0481)), ('detailing', np.float64(0.0479)), ('planner', np.float64(0.0478)), ('cellular', np.float64(0.0473)), ('commute', np.float64(0.0472)), ('romney', np.float64(0.0466)), ('mitt', np.float64(0.0465)), ('dulles', np.float64(0.0465)), ('recreational', np.float64(0.0461)), ('park', np.float64(0.046)), ('eligibility', np.float64(0.0459)), ('anita', np.float64(0.0458)), ('mailed', np.float64(0.0457)), ('connecting', np.float64(0.0439)), ('ballots', np.float64(0.0439)), ('chemistry', np.float64(0.0438)), ('se', np.float64(0.0435)), ('sciences', np.float64(0.0432)), ('completing', np.float64(0.0431)), ('tex', np.float64(0.043)), ('hosting', np.float64(0.0429)), ('adjacent', np.float64(0.0427)), ('office', np.float64(0.0425)), ('routes', np.float64(0.0423)), ('harrison', np.float64(0.0419)), ('suggestions', np.float64(0.0416)), ('categories', np.float64(0.0414)), ('revised', np.float64(0.041)), ('opinions', np.float64(0.041)), ('lobby', np.float64(0.0403)), ('displayed', np.float64(0.0403)), ('applications', np.float64(0.0401)), ('pa', np.float64(0.0396)), ('solutions', np.float64(0.0393)), ('desk', np.float64(0.0392)), ('improvements', np.float64(0.0391)), ('qualify', np.float64(0.0391)), ('industries', np.float64(0.039)), ('expanding', np.float64(0.0376)), ('new', np.float64(0.0373)), ('30', np.float64(0.0371)), ('eligible', np.float64(0.037)), ('69', np.float64(0.0361)), ('speaker', np.float64(0.0358)), ('compiled', np.float64(0.0357)), ('map', np.float64(0.0357)), ('64', np.float64(0.0354)), ('cards', np.float64(0.0354)), ('ron', np.float64(0.0353)), ('rick', np.float64(0.0352)), ('deliver', np.float64(0.0351)), ('apply', np.float64(0.0351)), ('bus', np.float64(0.0351)), ('supporting', np.float64(0.035)), ('senator', np.float64(0.0349)), ('plant', np.float64(0.0349)), ('aimed', np.float64(0.0348)), ('accepted', np.float64(0.0345)), ('votes', np.float64(0.0344)), ('high', np.float64(0.0343)), ('elections', np.float64(0.0341)), ('rep', np.float64(0.0336)), ('org', np.float64(0.0336)), ('location', np.float64(0.0335)), ('route', np.float64(0.0334)), ('ideas', np.float64(0.0331)), ('transportation', np.float64(0.0329)), ('normal', np.float64(0.0328)), ('agencies', np.float64(0.0328)), ('candidates', np.float64(0.0324)), ('governor', np.float64(0.0324)), ('specific', np.float64(0.0321)), ('discuss', np.float64(0.0321)), ('write', np.float64(0.032)), ('grow', np.float64(0.0319)), ('commercial', np.float64(0.0318)), ('features', np.float64(0.0313)), ('businesses', np.float64(0.0308)), ('suggested', np.float64(0.0303)), ('appear', np.float64(0.0299)), ('presidential', np.float64(0.0299)), ('square', np.float64(0.0298)), ('add', np.float64(0.0292)), ('answer', np.float64(0.029)), ('follow', np.float64(0.0289)), ('schools', np.float64(0.0283)), ('republican', np.float64(0.0281)), ('form', np.float64(0.028)), ('vote', np.float64(0.028)), ('complete', np.float64(0.0278)), ('students', np.float64(0.0274)), ('built', np.float64(0.0274)), ('annual', np.float64(0.0274)), ('development', np.float64(0.0272)), ('economic', np.float64(0.0272)), ('allow', np.float64(0.027)), ('view', np.float64(0.0269)), ('200', np.float64(0.0266)), ('foot', np.float64(0.0266)), ('following', np.float64(0.0266)), ('industry', np.float64(0.0264)), ('ways', np.float64(0.0264)), ('questions', np.float64(0.0264)), ('60', np.float64(0.0264)), ('paul', np.float64(0.0263)), ('share', np.float64(0.0262)), ('site', np.float64(0.026)), ('companies', np.float64(0.0258)), ('east', np.float64(0.0257)), ('statement', np.float64(0.0256)), ('road', np.float64(0.0252)), ('announced', np.float64(0.0248)), ('needed', np.float64(0.0248)), ('staff', np.float64(0.0248)), ('care', np.float64(0.0244)), ('com', np.float64(0.0243)), ('services', np.float64(0.0242)), ('person', np.float64(0.0239)), ('health', np.float64(0.0239)), ('community', np.float64(0.0236)), ('hours', np.float64(0.0235)), ('st', np.float64(0.0235)), ('plan', np.float64(0.0234)), ('expected', np.float64(0.0231)), ('100', np.float64(0.0228)), ('local', np.float64(0.0227)), ('16', np.float64(0.0227)), ('18', np.float64(0.0225)), ('federal', np.float64(0.0223)), ('50', np.float64(0.0223)), ('area', np.float64(0.0222)), ('wednesday', np.float64(0.0218)), ('members', np.float64(0.0218)), ('united', np.float64(0.0214)), ('business', np.float64(0.0212)), ('does', np.float64(0.0207)), ('based', np.float64(0.0205)), ('use', np.float64(0.0203)), ('officials', np.float64(0.0202)), ('12', np.float64(0.0199)), ('house', np.float64(0.0199)), ('15', np.float64(0.0196)), ('11', np.float64(0.0196)), ('want', np.float64(0.0183)), ('000', np.float64(0.0177)), ('week', np.float64(0.017)), ('did', np.float64(0.0168)), ('10', np.float64(0.0158)), ('said', np.float64(0.0107))]</tf_idf>
+<title_negative>0.1004</title_negative>
+<title_positive>0.8996</title_positive>
+<bert_paragraph_positive>0.5001419354838709</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.49985806451612913</bert_paragraph_negative>
+</processed>
+</RECORD>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>432653848</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Editorial(ECMS)">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>From Paris Castoffs, A Recherche Retreat</Title>
+</TitleAtt>
+<NumericDate>2004-01-22</NumericDate>
+<StartDate>2004-01-22</StartDate>
+<EndDate>2004-01-22</EndDate>
+<AlphaDate>Jan 22, 2004</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Jan 22, 2004</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>F.1</StartPage>
+<Pagination>F.1</Pagination>
+<DocSection>F</DocSection>
+<ColumnNumber>01</ColumnNumber>
+<ColumnHeader>House Proud</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>527172991</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>8856871</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>056537-20040122</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<DocFeatures>
+<DocFeature>photographs</DocFeature>
+</DocFeatures>
+<LexileScore>1470</LexileScore>
+<DateLine>Paris</DateLine>
+<Desk>House &amp; Home/Style Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<DisplayForm>Mallery Roberts Lane</DisplayForm>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Mallery Roberts Lane</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Tse &amp; Tse</CompanyName>
+</CompanyNameAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI" TermVocab="PQSUBJ">
+<GenSubjValue>Interior design</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI" TermVocab="PQSUBJ">
+<GenSubjValue>Home furnishing industry</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI" TermVocab="PERS">
+<Personal>Levy, Catherine</Personal>
+</Term>
+</Terms>
+<Abstract>
+<Short WordCount="280">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;''Everything has been rescued in one form or another,'' said Catherine Levy, referring to the toy trunk she uses as a bench in her apartment here, her mismatched dining room chairs, the white enamel counter in her kitchen. Almost everything in her 860-square-foot apartment, not far from the Bastille, is meant to amuse. Ms. Levy is one half of Tse &amp;amp; Tse, a design partnership created in 1991 when she and Sigolene Prebois joined forces. Playful interpretations of everyday objects (their row of test tubes known as the April vase; their light garlands of tiny bulbs dressed in colorful bows or paper cubes) have made Tse &amp;amp; Tse a hot name on the French contemporary design scene.&lt;/p&gt;              &lt;p&gt;''I LOVE their work -- so well designed and so much fun,'' said Michelle Lehmann, an owner of Clio in New York, which carries Tse &amp;amp; Tse vases, plates, Hungry serving forks (below; platinum tips $76; all porcelain, $59), trays, votives and the Tse &amp;amp; Tse Mirza teapot ($108; left). ''It's the most interestingly designed teapot I've ever seen,'' Ms. Lehmann said. ''It's art.'' Clio, 92 Thompson Street (Spring); (212) 966-8991.&lt;/p&gt;              &lt;p&gt; Catherine Levy, inset, combines lights from India and a pale green toy chest from her childhood. (Photographs by Eric Morin for The New York Times)(pg. F1); FLYING FISH -- Metal sculptures, above, are by Christophe Come. Left, a watchmaker's table was turned into a shelf; surrounding it are assorted chairs from a Belgian flea market.; PARIS PLAYFUL -- Catherine Levy at home, top, at right, with Sigolene Prebois. Right, Ms. Levy's kitchen; above, nylon bags from India store linens over her bed. (Photographs by Eric Morin for The New York Times)(pg. F10)&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+<LegacyDataMapping>
+<CreatedBy>OODS Backfile</CreatedBy>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1588">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;''Everything has been rescued in one form or another,'' said Catherine Levy, referring to the toy trunk she uses as a bench in her apartment here, her mismatched dining room chairs, the white enamel counter in her kitchen. Almost everything in her 860-square-foot apartment, not far from the Bastille, is meant to amuse. Ms. Levy is one half of Tse &amp;amp; Tse, a design partnership created in 1991 when she and Sigolene Prebois joined forces. Playful interpretations of everyday objects (their row of test tubes known as the April vase; their light garlands of tiny bulbs dressed in colorful bows or paper cubes) have made Tse &amp;amp; Tse a hot name on the French contemporary design scene.&lt;/p&gt;              &lt;p&gt;They are not to be confused, however, with the French designer Augustine Tse and his Tse fashion label; nor should they be confused with the fly that causes sleeping sickness, although that's what inspired the name. ''We wanted a name that could be separated into two parts,'' Ms. Levy said, by way of explanation.&lt;/p&gt;              &lt;p&gt;  Whether people understand the name or not, the company's wares are showing up all over the globe. Their lighting and housewares are a sensation in Japan. Tse &amp;amp; Tse's exploding circle of fairy lights, which sold for around $90 at Habitat in London, was singled out as a fabulous holiday decoration by four British newspapers.&lt;/p&gt;              &lt;p&gt;Inside Modern Living in Toronto sells the Tse &amp;amp; Tse floor-to-ceiling Totem Pole carved birchwood storage unit. ''Think of it as a tree with branches that hold vases, lamps, wire picture holders or metal shelves,'' said Daniel Aguacil, the store's owner, who is a fan of their work. In New York their housewares are at Clio, Karkula (the former Breukelen) and at Conran's.&lt;/p&gt;              &lt;p&gt;Ms. Levy's home, which she shares with her boyfriend, Christophe Prebois, a photographer and her business partner's brother, looks onto a quiet street a few blocks behind the Bastille Opera, a derelict neighborhood until a decade ago when it was pioneered by bobos -- France, too, has its bourgeois bohemians.&lt;/p&gt;              &lt;p&gt;The apartment shares the Tse &amp;amp; Tse aesthetic, where familiar items have been inventively repurposed. Sitting at a table that was once a long wooden counter used in a textile shop for unrolling lengths of fabric, Ms. Levy explained how she found the chairs for the table -- several different shapes and sizes, now painted in bright colors -- on the street or at cheap flea markets as far a way as Prague.&lt;/p&gt;              &lt;p&gt;''I don't believe I have ever bought a new piece of anything,'' she said, pointing out a metal file cabinet used as shelving, wooden crates that form a coffee table and pieces of hand-printed fabric from her sister's textile company, Maison Georgette, that she has hung to create a wardrobe in the bedroom.&lt;/p&gt;              &lt;p&gt;''I find it an amusing exercise to make use of what one has or comes across, to never succumb to a Conforama or Brico Depot,'' she said, referring to the French equivalent of the Home Depot or Lowe's. ''I've managed to carry the most impossible things onto airplanes,'' she said, including an entire standing closet that she carried back, in pieces, from Japan. She found it at the Salvation Army in Tokyo for $53.&lt;/p&gt;              &lt;p&gt;''Shipping it would have cost a fortune,'' she said. ''It was either get it on the plane or leave it in the street.''&lt;/p&gt;              &lt;p&gt;Ms. Levy, 39, also collects fabrics when traveling -- mostly to India (where Tse &amp;amp; Tse produces some of its products) and Japan. She brings the fabrics back to a tailor here who transforms them into the basic clothing she likes: long skirt, shirts that wrap or tie, shawls.&lt;/p&gt;              &lt;p&gt;Ms. Levy's clothing is like an album of her business trips. And she keeps extensive notebooks to catalog what she saw but could not bring back. In fact, Tse &amp;amp; Tse used a collage of pages from Ms. Levy's notebook to design a fabric print for the Japanese fashion designer Issey Miyake.&lt;/p&gt;              &lt;p&gt;''Everything we've designed has come out of a desire for pleasure,'' Ms. Levy said. ''We try to always amuse ourselves.'' She and Ms. Prebois made their porcelain and glass tableware (which includes dishes, carafes, bowls, goblets and cups in curvaceous, slightly asymmetrical forms) because they themselves needed plates.&lt;/p&gt;              &lt;p&gt;''We really liked them and so did our friends, so they became a Tse &amp;amp; Tse product,'' Ms. Levy said, adding as if it were unthinkable, ''We certainly didn't just sit down and say, 'Let's make tableware.' ''&lt;/p&gt;              &lt;p&gt;Ms. Levy and Ms. Prebois were still students at the newly created Ecole Nationale Superieure de Creation Industrielle when they began collaborating. The school was founded as an experiment, with no set curriculum, in 1983 by Jacques Lang, then the minister of culture. Many successful French designers now in their 30's and 40's are products of the school, including Jean-Marie Massaud, Matali Crasset and Patrick Jouin.&lt;/p&gt;              &lt;p&gt;''It was considered very experimental at the time,'' said Francoise Jollant Kneebone, who was director of the school from 1998 to 2001. ''There was a lot of media coverage.''&lt;/p&gt;              &lt;p&gt;While still at school Ms. Levy and Ms. Prebois created a rubber jewelry collection that became a mini sensation in Paris. ''We were cute and young, so the press loved us,'' said Ms. Levy, who grew up in the preppy 16th Arrondissement here and remembers standing out from the other children. (For one thing, she wore coats her progressive mother brought back from Afghanistan.)&lt;/p&gt;              &lt;p&gt;Pierre Romanet, director of the Sentou Galleries in Paris began selling Tse &amp;amp; Tse products 10 years ago. He refers to the two as designers ''who are also artists -- which gives them that extra plus.'' &lt;/p&gt;              &lt;p&gt;The much lamented store Shi was the first in New York to discover the Tse &amp;amp; Tse aesthetic. ''When Shi stopped selling them, she passed them on to me,'' said John Erik, the owner of Karkula, as if Tse &amp;amp; Tse was a precious resource not to be squandered. ''They create things that look superprecious, but they are very affordable.'' A case in point, he said, is their Ink Bowls. ''Beautiful, food-safe bowls, a set of five, made of paper and covered in the natural resin of an African tree,'' he said. ''They look like wet black ink. A set of five is $125.'' &lt;/p&gt;              &lt;p&gt;Many Tse &amp;amp; Tse products have become contemporary classics of Parisian homes. One is the glass flower vase hanging from the ceiling in a teardrop form (Tse &amp;amp; Tse designed the original, which has been much copied); another is its tiny igloo of porcelain for burning votive candles, and yet another, its porcelain fruit bowl with silver or gold interior or exterior. Once considered the kiddies of the French design scene, the women are now so mainstream that they have designed for Habitat and Baccarat.&lt;/p&gt;              &lt;p&gt;Ms. Levy's style for furnishing her apartment reflects a poetic eye and a playful design aesthetic. Her sofa from Morocco is made of braided reeds, and she uses the wooden toy trunk from her childhood as a bench. A Charles Eames rocking chair was acquired for its light-hearted design. She liked the shape of a watchmaker's bench (curved to prevent delicate pieces from falling) and turned it into a shelf. Her kitchen counter, which has a white enamel top, once stood in a medical laboratory.&lt;/p&gt;              &lt;p&gt;Ms. Levy stores her bed linens on a shelf above her bed in a row of nylon bags from southern India. The shelf was made from wood decorated with Arabic lettering found in the street. And just below the ceiling in the living room are strings of lights in various sizes and shapes collected from Europe and Asia, including, of course, India.&lt;/p&gt;              &lt;p&gt;This fall, the French publisher Seuil will bring out a book called ''Cent % Indian,'' devoted to Ms. Levy's collection of utilitarian Indian objects. These playful light bulbs, radios and kitchen utensils were created under laws, since lifted, that promoted home-grown Indian industries.&lt;/p&gt;              &lt;p&gt;And when those brightly colored lights around the ceiling burn out, what will she do? ''Find something else that amuses me,'' she said.&lt;/p&gt;              &lt;p&gt;Finding Tse &amp;amp; Tse&lt;/p&gt;              &lt;p&gt;''I LOVE their work -- so well designed and so much fun,'' said Michelle Lehmann, an owner of Clio in New York, which carries Tse &amp;amp; Tse vases, plates, Hungry serving forks (below; platinum tips $76; all porcelain, $59), trays, votives and the Tse &amp;amp; Tse Mirza teapot ($108; left). ''It's the most interestingly designed teapot I've ever seen,'' Ms. Lehmann said. ''It's art.'' Clio, 92 Thompson Street (Spring); (212) 966-8991.&lt;/p&gt;              &lt;p&gt;John Erik, who owns Karkula, carries Tse &amp;amp; Tse bowls, porcelain dishware and lamps. The set of five Ink Bowls costs $125. ''They are not kooky,'' he said of the designers. ''They are grounded in a design sense.'' Karkula, 68 Gansevoort Street; (212) 645-2216.&lt;/p&gt;              &lt;p&gt;Tse &amp;amp; Tse's April vases ($3 each) and the hanging vase are in stock at the Terence Conran Shop, 407 East 59th Street; (866) 755-9079.   MALLERY ROBERTS LANE&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="mstar_entity_caption"&gt;&lt;p&gt; SHOOTING STAR -- Catherine Levy, inset, combines lights from India and a pale green toy chest from her childhood. (Photographs by Eric Morin for The New York Times)(pg. F1); FLYING FISH -- Metal sculptures, above, are by Christophe Come. Left, a watchmaker's table was turned into a shelf; surrounding it are assorted chairs from a Belgian flea market.; PARIS PLAYFUL -- Catherine Levy at home, top, at right, with Sigolene Prebois. Right, Ms. Levy's kitchen; above, nylon bags from India store linens over her bed. (Photographs by Eric Morin for The New York Times)(pg. F10)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jan 22, 2004</AlphaDate>
+<StartDate>2004-01-22</StartDate>
+<EndDate>2004-01-22</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>8856871</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.14695713751269307</text_blob_sentiment><bert_sentiment>0.42448889783450533</bert_sentiment></grades>
+<processed>
+<is_economic>0.5912</is_economic>
+<tf_idf>[('tse', np.float64(0.7717)), ('levy', np.float64(0.2804)), ('ms', np.float64(0.1924)), ('prebois', np.float64(0.1834)), ('karkula', np.float64(0.1134)), ('porcelain', np.float64(0.0873)), ('bowls', np.float64(0.0734)), ('clio', np.float64(0.0726)), ('design', np.float64(0.0704)), ('sigolene', np.float64(0.0654)), ('india', np.float64(0.0614)), ('said', np.float64(0.0611)), ('playful', np.float64(0.0608)), ('french', np.float64(0.0604)), ('shelf', np.float64(0.0579)), ('vases', np.float64(0.0561)), ('vase', np.float64(0.0555)), ('street', np.float64(0.0516)), ('ceiling', np.float64(0.0512)), ('conran', np.float64(0.0476)), ('designed', np.float64(0.047)), ('watchmaker', np.float64(0.0465)), ('lights', np.float64(0.0456)), ('ink', np.float64(0.0447)), ('kitchen', np.float64(0.0436)), ('aesthetic', np.float64(0.0434)), ('tableware', np.float64(0.0427)), ('lehmann', np.float64(0.0426)), ('apartment', np.float64(0.0419)), ('fabric', np.float64(0.0417)), ('teapot', np.float64(0.0416)), ('toy', np.float64(0.0414)), ('bastille', np.float64(0.0413)), ('designers', np.float64(0.0412)), ('shi', np.float64(0.04)), ('catherine', np.float64(0.0399)), ('products', np.float64(0.0398)), ('enamel', np.float64(0.0397)), ('morin', np.float64(0.0395)), ('housewares', np.float64(0.0395)), ('amuse', np.float64(0.0389)), ('table', np.float64(0.0387)), ('wooden', np.float64(0.0383)), ('christophe', np.float64(0.0381)), ('chairs', np.float64(0.0378)), ('linens', np.float64(0.0365)), ('nylon', np.float64(0.036)), ('indian', np.float64(0.0355)), ('metal', np.float64(0.0353)), ('counter', np.float64(0.0352)), ('created', np.float64(0.035)), ('bench', np.float64(0.0346)), ('flea', np.float64(0.0339)), ('paris', np.float64(0.0338)), ('bulbs', np.float64(0.0337)), ('japan', np.float64(0.0336)), ('textile', np.float64(0.0335)), ('fabrics', np.float64(0.0333)), ('bed', np.float64(0.0332)), ('lamps', np.float64(0.0332)), ('industrielle', np.float64(0.0327)), ('jollant', np.float64(0.0327)), ('brico', np.float64(0.0317)), ('pieces', np.float64(0.0316)), ('massaud', np.float64(0.0311)), ('york', np.float64(0.0309)), ('trunk', np.float64(0.0308)), ('breukelen', np.float64(0.0306)), ('crasset', np.float64(0.0301)), ('seuil', np.float64(0.0301)), ('matali', np.float64(0.0301)), ('habitat', np.float64(0.0299)), ('sensation', np.float64(0.0296)), ('depot', np.float64(0.0295)), ('shapes', np.float64(0.0295)), ('jouin', np.float64(0.029)), ('sizes', np.float64(0.0287)), ('erik', np.float64(0.0285)), ('8991', np.float64(0.0282)), ('store', np.float64(0.028)), ('kneebone', np.float64(0.028)), ('plates', np.float64(0.0276)), ('superieure', np.float64(0.0271)), ('owner', np.float64(0.0271)), ('bobos', np.float64(0.027)), ('212', np.float64(0.0269)), ('mallery', np.float64(0.0268)), ('form', np.float64(0.0268)), ('confused', np.float64(0.0265)), ('objects', np.float64(0.0264)), ('light', np.float64(0.0258)), ('school', np.float64(0.0255)), ('unrolling', np.float64(0.0255)), ('f10', np.float64(0.0255)), ('pg', np.float64(0.0253)), ('9079', np.float64(0.0252)), ('set', np.float64(0.025)), ('125', np.float64(0.025)), ('carafes', np.float64(0.0249)), ('bags', np.float64(0.0248)), ('issey', np.float64(0.0247)), ('votives', np.float64(0.0246)), ('dishware', np.float64(0.0242)), ('hanging', np.float64(0.024)), ('2216', np.float64(0.024)), ('miyake', np.float64(0.0239)), ('clothing', np.float64(0.0239)), ('nationale', np.float64(0.0239)), ('new', np.float64(0.0238)), ('designer', np.float64(0.0237)), ('childhood', np.float64(0.0236)), ('carries', np.float64(0.0234)), ('liked', np.float64(0.0232)), ('ecole', np.float64(0.023)), ('goblets', np.float64(0.023)), ('contemporary', np.float64(0.023)), ('amuses', np.float64(0.0229)), ('baccarat', np.float64(0.0229)), ('birchwood', np.float64(0.0227)), ('gansevoort', np.float64(0.0226)), ('kiddies', np.float64(0.0226)), ('inventively', np.float64(0.0226)), ('igloo', np.float64(0.0225)), ('tree', np.float64(0.0225)), ('arrondissement', np.float64(0.0223)), ('bohemians', np.float64(0.022)), ('fashion', np.float64(0.022)), ('referring', np.float64(0.022)), ('francoise', np.float64(0.022)), ('curvaceous', np.float64(0.022)), ('tiny', np.float64(0.0218)), ('shawls', np.float64(0.0217)), ('votive', np.float64(0.0217)), ('georgette', np.float64(0.0216)), ('teardrop', np.float64(0.0215)), ('mirza', np.float64(0.0214)), ('glass', np.float64(0.0213)), ('garlands', np.float64(0.0212)), ('home', np.float64(0.021)), ('row', np.float64(0.0209)), ('shares', np.float64(0.0209)), ('uses', np.float64(0.0208)), ('shop', np.float64(0.0208)), ('photographs', np.float64(0.0208)), ('collection', np.float64(0.0208)), ('eames', np.float64(0.0207)), ('reeds', np.float64(0.0207)), ('inset', np.float64(0.0207)), ('eric', np.float64(0.0205)), ('totem', np.float64(0.0202)), ('preppy', np.float64(0.0202)), ('kooky', np.float64(0.0202)), ('paper', np.float64(0.0201)), ('asymmetrical', np.float64(0.0201)), ('furnishing', np.float64(0.0199)), ('derelict', np.float64(0.0198)), ('braided', np.float64(0.0197)), ('maison', np.float64(0.0197)), ('shelving', np.float64(0.0195)), ('selling', np.float64(0.0194)), ('lettering', np.float64(0.0192)), ('used', np.float64(0.0191)), ('standing', np.float64(0.0191)), ('utilitarian', np.float64(0.0191)), ('repurposed', np.float64(0.019)), ('resin', np.float64(0.019)), ('utensils', np.float64(0.0189)), ('scene', np.float64(0.0188)), ('mismatched', np.float64(0.0187)), ('crates', np.float64(0.0187)), ('succumb', np.float64(0.0185)), ('bourgeois', np.float64(0.0184)), ('ve', np.float64(0.0184)), ('forks', np.float64(0.0183)), ('notebooks', np.float64(0.0182)), ('trays', np.float64(0.0181)), ('decoration', np.float64(0.018)), ('augustine', np.float64(0.0179)), ('59th', np.float64(0.0179)), ('bows', np.float64(0.0178)), ('considered', np.float64(0.0178)), ('interestingly', np.float64(0.0178)), ('f1', np.float64(0.0177)), ('parisian', np.float64(0.0176)), ('transforms', np.float64(0.0175)), ('prague', np.float64(0.0175)), ('966', np.float64(0.0175)), ('sickness', np.float64(0.0174)), ('cubes', np.float64(0.0174)), ('755', np.float64(0.0174)), ('radios', np.float64(0.0173)), ('wares', np.float64(0.0172)), ('curved', np.float64(0.0172)), ('860', np.float64(0.0172)), ('create', np.float64(0.0172)), ('collage', np.float64(0.0172)), ('copied', np.float64(0.0172)), ('645', np.float64(0.0172)), ('407', np.float64(0.0172)), ('pioneered', np.float64(0.017)), ('squandered', np.float64(0.017)), ('collaborating', np.float64(0.0169)), ('terence', np.float64(0.0168)), ('hearted', np.float64(0.0168)), ('morocco', np.float64(0.0167)), ('tailor', np.float64(0.0166)), ('including', np.float64(0.0166)), ('living', np.float64(0.0166)), ('interpretations', np.float64(0.0165)), ('exploding', np.float64(0.0165)), ('assorted', np.float64(0.0164)), ('platinum', np.float64(0.0164)), ('april', np.float64(0.0164)), ('unthinkable', np.float64(0.0164)), ('tubes', np.float64(0.0163)), ('rocking', np.float64(0.0162)), ('belgian', np.float64(0.0162)), ('salvation', np.float64(0.0161)), ('sofa', np.float64(0.016)), ('bring', np.float64(0.016)), ('brightly', np.float64(0.016)), ('lamented', np.float64(0.0159)), ('wardrobe', np.float64(0.0159)), ('lang', np.float64(0.0158)), ('866', np.float64(0.0157)), ('notebook', np.float64(0.0157)), ('poetic', np.float64(0.0157)), ('collects', np.float64(0.0156)), ('arabic', np.float64(0.0156)), ('turned', np.float64(0.0156)), ('airplanes', np.float64(0.0155)), ('coats', np.float64(0.0155)), ('amusing', np.float64(0.0155)), ('lowe', np.float64(0.0154)), ('candles', np.float64(0.0154)), ('skirt', np.float64(0.0154)), ('jacques', np.float64(0.0153)), ('sculptures', np.float64(0.0151)), ('fairy', np.float64(0.015)), ('lengths', np.float64(0.015)), ('room', np.float64(0.015)), ('combines', np.float64(0.015)), ('catalog', np.float64(0.0149)), ('curriculum', np.float64(0.0149)), ('cent', np.float64(0.0149)), ('holders', np.float64(0.0148)), ('fabulous', np.float64(0.0148)), ('exterior', np.float64(0.0147)), ('pale', np.float64(0.0146)), ('rescued', np.float64(0.0146)), ('strings', np.float64(0.0145)), ('carved', np.float64(0.0144)), ('grounded', np.float64(0.0144)), ('galleries', np.float64(0.0143)), ('experimental', np.float64(0.0143)), ('cute', np.float64(0.0142)), ('began', np.float64(0.0142)), ('108', np.float64(0.0142)), ('refers', np.float64(0.0142)), ('pierre', np.float64(0.0142)), ('closet', np.float64(0.0141)), ('classics', np.float64(0.0141)), ('shelves', np.float64(0.0141)), ('rubber', np.float64(0.014)), ('branches', np.float64(0.014)), ('pole', np.float64(0.0139)), ('singled', np.float64(0.0139)), ('decorated', np.float64(0.0139)), ('cups', np.float64(0.0138)), ('wrap', np.float64(0.0138)), ('flower', np.float64(0.0138)), ('shipping', np.float64(0.0138)), ('precious', np.float64(0.0137)), ('printed', np.float64(0.0137)), ('white', np.float64(0.0136)), ('produces', np.float64(0.0135)), ('tokyo', np.float64(0.0135)), ('business', np.float64(0.0135)), ('laboratory', np.float64(0.0135)), ('resource', np.float64(0.0135)), ('delicate', np.float64(0.0134)), ('jewelry', np.float64(0.0134)), ('company', np.float64(0.0134)), ('wet', np.float64(0.0134)), ('publisher', np.float64(0.0133)), ('separated', np.float64(0.0133)), ('pleasure', np.float64(0.0133)), ('hungry', np.float64(0.0133)), ('experiment', np.float64(0.0133)), ('director', np.float64(0.0133)), ('progressive', np.float64(0.0133)), ('1983', np.float64(0.0132)), ('16th', np.float64(0.0132)), ('burn', np.float64(0.0132)), ('far', np.float64(0.0132)), ('boyfriend', np.float64(0.0132)), ('look', np.float64(0.0131)), ('things', np.float64(0.0131)), ('remembers', np.float64(0.0131)), ('discover', np.float64(0.0131)), ('dishes', np.float64(0.013)), ('john', np.float64(0.013)), ('sleeping', np.float64(0.013)), ('everyday', np.float64(0.013)), ('lighting', np.float64(0.0129)), ('colorful', np.float64(0.0129)), ('fortune', np.float64(0.0129)), ('promoted', np.float64(0.0129)), ('mini', np.float64(0.0128)), ('shirts', np.float64(0.0128)), ('marie', np.float64(0.0128)), ('cabinet', np.float64(0.0128)), ('explanation', np.float64(0.0128)), ('colored', np.float64(0.0127)), ('globe', np.float64(0.0127)), ('hung', np.float64(0.0127)), ('storage', np.float64(0.0127)), ('lifted', np.float64(0.0127)), ('roberts', np.float64(0.0127)), ('chest', np.float64(0.0127)), ('mainstream', np.float64(0.0127)), ('ago', np.float64(0.0127)), ('fruit', np.float64(0.0126)), ('opera', np.float64(0.0126)), ('equivalent', np.float64(0.0125)), ('wire', np.float64(0.0125)), ('burning', np.float64(0.0125)), ('pointing', np.float64(0.0125)), ('industries', np.float64(0.0124)), ('92', np.float64(0.0124)), ('sells', np.float64(0.0124)), ('colors', np.float64(0.0123)), ('label', np.float64(0.0123)), ('reflects', np.float64(0.0123)), ('newspapers', np.float64(0.0122)), ('painted', np.float64(0.0122)), ('cheap', np.float64(0.0122)), ('michelle', np.float64(0.0121)), ('extensive', np.float64(0.0121)), ('affordable', np.float64(0.0121)), ('toronto', np.float64(0.0121)), ('creation', np.float64(0.012)), ('tips', np.float64(0.012)), ('partnership', np.float64(0.012)), ('come', np.float64(0.012)), ('wore', np.float64(0.012)), ('76', np.float64(0.0119)), ('collected', np.float64(0.0119)), ('dressed', np.float64(0.0119)), ('dining', np.float64(0.0119)), ('thompson', np.float64(0.0119)), ('afghanistan', np.float64(0.0119)), ('asia', np.float64(0.0119)), ('trips', np.float64(0.0118)), ('bedroom', np.float64(0.0118)), ('jean', np.float64(0.0117)), ('interior', np.float64(0.0117)), ('causes', np.float64(0.0117)), ('album', np.float64(0.0117)), ('acquired', np.float64(0.0117)), ('forms', np.float64(0.0117)), ('japanese', np.float64(0.0116)), ('plane', np.float64(0.0116)), ('pages', np.float64(0.0116)), ('1991', np.float64(0.0115)), ('circle', np.float64(0.0115)), ('fish', np.float64(0.0115)), ('left', np.float64(0.0115)), ('exercise', np.float64(0.0115)), ('68', np.float64(0.0115)), ('blocks', np.float64(0.0115)), ('chair', np.float64(0.0115)), ('surrounding', np.float64(0.0114)), ('coffee', np.float64(0.0114)), ('flying', np.float64(0.0114)), ('traveling', np.float64(0.0113)), ('desire', np.float64(0.0113)), ('newly', np.float64(0.0112)), ('devoted', np.float64(0.0112)), ('right', np.float64(0.0112)), ('likes', np.float64(0.0112)), ('print', np.float64(0.0111)), ('work', np.float64(0.0111)), ('times', np.float64(0.0111)), ('owns', np.float64(0.0111)), ('explained', np.float64(0.011)), ('bright', np.float64(0.011)), ('59', np.float64(0.011)), ('founded', np.float64(0.011)), ('wood', np.float64(0.011)), ('fly', np.float64(0.0109)), ('shape', np.float64(0.0109)), ('impossible', np.float64(0.0109)), ('falling', np.float64(0.0109)), ('quiet', np.float64(0.0108)), ('53', np.float64(0.0108)), ('file', np.float64(0.0108)), ('keeps', np.float64(0.0108)), ('coverage', np.float64(0.0108)), ('artists', np.float64(0.0108)), ('tie', np.float64(0.0108)), ('brings', np.float64(0.0107)), ('holiday', np.float64(0.0107)), ('managed', np.float64(0.0107)), ('basic', np.float64(0.0106)), ('long', np.float64(0.0106)), ('silver', np.float64(0.0106)), ('carried', np.float64(0.0106)), ('inspired', np.float64(0.0106)), ('items', np.float64(0.0105)), ('fan', np.float64(0.0105)), ('slightly', np.float64(0.0105)), ('beautiful', np.float64(0.0105)), ('loved', np.float64(0.0105)), ('france', np.float64(0.0104)), ('stores', np.float64(0.0104)), ('patrick', np.float64(0.0104)), ('stood', np.float64(0.0104)), ('daniel', np.float64(0.0104)), ('markets', np.float64(0.0104)), ('grown', np.float64(0.0103)), ('london', np.float64(0.0103)), ('covered', np.float64(0.0103)), ('african', np.float64(0.0102)), ('way', np.float64(0.0102)), ('bowl', np.float64(0.0102)), ('serving', np.float64(0.0102)), ('gold', np.float64(0.0101)), ('product', np.float64(0.0101)), ('39', np.float64(0.0101)), ('1998', np.float64(0.0101)), ('laws', np.float64(0.0101)), ('partner', np.float64(0.0101)), ('unit', np.float64(0.0101)), ('sit', np.float64(0.0101)), ('prevent', np.float64(0.01)), ('europe', np.float64(0.01)), ('carry', np.float64(0.01)), ('familiar', np.float64(0.0099)), ('minister', np.float64(0.0099)), ('meant', np.float64(0.0099)), ('make', np.float64(0.0099)), ('sitting', np.float64(0.0099)), ('british', np.float64(0.0099)), ('picture', np.float64(0.0098)), ('successful', np.float64(0.0098)), ('bought', np.float64(0.0098)), ('showing', np.float64(0.0098)), ('eye', np.float64(0.0098)), ('modern', np.float64(0.0098)), ('finding', np.float64(0.0098)), ('army', np.float64(0.0097)), ('various', np.float64(0.0097)), ('natural', np.float64(0.0097)), ('sister', np.float64(0.0097)), ('forces', np.float64(0.0097)), ('stopped', np.float64(0.0096)), ('neighborhood', np.float64(0.0096)), ('safe', np.float64(0.0096)), ('culture', np.float64(0.0096)), ('piece', np.float64(0.0096)), ('grew', np.float64(0.0096)), ('stock', np.float64(0.0096)), ('joined', np.float64(0.0095)), ('square', np.float64(0.0095)), ('2001', np.float64(0.0095)), ('original', np.float64(0.0094)), ('parts', np.float64(0.0094)), ('fun', np.float64(0.0094)), ('extra', np.float64(0.0094)), ('90', np.float64(0.0094)), ('charles', np.float64(0.0094)), ('gives', np.float64(0.0094)), ('test', np.float64(0.0094)), ('certainly', np.float64(0.0093)), ('brother', np.float64(0.0092)), ('homes', np.float64(0.0092)), ('floor', np.float64(0.0092)), ('decade', np.float64(0.0092)), ('entire', np.float64(0.0092)), ('plus', np.float64(0.0092)), ('looks', np.float64(0.0091)), ('adding', np.float64(0.0091)), ('sold', np.float64(0.0091)), ('costs', np.float64(0.009)), ('hot', np.float64(0.009)), ('like', np.float64(0.009)), ('understand', np.float64(0.009)), ('art', np.float64(0.0089)), ('passed', np.float64(0.0089)), ('just', np.float64(0.0089)), ('style', np.float64(0.0088)), ('southern', np.float64(0.0088)), ('students', np.float64(0.0087)), ('green', np.float64(0.0087)), ('medical', np.float64(0.0087)), ('spring', np.float64(0.0086)), ('foot', np.float64(0.0085)), ('book', np.float64(0.0085)), ('includes', np.float64(0.0084)), ('brought', np.float64(0.0083)), ('hold', np.float64(0.0083)), ('leave', np.float64(0.0083)), ('food', np.float64(0.0083)), ('inside', np.float64(0.0082)), ('sense', np.float64(0.0082)), ('east', np.float64(0.0082)), ('saw', np.float64(0.0082)), ('media', np.float64(0.0081)), ('cost', np.float64(0.008)), ('friends', np.float64(0.008)), ('hand', np.float64(0.008)), ('star', np.float64(0.0079)), ('fall', np.float64(0.0079)), ('needed', np.float64(0.0079)), ('mother', np.float64(0.0079)), ('press', np.float64(0.0078)), ('market', np.float64(0.0078)), ('fact', np.float64(0.0078)), ('black', np.float64(0.0078)), ('photographer', np.float64(0.0077)), ('believe', np.float64(0.0077)), ('course', np.float64(0.0077)), ('love', np.float64(0.0076)), ('women', np.float64(0.0076)), ('try', np.float64(0.0076)), ('wanted', np.float64(0.0075)), ('comes', np.float64(0.0075)), ('40', np.float64(0.0075)), ('seen', np.float64(0.0074)), ('let', np.float64(0.0073)), ('children', np.float64(0.0071)), ('different', np.float64(0.0071)), ('thing', np.float64(0.007)), ('known', np.float64(0.007)), ('young', np.float64(0.007)), ('case', np.float64(0.0069)), ('half', np.float64(0.0068)), ('use', np.float64(0.0065)), ('point', np.float64(0.0065)), ('didn', np.float64(0.0064)), ('really', np.float64(0.0063)), ('lot', np.float64(0.0063)), ('called', np.float64(0.006)), ('30', np.float64(0.0059)), ('think', np.float64(0.0057)), ('say', np.float64(0.0055)), ('did', np.float64(0.0054)), ('don', np.float64(0.0052)), ('10', np.float64(0.005)), ('people', np.float64(0.0046)), ('years', np.float64(0.0045)), ('time', np.float64(0.0041))]</tf_idf>
+<roberta_title_negative>0.0004</roberta_title_negative>
+<roberta_title_neutral>0.9986</roberta_title_neutral>
+<roberta_title_positive>0.0009</roberta_title_positive>
+<bert_title_negative>0.9898</bert_title_negative>
+<bert_title_positive>0.0102</bert_title_positive>
+</processed>
+</RECORD>

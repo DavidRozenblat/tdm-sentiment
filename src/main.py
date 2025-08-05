@@ -44,7 +44,7 @@ def main():
 # If you want this script to be directly runnable:
 if __name__ == "__main__":
     main()
-        
+    
         
 # can run on terminal using the following
 #cd /home/ec2-user/SageMaker/david/tdm-sentiment/src/

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>856687362</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Commentary</other>
+<mstar>Commentary</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Not in My (Liberal) Backyard</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Week in Review Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2011-03-13</NumericDate>
+<StartDate>2011-03-13</StartDate>
+<EndDate>2011-03-13</EndDate>
+<AlphaDate>Mar 13, 2011</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Mar 13, 2011</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>WK.3</StartPage>
+<Pagination>WK.3</Pagination>
+<DocSection>WK</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2290578241</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>59148621</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>732222-20110313</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1530</LexileScore>
+<Desk>Week in Review Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Rosenthal, Elisabeth</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Rosenthal</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Elisabeth</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Elisabeth Rosenthal</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Mass transit</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Behavior</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Traffic flow</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Turbines</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Progress</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Living conditions</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Environmentalists</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="86">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;In Berkeley last year, the objections of store owners and residents forced the city to shelve plans for a full bus rapid transit system (B.R.T.), a form of green mass transit in which lanes that formerly served cars are blocked off and usurped by high-capacity buses that resemble above-ground subways.  [...] whatever feelings people have about abstract issues like the environment, in practice they react more passionately to immediate rewards and punishments (like a ready parking space) than distant consequences (like the threat of warming).&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1158">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Park Slope, Brooklyn. Cape Cod, Mass. Berkeley, Calif. Three famously progressive places, right? The yin to the Tea Party yang. But just try putting a bike lane or some wind turbines in their lines of sight. And the karma can get very different.&lt;/p&gt;              &lt;p&gt;  Last week, two groups of New Yorkers who live "on or near" Prospect Park West, a prestigious address in Park Slope, filed a suit against the administration of Mayor Michael R. Bloomberg to remove a nine-month-old bike lane that has commandeered a lane previously used by cars.&lt;/p&gt;              &lt;p&gt;  In Massachusetts, the formidable opponents of Cape Wind, a proposed offshore wind farm in Nantucket Sound, include members of the Kennedy family, whose compound looks out over the body of water. In Berkeley last year, the objections of store owners and residents forced the city to shelve plans for a full bus rapid transit system (B.R.T.), a form of green mass transit in which lanes that formerly served cars are blocked off and usurped by high-capacity buses that resemble above-ground subways.&lt;/p&gt;              &lt;p&gt;  Critics in New York contend the new Prospect Park bike lane is badly designed, endangering pedestrians and snarling traffic. Cape Wind opponents argue the turbines will defile a pristine body of water. And in Berkeley, store owners worried that reduced traffic flow and parking could hurt their business.&lt;/p&gt;              &lt;p&gt;  But some supporters of high-profile green projects like these say the problem is just plain old Nimbyism -- the opposition by residents to a local development of the sort that they otherwise tend to support.&lt;/p&gt;              &lt;p&gt;  "It's really pretty innocuous -- it's a bike lane, for goodness' sake -- their resistance has been incredibly frustrating," said Walter Hook, executive director of the Institute for Transportation and Development Policy in Manhattan and an expert on sustainable transport. He lives in Brooklyn and uses the Prospect Park West bike lane to get around.&lt;/p&gt;              &lt;p&gt;  Nimbyism is nothing new. It's even logical sometimes, perhaps not always deserving of opprobrium. After all, it is one thing to be a passionate proponent of recycling, and another to welcome a particular recycling plant -- with the attendant garbage-truck traffic -- on your street. General environmental principals may be at odds with convenience or even local environmental consequences.&lt;/p&gt;              &lt;p&gt;  But policymakers in the United States have been repeatedly frustrated by constituents who profess to worry about the climate and count themselves as environmentalists, but prove unwilling to adjust their lifestyles or change their behavior in any significant way.&lt;/p&gt;              &lt;p&gt;  In Europe, bike lanes crisscross cities, wind turbines appear in counties with high-priced country homes and plants that make green energy from waste are situated in even the wealthiest neighborhoods. So what is going on here?&lt;/p&gt;              &lt;p&gt;  Robert B. Cialdini, an emeritus professor at Arizona State University who studies environmental behaviors, points to two phenomena:&lt;/p&gt;              &lt;p&gt;  Humans hew to the "normative" behaviors of their community. In places where bike lanes or wind turbines or B.R.T. systems are seen as an integral part of society, people tend not protest a new one; if they are not the norm, they will. Second, whatever feelings people have about abstract issues like the environment, in practice they react more passionately to immediate rewards and punishments (like a ready parking space) than distant consequences (like the threat of warming).&lt;/p&gt;              &lt;p&gt;  Test yourself: When a sign in a hotel bathroom exhorts you to reuse your towel for the sake of the planet, do you nonetheless tend to throw it on the floor to get a new one? (Me: Guilty.) "I'm a persuasion researcher, and here you have convenience and luxury working against you -- just like in the bike-lane issue, " Professor Cialdini said.&lt;/p&gt;              &lt;p&gt;  Professor Cialdini's research has found that the best way to get a guest to reuse towels is to inform him that a majority of the previous guests in that room did not switch towels daily. Likewise, in a study to determine how to get people to reduce home energy use, conducted with Wesley Schultz, Professor Cialdini found that people were most likely to comply if told that all the neighbors were doing it -- rather than informed that saving energy would save money or was good for the planet.&lt;/p&gt;              &lt;p&gt;  "People need to be in alignment with their contemporaries," he said. "It validates them. It becomes something they should do and can do."&lt;/p&gt;              &lt;p&gt;  Has Mayor Bloomberg's rapid expansion of bike lanes simply outpaced the otherwise progressive norms of Park Slope's most upscale street? The Bloomberg administration says that according to polls, nearly three-quarters of people in Brooklyn support the bike lane, which has resulted in fewer accidents and lower car speeds on Prospect Park West. The opponents, who note that bicyclists could just as well use a bike lane within the park, contend that the city is manipulating the data and failed to conduct follow-up studies on safety.&lt;/p&gt;              &lt;p&gt;  In interviews with pedestrians and motorists on Prospect Park West, opponents stridently criticized the bike lane -- though (this being Park Slope) nearly everyone made a point of saying they generally approved of cycling. (One of the groups bringing the lawsuit is called Neighbors for Better Bike Lanes; the group opposed to Cape Wind is called the Alliance to Protect Nantucket Sound.)&lt;/p&gt;              &lt;p&gt;  Brian Williamson, a 39-year-old accountant who was picking up his children in a minivan, said that crossing the two-way bike lane was hazardous because the cyclists sped and had no red lights. "I really despise it -- it has had a really negative impact on anyone who uses a car," he said.&lt;/p&gt;              &lt;p&gt;  But, of course, that is partly the point: As a matter of environmental policy, a principal benefit of bike lanes is that they tip the balance of power away from driving and toward a more sustainable form of transportation.&lt;/p&gt;              &lt;p&gt;  So what will happen to the Park Slope bike path or the Cape Wind turbines or the Berkeley B.R.T.? Will bike paths become as much the norm in New York as they are in Copenhagen, where some 30 percent of all trips are on two wheels? Will we get used to looking out for cyclists as we do for cars? Will we become so accustomed to views of wind turbines that we no longer "see" them any more than we do phone lines now?&lt;/p&gt;              &lt;p&gt;  I recall last year interviewing Hans Rast, a retired engineer who lives in an elegant suburb of Copenhagen, whose backyard sits just several hundred meters from the gate of a huge plant that converts garbage to green heat and electricity. With dozens of such waste-to-energy plants in Denmark, new buyers in his development are usually O.K. with the hulking neighbor behind their homes, he said, adding, "What they like is they look outside and see the forest."&lt;/p&gt;              &lt;p&gt;  &lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Drawings (Drawings by Rumors)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Mar 13, 2011</AlphaDate>
+<StartDate>2011-03-13</StartDate>
+<EndDate>2011-03-13</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>59148621</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.09614519252677146</text_blob_sentiment><bert_sentiment>-0.4102785558927627</bert_sentiment></grades>
+<processed>
+<is_economic>0.5415</is_economic>
+<tf_idf>[('bike', np.float64(0.4682)), ('cialdini', np.float64(0.2503)), ('lane', np.float64(0.2484)), ('turbines', np.float64(0.2362)), ('wind', np.float64(0.2062)), ('lanes', np.float64(0.1753)), ('park', np.float64(0.1675)), ('slope', np.float64(0.1604)), ('cape', np.float64(0.1509)), ('prospect', np.float64(0.1174)), ('berkeley', np.float64(0.1168)), ('nimbyism', np.float64(0.103)), ('environmental', np.float64(0.0902)), ('opponents', np.float64(0.0888)), ('nantucket', np.float64(0.0804)), ('bloomberg', np.float64(0.0791)), ('professor', np.float64(0.0777)), ('reuse', np.float64(0.0771)), ('energy', np.float64(0.0769)), ('copenhagen', np.float64(0.0746)), ('cyclists', np.float64(0.0726)), ('green', np.float64(0.0725)), ('brooklyn', np.float64(0.0712)), ('tend', np.float64(0.069)), ('behaviors', np.float64(0.0668)), ('towels', np.float64(0.0661)), ('new', np.float64(0.0658)), ('pedestrians', np.float64(0.0655)), ('recycling', np.float64(0.0654)), ('traffic', np.float64(0.0622)), ('cars', np.float64(0.062)), ('west', np.float64(0.0614)), ('norm', np.float64(0.0598)), ('sustainable', np.float64(0.0596)), ('garbage', np.float64(0.059)), ('drawings', np.float64(0.0587)), ('sake', np.float64(0.0584)), ('convenience', np.float64(0.0583)), ('people', np.float64(0.0571)), ('like', np.float64(0.0561)), ('progressive', np.float64(0.0551)), ('contend', np.float64(0.0544)), ('rast', np.float64(0.0542)), ('development', np.float64(0.054)), ('transit', np.float64(0.0538)), ('planet', np.float64(0.0525)), ('rapid', np.float64(0.0521)), ('waste', np.float64(0.0508)), ('defile', np.float64(0.0493)), ('normative', np.float64(0.0488)), ('plants', np.float64(0.0488)), ('consequences', np.float64(0.0486)), ('exhorts', np.float64(0.0471)), ('opprobrium', np.float64(0.047)), ('just', np.float64(0.0462)), ('stridently', np.float64(0.0462)), ('plant', np.float64(0.0461)), ('neighbors', np.float64(0.0461)), ('parking', np.float64(0.0441)), ('usurped', np.float64(0.044)), ('transportation', np.float64(0.0435)), ('uses', np.float64(0.0432)), ('shelve', np.float64(0.0431)), ('hew', np.float64(0.0429)), ('studies', np.float64(0.0423)), ('validates', np.float64(0.0423)), ('said', np.float64(0.0423)), ('crisscross', np.float64(0.0423)), ('owners', np.float64(0.0417)), ('commandeered', np.float64(0.0413)), ('profess', np.float64(0.0411)), ('despise', np.float64(0.0406)), ('mayor', np.float64(0.0402)), ('snarling', np.float64(0.0398)), ('yin', np.float64(0.0396)), ('bicyclists', np.float64(0.0395)), ('really', np.float64(0.0394)), ('places', np.float64(0.0393)), ('sound', np.float64(0.0391)), ('store', np.float64(0.0388)), ('lines', np.float64(0.0386)), ('homes', np.float64(0.0384)), ('outpaced', np.float64(0.0382)), ('karma', np.float64(0.038)), ('persuasion', np.float64(0.0377)), ('hulking', np.float64(0.0377)), ('mass', np.float64(0.0376)), ('subways', np.float64(0.0376)), ('phenomena', np.float64(0.0375)), ('innocuous', np.float64(0.0375)), ('punishments', np.float64(0.0373)), ('form', np.float64(0.0371)), ('endangering', np.float64(0.0368)), ('converts', np.float64(0.0368)), ('contemporaries', np.float64(0.0365)), ('manipulating', np.float64(0.0364)), ('residents', np.float64(0.0363)), ('body', np.float64(0.0363)), ('alignment', np.float64(0.036)), ('minivan', np.float64(0.0359)), ('passionately', np.float64(0.0359)), ('lifestyles', np.float64(0.0358)), ('proponent', np.float64(0.0355)), ('groups', np.float64(0.0352)), ('water', np.float64(0.0349)), ('policy', np.float64(0.0349)), ('old', np.float64(0.0347)), ('cod', np.float64(0.0345)), ('car', np.float64(0.0345)), ('deserving', np.float64(0.0344)), ('situated', np.float64(0.0343)), ('schultz', np.float64(0.0341)), ('high', np.float64(0.034)), ('sped', np.float64(0.034)), ('wealthiest', np.float64(0.0339)), ('norms', np.float64(0.0336)), ('williamson', np.float64(0.0336)), ('cycling', np.float64(0.0335)), ('hans', np.float64(0.0335)), ('lives', np.float64(0.0335)), ('emeritus', np.float64(0.0334)), ('administration', np.float64(0.0332)), ('pristine', np.float64(0.0332)), ('yang', np.float64(0.033)), ('denmark', np.float64(0.0328)), ('goodness', np.float64(0.0328)), ('integral', np.float64(0.0328)), ('attendant', np.float64(0.0326)), ('towel', np.float64(0.0324)), ('accountant', np.float64(0.0323)), ('principals', np.float64(0.0322)), ('offshore', np.float64(0.032)), ('interviewing', np.float64(0.032)), ('hazardous', np.float64(0.0319)), ('wesley', np.float64(0.0318)), ('way', np.float64(0.0317)), ('environmentalists', np.float64(0.0314)), ('policymakers', np.float64(0.0313)), ('logical', np.float64(0.0311)), ('speeds', np.float64(0.031)), ('resemble', np.float64(0.031)), ('unwilling', np.float64(0.0309)), ('meters', np.float64(0.0308)), ('motorists', np.float64(0.0307)), ('yorkers', np.float64(0.0306)), ('street', np.float64(0.0306)), ('likewise', np.float64(0.0305)), ('inform', np.float64(0.0303)), ('constituents', np.float64(0.0303)), ('abstract', np.float64(0.0302)), ('support', np.float64(0.0301)), ('local', np.float64(0.0301)), ('prestigious', np.float64(0.0301)), ('accustomed', np.float64(0.0299)), ('compound', np.float64(0.0297)), ('paths', np.float64(0.0297)), ('rewards', np.float64(0.0297)), ('famously', np.float64(0.0297)), ('objections', np.float64(0.0296)), ('accidents', np.float64(0.0295)), ('formidable', np.float64(0.0294)), ('upscale', np.float64(0.0293)), ('react', np.float64(0.0291)), ('nearly', np.float64(0.0291)), ('backyard', np.float64(0.029)), ('wheels', np.float64(0.0289)), ('transport', np.float64(0.0285)), ('rumors', np.float64(0.0284)), ('suburb', np.float64(0.0283)), ('comply', np.float64(0.0281)), ('passionate', np.float64(0.0281)), ('warming', np.float64(0.0281)), ('frustrating', np.float64(0.028)), ('adjust', np.float64(0.0279)), ('hook', np.float64(0.0279)), ('buses', np.float64(0.0278)), ('elegant', np.float64(0.0278)), ('distant', np.float64(0.0276)), ('incredibly', np.float64(0.0275)), ('researcher', np.float64(0.0271)), ('use', np.float64(0.0269)), ('bathroom', np.float64(0.0268)), ('humans', np.float64(0.0268)), ('point', np.float64(0.0268)), ('priced', np.float64(0.0268)), ('electricity', np.float64(0.0267)), ('plain', np.float64(0.0267)), ('nonetheless', np.float64(0.0266)), ('gate', np.float64(0.0265)), ('used', np.float64(0.0265)), ('crossing', np.float64(0.0265)), ('tea', np.float64(0.0263)), ('engineer', np.float64(0.0261)), ('resistance', np.float64(0.026)), ('york', np.float64(0.0257)), ('badly', np.float64(0.0256)), ('switch', np.float64(0.0255)), ('recall', np.float64(0.0255)), ('neighbor', np.float64(0.0254)), ('tip', np.float64(0.0254)), ('frustrated', np.float64(0.0254)), ('informed', np.float64(0.0253)), ('picking', np.float64(0.0253)), ('odds', np.float64(0.0252)), ('walter', np.float64(0.0252)), ('quarters', np.float64(0.0252)), ('resulted', np.float64(0.0251)), ('called', np.float64(0.0251)), ('sits', np.float64(0.025)), ('city', np.float64(0.025)), ('buyers', np.float64(0.025)), ('alliance', np.float64(0.025)), ('counties', np.float64(0.025)), ('saving', np.float64(0.025)), ('luxury', np.float64(0.0249)), ('feelings', np.float64(0.0248)), ('sight', np.float64(0.0248)), ('polls', np.float64(0.0247)), ('blocked', np.float64(0.0247)), ('year', np.float64(0.0246)), ('trips', np.float64(0.0246)), ('massachusetts', np.float64(0.0244)), ('neighborhoods', np.float64(0.0243)), ('flow', np.float64(0.0243)), ('guest', np.float64(0.0243)), ('partly', np.float64(0.0242)), ('expansion', np.float64(0.0242)), ('guests', np.float64(0.0241)), ('principal', np.float64(0.024)), ('climate', np.float64(0.024)), ('protest', np.float64(0.0239)), ('capacity', np.float64(0.0237)), ('lights', np.float64(0.0237)), ('truck', np.float64(0.0236)), ('negative', np.float64(0.0236)), ('argue', np.float64(0.0235)), ('kennedy', np.float64(0.0234)), ('farm', np.float64(0.0232)), ('bus', np.float64(0.0232)), ('interviews', np.float64(0.0231)), ('remove', np.float64(0.0231)), ('reduced', np.float64(0.0229)), ('immediate', np.float64(0.0229)), ('criticized', np.float64(0.0228)), ('expert', np.float64(0.0228)), ('opposed', np.float64(0.0227)), ('lawsuit', np.float64(0.0227)), ('forest', np.float64(0.0227)), ('conducted', np.float64(0.0227)), ('profile', np.float64(0.0226)), ('conduct', np.float64(0.0225)), ('repeatedly', np.float64(0.0225)), ('welcome', np.float64(0.0221)), ('views', np.float64(0.0221)), ('prove', np.float64(0.0221)), ('guilty', np.float64(0.0221)), ('behavior', np.float64(0.022)), ('suit', np.float64(0.0219)), ('arizona', np.float64(0.0219)), ('opposition', np.float64(0.0219)), ('path', np.float64(0.0218)), ('manhattan', np.float64(0.0218)), ('worried', np.float64(0.0217)), ('count', np.float64(0.0217)), ('heat', np.float64(0.0217)), ('balance', np.float64(0.0217)), ('worry', np.float64(0.0217)), ('dozens', np.float64(0.0216)), ('determine', np.float64(0.0216)), ('supporters', np.float64(0.0216)), ('bringing', np.float64(0.0215)), ('environment', np.float64(0.0215)), ('calif', np.float64(0.0214)), ('throw', np.float64(0.0214)), ('fewer', np.float64(0.0212)), ('projects', np.float64(0.0211)), ('39', np.float64(0.021)), ('generally', np.float64(0.021)), ('previously', np.float64(0.0209)), ('systems', np.float64(0.0208)), ('critics', np.float64(0.0208)), ('reduce', np.float64(0.0208)), ('europe', np.float64(0.0208)), ('particular', np.float64(0.0207)), ('threat', np.float64(0.0206)), ('note', np.float64(0.0206)), ('cities', np.float64(0.0205)), ('hotel', np.float64(0.0205)), ('hurt', np.float64(0.0205)), ('benefit', np.float64(0.0204)), ('institute', np.float64(0.0203)), ('retired', np.float64(0.0201)), ('sort', np.float64(0.0201)), ('brian', np.float64(0.02)), ('filed', np.float64(0.02)), ('driving', np.float64(0.02)), ('approved', np.float64(0.02)), ('proposed', np.float64(0.0199)), ('protect', np.float64(0.0198)), ('putting', np.float64(0.0198)), ('appear', np.float64(0.0198)), ('impact', np.float64(0.0196)), ('designed', np.float64(0.0195)), ('save', np.float64(0.0195)), ('test', np.float64(0.0194)), ('society', np.float64(0.0193)), ('majority', np.float64(0.0193)), ('address', np.float64(0.0192)), ('floor', np.float64(0.0192)), ('follow', np.float64(0.0191)), ('data', np.float64(0.019)), ('usually', np.float64(0.019)), ('forced', np.float64(0.019)), ('looks', np.float64(0.0189)), ('adding', np.float64(0.0189)), ('daily', np.float64(0.0189)), ('significant', np.float64(0.0188)), ('failed', np.float64(0.0188)), ('huge', np.float64(0.0188)), ('study', np.float64(0.0187)), ('served', np.float64(0.0187)), ('practice', np.float64(0.0186)), ('happen', np.float64(0.0186)), ('safety', np.float64(0.0184)), ('simply', np.float64(0.0184)), ('phone', np.float64(0.0183)), ('previous', np.float64(0.0183)), ('lower', np.float64(0.0182)), ('ground', np.float64(0.018)), ('ready', np.float64(0.018)), ('pretty', np.float64(0.0179)), ('space', np.float64(0.0179)), ('sign', np.float64(0.0176)), ('longer', np.float64(0.0173)), ('research', np.float64(0.0173)), ('issues', np.float64(0.0169)), ('red', np.float64(0.0168)), ('matter', np.float64(0.0168)), ('robert', np.float64(0.0168)), ('party', np.float64(0.0167)), ('points', np.float64(0.0163)), ('problem', np.float64(0.0163)), ('issue', np.float64(0.0163)), ('plans', np.float64(0.016)), ('course', np.float64(0.0159)), ('include', np.float64(0.0159)), ('try', np.float64(0.0158)), ('likely', np.float64(0.0157)), ('live', np.float64(0.0156)), ('outside', np.float64(0.0156)), ('community', np.float64(0.0156)), ('michael', np.float64(0.0156)), ('executive', np.float64(0.0156)), ('room', np.float64(0.0155)), ('power', np.float64(0.0154)), ('saying', np.float64(0.0154)), ('seen', np.float64(0.0154)), ('looking', np.float64(0.0152)), ('near', np.float64(0.0152)), ('doing', np.float64(0.0151)), ('general', np.float64(0.0151)), ('percent', np.float64(0.0149)), ('change', np.float64(0.0149)), ('children', np.float64(0.0148)), ('university', np.float64(0.0148)), ('working', np.float64(0.0147)), ('different', np.float64(0.0147)), ('thing', np.float64(0.0146)), ('members', np.float64(0.0144)), ('united', np.float64(0.0141)), ('money', np.float64(0.014)), ('business', np.float64(0.014)), ('states', np.float64(0.0138)), ('director', np.float64(0.0138)), ('look', np.float64(0.0136)), ('away', np.float64(0.0134)), ('country', np.float64(0.0134)), ('family', np.float64(0.0133)), ('better', np.float64(0.0132)), ('says', np.float64(0.0131)), ('month', np.float64(0.013)), ('group', np.float64(0.013)), ('told', np.float64(0.0129)), ('need', np.float64(0.0129)), ('according', np.float64(0.0128)), ('best', np.float64(0.0124)), ('30', np.float64(0.0123)), ('second', np.float64(0.0119)), ('right', np.float64(0.0116)), ('state', np.float64(0.0115)), ('say', np.float64(0.0115)), ('good', np.float64(0.0113)), ('going', np.float64(0.0113)), ('week', np.float64(0.0112)), ('did', np.float64(0.0111)), ('home', np.float64(0.0109)), ('make', np.float64(0.0103))]</tf_idf>
+<roberta_title_negative>0.3307</roberta_title_negative>
+<roberta_title_neutral>0.6653</roberta_title_neutral>
+<roberta_title_positive>0.004</roberta_title_positive>
+<bert_title_negative>0.9916</bert_title_negative>
+<bert_title_positive>0.0084</bert_title_positive>
+</processed>
+</RECORD>

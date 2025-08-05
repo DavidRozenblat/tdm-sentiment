@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>422068435</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Commentary</other>
+<mstar>Commentary</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>The Inside Track; Eric Sondheimer / ON HIGH SCHOOLS; Football Showcase Is Place to See and Be Seen</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[HOME EDITION]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2006-05-16</NumericDate>
+<StartDate>2006-05-16</StartDate>
+<EndDate>2006-05-16</EndDate>
+<AlphaDate>May 16, 2006</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2006 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>D.2</StartPage>
+<Pagination>D.2</Pagination>
+<DocSection>Sports; Part D; Sports Desk</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1037197621</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>18327791</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM060026646</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1430</LexileScore>
+<DateLine>PALO ALTO</DateLine>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Sondheimer, Eric</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Sondheimer</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Eric</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Eric Sondheimer</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Coaches &amp; managers</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Athletes</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>High school football</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>College football</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Athletic recruitment</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Palo Alto California</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Short WordCount="182">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Pete Carroll of USC is shaking hands with Hall of Fame coach Bill Walsh and future Hall of Fame receiver Jerry Rice. Coach Charlie Weis of Notre Dame is huddled with five of his assistants. Coaches Jeff Tedford of California, Mike Riley of Oregon State, Walt Harris of Stanford and Karl Dorrell of UCLA are wandering nearby.&lt;/p&gt;              &lt;p&gt;   Later, players take part in position drills, and the coaches are allowed to freely roam the field. The coaches want the players to know they are there. Each one is wearing either a hat or shirt with an insignia identifying their school, and the players notice.&lt;/p&gt;              &lt;p&gt;   There are 12 Nike training camps held throughout the country, and there is uncertainty whether coaches will be allowed to attend future camps. An NCAA rule adopted last month will ban coaches from attending combines that are devoted exclusively to testing for agility, speed and strength. What elements must be included in a training camp that would allow college coaches to attend is still be to interpreted, said Erik Price, an assistant commissioner for the Pacific 10 Conference.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="998">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   It's a gorgeous, cloudless morning, and 230 college football coaches have converged on Stanford's practice field to observe close to 500 high school players dressed in shorts and gray shirts with numbers painted on their legs and plastered on their backs.&lt;/p&gt;              &lt;p&gt;   Pete Carroll of USC is shaking hands with Hall of Fame coach Bill Walsh and future Hall of Fame receiver Jerry Rice. Coach Charlie Weis of Notre Dame is huddled with five of his assistants. Coaches Jeff Tedford of California, Mike Riley of Oregon State, Walt Harris of Stanford and Karl Dorrell of UCLA are wandering nearby.&lt;/p&gt;              &lt;p&gt;   "Anybody you want to see, they're here," Tedford said of the mini- coaches convention the day before Mother's Day.&lt;/p&gt;              &lt;p&gt;   The Nike-sponsored training camp is football's version of a buffet. Coaches are given the rare opportunity to scout hundreds of prospects in a single setting.&lt;/p&gt;              &lt;p&gt;   It's a spectacle watching highly paid and highly visible coaches devote so much scrutiny to teenagers who aren't even wearing shoulder pads.&lt;/p&gt;              &lt;p&gt;   "If you think of the process of recruiting, you don't get to visualize enough," Riley said. "This is a little bit of a zoo because of the numbers, but there's a lot of benefits. You get to watch them move, watch them run, see if they're really 6-3, 215 pounds."&lt;/p&gt;              &lt;p&gt;   There are lots of high school coaches who think the combines and training camps are a waste of effort. That's what I thought until Saturday.&lt;/p&gt;              &lt;p&gt;   The chance to be seen by so many influential college coaches and to compete against the best is too valuable to bypass.&lt;/p&gt;              &lt;p&gt;   The players are tested in the early sessions while coaches stand in a roped-off area mostly talking with each other. Others are paying attention to players running 40-yard sprints, throwing and jumping. Pat Ruel, USC's offensive line coach, has brought along binoculars so he can get an up-close view of the linemen.&lt;/p&gt;              &lt;p&gt;   Later, players take part in position drills, and the coaches are allowed to freely roam the field. The coaches want the players to know they are there. Each one is wearing either a hat or shirt with an insignia identifying their school, and the players notice.&lt;/p&gt;              &lt;p&gt;   Kenny Rowe, a highly recruited defensive end from Long Beach Poly, is moving from drill to drill, but he's asked if he sees any particular schools represented. He starts rattling off, "USC, UCLA, Mississippi, Oregon, Washington ... "&lt;/p&gt;              &lt;p&gt;   Some schools have brought as many as six coaches to the event so that each can evaluate players at respective positions.&lt;/p&gt;              &lt;p&gt;   "This is great for kids," said Rice, who gave a pep talk to the players. "These guys have an opportunity of a lifetime. You get a chance to showcase what you can do."&lt;/p&gt;              &lt;p&gt;   But scholarships are more likely to be offered based on a performance at a specific college training camp during the summer than this one in May because there are too many players to evaluate and the coaches aren't working with the players individually.&lt;/p&gt;              &lt;p&gt;   "All this doesn't mean anything unless you can put on the pads," linebacker Jordan Campbell of Norco said. "A guy can run a 4.4 40, but can he take a hit?"&lt;/p&gt;              &lt;p&gt;   There are 12 Nike training camps held throughout the country, and there is uncertainty whether coaches will be allowed to attend future camps. An NCAA rule adopted last month will ban coaches from attending combines that are devoted exclusively to testing for agility, speed and strength. What elements must be included in a training camp that would allow college coaches to attend is still be to interpreted, said Erik Price, an assistant commissioner for the Pacific 10 Conference.&lt;/p&gt;              &lt;p&gt;   Many camp participants already had scholarship offers but wanted to test themselves against other top prospects.&lt;/p&gt;              &lt;p&gt;   Chris Forcier, a quarterback from San Diego St. Augustine, has committed to UCLA. He said he was interested in trying to convince others that he's one of the best in the nation.&lt;/p&gt;              &lt;p&gt;   Most of the coaches already knew before the camp who they wanted to see, and it's a chance for them to confirm their initial impressions or discover something they didn't notice on video.&lt;/p&gt;              &lt;p&gt;   There are risks involved for the athletes, such as letting everyone know they aren't as tall as listed on their high school roster. And those who might have been involved in other sports would have been wise to skip the camp because it's a grueling, competitive event for which you should train.&lt;/p&gt;              &lt;p&gt;   "It's a necessary thing because you need some kind of standardized test to gauge an athlete," said James Mitchell, the strength coach at Harbor City Narbonne, who escorted running back Eveian Grigsby to the camp. "It's good because once you get ranked, it ups your credibility."&lt;/p&gt;              &lt;p&gt;   It helps to have consulted with someone who already went through the recruiting process, and that was the luxury for quarterback Ben Longshore of Canyon Country Canyon. His brother, Nate, a quarterback at California, drove 45 minutes from Berkeley to support Ben and give advice.&lt;/p&gt;              &lt;p&gt;   "I'm the comic relief," Nate said. "I keep him relaxed. I think he has one of the best arms out here, and that's one of the most important things. I'm sure he'll excite some people. He can hum it. I told him to let it loose and show what his arm is all about. If you can be relaxed in a setting like this, the coaches will know you have a comfort level and confidence in your ability."&lt;/p&gt;              &lt;p&gt;   In the end, the coaches with their designer sunglasses and state- of-the-art cellphones couldn't have been happier.&lt;/p&gt;              &lt;p&gt;   Said San Diego State assistant Jonathan Himebauch: "I think Nike is trying to help lower gas prices by getting everyone in one spot, so we have to get off the freeways."&lt;/p&gt;              &lt;p&gt;   *&lt;/p&gt;              &lt;p&gt;   Eric Sondheimer can be reached at eric.sondheimer@latimes.com.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>May 16, 2006</AlphaDate>
+<StartDate>2006-05-16</StartDate>
+<EndDate>2006-05-16</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>18327791</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.38464988002742195</is_economic>
+<tf_idf>[('coaches', np.float64(0.5448)), ('players', np.float64(0.2203)), ('camp', np.float64(0.2004)), ('nike', np.float64(0.1295)), ('tedford', np.float64(0.1282)), ('training', np.float64(0.1255)), ('camps', np.float64(0.1111)), ('usc', np.float64(0.107)), ('ucla', np.float64(0.1015)), ('quarterback', np.float64(0.0883)), ('pads', np.float64(0.0876)), ('coach', np.float64(0.0867)), ('college', np.float64(0.0855)), ('said', np.float64(0.085)), ('highly', np.float64(0.0844)), ('combines', np.float64(0.0832)), ('nate', np.float64(0.0823)), ('himebauch', np.float64(0.082)), ('drill', np.float64(0.0811)), ('riley', np.float64(0.0804)), ('evaluate', np.float64(0.0772)), ('relaxed', np.float64(0.0772)), ('aren', np.float64(0.0769)), ('canyon', np.float64(0.0756)), ('recruiting', np.float64(0.074)), ('school', np.float64(0.071)), ('stanford', np.float64(0.0706)), ('forcier', np.float64(0.0704)), ('oregon', np.float64(0.069)), ('prospects', np.float64(0.0687)), ('ruel', np.float64(0.0679)), ('chance', np.float64(0.0676)), ('rice', np.float64(0.0658)), ('fame', np.float64(0.0638)), ('think', np.float64(0.0637)), ('grigsby', np.float64(0.0624)), ('longshore', np.float64(0.0624)), ('notice', np.float64(0.0617)), ('ben', np.float64(0.0606)), ('strength', np.float64(0.0598)), ('attend', np.float64(0.0596)), ('diego', np.float64(0.0594)), ('norco', np.float64(0.0591)), ('narbonne', np.float64(0.0588)), ('cloudless', np.float64(0.0585)), ('dorrell', np.float64(0.0575)), ('wearing', np.float64(0.0562)), ('roped', np.float64(0.0558)), ('setting', np.float64(0.0552)), ('insignia', np.float64(0.0536)), ('visualize', np.float64(0.0536)), ('weis', np.float64(0.0531)), ('assistant', np.float64(0.0526)), ('excite', np.float64(0.0522)), ('test', np.float64(0.052)), ('football', np.float64(0.0518)), ('sprints', np.float64(0.0516)), ('converged', np.float64(0.0505)), ('agility', np.float64(0.0504)), ('numbers', np.float64(0.0502)), ('schools', np.float64(0.0501)), ('plastered', np.float64(0.05)), ('best', np.float64(0.05)), ('augustine', np.float64(0.0499)), ('binoculars', np.float64(0.0497)), ('hall', np.float64(0.0496)), ('opportunity', np.float64(0.0492)), ('rattling', np.float64(0.0482)), ('freeways', np.float64(0.0481)), ('hum', np.float64(0.048)), ('watch', np.float64(0.0479)), ('know', np.float64(0.0479)), ('rowe', np.float64(0.0477)), ('event', np.float64(0.0476)), ('involved', np.float64(0.0475)), ('allowed', np.float64(0.0471)), ('pep', np.float64(0.0465)), ('poly', np.float64(0.0464)), ('brought', np.float64(0.0464)), ('roam', np.float64(0.0462)), ('impressions', np.float64(0.0461)), ('state', np.float64(0.0461)), ('high', np.float64(0.0456)), ('huddled', np.float64(0.0451)), ('process', np.float64(0.045)), ('standardized', np.float64(0.0449)), ('linemen', np.float64(0.0444)), ('escorted', np.float64(0.0441)), ('sunglasses', np.float64(0.0439)), ('san', np.float64(0.0439)), ('devote', np.float64(0.0438)), ('grueling', np.float64(0.0437)), ('buffet', np.float64(0.0437)), ('wandering', np.float64(0.0436)), ('bypass', np.float64(0.0433)), ('future', np.float64(0.0431)), ('happier', np.float64(0.0428)), ('consulted', np.float64(0.0427)), ('interpreted', np.float64(0.0427)), ('california', np.float64(0.0426)), ('individually', np.float64(0.0425)), ('field', np.float64(0.0424)), ('running', np.float64(0.0424)), ('respective', np.float64(0.0423)), ('drills', np.float64(0.0422)), ('cellphones', np.float64(0.042)), ('scholarships', np.float64(0.042)), ('assistants', np.float64(0.0419)), ('observe', np.float64(0.0418)), ('wanted', np.float64(0.0417)), ('40', np.float64(0.0417)), ('spectacle', np.float64(0.0409)), ('walsh', np.float64(0.0409)), ('215', np.float64(0.0405)), ('zoo', np.float64(0.0404)), ('shorts', np.float64(0.0403)), ('gauge', np.float64(0.0403)), ('close', np.float64(0.0402)), ('scout', np.float64(0.0402)), ('gorgeous', np.float64(0.0401)), ('freely', np.float64(0.0398)), ('erik', np.float64(0.0397)), ('identifying', np.float64(0.0393)), ('230', np.float64(0.0392)), ('berkeley', np.float64(0.0391)), ('recruited', np.float64(0.0389)), ('exclusively', np.float64(0.0388)), ('kenny', np.float64(0.0386)), ('trying', np.float64(0.0386)), ('shaking', np.float64(0.0383)), ('skip', np.float64(0.0383)), ('walt', np.float64(0.0383)), ('karl', np.float64(0.0382)), ('carroll', np.float64(0.0379)), ('scholarship', np.float64(0.0375)), ('jumping', np.float64(0.0375)), ('showcase', np.float64(0.0373)), ('convince', np.float64(0.0371)), ('credibility', np.float64(0.037)), ('confirm', np.float64(0.0365)), ('notre', np.float64(0.0364)), ('discover', np.float64(0.0364)), ('athlete', np.float64(0.0362)), ('influential', np.float64(0.0361)), ('campbell', np.float64(0.0361)), ('country', np.float64(0.0359)), ('dame', np.float64(0.0359)), ('run', np.float64(0.0357)), ('mini', np.float64(0.0357)), ('shirts', np.float64(0.0357)), ('uncertainty', np.float64(0.0354)), ('linebacker', np.float64(0.0353)), ('hat', np.float64(0.0353)), ('teenagers', np.float64(0.0352)), ('comic', np.float64(0.0351)), ('wise', np.float64(0.0351)), ('mississippi', np.float64(0.035)), ('mitchell', np.float64(0.035)), ('harbor', np.float64(0.0348)), ('visible', np.float64(0.0347)), ('pete', np.float64(0.0346)), ('scrutiny', np.float64(0.0345)), ('backs', np.float64(0.0344)), ('charlie', np.float64(0.0344)), ('lifetime', np.float64(0.0341)), ('ups', np.float64(0.034)), ('waste', np.float64(0.034)), ('attending', np.float64(0.034)), ('painted', np.float64(0.0339)), ('letting', np.float64(0.0339)), ('sessions', np.float64(0.0339)), ('legs', np.float64(0.0338)), ('loose', np.float64(0.0337)), ('ncaa', np.float64(0.0336)), ('participants', np.float64(0.0334)), ('comfort', np.float64(0.0333)), ('end', np.float64(0.0333)), ('luxury', np.float64(0.0333)), ('dressed', np.float64(0.0332)), ('convention', np.float64(0.0331)), ('athletes', np.float64(0.0331)), ('receiver', np.float64(0.033)), ('shirt', np.float64(0.033)), ('designer', np.float64(0.0329)), ('elements', np.float64(0.0327)), ('adopted', np.float64(0.0326)), ('tall', np.float64(0.0326)), ('roster', np.float64(0.0326)), ('valuable', np.float64(0.0325)), ('want', np.float64(0.0324)), ('pat', np.float64(0.0321)), ('harris', np.float64(0.032)), ('jonathan', np.float64(0.0319)), ('sponsored', np.float64(0.0318)), ('risks', np.float64(0.0318)), ('represented', np.float64(0.0317)), ('throwing', np.float64(0.0317)), ('tested', np.float64(0.0316)), ('ban', np.float64(0.0313)), ('devoted', np.float64(0.0312)), ('listed', np.float64(0.0312)), ('shoulder', np.float64(0.0312)), ('commissioner', np.float64(0.0311)), ('jordan', np.float64(0.031)), ('anybody', np.float64(0.031)), ('pounds', np.float64(0.0309)), ('gray', np.float64(0.0309)), ('testing', np.float64(0.0308)), ('positions', np.float64(0.0308)), ('competitive', np.float64(0.0307)), ('compete', np.float64(0.0307)), ('jerry', np.float64(0.0304)), ('sees', np.float64(0.0303)), ('arm', np.float64(0.0303)), ('pacific', np.float64(0.0302)), ('ranked', np.float64(0.03)), ('drove', np.float64(0.03)), ('arms', np.float64(0.0299)), ('lots', np.float64(0.0297)), ('train', np.float64(0.0297)), ('initial', np.float64(0.0297)), ('relief', np.float64(0.0295)), ('advice', np.float64(0.0292)), ('yard', np.float64(0.029)), ('defensive', np.float64(0.0288)), ('offensive', np.float64(0.0288)), ('day', np.float64(0.0287)), ('gas', np.float64(0.0287)), ('helps', np.float64(0.0286)), ('confidence', np.float64(0.0286)), ('interested', np.float64(0.0285)), ('specific', np.float64(0.0285)), ('rare', np.float64(0.0283)), ('unless', np.float64(0.0282)), ('committed', np.float64(0.0282)), ('jeff', np.float64(0.028)), ('speed', np.float64(0.0279)), ('particular', np.float64(0.0277)), ('benefits', np.float64(0.0276)), ('rule', np.float64(0.0276)), ('necessary', np.float64(0.0275)), ('paying', np.float64(0.0275)), ('nearby', np.float64(0.0274)), ('starts', np.float64(0.0273)), ('watching', np.float64(0.0265)), ('prices', np.float64(0.0262)), ('beach', np.float64(0.0261)), ('spot', np.float64(0.026)), ('offers', np.float64(0.0258)), ('brother', np.float64(0.0257)), ('ability', np.float64(0.0257)), ('hundreds', np.float64(0.0255)), ('guys', np.float64(0.0255)), ('chris', np.float64(0.0254)), ('version', np.float64(0.0254)), ('video', np.float64(0.0251)), ('stand', np.float64(0.0249)), ('practice', np.float64(0.0249)), ('art', np.float64(0.0249)), ('talking', np.float64(0.0248)), ('guy', np.float64(0.0247)), ('hands', np.float64(0.0246)), ('mean', np.float64(0.0246)), ('couldn', np.float64(0.0246)), ('offered', np.float64(0.0245)), ('lower', np.float64(0.0244)), ('45', np.float64(0.0244)), ('moving', np.float64(0.0242)), ('sports', np.float64(0.0241)), ('paid', np.float64(0.024)), ('allow', np.float64(0.024)), ('kids', np.float64(0.0239)), ('performance', np.float64(0.0239)), ('view', np.float64(0.0239)), ('knew', np.float64(0.0237)), ('position', np.float64(0.0237)), ('price', np.float64(0.0236)), ('attention', np.float64(0.0236)), ('mike', np.float64(0.0236)), ('bit', np.float64(0.0235)), ('included', np.float64(0.0234)), ('effort', np.float64(0.0228)), ('conference', np.float64(0.0228)), ('morning', np.float64(0.0228)), ('james', np.float64(0.0224)), ('single', np.float64(0.0224)), ('talk', np.float64(0.0222)), ('level', np.float64(0.0222)), ('500', np.float64(0.0221)), ('mother', np.float64(0.022)), ('summer', np.float64(0.0219)), ('minutes', np.float64(0.0216)), ('gave', np.float64(0.0214)), ('nation', np.float64(0.0211)), ('likely', np.float64(0.0211)), ('sure', np.float64(0.0209)), ('st', np.float64(0.0208)), ('thought', np.float64(0.0208)), ('seen', np.float64(0.0206)), ('important', np.float64(0.0206)), ('given', np.float64(0.0205)), ('let', np.float64(0.0204)), ('held', np.float64(0.0203)), ('support', np.float64(0.0202)), ('hit', np.float64(0.0202)), ('kind', np.float64(0.0201)), ('saturday', np.float64(0.0198)), ('working', np.float64(0.0197)), ('area', np.float64(0.0197)), ('getting', np.float64(0.0196)), ('thing', np.float64(0.0196)), ('doesn', np.float64(0.0193)), ('line', np.float64(0.0193)), ('ll', np.float64(0.0192)), ('asked', np.float64(0.0192)), ('went', np.float64(0.0189)), ('things', np.float64(0.0182)), ('based', np.float64(0.0182)), ('later', np.float64(0.0181)), ('great', np.float64(0.0179)), ('didn', np.float64(0.0179)), ('early', np.float64(0.0178)), ('washington', np.float64(0.0178)), ('12', np.float64(0.0177)), ('really', np.float64(0.0176)), ('lot', np.float64(0.0175)), ('month', np.float64(0.0174)), ('told', np.float64(0.0173)), ('need', np.float64(0.0173)), ('help', np.float64(0.0169)), ('city', np.float64(0.0168)), ('little', np.float64(0.0166)), ('good', np.float64(0.0152)), ('long', np.float64(0.0148)), ('don', np.float64(0.0145)), ('10', np.float64(0.014)), ('people', np.float64(0.0128)), ('like', np.float64(0.0125))]</tf_idf>
+</processed>
+</RECORD>

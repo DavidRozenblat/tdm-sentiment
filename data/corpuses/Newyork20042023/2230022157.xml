@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>2230022157</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="ECMS">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>Quote of the Day</Title>
+</TitleAtt>
+<SubTitleAtt HTMLContent="true">
+<SubTitle>[Quote]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2019-05-26</NumericDate>
+<StartDate>2019-05-26</StartDate>
+<EndDate>2019-05-26</EndDate>
+<AlphaDate>May 26, 2019</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company May 26, 2019</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.3</StartPage>
+<Pagination>A.3</Pagination>
+<DocSection>A</DocSection>
+<ColumnNumber>0</ColumnNumber>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7818_May262019______</PCID>
+</ObjectID>
+<ObjectID>
+<MSTARLegacyID>268860-20190526</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<FullTextLinkID>https://www.nytimes.com/2019/05/25/todayspaper/quotation-of-the-day-finding-conversation-kinship-and-caffeine.html</FullTextLinkID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1220</LexileScore>
+<Desk>Metropolitan Desk</Desk>
+<Links>
+<OtherLink>
+<DocUrl>https://www.nytimes.com/2019/05/25/todayspaper/quotation-of-the-day-finding-conversation-kinship-and-caffeine.html</DocUrl>
+</OtherLink>
+</Links>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="43">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;"I don't want to be recognized as someone's sister or daughter. I want to be recognized as a human being."&lt;/p&gt;&lt;p&gt;FARAHNAZ FOROTAN, 26, a journalist in Afghanistan who fears freedoms for women could disappear if the peace talks bring the Taliban back into government.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>May 26, 2019</AlphaDate>
+<StartDate>2019-05-26</StartDate>
+<EndDate>2019-05-26</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7818_May262019______</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.0</text_blob_sentiment><bert_sentiment>-0.8842686712741852</bert_sentiment></grades>
+<processed>
+<is_economic>0.3526</is_economic>
+<tf_idf>[('farahnaz', np.float64(0.4786)), ('recognized', np.float64(0.4163)), ('freedoms', np.float64(0.2822)), ('disappear', np.float64(0.2492)), ('taliban', np.float64(0.246)), ('journalist', np.float64(0.2199)), ('afghanistan', np.float64(0.2085)), ('want', np.float64(0.2038)), ('fears', np.float64(0.2019)), ('peace', np.float64(0.1822)), ('talks', np.float64(0.179)), ('sister', np.float64(0.1694)), ('daughter', np.float64(0.1559)), ('human', np.float64(0.1491)), ('26', np.float64(0.1461)), ('bring', np.float64(0.1401)), ('women', np.float64(0.1334)), ('government', np.float64(0.1168)), ('don', np.float64(0.0912))]</tf_idf>
+<roberta_title_negative>0.0003</roberta_title_negative>
+<roberta_title_neutral>0.9973</roberta_title_neutral>
+<roberta_title_positive>0.0025</roberta_title_positive>
+<bert_title_negative>0.0016</bert_title_negative>
+<bert_title_positive>0.9984</bert_title_positive>
+</processed>
+</RECORD>

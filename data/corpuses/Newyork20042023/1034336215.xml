@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1034336215</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Majority in City See Police Dept. As Favoring Whites, a Poll Finds</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Metropolitan Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2012-08-21</NumericDate>
+<StartDate>2012-08-21</StartDate>
+<EndDate>2012-08-21</EndDate>
+<AlphaDate>Aug 21, 2012</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Aug 21, 2012</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.1</StartPage>
+<Pagination>A.1</Pagination>
+<DocSection>A</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2740313251</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>71266932</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>307750-20120821</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1450</LexileScore>
+<Desk>Metropolitan Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Grynbaum, Michael M</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Grynbaum</LastName>
+</LastNameAtt>
+<MiddleNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<MiddleName>M</MiddleName>
+</MiddleNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Michael</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Michael M. Grynbaum</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+<Contributor ContribOrder="2">
+<Author>
+<NormalizedDisplayForm>Connelly, Marjorie</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Connelly</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Marjorie</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Marjorie Connelly</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Police Department-New York City NY</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>922120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Stop &amp; frisk</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Race relations</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Polls &amp; surveys</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Public safety</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Favoritism</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>New York City New York</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="59">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Mr. Bloomberg, who has overseen a significant rise in the number of stops during his nearly 11 years in office, scored slightly lower on his stewardship of race relations, with half of residents saying they approved and one-third saying they disapproved.  The stop-and-frisk practice has come under harsh criticism from civil liberties groups and some lower court judges.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: /builds/sis980007/sis/gs40/RCS/gs40.xslt,v 2.29 2011/07/06 15:21:17 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1233">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A significant majority of New Yorkers say the Police Department favors whites over blacks, according to a new poll by The New York Times. &lt;/p&gt;              &lt;p&gt;That view, as widespread now as it was in 2001 during the administration of Mayor Rudolph W. Giuliani, is particularly prevalent among black New Yorkers, 80 percent of whom say the police favor one race over the other. A plurality of white residents -- 48 percent -- agree. &lt;/p&gt;              &lt;p&gt;Concern about police favoritism comes at a time of intensified scrutiny of the department's extensive practice of stopping, questioning and, in many instances, frisking people on the city's streets. Last year, the police made nearly 700,000 stops; about 85 percent of the stops involved blacks or Hispanics. &lt;/p&gt;              &lt;p&gt;The poll found that a majority of black residents said the stop-and-frisk tactic had led to the harassment of innocent people, but most white residents viewed the practice as an acceptable way to improve urban safety. &lt;/p&gt;              &lt;p&gt;Among all New Yorkers, 48 percent said the tactic was "acceptable to make New York City safer," while almost as many -- 45 percent -- deemed the tactic "excessive." Most of those surveyed rejected Mayor Michael R. Bloomberg's chief rationale for the practice, saying they did not think that stopping and frisking suspicious people had lowered the crime rate or reduced the use of illegal guns. &lt;/p&gt;              &lt;p&gt;"Stop-and-frisk would be a good idea if they did it right," Jose Aponte, 64, a retired doorman who lives in the Bronx, said in a follow-up interview after the poll. "But it's not decreasing crime or guns. There are more shootings every day." &lt;/p&gt;              &lt;p&gt;But Mr. Bloomberg and the police commissioner, Raymond W. Kelly, received high marks on the crime issue: 57 percent of New Yorkers said they approved of the way the mayor was dealing with crime, and 61 percent said they approved of the way the commissioner was handling his job. Even 50 percent of the respondents who said they had been the target of a racially motivated police stop approved of Mr. Kelly's management. &lt;/p&gt;              &lt;p&gt;"I live in Brooklyn, in Coney Island, and everybody has guns; 3-year-old kids have guns! It's outrageous," said Johnny Rivera, 52, a former foreman at an aluminum company. As for the stop-and-frisk tactic, he said, "the worst thing they could do is stop it." &lt;/p&gt;              &lt;p&gt;Mr. Bloomberg, who has overseen a significant rise in the number of stops during his nearly 11 years in office, scored slightly lower on his stewardship of race relations, with half of residents saying they approved and one-third saying they disapproved. Just 36 percent of black residents said they approved of the mayor's handling of race relations. &lt;/p&gt;              &lt;p&gt;James Westcott, a Bronx resident who has been unemployed for two years, said he had been stopped by the police on three occasions. "One right after the other, by three different patrol cars," Mr. Westcott, who is black, said. He also said the police had become less considerate, adding, "It started getting bad when Giuliani was mayor, and now it's getting worse and worse." &lt;/p&gt;              &lt;p&gt;"You know it's excessive when you see people get stopped who really don't deserve to be stopped, like kids going to school," Mr. Westcott, 44, said. "The police just jump out, stop them, search them, take their names down, then get back in their car and leave, and the kids don't know what went on." &lt;/p&gt;              &lt;p&gt;But some New Yorkers, while conceding that the police show favoritism for one race over another, said the stop-and-frisk tactic's ends justified the means. &lt;/p&gt;              &lt;p&gt;"If that's what it takes, I find it acceptable," said Jani Kipness, 58, a special-education teacher from Brooklyn who is white. She said that she thought that officers "single out minority groups," but that "if you look at the crime in New York, it's less white people; that's just the way it is." &lt;/p&gt;              &lt;p&gt;"I wouldn't want to be stopped and frisked," she added. "But if you look at cities like Detroit and other cities that have a way higher crime rate than New York, I think New York has to be doing something right." &lt;/p&gt;              &lt;p&gt;The stop-and-frisk practice has come under harsh criticism from civil liberties groups and some lower court judges. The issue has become a subject of debate among elected officials and has apparently captured the attention of the public: more than three-quarters of New Yorkers interviewed for the poll said they had heard a lot or some about it. &lt;/p&gt;              &lt;p&gt;The criticism has prompted Mr. Kelly, who has argued strongly that the stop-and-frisk practice is an important crime-fighting tool, to pledge changes to ensure the lawfulness of the practice. The number of stops fell by more than 34 percent in April, May and June, compared with the previous quarter. &lt;/p&gt;              &lt;p&gt;Crime is not New Yorkers' top concern. But more residents cited crime and violence as an important problem than in a Times poll two years ago. The proportion who would prefer to keep living in the city, rather than move away, is at the highest level in more than a decade. &lt;/p&gt;              &lt;p&gt;Opinions about the stop-and-frisk practice are divided by race. Fifty-five percent of whites described the use of the tactic as acceptable; 56 percent of blacks called it excessive. Among Hispanics, 48 percent said it was acceptable, and 44 percent said it was excessive. Republicans, independents and Queens residents generally support the practice; Democrats and Manhattanites generally deem it excessive. &lt;/p&gt;              &lt;p&gt;Over all, 64 percent of New Yorkers said the police favored one race over the other, a steep rise from the early years of the Bloomberg administration, when less than half of residents agreed with that sentiment. The last Times poll in which the perception of police favoritism was as widespread was taken in 2001, the final year of Mayor Giuliani's tenure, when race relations were noticeably more tense. (The question has not been asked in a Times poll since 2003.) &lt;/p&gt;              &lt;p&gt;These views, in many cases, appear to have been influenced by personal experience. A third of the New Yorkers surveyed, including 37 percent of black people, said police officers had used insulting language toward them. A fifth of the respondents said they had been stopped by a police officer because of their race or ethnicity, and almost all were black or Hispanic, and more likely to be young and male. &lt;/p&gt;              &lt;p&gt;"In the Bronx, Brooklyn, Queens, they will stop and frisk blacks and Hispanics more," said Kevon Geanus, 20, a construction worker who is black and lives in the Bronx. "The way they talk to you, and curse at you, when you're just walking, for example, and say: 'Why are you walking? What are you doing out here at night?' " &lt;/p&gt;              &lt;p&gt;The poll of 1,026 adults, conducted Aug. 10 to 15 using landline phones and cellphones, has a margin of sampling error of plus or minus three percentage points. The margin is six points for black respondents and seven points for Hispanic respondents. &lt;/p&gt;              &lt;p&gt;Credit: MICHAEL M. GRYNBAUM and MARJORIE CONNELLY; Allison Kopicki, Marina Stefan and Dalia Sussman contributed reporting.&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="Photograph_content"&gt;&lt;p&gt;A Street Mural in East New York, Brooklyn, Depicts Police Officers Using the Stop-and-Frisk Tactic, Which has Been Heavily Criticized. (Photograph by Robert Stolarik for the New York Times) (A16)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Aug 21, 2012</AlphaDate>
+<StartDate>2012-08-21</StartDate>
+<EndDate>2012-08-21</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>71266932</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.04885681490226945</text_blob_sentiment><bert_sentiment>-0.45458443009335064</bert_sentiment></grades>
+<processed>
+<is_economic>0.4117</is_economic>
+<tf_idf>[('frisk', np.float64(0.3655)), ('yorkers', np.float64(0.261)), ('percent', np.float64(0.2261)), ('police', np.float64(0.2182)), ('tactic', np.float64(0.2038)), ('stop', np.float64(0.187)), ('poll', np.float64(0.1843)), ('crime', np.float64(0.1716)), ('said', np.float64(0.1536)), ('practice', np.float64(0.1409)), ('race', np.float64(0.1385)), ('residents', np.float64(0.1376)), ('acceptable', np.float64(0.1341)), ('westcott', np.float64(0.1335)), ('excessive', np.float64(0.1335)), ('new', np.float64(0.1325)), ('black', np.float64(0.122)), ('respondents', np.float64(0.1209)), ('mayor', np.float64(0.1142)), ('favoritism', np.float64(0.1104)), ('bronx', np.float64(0.1103)), ('blacks', np.float64(0.1101)), ('bloomberg', np.float64(0.0999)), ('hispanics', np.float64(0.0964)), ('guns', np.float64(0.096)), ('frisking', np.float64(0.0958)), ('stopped', np.float64(0.0948)), ('stops', np.float64(0.0948)), ('approved', np.float64(0.0947)), ('giuliani', np.float64(0.0938)), ('brooklyn', np.float64(0.0899)), ('mr', np.float64(0.088)), ('york', np.float64(0.0851)), ('kelly', np.float64(0.0668)), ('kipness', np.float64(0.0643)), ('relations', np.float64(0.0619)), ('way', np.float64(0.0601)), ('48', np.float64(0.0601)), ('officers', np.float64(0.0572)), ('whites', np.float64(0.0555)), ('surveyed', np.float64(0.0551)), ('times', np.float64(0.0546)), ('people', np.float64(0.0541)), ('hispanic', np.float64(0.0537)), ('white', np.float64(0.0534)), ('queens', np.float64(0.0521)), ('kids', np.float64(0.0508)), ('stopping', np.float64(0.0506)), ('lawfulness', np.float64(0.0494)), ('margin', np.float64(0.0494)), ('points', np.float64(0.0464)), ('handling', np.float64(0.0464)), ('widespread', np.float64(0.0463)), ('aponte', np.float64(0.0463)), ('kevon', np.float64(0.0461)), ('jani', np.float64(0.0459)), ('manhattanites', np.float64(0.0454)), ('frisked', np.float64(0.0448)), ('64', np.float64(0.0444)), ('commissioner', np.float64(0.044)), ('saying', np.float64(0.0438)), ('026', np.float64(0.0425)), ('criticism', np.float64(0.0422)), ('stolarik', np.float64(0.0419)), ('landline', np.float64(0.0415)), ('44', np.float64(0.0406)), ('walking', np.float64(0.0405)), ('generally', np.float64(0.0398)), ('worse', np.float64(0.0395)), ('plurality', np.float64(0.0389)), ('cities', np.float64(0.0389)), ('considerate', np.float64(0.0387)), ('disapproved', np.float64(0.0384)), ('concern', np.float64(0.0384)), ('a16', np.float64(0.0376)), ('2001', np.float64(0.0373)), ('doorman', np.float64(0.0371)), ('rise', np.float64(0.0371)), ('majority', np.float64(0.0365)), ('rate', np.float64(0.0359)), ('conceding', np.float64(0.0357)), ('significant', np.float64(0.0356)), ('city', np.float64(0.0356)), ('deem', np.float64(0.0355)), ('years', np.float64(0.035)), ('just', np.float64(0.035)), ('coney', np.float64(0.0349)), ('lower', np.float64(0.0345)), ('decreasing', np.float64(0.0342)), ('stewardship', np.float64(0.034)), ('noticeably', np.float64(0.0337)), ('groups', np.float64(0.0333)), ('right', np.float64(0.0331)), ('foreman', np.float64(0.033)), ('mural', np.float64(0.0327)), ('say', np.float64(0.0325)), ('insulting', np.float64(0.0324)), ('independents', np.float64(0.0319)), ('prevalent', np.float64(0.0319)), ('ethnicity', np.float64(0.0318)), ('lives', np.float64(0.0317)), ('administration', np.float64(0.0315)), ('rationale', np.float64(0.0314)), ('overseen', np.float64(0.0311)), ('curse', np.float64(0.0309)), ('issue', np.float64(0.0308)), ('depicts', np.float64(0.0307)), ('using', np.float64(0.0306)), ('racially', np.float64(0.0305)), ('rudolph', np.float64(0.0304)), ('cellphones', np.float64(0.0297)), ('intensified', np.float64(0.0295)), ('sampling', np.float64(0.0295)), ('proportion', np.float64(0.0294)), ('aluminum', np.float64(0.0292)), ('important', np.float64(0.0291)), ('unemployed', np.float64(0.0289)), ('doing', np.float64(0.0287)), ('outrageous', np.float64(0.0287)), ('rivera', np.float64(0.0286)), ('justified', np.float64(0.0285)), ('minus', np.float64(0.0283)), ('department', np.float64(0.0278)), ('lowered', np.float64(0.0278)), ('liberties', np.float64(0.0278)), ('getting', np.float64(0.0277)), ('tense', np.float64(0.0276)), ('nearly', np.float64(0.0275)), ('number', np.float64(0.0275)), ('occasions', np.float64(0.0274)), ('instances', np.float64(0.0274)), ('suspicious', np.float64(0.0271)), ('harassment', np.float64(0.027)), ('influenced', np.float64(0.0269)), ('favors', np.float64(0.0268)), ('shootings', np.float64(0.0268)), ('half', np.float64(0.0268)), ('pledge', np.float64(0.0268)), ('perception', np.float64(0.0264)), ('steep', np.float64(0.0264)), ('sentiment', np.float64(0.0261)), ('safer', np.float64(0.026)), ('deemed', np.float64(0.026)), ('raymond', np.float64(0.0259)), ('look', np.float64(0.0258)), ('harsh', np.float64(0.0257)), ('opinions', np.float64(0.0257)), ('phones', np.float64(0.0256)), ('use', np.float64(0.0255)), ('questioning', np.float64(0.0255)), ('motivated', np.float64(0.0255)), ('patrol', np.float64(0.0253)), ('tenure', np.float64(0.0252)), ('johnny', np.float64(0.0252)), ('innocent', np.float64(0.0251)), ('favored', np.float64(0.025)), ('deserve', np.float64(0.0246)), ('scrutiny', np.float64(0.0244)), ('interviewed', np.float64(0.024)), ('error', np.float64(0.024)), ('tool', np.float64(0.024)), ('judges', np.float64(0.0239)), ('prefer', np.float64(0.0239)), ('extensive', np.float64(0.0239)), ('quarters', np.float64(0.0238)), ('strongly', np.float64(0.0235)), ('viewed', np.float64(0.0234)), ('divided', np.float64(0.0234)), ('marks', np.float64(0.0233)), ('year', np.float64(0.0233)), ('captured', np.float64(0.0233)), ('61', np.float64(0.0226)), ('know', np.float64(0.0226)), ('think', np.float64(0.0225)), ('prompted', np.float64(0.0225)), ('minority', np.float64(0.0225)), ('dealing', np.float64(0.022)), ('male', np.float64(0.0218)), ('rejected', np.float64(0.0218)), ('85', np.float64(0.0217)), ('58', np.float64(0.0217)), ('worker', np.float64(0.0217)), ('cited', np.float64(0.0217)), ('57', np.float64(0.0217)), ('reduced', np.float64(0.0217)), ('heavily', np.float64(0.0216)), ('criticized', np.float64(0.0216)), ('jump', np.float64(0.0215)), ('jose', np.float64(0.0215)), ('conducted', np.float64(0.0215)), ('56', np.float64(0.0214)), ('700', np.float64(0.0214)), ('detroit', np.float64(0.0214)), ('urban', np.float64(0.0212)), ('illegal', np.float64(0.0211)), ('did', np.float64(0.0211)), ('percentage', np.float64(0.021)), ('argued', np.float64(0.0209)), ('views', np.float64(0.0209)), ('teacher', np.float64(0.0209)), ('adults', np.float64(0.0209)), ('resident', np.float64(0.0208)), ('52', np.float64(0.0207)), ('slightly', np.float64(0.0207)), ('ensure', np.float64(0.0206)), ('don', np.float64(0.0205)), ('favor', np.float64(0.0204)), ('elected', np.float64(0.0203)), ('ends', np.float64(0.0202)), ('agree', np.float64(0.0202)), ('target', np.float64(0.0201)), ('aug', np.float64(0.0201)), ('apparently', np.float64(0.02)), ('improve', np.float64(0.0196)), ('cars', np.float64(0.0196)), ('37', np.float64(0.0195)), ('language', np.float64(0.0195)), ('republicans', np.float64(0.0194)), ('names', np.float64(0.0194)), ('streets', np.float64(0.0194)), ('island', np.float64(0.0194)), ('construction', np.float64(0.0194)), ('search', np.float64(0.0193)), ('democrats', np.float64(0.0192)), ('subject', np.float64(0.0192)), ('fighting', np.float64(0.0192)), ('debate', np.float64(0.0191)), ('2003', np.float64(0.0191)), ('36', np.float64(0.0191)), ('retired', np.float64(0.0191)), ('highest', np.float64(0.0191)), ('photograph', np.float64(0.019)), ('worst', np.float64(0.019)), ('violence', np.float64(0.019)), ('everybody', np.float64(0.019)), ('34', np.float64(0.0189)), ('compared', np.float64(0.0188)), ('appear', np.float64(0.0187)), ('civil', np.float64(0.0186)), ('fifth', np.float64(0.0183)), ('80', np.float64(0.0183)), ('management', np.float64(0.0182)), ('decade', np.float64(0.0181)), ('scored', np.float64(0.0181)), ('follow', np.float64(0.0181)), ('plus', np.float64(0.018)), ('described', np.float64(0.018)), ('adding', np.float64(0.0179)), ('wouldn', np.float64(0.0178)), ('fell', np.float64(0.0178)), ('like', np.float64(0.0177)), ('education', np.float64(0.0176)), ('safety', np.float64(0.0174)), ('changes', np.float64(0.0174)), ('quarter', np.float64(0.0174)), ('officer', np.float64(0.0174)), ('previous', np.float64(0.0173)), ('cases', np.float64(0.0173)), ('heard', np.float64(0.0172)), ('45', np.float64(0.0172)), ('agreed', np.float64(0.0172)), ('particularly', np.float64(0.0172)), ('view', np.float64(0.0169)), ('interview', np.float64(0.0168)), ('involved', np.float64(0.0168)), ('higher', np.float64(0.0168)), ('attention', np.float64(0.0167)), ('personal', np.float64(0.0165)), ('example', np.float64(0.0164)), ('car', np.float64(0.0163)), ('living', np.float64(0.0163)), ('leave', np.float64(0.0162)), ('means', np.float64(0.0162)), ('april', np.float64(0.0161)), ('east', np.float64(0.0161)), ('experience', np.float64(0.0161)), ('idea', np.float64(0.016)), ('robert', np.float64(0.0159)), ('takes', np.float64(0.0159)), ('james', np.float64(0.0159)), ('single', np.float64(0.0159)), ('june', np.float64(0.0158)), ('talk', np.float64(0.0157)), ('level', np.float64(0.0157)), ('received', np.float64(0.0157)), ('question', np.float64(0.0156)), ('bad', np.float64(0.0155)), ('problem', np.float64(0.0154)), ('special', np.float64(0.0153)), ('likely', np.float64(0.0149)), ('live', np.float64(0.0148)), ('taken', np.float64(0.0148)), ('michael', np.float64(0.0148)), ('comes', np.float64(0.0147)), ('final', np.float64(0.0147)), ('thought', np.float64(0.0147)), ('started', np.float64(0.0146)), ('street', np.float64(0.0145)), ('court', np.float64(0.0144)), ('seven', np.float64(0.0143)), ('support', np.float64(0.0143)), ('job', np.float64(0.0142)), ('added', np.float64(0.0142)), ('led', np.float64(0.0141)), ('chief', np.float64(0.0141)), ('50', np.float64(0.0139)), ('different', np.float64(0.0139)), ('thing', np.float64(0.0138)), ('young', np.float64(0.0138)), ('asked', np.float64(0.0136)), ('went', np.float64(0.0134)), ('office', np.float64(0.0133)), ('company', np.float64(0.0132)), ('away', np.float64(0.0127)), ('officials', np.float64(0.0126)), ('early', np.float64(0.0126)), ('school', np.float64(0.0126)), ('used', np.float64(0.0125)), ('really', np.float64(0.0125)), ('ago', np.float64(0.0125)), ('lot', np.float64(0.0124)), ('night', np.float64(0.0124)), ('15', np.float64(0.0123)), ('11', np.float64(0.0123)), ('according', np.float64(0.0121)), ('public', np.float64(0.012)), ('20', np.float64(0.012)), ('called', np.float64(0.0119)), ('come', np.float64(0.0118)), ('want', np.float64(0.0115)), ('000', np.float64(0.0111)), ('old', np.float64(0.011)), ('including', np.float64(0.0109)), ('high', np.float64(0.0107)), ('good', np.float64(0.0107)), ('going', np.float64(0.0107)), ('day', np.float64(0.0101)), ('10', np.float64(0.0099)), ('make', np.float64(0.0097)), ('time', np.float64(0.008))]</tf_idf>
+<roberta_title_negative>0.0007</roberta_title_negative>
+<roberta_title_neutral>0.9985</roberta_title_neutral>
+<roberta_title_positive>0.0007</roberta_title_positive>
+<bert_title_negative>0.8694</bert_title_negative>
+<bert_title_positive>0.1306</bert_title_positive>
+</processed>
+</RECORD>

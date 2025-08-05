@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>422341989</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>On L.A.'s Melrose, a new sense of place; The quiet, tree-lined shopping destination is in the midst of an upscale shift that has some feeling left out.</Title>
+</TitleAtt>
+<NumericDate>2008-07-12</NumericDate>
+<StartDate>2008-07-12</StartDate>
+<EndDate>2008-07-12</EndDate>
+<AlphaDate>Jul 12, 2008</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2008 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>B.3</StartPage>
+<Pagination>B.3</Pagination>
+<DocSection>California; Part B; Metro Desk</DocSection>
+<DocEdition>ORANGE COUNTY EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1509038311</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>39717891</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM080034090</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1380</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>DiMassa, Cara Mia</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>DiMassa</LastName>
+</LastNameAtt>
+<MiddleNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<MiddleName>Mia</MiddleName>
+</MiddleNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Cara</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Cara Mia DiMassa</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Television programs</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Antique dealers</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Rents</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Floor coverings</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="881">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The tree-lined block that juts out of La Cienega Boulevard just above Melrose Avenue is a bit of a retail oddity for Los Angeles: a quiet, quaint address in the middle of the bustling city.&lt;/p&gt;              &lt;p&gt;And as such, Melrose Place -- not the fictional location of the television show with the same name but rather the concrete-and-ivy street with nary an apartment building in sight -- has always been a destination for a certain kind of shopper, the kind of person who might employ a decorator, a stylist or both.&lt;/p&gt;              &lt;p&gt;But what they are seeking has changed dramatically in recent years. Melrose Place, like so many parts of the city, is in the throes of an upscale shift that has some feeling left out.&lt;/p&gt;              &lt;p&gt;Once a residential street, then a destination for high-end antiques and home-furnishing stores, Melrose Place has in recent years become a fashion lover's mecca.&lt;/p&gt;              &lt;p&gt;By most accounts, the transformation began a little more than three years ago, when Marc Jacobs and Marni moved onto the block in quick order. They were followed by other upscale retailers, including Carolina Herrera, Sergio Rossi, Mulbery and Lambertson Truex.&lt;/p&gt;              &lt;p&gt;But as the fashionistas swept in, many of the antique stores that had called the place home began moving elsewhere, some bemoaning the rapidly rising rents and others the loss of the chummy camaraderie they once enjoyed.&lt;/p&gt;              &lt;p&gt;"I used to know everybody on the street, and people were friendly," said Rose Tarlow, who opened her first antique store on the block in 1976. "Now, I don't even go out the front door. It's very different." Tarlow has decided to move off the block and rent out the two buildings that she owns.&lt;/p&gt;              &lt;p&gt;"It used to be beautiful," Ahmad Ahmadi, the owner of Ariana Rugs, said with a sigh. "It was all antique mom-and-pop stores, high-end interiors from floor coverings to furniture to fabrics. It was really a destination for a lot of international decorators."&lt;/p&gt;              &lt;p&gt;Ahmadi said he was leaving the area after a decade on the street because his landlord had increased his rent from $4 a square foot per month to $25. "They are forcing me out," Ahmadi said. "The amount of money they are asking -- how can I afford it?"&lt;/p&gt;              &lt;p&gt;Melrose Place came of age in the 1960s and '70s, said historian Marc Wanamaker, when the demand for retail space for high-end antique stores along La Cienega overflowed to the street. Because it was a little more isolated, Melrose Place became a cheaper place to buy into, Wanamaker said, and the area quickly became a district all its own.&lt;/p&gt;              &lt;p&gt;Antique stores along the street featured furniture and other home furnishings from the 18th and early 19th century, Wanamaker said: "The quality of their works of art was absolutely impeccable. . . . You could go in there and you could trust them. They were not going to rip you off. They would be catering to connoisseurs, not just someone decorating a house. From the '70s, to the '80s and '90s, Melrose Place would have that reputation."&lt;/p&gt;              &lt;p&gt;Many of the original antique dealers were gay men or couples who retired and then died, leaving no family members to carry on the business, Wanamaker said. After the first fashion stores moved in, other "owner-operators" chose to take advantage of surging prices along the street, sell their buildings and move their home-furnishings businesses elsewhere.&lt;/p&gt;              &lt;p&gt;"It just ended," Wanamaker said. "An era ended. That's how you can say that."&lt;/p&gt;              &lt;p&gt;Michael Shabani, whose family has for more than four decades owned the building Marc Jacobs moved into, said that much of the shift has been deliberate on the part of landlords, who "identify areas we feel fashion tenants will like. . . . This was just bound to happen."&lt;/p&gt;              &lt;p&gt;But some landlords and tenants say that the recent shift has been driven by the buying power of one organization: the Nasa Group, a collection of silent partners who claim they control 60% of the property on the block, either as owners or long-term leasers. Property records show that limited-liability corporations tracing back to Nasa own seven buildings on the block.&lt;/p&gt;              &lt;p&gt;Samantha Feld, a broker who does leasing, sales and acquisitions for Nasa and acts as its spokeswoman, said that the fascination with Melrose Place began three years ago, when the company purchased a building at 8428 Melrose Place. "We felt [it] was really charming," she said. "We had never been to the street before. But it has a unique feeling to it. All of the buildings have so much character."&lt;/p&gt;              &lt;p&gt;Part of that building is now leased out to Bird, a fashion firm that moved from Robertson Boulevard two years ago for many of the same reasons.&lt;/p&gt;              &lt;p&gt;--&lt;/p&gt;              &lt;p&gt;cara.dimassa@latimes.com&lt;/p&gt;              &lt;p&gt;Credit: Times Staff Writer&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Caption: PHOTO: EMPTY SPACE: Pedestrians walk past a store for lease on Melrose Place. Once a destination for high-end antiques and home-furnishing stores, the street has become a fashion lover's mecca.; PHOTOGRAPHER:Genaro Molina Los Angeles Times; PHOTO: CUSTOMER: Tina Ghods, who works nearby, waits for her take-out order in front of a restaurant on Melrose Place. "It's becoming a trendy area, that's for sure," she said.; PHOTOGRAPHER:Genaro Molina Los Angeles Times&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jul 12, 2008</AlphaDate>
+<StartDate>2008-07-12</StartDate>
+<EndDate>2008-07-12</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>39717891</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.9103991708324093</is_economic>
+<tf_idf>[('melrose', np.float64(0.4623)), ('wanamaker', np.float64(0.2852)), ('antique', np.float64(0.2253)), ('place', np.float64(0.1878)), ('stores', np.float64(0.1846)), ('street', np.float64(0.1674)), ('ahmadi', np.float64(0.166)), ('fashion', np.float64(0.1388)), ('block', np.float64(0.1378)), ('tarlow', np.float64(0.1302)), ('destination', np.float64(0.1298)), ('said', np.float64(0.1114)), ('nasa', np.float64(0.1105)), ('buildings', np.float64(0.108)), ('cienega', np.float64(0.1025)), ('furnishing', np.float64(0.1003)), ('marc', np.float64(0.0946)), ('genaro', np.float64(0.0901)), ('mecca', np.float64(0.0857)), ('moved', np.float64(0.0839)), ('landlords', np.float64(0.0826)), ('mulbery', np.float64(0.0825)), ('furnishings', np.float64(0.0812)), ('antiques', np.float64(0.0806)), ('shift', np.float64(0.0802)), ('building', np.float64(0.0788)), ('molina', np.float64(0.0787)), ('ghods', np.float64(0.0761)), ('jacobs', np.float64(0.0748)), ('tenants', np.float64(0.0737)), ('leasers', np.float64(0.0737)), ('upscale', np.float64(0.0712)), ('lambertson', np.float64(0.0711)), ('shabani', np.float64(0.0711)), ('lover', np.float64(0.0708)), ('home', np.float64(0.0662)), ('70s', np.float64(0.0659)), ('8428', np.float64(0.0639)), ('boulevard', np.float64(0.0636)), ('furniture', np.float64(0.0634)), ('rent', np.float64(0.0608)), ('end', np.float64(0.0604)), ('retail', np.float64(0.0571)), ('years', np.float64(0.0562)), ('high', np.float64(0.0552)), ('marni', np.float64(0.0544)), ('angeles', np.float64(0.0542)), ('fashionistas', np.float64(0.0541)), ('juts', np.float64(0.0539)), ('began', np.float64(0.0538)), ('los', np.float64(0.0537)), ('area', np.float64(0.0536)), ('chummy', np.float64(0.0532)), ('truex', np.float64(0.0522)), ('decorators', np.float64(0.0522)), ('bemoaning', np.float64(0.0518)), ('feld', np.float64(0.0518)), ('overflowed', np.float64(0.0508)), ('recent', np.float64(0.0506)), ('la', np.float64(0.05)), ('connoisseurs', np.float64(0.0494)), ('property', np.float64(0.0483)), ('nary', np.float64(0.0482)), ('oddity', np.float64(0.0482)), ('ago', np.float64(0.0479)), ('feeling', np.float64(0.0479)), ('ariana', np.float64(0.0475)), ('store', np.float64(0.0471)), ('rossi', np.float64(0.0471)), ('decorator', np.float64(0.047)), ('throes', np.float64(0.0464)), ('leaving', np.float64(0.0458)), ('coverings', np.float64(0.0458)), ('owner', np.float64(0.0456)), ('just', np.float64(0.0449)), ('impeccable', np.float64(0.044)), ('rugs', np.float64(0.0438)), ('herrera', np.float64(0.0434)), ('space', np.float64(0.0434)), ('stylist', np.float64(0.0433)), ('ended', np.float64(0.0432)), ('shopper', np.float64(0.043)), ('fabrics', np.float64(0.0421)), ('camaraderie', np.float64(0.042)), ('order', np.float64(0.0419)), ('works', np.float64(0.0416)), ('quaint', np.float64(0.0414)), ('interiors', np.float64(0.0414)), ('sigh', np.float64(0.0413)), ('decorating', np.float64(0.0412)), ('ahmad', np.float64(0.0411)), ('tracing', np.float64(0.0411)), ('leasing', np.float64(0.0406)), ('leased', np.float64(0.0405)), ('catering', np.float64(0.0399)), ('fascination', np.float64(0.0398)), ('pedestrians', np.float64(0.0398)), ('bustling', np.float64(0.0397)), ('sergio', np.float64(0.0396)), ('landlord', np.float64(0.0394)), ('trendy', np.float64(0.0394)), ('photographer', np.float64(0.039)), ('samantha', np.float64(0.0386)), ('rip', np.float64(0.0383)), ('waits', np.float64(0.0383)), ('rents', np.float64(0.0381)), ('robertson', np.float64(0.0381)), ('surging', np.float64(0.038)), ('deliberate', np.float64(0.0379)), ('ivy', np.float64(0.0378)), ('fictional', np.float64(0.037)), ('acquisitions', np.float64(0.037)), ('employ', np.float64(0.037)), ('tina', np.float64(0.0368)), ('kind', np.float64(0.0365)), ('transformation', np.float64(0.0352)), ('liability', np.float64(0.0352)), ('charming', np.float64(0.0349)), ('dealers', np.float64(0.0348)), ('broker', np.float64(0.0345)), ('lease', np.float64(0.0343)), ('operators', np.float64(0.0342)), ('historian', np.float64(0.0339)), ('1976', np.float64(0.0338)), ('90s', np.float64(0.0335)), ('isolated', np.float64(0.0332)), ('cheaper', np.float64(0.0332)), ('80s', np.float64(0.0331)), ('couples', np.float64(0.0329)), ('corporations', np.float64(0.0329)), ('retailers', np.float64(0.0329)), ('family', np.float64(0.0324)), ('used', np.float64(0.0322)), ('really', np.float64(0.032)), ('swept', np.float64(0.0319)), ('18th', np.float64(0.0319)), ('dramatically', np.float64(0.0318)), ('bird', np.float64(0.0316)), ('silent', np.float64(0.0315)), ('rapidly', np.float64(0.0312)), ('concrete', np.float64(0.0309)), ('lined', np.float64(0.0307)), ('city', np.float64(0.0304)), ('forcing', np.float64(0.0303)), ('19th', np.float64(0.0303)), ('bound', np.float64(0.0303)), ('1960s', np.float64(0.0302)), ('purchased', np.float64(0.0302)), ('little', np.float64(0.0302)), ('sight', np.float64(0.0302)), ('residential', np.float64(0.03)), ('gay', np.float64(0.0298)), ('enjoyed', np.float64(0.0297)), ('customer', np.float64(0.0297)), ('acts', np.float64(0.0291)), ('identify', np.float64(0.0286)), ('reputation', np.float64(0.0285)), ('tree', np.float64(0.0284)), ('chose', np.float64(0.0284)), ('featured', np.float64(0.0283)), ('unique', np.float64(0.0281)), ('mom', np.float64(0.0281)), ('afford', np.float64(0.0281)), ('times', np.float64(0.028)), ('absolutely', np.float64(0.028)), ('owns', np.float64(0.0279)), ('say', np.float64(0.0278)), ('partners', np.float64(0.0277)), ('accounts', np.float64(0.0274)), ('friendly', np.float64(0.0274)), ('quiet', np.float64(0.0274)), ('driven', np.float64(0.027)), ('location', np.float64(0.0269)), ('photo', np.float64(0.0267)), ('beautiful', np.float64(0.0264)), ('apartment', np.float64(0.0264)), ('buying', np.float64(0.0263)), ('collection', np.float64(0.0262)), ('pop', np.float64(0.0259)), ('trust', np.float64(0.0259)), ('claim', np.float64(0.0257)), ('carolina', np.float64(0.0256)), ('rising', np.float64(0.0255)), ('owners', np.float64(0.0253)), ('restaurant', np.float64(0.0253)), ('carry', np.float64(0.0252)), ('spokeswoman', np.float64(0.0252)), ('advantage', np.float64(0.0251)), ('owned', np.float64(0.025)), ('character', np.float64(0.025)), ('reasons', np.float64(0.025)), ('nearby', np.float64(0.0249)), ('demand', np.float64(0.0248)), ('quick', np.float64(0.0248)), ('businesses', np.float64(0.0248)), ('asking', np.float64(0.0245)), ('retired', np.float64(0.0245)), ('everybody', np.float64(0.0243)), ('avenue', np.float64(0.0242)), ('increased', np.float64(0.0242)), ('quality', np.float64(0.0241)), ('square', np.float64(0.0239)), ('era', np.float64(0.0239)), ('original', np.float64(0.0238)), ('parts', np.float64(0.0238)), ('prices', np.float64(0.0238)), ('records', np.float64(0.0237)), ('limited', np.float64(0.0237)), ('sell', np.float64(0.0235)), ('address', np.float64(0.0233)), ('floor', np.float64(0.0233)), ('decade', np.float64(0.0233)), ('walk', np.float64(0.0233)), ('rose', np.float64(0.0233)), ('door', np.float64(0.0231)), ('seeking', np.float64(0.023)), ('changed', np.float64(0.023)), ('areas', np.float64(0.0229)), ('like', np.float64(0.0227)), ('followed', np.float64(0.0226)), ('happen', np.float64(0.0226)), ('art', np.float64(0.0226)), ('century', np.float64(0.0225)), ('opened', np.float64(0.0223)), ('television', np.float64(0.0223)), ('certain', np.float64(0.0222)), ('sales', np.float64(0.0222)), ('firm', np.float64(0.0221)), ('organization', np.float64(0.0221)), ('moving', np.float64(0.022)), ('decades', np.float64(0.022)), ('buy', np.float64(0.0216)), ('decided', np.float64(0.0216)), ('quickly', np.float64(0.0214)), ('foot', np.float64(0.0214)), ('bit', np.float64(0.0213)), ('felt', np.float64(0.0213)), ('60', np.float64(0.0212)), ('term', np.float64(0.0209)), ('loss', np.float64(0.0208)), ('died', np.float64(0.0207)), ('middle', np.float64(0.0206)), ('district', np.float64(0.0199)), ('age', np.float64(0.0199)), ('control', np.float64(0.0196)), ('international', np.float64(0.0195)), ('person', np.float64(0.0192)), ('men', np.float64(0.0191)), ('sure', np.float64(0.019)), ('michael', np.float64(0.0189)), ('power', np.float64(0.0187)), ('seven', np.float64(0.0184)), ('feel', np.float64(0.0184)), ('different', np.float64(0.0178)), ('25', np.float64(0.0175)), ('members', np.float64(0.0175)), ('money', np.float64(0.017)), ('business', np.float64(0.017)), ('company', np.float64(0.0169)), ('does', np.float64(0.0166)), ('past', np.float64(0.0166)), ('early', np.float64(0.0162)), ('came', np.float64(0.0161)), ('house', np.float64(0.016)), ('lot', np.float64(0.0159)), ('month', np.float64(0.0158)), ('group', np.float64(0.0157)), ('called', np.float64(0.0152)), ('left', np.float64(0.0145)), ('know', np.float64(0.0145)), ('caption', np.float64(0.0143)), ('including', np.float64(0.014)), ('going', np.float64(0.0137)), ('long', np.float64(0.0134)), ('don', np.float64(0.0132)), ('people', np.float64(0.0116))]</tf_idf>
+</processed>
+</RECORD>

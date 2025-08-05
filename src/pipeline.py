@@ -71,12 +71,12 @@ def step_tfidf_tags(corpus_dir: Path, model_path: Path):
         logger_instance.update_log_file(log_list)
 
       
-def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict):
+def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict, log_file_name: str):
     """Add a sentiment label to each article title."""
     analyzer = sentiment_score.TextAnalysis(model_path)
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     
-    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'title_sentiment', corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
     log_list = logger_instance.get_file_names()
     
     # Loop through each XML file in the corpus directory
@@ -199,11 +199,13 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'TheWashingtonPostDavid'  #'LosAngelesTimesDavid'
+    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid
     #step_identify_economic(corpus_dir)
     #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
-    #step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
+    step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
     #title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
-    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict)
-    paragraph_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
-    step_paragraph_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=paragraph_label_dict)
+    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict, log_file_name='bert_title_sentiment')
+    #title_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=ROBERTA_MODEL_PATH, label_dict=title_label_dict)
+    #paragraph_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
+    #step_paragraph_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=paragraph_label_dict)

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>422225372</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>WESTERN CONFERENCE PLAYOFFS; Hornets put the Mavericks in familiar spot</Title>
+</TitleAtt>
+<NumericDate>2008-04-28</NumericDate>
+<StartDate>2008-04-28</StartDate>
+<EndDate>2008-04-28</EndDate>
+<AlphaDate>Apr 28, 2008</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2008 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>D.4</StartPage>
+<Pagination>D.4</Pagination>
+<DocSection>Sports; Part D; Sports Desk</DocSection>
+<DocEdition>HOME EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1469193251</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>39005911</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM080021479</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1440</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Anonymous</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Anonymous</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Anonymous</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Dallas Mavericks</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Professional basketball</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Athletes</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="106">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;West let out his pent-up frustration over a poor Game 3 with a determined effort in Game 4, scoring 10 of his 24 points in a quick stretch early in the second half to help the New Orleans Hornets pull away for a 97-84 victory Sunday and a 3-1 lead in the best-of-seven Western Conference first-round series that put the Mavericks on the brink of a second straight early exit.  Boris Diaw, starting in place of Grant Hill (abdominal strain), had 20 points, 10 rebounds and eight assists to help the Suns avoid a first-round sweep in the series, which the Spurs now lead, 3-1. &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="594">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;David West hardly said a word the last two days. That meant trouble for the Dallas Mavericks.&lt;/p&gt;              &lt;p&gt;West let out his pent-up frustration over a poor Game 3 with a determined effort in Game 4, scoring 10 of his 24 points in a quick stretch early in the second half to help the New Orleans Hornets pull away for a 97-84 victory Sunday and a 3-1 lead in the best-of-seven Western Conference first-round series that put the Mavericks on the brink of a second straight early exit.&lt;/p&gt;              &lt;p&gt;"Everything was stirring up in him," Coach Byron Scott said of West who had 14 points on six-of-20 shooting in Game 3. "He wasn't going to play the way he played in Game 3. We were banking on that. He was in an aggressive mind-set from the start and he came up big."&lt;/p&gt;              &lt;p&gt;The Hornets hadn't won in Dallas over 14 tries since January 1998. This victory means they might not have to come back until next season. They can eliminate the Mavericks by winning Game 5 Tuesday night in New Orleans.&lt;/p&gt;              &lt;p&gt;Dirk Nowitzki had 22 points and 13 rebounds and Jason Terry scored 20 points, but they didn't get much help. Josh Howard made only three of 16 shots, and Jason Kidd had three points, three assists and four rebounds before getting ejected with 7:16 left for a flagrant foul on Jannero Pargo. A fan was also ejected in owner Mark Cuban's row.&lt;/p&gt;              &lt;p&gt;Coach Avery Johnson's Mavericks went from scoring 30 points in the first quarter to 40 in the entire second half.&lt;/p&gt;              &lt;p&gt;"I don't really have an answer for it," said Nowitzki, exhaling loudly and running his hand through his hair in frustration. "All season long, we've lost leads way too quick. . . . Everybody has to be in attack mode. You have to make shots to win in this league."&lt;/p&gt;              &lt;p&gt;Phoenix 105, San Antonio 86 -- A Frenchman put the Suns on the brink of elimination, another brought the Suns back to life.&lt;/p&gt;              &lt;p&gt;Boris Diaw, starting in place of Grant Hill (abdominal strain), had 20 points, 10 rebounds and eight assists to help the Suns avoid a first-round sweep in the series, which the Spurs now lead, 3-1.&lt;/p&gt;              &lt;p&gt;"I trust him. I always have," Suns Coach Mike D'Antoni said. "I think he's a heck of a basketball player. He's been maligned here a little bit, but he can play. He stepped up big."&lt;/p&gt;              &lt;p&gt;Diaw also played tough defense on his good friend and fellow Frenchman Tony Parker, who scored 18 points after 41 in San Antonio's 115-99 victory Friday in Game 3.&lt;/p&gt;              &lt;p&gt;"I think they kind of relaxed being up 3-0," Diaw said, "but we came out and played too. We didn't come out like the series was over. We came out fired up."&lt;/p&gt;              &lt;p&gt;No one was more aggressive than Raja Bell, who scored 21 of his 27 points in a dominant first half to help Phoenix bring a one-sided end to the defending NBA champions' nine-game playoff winning streak.&lt;/p&gt;              &lt;p&gt;"We didn't expect to sweep these guys," said the Spurs' Tim Duncan, who scored 14 points. "We're excited in the situation we're in, up 3-1. We've got to win one more game, and we get to go home and try to win it there."&lt;/p&gt;              &lt;p&gt;Credit: From the Associated Press&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Caption: PHOTO: ON THE RISE: The Hornets' Hilton Armstrong, right, seems up to the challenge on this Dirk Nowitzki shot.; PHOTOGRAPHER:Larry W. Smith EPA&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Apr 28, 2008</AlphaDate>
+<StartDate>2008-04-28</StartDate>
+<EndDate>2008-04-28</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>39005911</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.2613178578021404</is_economic>
+<tf_idf>[('points', np.float64(0.3021)), ('diaw', np.float64(0.2602)), ('suns', np.float64(0.2422)), ('mavericks', np.float64(0.2419)), ('nowitzki', np.float64(0.2137)), ('game', np.float64(0.1981)), ('hornets', np.float64(0.1847)), ('scored', np.float64(0.1416)), ('frenchman', np.float64(0.1404)), ('rebounds', np.float64(0.1342)), ('dirk', np.float64(0.1307)), ('ejected', np.float64(0.1215)), ('spurs', np.float64(0.1145)), ('brink', np.float64(0.1142)), ('sweep', np.float64(0.1006)), ('frustration', np.float64(0.095)), ('help', np.float64(0.0934)), ('phoenix', np.float64(0.0931)), ('victory', np.float64(0.0927)), ('orleans', np.float64(0.0919)), ('assists', np.float64(0.0907)), ('jannero', np.float64(0.0903)), ('coach', np.float64(0.0898)), ('antonio', np.float64(0.0879)), ('pargo', np.float64(0.0868)), ('series', np.float64(0.0863)), ('exhaling', np.float64(0.0862)), ('played', np.float64(0.0859)), ('west', np.float64(0.0851)), ('dallas', np.float64(0.0846)), ('aggressive', np.float64(0.0841)), ('win', np.float64(0.0834)), ('14', np.float64(0.082)), ('jason', np.float64(0.0801)), ('scoring', np.float64(0.0794)), ('half', np.float64(0.0784)), ('said', np.float64(0.0782)), ('shots', np.float64(0.0772)), ('raja', np.float64(0.0758)), ('quick', np.float64(0.0754)), ('didn', np.float64(0.0739)), ('antoni', np.float64(0.0736)), ('came', np.float64(0.0733)), ('20', np.float64(0.0701)), ('pent', np.float64(0.0693)), ('flagrant', np.float64(0.0692)), ('maligned', np.float64(0.0685)), ('abdominal', np.float64(0.0661)), ('second', np.float64(0.0661)), ('round', np.float64(0.0655)), ('kidd', np.float64(0.0651)), ('winning', np.float64(0.0635)), ('avery', np.float64(0.0617)), ('san', np.float64(0.0606)), ('loudly', np.float64(0.0588)), ('epa', np.float64(0.0586)), ('boris', np.float64(0.0585)), ('byron', np.float64(0.0581)), ('heck', np.float64(0.0564)), ('elimination', np.float64(0.0563)), ('sided', np.float64(0.056)), ('lead', np.float64(0.0556)), ('16', np.float64(0.0556)), ('armstrong', np.float64(0.0555)), ('hilton', np.float64(0.0555)), ('stirring', np.float64(0.0554)), ('cuban', np.float64(0.0549)), ('relaxed', np.float64(0.0533)), ('duncan', np.float64(0.0532)), ('115', np.float64(0.0529)), ('mode', np.float64(0.0524)), ('105', np.float64(0.0511)), ('strain', np.float64(0.0505)), ('parker', np.float64(0.0496)), ('play', np.float64(0.0495)), ('season', np.float64(0.0495)), ('early', np.float64(0.0492)), ('banking', np.float64(0.0491)), ('foul', np.float64(0.0489)), ('dominant', np.float64(0.0487)), ('exit', np.float64(0.0477)), ('97', np.float64(0.0476)), ('champions', np.float64(0.0475)), ('86', np.float64(0.0473)), ('eliminate', np.float64(0.0472)), ('ve', np.float64(0.047)), ('big', np.float64(0.0469)), ('84', np.float64(0.0467)), ('come', np.float64(0.046)), ('terry', np.float64(0.0458)), ('bell', np.float64(0.0454)), ('josh', np.float64(0.0453)), ('excited', np.float64(0.044)), ('think', np.float64(0.044)), ('defending', np.float64(0.0438)), ('hadn', np.float64(0.0436)), ('tries', np.float64(0.0436)), ('stepped', np.float64(0.0435)), ('nba', np.float64(0.0432)), ('hardly', np.float64(0.043)), ('streak', np.float64(0.0419)), ('larry', np.float64(0.0418)), ('99', np.float64(0.0417)), ('playoff', np.float64(0.0416)), ('hair', np.float64(0.0413)), ('grant', np.float64(0.0412)), ('stretch', np.float64(0.0411)), ('howard', np.float64(0.0411)), ('fan', np.float64(0.0404)), ('pull', np.float64(0.0403)), ('tim', np.float64(0.0402)), ('row', np.float64(0.0401)), ('determined', np.float64(0.0398)), ('leads', np.float64(0.0395)), ('41', np.float64(0.0394)), ('tony', np.float64(0.0394)), ('trust', np.float64(0.0393)), ('way', np.float64(0.0391)), ('1998', np.float64(0.0389)), ('10', np.float64(0.0386)), ('fired', np.float64(0.0386)), ('meant', np.float64(0.0381)), ('trouble', np.float64(0.038)), ('basketball', np.float64(0.0377)), ('fellow', np.float64(0.0377)), ('shooting', np.float64(0.0372)), ('everybody', np.float64(0.037)), ('hill', np.float64(0.0367)), ('johnson', np.float64(0.0363)), ('rise', np.float64(0.0362)), ('avoid', np.float64(0.036)), ('smith', np.float64(0.036)), ('western', np.float64(0.0358)), ('poor', np.float64(0.0358)), ('scott', np.float64(0.0358)), ('word', np.float64(0.0356)), ('answer', np.float64(0.0355)), ('entire', np.float64(0.0353)), ('challenge', np.float64(0.0353)), ('guys', np.float64(0.0352)), ('straight', np.float64(0.0351)), ('tough', np.float64(0.035)), ('attack', np.float64(0.0349)), ('january', np.float64(0.0348)), ('owner', np.float64(0.0347)), ('expect', np.float64(0.0346)), ('situation', np.float64(0.0343)), ('quarter', np.float64(0.0339)), ('friend', np.float64(0.0337)), ('mind', np.float64(0.033)), ('mike', np.float64(0.0325)), ('bit', np.float64(0.0324)), ('starting', np.float64(0.0321)), ('brought', np.float64(0.032)), ('27', np.float64(0.032)), ('player', np.float64(0.0318)), ('means', np.float64(0.0316)), ('effort', np.float64(0.0315)), ('conference', np.float64(0.0315)), ('defense', np.float64(0.0313)), ('league', np.float64(0.0311)), ('bring', np.float64(0.0307)), ('shot', np.float64(0.0306)), ('hand', np.float64(0.0305)), ('wasn', np.float64(0.0305)), ('new', np.float64(0.0304)), ('22', np.float64(0.0304)), ('mark', np.float64(0.0302)), ('21', np.float64(0.03)), ('photographer', np.float64(0.0296)), ('24', np.float64(0.0293)), ('try', np.float64(0.0293)), ('running', np.float64(0.0292)), ('david', np.float64(0.0289)), ('40', np.float64(0.0288)), ('let', np.float64(0.0282)), ('seven', np.float64(0.028)), ('kind', np.float64(0.0278)), ('18', np.float64(0.0275)), ('lost', np.float64(0.0273)), ('13', np.float64(0.0272)), ('getting', np.float64(0.0271)), ('sunday', np.float64(0.027)), ('went', np.float64(0.0262)), ('tuesday', np.float64(0.026)), ('start', np.float64(0.0259)), ('friday', np.float64(0.0256)), ('away', np.float64(0.0248)), ('really', np.float64(0.0243)), ('night', np.float64(0.0241)), ('set', np.float64(0.024)), ('got', np.float64(0.024)), ('won', np.float64(0.024)), ('place', np.float64(0.0238)), ('days', np.float64(0.0238)), ('life', np.float64(0.0237)), ('best', np.float64(0.023)), ('end', np.float64(0.023)), ('little', np.float64(0.023)), ('30', np.float64(0.0227)), ('left', np.float64(0.0221)), ('caption', np.float64(0.0217)), ('right', np.float64(0.0215)), ('good', np.float64(0.021)), ('going', np.float64(0.0208)), ('long', np.float64(0.0204)), ('photo', np.float64(0.0203)), ('home', np.float64(0.0201)), ('don', np.float64(0.02)), ('make', np.float64(0.019)), ('like', np.float64(0.0173))]</tf_idf>
+</processed>
+</RECORD>

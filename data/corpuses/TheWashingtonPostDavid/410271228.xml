@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>410271228</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>NEA Teams With Arena Stage to Launch New Plays</Title>
+</TitleAtt>
+<NumericDate>2008-01-30</NumericDate>
+<StartDate>2008-01-30</StartDate>
+<EndDate>2008-01-30</EndDate>
+<AlphaDate>Jan 30, 2008</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Jan 30, 2008</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>C.5</StartPage>
+<Pagination>C.5</Pagination>
+<DocSection>STYLE</DocSection>
+<DocEdition>FINAL</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1420740271</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>38231991</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX200801300D1D2986</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1570</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Horwitz, Jane</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Horwitz</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Jane</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Jane Horwitz</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Arena Stage</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>711110</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm PndxHeader="true" TermSource="NA">
+<CompanyNameAtt>
+<CompanyName>National Endowment for the Arts</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>813211</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Nonprofit organizations</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Musical theater</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Artistic directors</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Theater</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="87">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;"For us it is very important . . . that the ultimate beneficiary for this program is a wider group of people and organizations than the limited group that are getting the direct project support," said Bill O'Brien, director of the NEA's theater and musical theater division.  Dower, now in his second season at Arena, has an extensive background in new play development as founding artistic director of Z Space in San Francisco and as a new play development consultant to the Andrew W. Mellon Foundation.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1045">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Arena  Stage has been chosen by the National Endowment for the Arts to host the federal agency's New Play Development Project. The program will support the development of seven plays at nonprofit theaters around the country, and will offer other theaters a kind of road map of "best practices" gleaned from that effort. &lt;/p&gt;              &lt;p&gt;"For us it is very important . . . that the ultimate beneficiary for this program is a wider group of people and organizations than the limited group that are getting the direct project support," said Bill O'Brien, director of the NEA's theater and musical theater division.&lt;/p&gt;              &lt;p&gt;The winning scripts will be chosen by a panel of theater artists. The two top choices, to be called Outstanding New American Plays, will receive up to $90,000 each in project support for "advanced development" and a full production. Five other works with "strong potential" will receive up to $20,000 each for "early stages of development." &lt;/p&gt;              &lt;p&gt;Arena Artistic Associate David Dower, who will oversee the partnership with the NEA, said the company will raise another $230,000 to $250,000 in order to mount a festival of all seven works here, probably in fall 2010, right after Arena (fingers crossed) has moved back into its newly renovated home in Southwest Washington.&lt;/p&gt;              &lt;p&gt;The NEA was very interested, Dower said, in finding "a way for the public to actually see the NEA funding in action."&lt;/p&gt;              &lt;p&gt;In reviewing Arena's application to host the project, O'Brien said he was struck "not so much [by] what we were giving to them but what we were getting back."&lt;/p&gt;              &lt;p&gt;Dower, now in his second season at Arena, has an extensive background in new play development as founding artistic director of Z Space in San Francisco and as a new play development consultant to the Andrew W. Mellon Foundation. He expects the application process for theaters developing new plays to get underway in March and the awardees to be announced in the fall.&lt;/p&gt;              &lt;p&gt;Even while she was back in her native Dublin, exiled from living full time in Washington due to visa complications between March 2006 and August 2007, Solas Nua Artistic Director Linda Murray kept her hand in. She worked, saved money, kept abreast of new writers in Ireland and flew back for short stretches to work with the tiny troupe she founded with Producing Director Dan Brick.&lt;/p&gt;              &lt;p&gt;Solas Nua, which means "new light," is dedicated to contemporary Irish playwrights unknown in the States. If you are a Martin McDonagh or Conor McPherson whose work has been done on Broadway, Murray says, "you're done. You don't need my little theater in D.C. anymore."&lt;/p&gt;              &lt;p&gt;Her latest production is "Trad" by Irish comedian, actor and writer Mark Doherty. It runs at Flashpoint's Mead Theatre Lab till Feb. 17.&lt;/p&gt;              &lt;p&gt;Michael John Casey and Chris Davenport play, respectively, a 100-year-old man and his even more ancient Da in Doherty's spoof of Irish stereotypes and traditions. ("Trad" is a slang shortening of "tradition," referring to "the Celtic culture before it was infiltrated" by the English, Murray says.) The two men dodder off in search of the son's 70-year-old love child, bickering and telling tales on the way.&lt;/p&gt;              &lt;p&gt;"I think it's a wonderful spoof of everything that's considered to be Irish and everything that's put onstage as being Irish," Murray says. Irish writers working in English, she adds, tend to reflect their native tongue in the way they use "10 words to say something that could be said in one . . . It kind of conjures up images rather than stating facts, and I think that is inherently within Irish people."&lt;/p&gt;              &lt;p&gt;Ireland is in the midst of a literary golden age, she believes, sparked by the country's new high-tech industry and affluence. "Everything that Irish people have ever based their identity on has shifted in the last 10 or 15 years," Murray says. "Any environment like that is going to make creative people feel the need to comment upon it."&lt;/p&gt;              &lt;p&gt;"Trad" is Solas Nua's 11th production since Murray, 31, and Brick, 32 and a Maryland native, launched the company in 2005. The couple  --  they married in October  --  take no salaries so they can pay guest artists. They've garnered some impressive reviews for such a young company, for shows such as Owen McCafferty's "Scenes From the Big Picture."&lt;/p&gt;              &lt;p&gt;That 2007 hit aside, Murray says, "my benchmark is, would I be embarrassed to take this work back to Ireland." If the answer is no, "I'm happy."&lt;/p&gt;              &lt;p&gt;Washington Stage Guild's Ann Norton hopes the company will be able to move into its space in the new office building at 505 Ninth St. NW in the fall. "I can stand in the box office window already," she says. "It's very exciting."&lt;/p&gt;              &lt;p&gt;Since losing its temporary home at 14th and T streets NW this year (Arena Stage, which owns the building, needed it while its Southwest campus undergoes renovation), Stage Guild is presenting a series of readings at Flashpoint's Mead Theatre Lab. The next, Tuesday at 7:30 p.m., will be Hugh Whitemore's "The Best of Friends," a glimpse at the epistolary friendship among George Bernard Shaw, a Dominican abbess and a museum curator. Alan Wade is directing.&lt;/p&gt;              &lt;p&gt;Future offerings are: Shaw's "Don Juan in Hell" (Feb. 26); "The Rising of the Moon" and "Spreading the News" (March 2 and 4), comic one-acts about Irish life by Abbey Theatre co-founder Lady Gregory, penned in the early 20th century; "Widowers' Houses" (March 18), Shaw's very first play; "Lord Arthur Savile's Crime" (March 25), adapted by company member Bill Largess from an Oscar Wilde story; "Dangerous Corner" (April 29) by J.B. Priestley; and "The War With the Newts" (May 6), Karel Capek's sci-fi social satire adapted by Emily Solomon.&lt;/p&gt;              &lt;p&gt;After years in low-ceilinged rented spaces, Artistic Director John MacDonald looks forward to doing shows "that require some more production values." With the help of an ongoing $6 million capital campaign, he and Norton, who are married and have run the literary-minded Stage Guild on a shoestring since 1986, plan to hire production and box office managers for the new venue.&lt;/p&gt;              &lt;p&gt;"Mom and Pop are not going to be running the candy store by themselves anymore," MacDonald says.&lt;/p&gt;              &lt;p&gt;Credit: Special to The Washington Post&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jan 30, 2008</AlphaDate>
+<StartDate>2008-01-30</StartDate>
+<EndDate>2008-01-30</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>38231991</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.1693654884634266</text_blob_sentiment><bert_sentiment>0.5065282851457595</bert_sentiment></grades>
+<processed>
+<is_economic>0.0893</is_economic>
+<tf_idf>[('irish', np.float64(0.288)), ('murray', np.float64(0.2279)), ('nea', np.float64(0.2099)), ('nua', np.float64(0.1893)), ('trad', np.float64(0.1859)), ('solas', np.float64(0.1821)), ('arena', np.float64(0.1748)), ('dower', np.float64(0.1726)), ('development', np.float64(0.1305)), ('artistic', np.float64(0.1254)), ('production', np.float64(0.1179)), ('guild', np.float64(0.1146)), ('stage', np.float64(0.1135)), ('says', np.float64(0.1104)), ('shaw', np.float64(0.1084)), ('ireland', np.float64(0.103)), ('theater', np.float64(0.1004)), ('new', np.float64(0.0993)), ('march', np.float64(0.0987)), ('flashpoint', np.float64(0.0978)), ('theaters', np.float64(0.0948)), ('doherty', np.float64(0.0913)), ('spoof', np.float64(0.0904)), ('mead', np.float64(0.0902)), ('theatre', np.float64(0.0888)), ('macdonald', np.float64(0.087)), ('project', np.float64(0.0868)), ('company', np.float64(0.0838)), ('director', np.float64(0.0831)), ('play', np.float64(0.0808)), ('native', np.float64(0.077)), ('norton', np.float64(0.0765)), ('whitemore', np.float64(0.0746)), ('brien', np.float64(0.0729)), ('literary', np.float64(0.0686)), ('dodder', np.float64(0.0685)), ('adapted', np.float64(0.0683)), ('plays', np.float64(0.0675)), ('newts', np.float64(0.0664)), ('capek', np.float64(0.0655)), ('abbess', np.float64(0.0648)), ('lab', np.float64(0.0648)), ('brick', np.float64(0.0642)), ('application', np.float64(0.0634)), ('awardees', np.float64(0.0629)), ('mccafferty', np.float64(0.0627)), ('nw', np.float64(0.0626)), ('southwest', np.float64(0.0608)), ('fall', np.float64(0.0595)), ('savile', np.float64(0.0586)), ('epistolary', np.float64(0.0581)), ('priestley', np.float64(0.0579)), ('anymore', np.float64(0.0572)), ('chosen', np.float64(0.0567)), ('writers', np.float64(0.0566)), ('000', np.float64(0.0565)), ('widowers', np.float64(0.0565)), ('support', np.float64(0.0546)), ('karel', np.float64(0.0541)), ('artists', np.float64(0.0539)), ('feb', np.float64(0.0514)), ('married', np.float64(0.0513)), ('ceilinged', np.float64(0.0512)), ('mcdonagh', np.float64(0.0511)), ('2007', np.float64(0.0509)), ('abreast', np.float64(0.0509)), ('office', np.float64(0.0508)), ('english', np.float64(0.0504)), ('affluence', np.float64(0.0492)), ('largess', np.float64(0.0486)), ('shoestring', np.float64(0.0486)), ('box', np.float64(0.0485)), ('washington', np.float64(0.0481)), ('host', np.float64(0.0478)), ('receive', np.float64(0.0477)), ('shortening', np.float64(0.0474)), ('undergoes', np.float64(0.0468)), ('infiltrated', np.float64(0.0462)), ('people', np.float64(0.046)), ('conjures', np.float64(0.0455)), ('conor', np.float64(0.0453)), ('gleaned', np.float64(0.0453)), ('slang', np.float64(0.0449)), ('mcpherson', np.float64(0.0449)), ('playwrights', np.float64(0.0445)), ('kept', np.float64(0.0445)), ('exiled', np.float64(0.0436)), ('celtic', np.float64(0.0435)), ('wilde', np.float64(0.0433)), ('mellon', np.float64(0.0431)), ('space', np.float64(0.0431)), ('bickering', np.float64(0.043)), ('said', np.float64(0.0425)), ('505', np.float64(0.0421)), ('abbey', np.float64(0.042)), ('work', np.float64(0.0418)), ('beneficiary', np.float64(0.0418)), ('penned', np.float64(0.0417)), ('davenport', np.float64(0.0414)), ('works', np.float64(0.0413)), ('shows', np.float64(0.0412)), ('scripts', np.float64(0.0411)), ('dublin', np.float64(0.0409)), ('inherently', np.float64(0.0405)), ('satire', np.float64(0.0398)), ('endowment', np.float64(0.0396)), ('solomon', np.float64(0.0396)), ('building', np.float64(0.0391)), ('garnered', np.float64(0.039)), ('sci', np.float64(0.039)), ('dominican', np.float64(0.039)), ('stereotypes', np.float64(0.0386)), ('owen', np.float64(0.0385)), ('stating', np.float64(0.0385)), ('way', np.float64(0.0383)), ('troupe', np.float64(0.038)), ('hugh', np.float64(0.0377)), ('da', np.float64(0.0373)), ('benchmark', np.float64(0.0372)), ('renovated', np.float64(0.0372)), ('readings', np.float64(0.0371)), ('visa', np.float64(0.037)), ('program', np.float64(0.0368)), ('till', np.float64(0.0366)), ('seven', np.float64(0.0365)), ('kind', np.float64(0.0363)), ('curator', np.float64(0.0361)), ('tongue', np.float64(0.036)), ('fi', np.float64(0.036)), ('embarrassed', np.float64(0.0359)), ('presenting', np.float64(0.0357)), ('rented', np.float64(0.0356)), ('renovation', np.float64(0.0354)), ('getting', np.float64(0.0353)), ('230', np.float64(0.0353)), ('complications', np.float64(0.0352)), ('comedian', np.float64(0.035)), ('directing', np.float64(0.0349)), ('traditions', np.float64(0.0349)), ('stretches', np.float64(0.0348)), ('oversee', np.float64(0.0348)), ('glimpse', np.float64(0.0347)), ('onstage', np.float64(0.0342)), ('casey', np.float64(0.034)), ('venue', np.float64(0.0339)), ('candy', np.float64(0.0338)), ('tales', np.float64(0.0338)), ('midst', np.float64(0.0338)), ('salaries', np.float64(0.0337)), ('reviewing', np.float64(0.0337)), ('wade', np.float64(0.0336)), ('offerings', np.float64(0.0336)), ('bernard', np.float64(0.0336)), ('lord', np.float64(0.0334)), ('respectively', np.float64(0.0334)), ('founding', np.float64(0.0334)), ('spreading', np.float64(0.0333)), ('wider', np.float64(0.0333)), ('underway', np.float64(0.033)), ('gregory', np.float64(0.033)), ('emily', np.float64(0.0329)), ('fingers', np.float64(0.0328)), ('friendship', np.float64(0.0328)), ('shifted', np.float64(0.0326)), ('john', np.float64(0.0326)), ('sparked', np.float64(0.0326)), ('minded', np.float64(0.0324)), ('country', np.float64(0.0324)), ('14th', np.float64(0.0323)), ('stages', np.float64(0.0322)), ('early', np.float64(0.0321)), ('moon', np.float64(0.0318)), ('flew', np.float64(0.0318)), ('arthur', np.float64(0.0318)), ('crossed', np.float64(0.0318)), ('1986', np.float64(0.0317)), ('comic', np.float64(0.0317)), ('outstanding', np.float64(0.0315)), ('11th', np.float64(0.0315)), ('spaces', np.float64(0.0314)), ('group', np.float64(0.0313)), ('juan', np.float64(0.0312)), ('need', np.float64(0.0312)), ('ancient', np.float64(0.0311)), ('hell', np.float64(0.0311)), ('ultimate', np.float64(0.0308)), ('producing', np.float64(0.0305)), ('unknown', np.float64(0.0304)), ('exciting', np.float64(0.0304)), ('extensive', np.float64(0.0304)), ('partnership', np.float64(0.0301)), ('best', np.float64(0.03)), ('linda', np.float64(0.03)), ('oscar', np.float64(0.0299)), ('saved', np.float64(0.0299)), ('reviews', np.float64(0.0299)), ('managers', np.float64(0.0299)), ('broadway', np.float64(0.0298)), ('facts', np.float64(0.0297)), ('year', np.float64(0.0297)), ('dedicated', np.float64(0.0296)), ('hire', np.float64(0.0296)), ('guest', np.float64(0.0293)), ('mount', np.float64(0.0292)), ('alan', np.float64(0.0292)), ('consultant', np.float64(0.0291)), ('20th', np.float64(0.029)), ('temporary', np.float64(0.029)), ('impressive', np.float64(0.029)), ('acts', np.float64(0.0289)), ('contemporary', np.float64(0.0288)), ('ongoing', np.float64(0.0288)), ('think', np.float64(0.0287)), ('ann', np.float64(0.0287)), ('choices', np.float64(0.0286)), ('lady', np.float64(0.0286)), ('identity', np.float64(0.0285)), ('associate', np.float64(0.0285)), ('map', np.float64(0.0285)), ('wonderful', np.float64(0.0284)), ('tradition', np.float64(0.0283)), ('reflect', np.float64(0.0283)), ('values', np.float64(0.0283)), ('adds', np.float64(0.0282)), ('background', np.float64(0.0282)), ('newly', np.float64(0.0282)), ('developing', np.float64(0.0281)), ('expects', np.float64(0.0281)), ('ninth', np.float64(0.0281)), ('scenes', np.float64(0.0279)), ('advanced', np.float64(0.0279)), ('mom', np.float64(0.0279)), ('old', np.float64(0.0279)), ('campus', np.float64(0.0279)), ('creative', np.float64(0.0279)), ('tend', np.float64(0.0278)), ('owns', np.float64(0.0278)), ('practices', np.float64(0.0277)), ('nonprofit', np.float64(0.0276)), ('festival', np.float64(0.0276)), ('referring', np.float64(0.0276)), ('founded', np.float64(0.0275)), ('tiny', np.float64(0.0273)), ('going', np.float64(0.0272)), ('actor', np.float64(0.0272)), ('musical', np.float64(0.0271)), ('houses', np.float64(0.027)), ('window', np.float64(0.0268)), ('panel', np.float64(0.0267)), ('aside', np.float64(0.0266)), ('golden', np.float64(0.0266)), ('250', np.float64(0.0265)), ('launched', np.float64(0.0265)), ('funding', np.float64(0.0263)), ('organizations', np.float64(0.0263)), ('home', np.float64(0.0263)), ('dan', np.float64(0.0263)), ('tech', np.float64(0.0262)), ('don', np.float64(0.0261)), ('environment', np.float64(0.026)), ('direct', np.float64(0.0259)), ('museum', np.float64(0.0259)), ('founder', np.float64(0.0258)), ('believes', np.float64(0.0258)), ('dangerous', np.float64(0.0258)), ('pop', np.float64(0.0257)), ('andrew', np.float64(0.0257)), ('interested', np.float64(0.0257)), ('arts', np.float64(0.0256)), ('2010', np.float64(0.0255)), ('corner', np.float64(0.0254)), ('rising', np.float64(0.0253)), ('10', np.float64(0.0252)), ('foundation', np.float64(0.0252)), ('telling', np.float64(0.025)), ('2006', np.float64(0.0249)), ('struck', np.float64(0.0248)), ('2005', np.float64(0.0247)), ('streets', np.float64(0.0247)), ('search', np.float64(0.0246)), ('picture', np.float64(0.0246)), ('maryland', np.float64(0.0245)), ('martin', np.float64(0.0245)), ('finding', np.float64(0.0244)), ('require', np.float64(0.0244)), ('francisco', np.float64(0.0243)), ('crime', np.float64(0.0243)), ('culture', np.float64(0.024)), ('august', np.float64(0.0239)), ('images', np.float64(0.0239)), ('writer', np.float64(0.0238)), ('october', np.float64(0.0238)), ('raise', np.float64(0.0237)), ('90', np.float64(0.0236)), ('limited', np.float64(0.0235)), ('store', np.float64(0.0234)), ('32', np.float64(0.0234)), ('hopes', np.float64(0.0233)), ('losing', np.float64(0.0233)), ('70', np.float64(0.0232)), ('answer', np.float64(0.0231)), ('division', np.float64(0.0231)), ('chris', np.float64(0.0229)), ('happy', np.float64(0.0228)), ('looks', np.float64(0.0228)), ('comment', np.float64(0.0226)), ('words', np.float64(0.0225)), ('stand', np.float64(0.0225)), ('capital', np.float64(0.0225)), ('century', np.float64(0.0224)), ('years', np.float64(0.0223)), ('considered', np.float64(0.0223)), ('child', np.float64(0.0219)), ('runs', np.float64(0.0217)), ('31', np.float64(0.0217)), ('29', np.float64(0.0217)), ('giving', np.float64(0.0217)), ('light', np.float64(0.0215)), ('latest', np.float64(0.0215)), ('potential', np.float64(0.0212)), ('actually', np.float64(0.0211)), ('industry', np.float64(0.0211)), ('couple', np.float64(0.0209)), ('agency', np.float64(0.0209)), ('26', np.float64(0.0209)), ('offer', np.float64(0.0209)), ('forward', np.float64(0.0208)), ('moved', np.float64(0.0208)), ('order', np.float64(0.0208)), ('living', np.float64(0.0207)), ('winning', np.float64(0.0207)), ('action', np.float64(0.0207)), ('campaign', np.float64(0.0206)), ('means', np.float64(0.0206)), ('son', np.float64(0.0206)), ('effort', np.float64(0.0206)), ('april', np.float64(0.0206)), ('social', np.float64(0.0205)), ('process', np.float64(0.0203)), ('george', np.float64(0.0203)), ('road', np.float64(0.0201)), ('strong', np.float64(0.02)), ('friends', np.float64(0.02)), ('hand', np.float64(0.0199)), ('announced', np.float64(0.0198)), ('needed', np.float64(0.0198)), ('san', np.float64(0.0198)), ('member', np.float64(0.0197)), ('age', np.float64(0.0197)), ('mark', np.float64(0.0197)), ('worked', np.float64(0.0197)), ('low', np.float64(0.0196)), ('war', np.float64(0.0195)), ('short', np.float64(0.0194)), ('future', np.float64(0.0194)), ('probably', np.float64(0.0193)), ('love', np.float64(0.0192)), ('running', np.float64(0.0191)), ('men', np.float64(0.019)), ('david', np.float64(0.0189)), ('michael', np.float64(0.0188)), ('series', np.float64(0.0188)), ('st', np.float64(0.0187)), ('plan', np.float64(0.0187)), ('pay', np.float64(0.0186)), ('important', np.float64(0.0185)), ('able', np.float64(0.0185)), ('17', np.float64(0.0185)), ('doing', np.float64(0.0183)), ('feel', np.float64(0.0182)), ('story', np.float64(0.0182)), ('100', np.float64(0.0182)), ('hit', np.float64(0.0182)), ('18', np.float64(0.0179)), ('federal', np.float64(0.0178)), ('working', np.float64(0.0177)), ('young', np.float64(0.0176)), ('25', np.float64(0.0174)), ('tuesday', np.float64(0.017)), ('money', np.float64(0.0169)), ('states', np.float64(0.0166)), ('man', np.float64(0.0165)), ('news', np.float64(0.0165)), ('based', np.float64(0.0164)), ('use', np.float64(0.0162)), ('season', np.float64(0.0162)), ('run', np.float64(0.0161)), ('15', np.float64(0.0157)), ('life', np.float64(0.0154)), ('ve', np.float64(0.0153)), ('public', np.float64(0.0153)), ('big', np.float64(0.0153)), ('20', np.float64(0.0152)), ('help', np.float64(0.0152)), ('called', np.float64(0.0151)), ('national', np.float64(0.0151)), ('million', np.float64(0.0151)), ('little', np.float64(0.015)), ('american', np.float64(0.0149)), ('30', np.float64(0.0148)), ('second', np.float64(0.0144)), ('right', np.float64(0.014)), ('say', np.float64(0.0138)), ('high', np.float64(0.0137)), ('make', np.float64(0.0124)), ('like', np.float64(0.0113)), ('time', np.float64(0.0102))]</tf_idf>
+<title_negative>0.0172</title_negative>
+<title_positive>0.9828</title_positive>
+<bert_paragraph_positive>0.7565750000000001</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.243425</bert_paragraph_negative>
+</processed>
+</RECORD>

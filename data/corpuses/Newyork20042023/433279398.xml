@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>433279398</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>National Briefing Washington: $364 Million For Military Ousters</Title>
+</TitleAtt>
+<NumericDate>2006-02-15</NumericDate>
+<StartDate>2006-02-15</StartDate>
+<EndDate>2006-02-15</EndDate>
+<AlphaDate>Feb 15, 2006</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Feb 15, 2006</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.20</StartPage>
+<Pagination>20</Pagination>
+<DocSection>A</DocSection>
+<ColumnNumber>5</ColumnNumber>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>986904911</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>17443161</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>752878-20060215</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1610</LexileScore>
+<Desk>National Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Files, John</NormalizedDisplayForm>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>John</FirstName>
+</FirstNameAtt>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>John Files</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Files</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>John Files (Nyt)</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Abstract>
+<Short WordCount="33">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A new report says the Pentagon's policy of discharging gay military personnel cost the Defense Department about $364 million over 10 years, more than what a government study concluded a year ago.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="134">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A new report says the Pentagon's policy of discharging gay military personnel cost the Defense Department about $364 million over 10 years, more than what a government study concluded a year ago. The new study, released by a commission organized by the Center for the Study of Sexual Minorities in the Military at the University of California, Santa Barbara, found that the government had underestimated the cost of recruiting and training military personnel to replace those who had been discharged. The panel also cited money lost in training personnel who were discharged for being gay. Last February, the Government Accountability Office, an investigative arm of Congress, reported that the military had spent about $200 million on training and recruiting such replacements.   JOHN FILES (NYT)&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Feb 15, 2006</AlphaDate>
+<StartDate>2006-02-15</StartDate>
+<EndDate>2006-02-15</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>17443161</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.10757575757575755</text_blob_sentiment><bert_sentiment>-0.9932035207748413</bert_sentiment></grades>
+<processed>
+<is_economic>0.8726</is_economic>
+<tf_idf>[('military', np.float64(0.3223)), ('personnel', np.float64(0.313)), ('discharged', np.float64(0.3028)), ('training', np.float64(0.2496)), ('study', np.float64(0.2485)), ('recruiting', np.float64(0.2452)), ('gay', np.float64(0.2176)), ('discharging', np.float64(0.1892)), ('government', np.float64(0.1846)), ('underestimated', np.float64(0.1559)), ('replacements', np.float64(0.1533)), ('364', np.float64(0.1528)), ('nyt', np.float64(0.1498)), ('cost', np.float64(0.147)), ('investigative', np.float64(0.132)), ('minorities', np.float64(0.1299)), ('files', np.float64(0.1225)), ('accountability', np.float64(0.1223)), ('pentagon', np.float64(0.1135)), ('million', np.float64(0.1107)), ('concluded', np.float64(0.1053)), ('organized', np.float64(0.103)), ('cited', np.float64(0.1017)), ('barbara', np.float64(0.1013)), ('arm', np.float64(0.1002)), ('replace', np.float64(0.0988)), ('panel', np.float64(0.0983)), ('sexual', np.float64(0.0979)), ('santa', np.float64(0.0927)), ('february', np.float64(0.0898)), ('commission', np.float64(0.0869)), ('congress', np.float64(0.0814)), ('200', np.float64(0.0782)), ('policy', np.float64(0.0774)), ('released', np.float64(0.0758)), ('defense', np.float64(0.0751)), ('spent', np.float64(0.0741)), ('new', np.float64(0.0731)), ('reported', np.float64(0.0726)), ('california', np.float64(0.0706)), ('report', np.float64(0.0667)), ('lost', np.float64(0.0656)), ('university', np.float64(0.0656)), ('department', np.float64(0.0652)), ('office', np.float64(0.0623)), ('money', np.float64(0.0622)), ('john', np.float64(0.06)), ('ago', np.float64(0.0584)), ('says', np.float64(0.058)), ('center', np.float64(0.0566)), ('10', np.float64(0.0464)), ('years', np.float64(0.041)), ('year', np.float64(0.0364))]</tf_idf>
+<roberta_title_negative>0.0004</roberta_title_negative>
+<roberta_title_neutral>0.9988</roberta_title_neutral>
+<roberta_title_positive>0.0008</roberta_title_positive>
+<bert_title_negative>0.9661</bert_title_negative>
+<bert_title_positive>0.0339</bert_title_positive>
+</processed>
+</RECORD>

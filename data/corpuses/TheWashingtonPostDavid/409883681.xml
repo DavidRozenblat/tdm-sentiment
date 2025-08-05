@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>409883681</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Oprah Winfrey Helps The FBI Get Its Man</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[FINAL Edition]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2005-10-08</NumericDate>
+<StartDate>2005-10-08</StartDate>
+<EndDate>2005-10-08</EndDate>
+<AlphaDate>Oct 8, 2005</AlphaDate>
+<PageCount>0</PageCount>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language>
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Oct 8, 2005</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>C.07</StartPage>
+<Pagination>C07</Pagination>
+<DocSection>STYLE</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>908455301</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>16397831</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2005100809096EC4</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1400</LexileScore>
+<DateLine>CHICAGO, Oct. 7</DateLine>
+<Terms>
+<CompanyTerm TermSource="Editorial">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Federal Bureau of Investigation--FBI</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>922120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+</Terms>
+<Abstract>
+<Short WordCount="112">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   A partnership between the FBI and [Oprah Winfrey]'s TV talk show to publicize the identities of fugitive child molesters has nabbed its first suspect, the FBI said Friday.&lt;/p&gt;              &lt;p&gt;   FBI agents picked up William Davis, 33, in Fargo, N.D., on a tip from an Oprah viewer. Davis faces felony charges of molesting three Indiana boys last year and failing to register as a sex offender. He was convicted of child molestation in 1992.&lt;/p&gt;              &lt;p&gt;   The identities of suspected child molesters are provided to the nationally syndicated "Oprah Winfrey Show" by the FBI under a new partnership, and this was believed the first time someone featured on the show was apprehended, [Paul McCabe] said.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Short>
+</Abstract>
+<LegacyDataMapping>
+<CreatedBy>OODS Backfile</CreatedBy>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="370">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   A partnership between the FBI and Oprah Winfrey's TV talk show to publicize the identities of fugitive child molesters has nabbed its first suspect, the FBI said Friday.&lt;/p&gt;              &lt;p&gt;   FBI agents picked up William Davis, 33, in Fargo, N.D., on a tip from an Oprah viewer. Davis faces felony charges of molesting three Indiana boys last year and failing to register as a sex offender. He was convicted of child molestation in 1992.&lt;/p&gt;              &lt;p&gt;   "The arrest was a direct result of someone viewing Tuesday's show where [Davis] was featured," FBI agent Paul McCabe told Reuters from Minneapolis.&lt;/p&gt;              &lt;p&gt;   "She called her friend, who went to the Oprah.com Web site and recognized him," he said.&lt;/p&gt;              &lt;p&gt;   The Fargo Forum newspaper quoted the tipster as saying she hoped to buy a house with the reward, which was advertised on the television show as $100,000.&lt;/p&gt;              &lt;p&gt;   The identities of suspected child molesters are provided to the nationally syndicated "Oprah Winfrey Show" by the FBI under a new partnership, and this was believed the first time someone featured on the show was apprehended, McCabe said.&lt;/p&gt;              &lt;p&gt;   Jean Rosenthal of Moorhead, Minn., recognized Davis as "Mark," a neighbor of her friend Karie Miller. She called Miller on Wednesday, and the 29-year-old Fargo deli worker discovered the man's identity Thursday morning on the Web site.&lt;/p&gt;              &lt;p&gt;   "His picture came up and I started shaking so bad, I couldn't hold my coffee," Miller told the Forum in Friday editions.&lt;/p&gt;              &lt;p&gt;   Davis, who was on the FBI's Most Wanted Fugitives list, was one of several fugitive sex offenders shown on Winfrey's program Tuesday. The reward, offered by her production company, applies to fugitives presented on the show and her Web site.&lt;/p&gt;              &lt;p&gt;   Miller was in shock after learning of her neighbor's background. She had helped care for him since he broke his leg in a car accident a few weeks ago.&lt;/p&gt;              &lt;p&gt;   "I've been cooking for him; I've been doing his laundry," she said.&lt;/p&gt;              &lt;p&gt;   In a news release Friday, Winfrey said, "This is a great day and we're just getting started."&lt;/p&gt;              &lt;p&gt;   She will present the reward during a live broadcast of her show on Tuesday.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 8, 2005</AlphaDate>
+<StartDate>2005-10-08</StartDate>
+<EndDate>2005-10-08</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>16397831</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.09405594405594409</text_blob_sentiment><bert_sentiment>-0.3388198705819937</bert_sentiment></grades>
+<processed>
+<is_economic>0.437</is_economic>
+<tf_idf>[('fbi', np.float64(0.323)), ('winfrey', np.float64(0.2927)), ('oprah', np.float64(0.2771)), ('davis', np.float64(0.2311)), ('fargo', np.float64(0.2076)), ('miller', np.float64(0.1937)), ('molesters', np.float64(0.1919)), ('reward', np.float64(0.1795)), ('fugitives', np.float64(0.1699)), ('mccabe', np.float64(0.1659)), ('fugitive', np.float64(0.1466)), ('identities', np.float64(0.1342)), ('web', np.float64(0.1292)), ('child', np.float64(0.1175)), ('forum', np.float64(0.1133)), ('site', np.float64(0.1113)), ('neighbor', np.float64(0.1097)), ('partnership', np.float64(0.1076)), ('recognized', np.float64(0.1066)), ('karie', np.float64(0.104)), ('featured', np.float64(0.1006)), ('moorhead', np.float64(0.0989)), ('tipster', np.float64(0.0988)), ('sex', np.float64(0.0933)), ('tuesday', np.float64(0.0912)), ('friday', np.float64(0.0895)), ('nabbed', np.float64(0.0843)), ('molesting', np.float64(0.0828)), ('molestation', np.float64(0.082)), ('publicize', np.float64(0.0809)), ('apprehended', np.float64(0.0797)), ('friend', np.float64(0.0785)), ('rosenthal', np.float64(0.0772)), ('said', np.float64(0.0761)), ('syndicated', np.float64(0.0741)), ('deli', np.float64(0.0741)), ('offender', np.float64(0.0722)), ('advertised', np.float64(0.0693)), ('viewer', np.float64(0.0683)), ('offenders', np.float64(0.0668)), ('started', np.float64(0.0664)), ('minn', np.float64(0.066)), ('editions', np.float64(0.0658)), ('laundry', np.float64(0.0645)), ('applies', np.float64(0.0633)), ('shaking', np.float64(0.0618)), ('minneapolis', np.float64(0.0606)), ('viewing', np.float64(0.0603)), ('felony', np.float64(0.0597)), ('quoted', np.float64(0.0588)), ('nationally', np.float64(0.0568)), ('told', np.float64(0.0559)), ('register', np.float64(0.0557)), ('ve', np.float64(0.0549)), ('tip', np.float64(0.0548)), ('cooking', np.float64(0.0546)), ('shock', np.float64(0.0544)), ('called', np.float64(0.0541)), ('suspected', np.float64(0.0529)), ('jean', np.float64(0.0526)), ('reuters', np.float64(0.0524)), ('indiana', np.float64(0.0523)), ('leg', np.float64(0.0521)), ('broadcast', np.float64(0.052)), ('failing', np.float64(0.0518)), ('coffee', np.float64(0.0512)), ('accident', np.float64(0.051)), ('identity', np.float64(0.051)), ('background', np.float64(0.0505)), ('1992', np.float64(0.0501)), ('suspect', np.float64(0.0501)), ('arrest', np.float64(0.0498)), ('convicted', np.float64(0.0498)), ('hoped', np.float64(0.0496)), ('worker', np.float64(0.0495)), ('agents', np.float64(0.0494)), ('presented', np.float64(0.0476)), ('discovered', np.float64(0.0475)), ('newspaper', np.float64(0.0472)), ('learning', np.float64(0.0466)), ('boys', np.float64(0.0465)), ('direct', np.float64(0.0464)), ('picked', np.float64(0.0462)), ('shown', np.float64(0.0455)), ('agent', np.float64(0.045)), ('believed', np.float64(0.0442)), ('picture', np.float64(0.044)), ('broke', np.float64(0.044)), ('faces', np.float64(0.0437)), ('33', np.float64(0.0431)), ('present', np.float64(0.0429)), ('production', np.float64(0.0422)), ('release', np.float64(0.0416)), ('provided', np.float64(0.0413)), ('william', np.float64(0.0407)), ('charges', np.float64(0.0407)), ('couldn', np.float64(0.0396)), ('television', np.float64(0.0395)), ('offered', np.float64(0.0394)), ('29', np.float64(0.0387)), ('buy', np.float64(0.0384)), ('result', np.float64(0.0384)), ('tv', np.float64(0.0377)), ('paul', np.float64(0.0376)), ('car', np.float64(0.0372)), ('hold', np.float64(0.0371)), ('list', np.float64(0.0371)), ('morning', np.float64(0.0367)), ('helped', np.float64(0.0361)), ('talk', np.float64(0.0358)), ('year', np.float64(0.0354)), ('bad', np.float64(0.0353)), ('mark', np.float64(0.0352)), ('care', np.float64(0.0348)), ('com', np.float64(0.0347)), ('live', np.float64(0.0338)), ('wanted', np.float64(0.0336)), ('saying', np.float64(0.0333)), ('program', np.float64(0.0329)), ('doing', np.float64(0.0327)), ('100', np.float64(0.0325)), ('weeks', np.float64(0.0322)), ('getting', np.float64(0.0316)), ('wednesday', np.float64(0.0311)), ('thursday', np.float64(0.0309)), ('went', np.float64(0.0305)), ('company', np.float64(0.03)), ('man', np.float64(0.0295)), ('news', np.float64(0.0294)), ('great', np.float64(0.0288)), ('came', np.float64(0.0285)), ('house', np.float64(0.0285)), ('ago', np.float64(0.0284)), ('000', np.float64(0.0253)), ('old', np.float64(0.025)), ('day', np.float64(0.0231)), ('just', np.float64(0.0199)), ('time', np.float64(0.0183)), ('new', np.float64(0.0178))]</tf_idf>
+<title_negative>0.015</title_negative>
+<title_positive>0.985</title_positive>
+<bert_paragraph_positive>0.3534846153846154</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.6465153846153845</bert_paragraph_negative>
+</processed>
+</RECORD>

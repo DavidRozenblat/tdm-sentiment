@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>433960340</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">Editorial</other>
+<mstar>Commentary</mstar>
+<mstar>Editorial</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Mr. Olmert's Belated Truths</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Editorial]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2008-10-04</NumericDate>
+<StartDate>2008-10-04</StartDate>
+<EndDate>2008-10-04</EndDate>
+<AlphaDate>Oct 4, 2008</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language>
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Oct 4, 2008</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.18</StartPage>
+<Pagination>A.18</Pagination>
+<DocSection>A</DocSection>
+<ColumnHeader>Editorial</ColumnHeader>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1567274901</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>40571711</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>016799-20081004</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1440</LexileScore>
+<Desk>Editorial Desk</Desk>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI" TermVocab="PQSUBJ">
+<GenSubjValue>Peace</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI" TermVocab="PQSUBJ">
+<GenSubjValue>Prime ministers</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA" TermVocab="PQSUBJ">
+<GenSubjValue>Editorials -- Olmert, Ehud</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="ABI" TermVocab="PQSUBJ">
+<GenSubjValue>Palestinian people</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" SubTermType="Country" TermSource="ABI" TermVocab="GEOG">
+<Geographic>Israel</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI" TermVocab="PERS">
+<Personal>Olmert, Ehud</Personal>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="51">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;[...] Mr. Olmert was never willing to take even the tactical steps needed to improve the lives of ordinary Palestinians and give them a real stake in peace: fully freezing the expansion of Jewish settlements and sufficiently reducing the roadblocks in the West Bank that are strangling the Palestinian economy.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<CreatedBy>OODS Backfile</CreatedBy>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="437">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Ehud Olmert, Israel's soon to be ex-prime minister, voiced some startling truths this week. He said that in exchange for peace, Israel should withdraw from "almost all" of the West Bank and share its capital city, Jerusalem, with the Palestinians. He also said that as part of a negotiated peace deal with Syria, Israel should be ready to give up the Golan Heights.&lt;/p&gt;              &lt;p&gt;  It's frustrating that Mr. Olmert, who is stepping down as prime minister after being accused of corruption, waited so long to say these things. And it is tragic that he did not do more to act on those beliefs when he had real power. &lt;/p&gt;              &lt;p&gt;  His statements in a farewell interview with the newspaper Yediot Ahronoth  were unlike anything any Israeli political leader had dared to say -- at least publicly -- before. He also dismissed as "megalomania" any suggestion that Israel should act by itself to destroy Iran's nuclear program. &lt;/p&gt;              &lt;p&gt;  There always has been far too wide a gap between Mr. Olmert's belief that Israel's security and demographic survival depends on a two-state solution and what he has been willing to do to get such a deal. The Palestinian president, Mahmoud Abbas, also has not shown nearly enough political courage. The result is that while the two men have been negotiating since the American-led Annapolis peace conference last fall, very little progress has been made. &lt;/p&gt;              &lt;p&gt;  There are, of course, many fraught issues to solve: drawing permanent boundaries that give Israel defensible frontiers and the Palestinians an economically viable state; finding a way for both states to claim Jerusalem as their capital; and compensating and resettling Palestinian refugees in the new Palestinian state.&lt;/p&gt;              &lt;p&gt;  But Mr. Olmert was never willing to take even the tactical steps needed to improve the lives of ordinary Palestinians and give them a real stake in peace: fully freezing the expansion of Jewish settlements and sufficiently reducing the roadblocks in the West Bank that are strangling the Palestinian economy. Although a discredited messenger, Mr. Olmert still deserves credit for putting the most sensitive issues on the table and identifying the only viable formula for a peace agreement. &lt;/p&gt;              &lt;p&gt;  Tzipi Livni, Mr. Olmert's designated successor, has been Israel's chief negotiator for the past year. It is unlikely that she will show any candor while she tries to put together a coalition government. But we hope that she takes Mr. Olmert's truths to heart. And we hope she is willing to do what is needed to build a lasting peace.&lt;/p&gt;              &lt;p&gt;  &lt;/p&gt;              &lt;p&gt;                                                                           &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 4, 2008</AlphaDate>
+<StartDate>2008-10-04</StartDate>
+<EndDate>2008-10-04</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>40571711</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>-0.019655483405483405</text_blob_sentiment><bert_sentiment>0.10229304007121495</bert_sentiment></grades>
+<processed>
+<is_economic>0.4544</is_economic>
+<tf_idf>[('olmert', np.float64(0.5427)), ('israel', np.float64(0.3224)), ('peace', np.float64(0.245)), ('palestinian', np.float64(0.2122)), ('mr', np.float64(0.1756)), ('palestinians', np.float64(0.1693)), ('truths', np.float64(0.1276)), ('willing', np.float64(0.1166)), ('jerusalem', np.float64(0.114)), ('viable', np.float64(0.1112)), ('ahronoth', np.float64(0.1007)), ('megalomania', np.float64(0.094)), ('tzipi', np.float64(0.0892)), ('yediot', np.float64(0.0888)), ('livni', np.float64(0.0887)), ('resettling', np.float64(0.0885)), ('defensible', np.float64(0.0794)), ('golan', np.float64(0.0793)), ('minister', np.float64(0.078)), ('strangling', np.float64(0.0777)), ('frontiers', np.float64(0.0771)), ('compensating', np.float64(0.076)), ('prime', np.float64(0.076)), ('bank', np.float64(0.0731)), ('discredited', np.float64(0.0706)), ('ehud', np.float64(0.0705)), ('capital', np.float64(0.0703)), ('roadblocks', np.float64(0.0689)), ('candor', np.float64(0.0681)), ('dared', np.float64(0.0667)), ('act', np.float64(0.0664)), ('abbas', np.float64(0.0659)), ('messenger', np.float64(0.0658)), ('state', np.float64(0.065)), ('issues', np.float64(0.0638)), ('negotiator', np.float64(0.0637)), ('hope', np.float64(0.0629)), ('mahmoud', np.float64(0.0621)), ('needed', np.float64(0.062)), ('sufficiently', np.float64(0.0619)), ('tactical', np.float64(0.0618)), ('fraught', np.float64(0.0605)), ('political', np.float64(0.0593)), ('farewell', np.float64(0.0592)), ('deal', np.float64(0.0591)), ('startling', np.float64(0.0591)), ('freezing', np.float64(0.0588)), ('settlements', np.float64(0.0588)), ('west', np.float64(0.058)), ('economically', np.float64(0.0578)), ('demographic', np.float64(0.0567)), ('real', np.float64(0.0556)), ('identifying', np.float64(0.0554)), ('beliefs', np.float64(0.0551)), ('withdraw', np.float64(0.0547)), ('refugees', np.float64(0.0544)), ('annapolis', np.float64(0.0543)), ('voiced', np.float64(0.0541)), ('negotiated', np.float64(0.054)), ('boundaries', np.float64(0.0539)), ('syria', np.float64(0.0531)), ('successor', np.float64(0.0531)), ('frustrating', np.float64(0.053)), ('courage', np.float64(0.0526)), ('tragic', np.float64(0.0526)), ('suggestion', np.float64(0.0526)), ('lasting', np.float64(0.0525)), ('destroy', np.float64(0.0519)), ('stepping', np.float64(0.0518)), ('survival', np.float64(0.0515)), ('deserves', np.float64(0.0511)), ('formula', np.float64(0.051)), ('negotiating', np.float64(0.0509)), ('depends', np.float64(0.05)), ('israeli', np.float64(0.0499)), ('designated', np.float64(0.0493)), ('waited', np.float64(0.0486)), ('belief', np.float64(0.0486)), ('solve', np.float64(0.0486)), ('iran', np.float64(0.0484)), ('ordinary', np.float64(0.0484)), ('corruption', np.float64(0.048)), ('reducing', np.float64(0.0476)), ('sensitive', np.float64(0.0468)), ('stake', np.float64(0.0467)), ('jewish', np.float64(0.0466)), ('nuclear', np.float64(0.0462)), ('dismissed', np.float64(0.046)), ('gap', np.float64(0.0459)), ('expansion', np.float64(0.0457)), ('permanent', np.float64(0.0451)), ('statements', np.float64(0.045)), ('heights', np.float64(0.0449)), ('coalition', np.float64(0.0448)), ('tries', np.float64(0.0446)), ('solution', np.float64(0.0441)), ('ex', np.float64(0.0433)), ('say', np.float64(0.0433)), ('drawing', np.float64(0.0426)), ('unlikely', np.float64(0.0425)), ('publicly', np.float64(0.0416)), ('newspaper', np.float64(0.0413)), ('unlike', np.float64(0.0411)), ('progress', np.float64(0.0403)), ('claim', np.float64(0.0399)), ('shown', np.float64(0.0398)), ('fully', np.float64(0.0395)), ('steps', np.float64(0.0394)), ('improve', np.float64(0.0391)), ('exchange', np.float64(0.0386)), ('finding', np.float64(0.0383)), ('table', np.float64(0.038)), ('agreement', np.float64(0.0379)), ('credit', np.float64(0.0375)), ('putting', np.float64(0.0374)), ('accused', np.float64(0.0374)), ('wide', np.float64(0.0363)), ('economy', np.float64(0.036)), ('build', np.float64(0.035)), ('ready', np.float64(0.0341)), ('heart', np.float64(0.0337)), ('result', np.float64(0.0336)), ('interview', np.float64(0.0336)), ('leader', np.float64(0.033)), ('share', np.float64(0.0328)), ('conference', np.float64(0.0322)), ('takes', np.float64(0.0317)), ('security', np.float64(0.0317)), ('lives', np.float64(0.0316)), ('soon', np.float64(0.0314)), ('fall', np.float64(0.0311)), ('course', np.float64(0.0301)), ('men', np.float64(0.0298)), ('power', np.float64(0.0291)), ('program', np.float64(0.0288)), ('led', np.float64(0.0281)), ('chief', np.float64(0.0281)), ('nearly', np.float64(0.0274)), ('said', np.float64(0.0266)), ('government', np.float64(0.0262)), ('states', np.float64(0.0261)), ('far', np.float64(0.0258)), ('past', np.float64(0.0257)), ('things', np.float64(0.0257)), ('city', np.float64(0.0236)), ('little', np.float64(0.0235)), ('american', np.float64(0.0234)), ('president', np.float64(0.0225)), ('week', np.float64(0.0212)), ('did', np.float64(0.021)), ('long', np.float64(0.0208)), ('way', np.float64(0.02)), ('new', np.float64(0.0155)), ('year', np.float64(0.0155))]</tf_idf>
+<roberta_title_negative>0.9985</roberta_title_negative>
+<roberta_title_neutral>0.0012</roberta_title_neutral>
+<roberta_title_positive>0.0002</roberta_title_positive>
+<bert_title_negative>0.0003</bert_title_negative>
+<bert_title_positive>0.9997</bert_title_positive>
+</processed>
+</RECORD>

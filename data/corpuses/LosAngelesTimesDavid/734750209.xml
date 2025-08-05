@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>734750209</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">General Information</other>
+<mstar>General Information</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>QUICK TAKES; Bieber's career rates film too</Title>
+</TitleAtt>
+<NumericDate>2010-08-04</NumericDate>
+<StartDate>2010-08-04</StartDate>
+<EndDate>2010-08-04</EndDate>
+<AlphaDate>Aug 4, 2010</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2010 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>D.3</StartPage>
+<Pagination>D.3</Pagination>
+<DocSection>Calendar; Part D; Entertainment Desk</DocSection>
+<DocEdition>HOME EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2099421591</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>53704701</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM100029172</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1470</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Anonymous</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Anonymous</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Anonymous</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="113">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A day after the announcement that he was writing a memoir, Paramount Pictures, MTV Films and Island Def Jam said Tuesday that 16-year-old singer Justin Bieber has signed on to appear in a feature film about his life and career.&lt;/p&gt;              &lt;p&gt;The yet-to-be-titled movie is set for release on "Valentine's weekend" of 2011, the companies said.&lt;/p&gt;              &lt;p&gt;It will offer a "VIP backstage pass" into Bieber's life and will feature 3-D footage from his "My World 2.0" concert tour.&lt;/p&gt;              &lt;p&gt;Bieber will also be producing the film, along with mentor Usher, manager Scooter Braun and Island Def Jam Music Group Chairman L.A. Reid.&lt;/p&gt;              &lt;p&gt;Credit: Associated Press&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Aug 4, 2010</AlphaDate>
+<StartDate>2010-08-04</StartDate>
+<EndDate>2010-08-04</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>53704701</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.42879117541472384</is_economic>
+<tf_idf>[('bieber', np.float64(0.5096)), ('def', np.float64(0.3221)), ('jam', np.float64(0.2542)), ('feature', np.float64(0.1952)), ('island', np.float64(0.1822)), ('film', np.float64(0.1664)), ('scooter', np.float64(0.1602)), ('vip', np.float64(0.1591)), ('braun', np.float64(0.1566)), ('usher', np.float64(0.1489)), ('backstage', np.float64(0.1455)), ('valentine', np.float64(0.138)), ('mtv', np.float64(0.1365)), ('paramount', np.float64(0.1312)), ('mentor', np.float64(0.1308)), ('reid', np.float64(0.1284)), ('memoir', np.float64(0.1283)), ('footage', np.float64(0.1207)), ('titled', np.float64(0.1192)), ('life', np.float64(0.1139)), ('producing', np.float64(0.1125)), ('justin', np.float64(0.1075)), ('concert', np.float64(0.1034)), ('announcement', np.float64(0.1027)), ('films', np.float64(0.1025)), ('singer', np.float64(0.101)), ('pictures', np.float64(0.1003)), ('2011', np.float64(0.0977)), ('writing', np.float64(0.0917)), ('tour', np.float64(0.0896)), ('appear', np.float64(0.088)), ('release', np.float64(0.0858)), ('movie', np.float64(0.0844)), ('signed', np.float64(0.0835)), ('pass', np.float64(0.0811)), ('chairman', np.float64(0.081)), ('weekend', np.float64(0.0802)), ('music', np.float64(0.0775)), ('offer', np.float64(0.077)), ('companies', np.float64(0.0758)), ('manager', np.float64(0.0748)), ('career', np.float64(0.072)), ('16', np.float64(0.0669)), ('said', np.float64(0.0627)), ('tuesday', np.float64(0.0627)), ('set', np.float64(0.0578)), ('group', np.float64(0.0577)), ('world', np.float64(0.0524)), ('old', np.float64(0.0515)), ('day', np.float64(0.0477)), ('year', np.float64(0.0365))]</tf_idf>
+</processed>
+</RECORD>

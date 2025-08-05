@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1690306948</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>De Blasio Is Poised to Add Officers</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Metropolitan Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2015-06-23</NumericDate>
+<StartDate>2015-06-23</StartDate>
+<EndDate>2015-06-23</EndDate>
+<AlphaDate>Jun 23, 2015</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Jun 23, 2015</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.17</StartPage>
+<Pagination>A.17</Pagination>
+<DocSection>A</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>3722673171</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>97059702</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>569704-20150623</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1710</LexileScore>
+<Desk>Metropolitan Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Grynbaum, Michael M</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Grynbaum</LastName>
+</LastNameAtt>
+<MiddleNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<MiddleName>M</MiddleName>
+</MiddleNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Michael</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Michael M. Grynbaum</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+<Contributor ContribOrder="2">
+<Author>
+<NormalizedDisplayForm>Flegenheimer, Matt</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Flegenheimer</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Matt</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Matt Flegenheimer</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Police Department-New York City NY</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>922120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Budgets</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Violent crime</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Community relations</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Police</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Hiring</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>New York City New York</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Personal>de Blasio, Bill</Personal>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Personal>Bratton, William</Personal>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="43">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Mayor Bill de Blasio, in a sharp shift from his initial objections, is poised to hire nearly 1,300 additional officers for the New York Police Department, a surprising addition in a $78.5 billion budget deal announced by city leaders on Monday night.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="843">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Mayor Bill de Blasio, in a sharp shift from his initial objections, is poised to hire nearly 1,300 additional officers for the New York Police Department, a surprising addition in a $78.5 billion budget deal announced by city leaders on Monday night.&lt;/p&gt;              &lt;p&gt;Increasing the size of the force had been a top priority of the City Council speaker, Melissa Mark-Viverito, and the notion was endorsed by Mr. de Blasio's police commissioner, William J. Bratton. But the move has been opposed by some advocates for criminal justice reform, and it is expected to add at least $100 million to the city's budget.&lt;/p&gt;              &lt;p&gt;The mayor, who has pledged to improve police-community relations, has long been hesitant to hire more officers, saying he felt comfortable with the city's near-record-low level of crime. But his administration has come under intense pressure in recent weeks after a notable increase in homicides and shootings compared with the same period last year.&lt;/p&gt;              &lt;p&gt;"There have been long conversations particularly over the last few weeks on what was the right thing to do," Mr. de Blasio said on Monday night at City Hall, with Ms. Mark-Viverito at his side. "We came to a plan that allows us to strengthen our police force while encouraging a deepening of reform, while finding key reforms on the fiscal front."&lt;/p&gt;              &lt;p&gt;The budget deal, which is expected to be approved by the full Council this week, represents a roughly 4.7 percent increase from the one approved last year. On the police issue, aides to the mayor said the plan included new and hard-fought limits on overtime pay for officers, to blunt the impact of added wages and benefits. About 300 of the new officers would form a new counterterrorism team to patrol areas of the city perceived as high risk, like Times Square.&lt;/p&gt;              &lt;p&gt;And in what Mr. de Blasio billed as a "pioneering" step in police reform, the city is expected to debut a new neighborhood-based policing model, in which patrol officers would be given about one-third of their day away from radio calls to develop closer relationships with residents of their precincts.&lt;/p&gt;              &lt;p&gt;Still, some Council members were taken aback on Monday that Mr. de Blasio went beyond the 1,000 new officers that Ms. Mark-Viverito had requested. And reform advocates, who had celebrated Mr. de Blasio's criticism of aggressive policing, were upset.&lt;/p&gt;              &lt;p&gt;"This deal to increase the N.Y.P.D. head count seems like politics at its worst," said Monifa Bandele, a leader of the advocacy group Communities United for Police Reform. "It's disappointing and perplexing that the city budget will increase the N.Y.P.D. head count when systemic problems with police accountability and culture, that allow New Yorkers to be abused and killed, have yet to be fixed."&lt;/p&gt;              &lt;p&gt;The Police Department currently has about 34,600 uniformed personnel, a number that will grow by roughly 890 new officers who are to graduate from the Police Academy on July 2. The force was significantly expanded in the early 1990s, under former Mayor David N. Dinkins. Since then, it has shrunk amid recessions and a sharp drop in urban crime.&lt;/p&gt;              &lt;p&gt;Mr. Bratton had allied himself with Ms. Mark-Viverito's request for 1,000 new officers, one of the few points of open contention between the Council speaker and the mayor, who are both Democrats. The proposed increase in officers had, in turn, been an item of apparent discord between Mr. de Blasio and his police commissioner, whom the mayor has presented as a close partner.&lt;/p&gt;              &lt;p&gt;As recently as June 5, Mr. de Blasio told a radio caller that raising the head count was unnecessary, arguing that officers had already been freed up because his administration had reduced the number of police stops and arrests for possessing small amounts of marijuana.&lt;/p&gt;              &lt;p&gt;"When you have a force that's effective in the way the N.Y.P.D. is now and getting better, I think that's a reason to stick with what we're doing," the mayor said during an interview on WNYC.&lt;/p&gt;              &lt;p&gt;Another reason, according to some skeptics, is a fiscal one: the long-term liabilities for the city budget, which would have to add millions for retirement and pension costs. "The problem is what happens when they've been there awhile and then, really acutely, when they start to retire," said Nicole Gelinas, a senior fellow at the Manhattan Institute, a right-leaning think tank.&lt;/p&gt;              &lt;p&gt;"We can only afford to add more cops now because Wall Street is booming and we're probably in the throes of another real estate bubble," Ms. Gelinas said. "What happens when that goes away?"&lt;/p&gt;              &lt;p&gt;The budget deal for the fiscal year beginning in July also included encouraging news for advocates of the city's libraries. The city is to add $39 million in funds to extend library hours and keep many branches open six days a week. Ms. Mark-Viverito also received funding for one of her signature initiatives, the creation of a $1.4 million bail fund that would help low-income defendants accused of low-level crimes.&lt;/p&gt;              &lt;p&gt;Credit: MICHAEL M. GRYNBAUM and MATT FLEGENHEIMER; J. David Goodman contributed reporting.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Jun 23, 2015</AlphaDate>
+<StartDate>2015-06-23</StartDate>
+<EndDate>2015-06-23</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>97059702</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.07245482031196315</text_blob_sentiment><bert_sentiment>-0.20298056602478026</bert_sentiment></grades>
+<processed>
+<is_economic>0.5004</is_economic>
+<tf_idf>[('blasio', np.float64(0.38)), ('viverito', np.float64(0.3324)), ('officers', np.float64(0.2674)), ('police', np.float64(0.2448)), ('mayor', np.float64(0.1868)), ('city', np.float64(0.1828)), ('mr', np.float64(0.1646)), ('budget', np.float64(0.1553)), ('reform', np.float64(0.1509)), ('gelinas', np.float64(0.1328)), ('ms', np.float64(0.1326)), ('increase', np.float64(0.1191)), ('mark', np.float64(0.1084)), ('bratton', np.float64(0.1067)), ('add', np.float64(0.1025)), ('council', np.float64(0.0999)), ('new', np.float64(0.0984)), ('fiscal', np.float64(0.0945)), ('advocates', np.float64(0.0936)), ('force', np.float64(0.0905)), ('count', np.float64(0.0866)), ('deal', np.float64(0.0832)), ('policing', np.float64(0.082)), ('bandele', np.float64(0.0769)), ('monifa', np.float64(0.0728)), ('patrol', np.float64(0.0709)), ('encouraging', np.float64(0.0683)), ('hire', np.float64(0.0651)), ('low', np.float64(0.0647)), ('speaker', np.float64(0.0628)), ('wnyc', np.float64(0.0625)), ('commissioner', np.float64(0.0617)), ('expected', np.float64(0.0609)), ('sharp', np.float64(0.0606)), ('head', np.float64(0.0599)), ('dinkins', np.float64(0.0593)), ('roughly', np.float64(0.0587)), ('monday', np.float64(0.0563)), ('said', np.float64(0.0562)), ('happens', np.float64(0.0553)), ('radio', np.float64(0.0543)), ('crime', np.float64(0.0535)), ('approved', np.float64(0.0531)), ('recessions', np.float64(0.0526)), ('perplexing', np.float64(0.0515)), ('throes', np.float64(0.0507)), ('300', np.float64(0.0505)), ('890', np.float64(0.0501)), ('million', np.float64(0.0497)), ('aback', np.float64(0.049)), ('discord', np.float64(0.0483)), ('acutely', np.float64(0.0483)), ('precincts', np.float64(0.0472)), ('awhile', np.float64(0.0467)), ('liabilities', np.float64(0.0467)), ('included', np.float64(0.0465)), ('shrunk', np.float64(0.0464)), ('uniformed', np.float64(0.0463)), ('reason', np.float64(0.0462)), ('possessing', np.float64(0.0459)), ('deepening', np.float64(0.0457)), ('july', np.float64(0.0455)), ('homicides', np.float64(0.0449)), ('counterterrorism', np.float64(0.0444)), ('skeptics', np.float64(0.0442)), ('hesitant', np.float64(0.0442)), ('administration', np.float64(0.0442)), ('level', np.float64(0.044)), ('pioneering', np.float64(0.044)), ('long', np.float64(0.044)), ('caller', np.float64(0.0438)), ('systemic', np.float64(0.0429)), ('libraries', np.float64(0.0413)), ('plan', np.float64(0.0411)), ('yorkers', np.float64(0.0407)), ('allied', np.float64(0.0405)), ('billed', np.float64(0.0399)), ('weeks', np.float64(0.0396)), ('booming', np.float64(0.0396)), ('cops', np.float64(0.0395)), ('objections', np.float64(0.0394)), ('department', np.float64(0.039)), ('freed', np.float64(0.0389)), ('blunt', np.float64(0.0386)), ('number', np.float64(0.0385)), ('branches', np.float64(0.0385)), ('marijuana', np.float64(0.0384)), ('abused', np.float64(0.0383)), ('unnecessary', np.float64(0.0382)), ('contention', np.float64(0.0381)), ('bubble', np.float64(0.0379)), ('strengthen', np.float64(0.0378)), ('melissa', np.float64(0.0377)), ('open', np.float64(0.0377)), ('pension', np.float64(0.0376)), ('shootings', np.float64(0.0376)), ('defendants', np.float64(0.0374)), ('perceived', np.float64(0.0371)), ('bail', np.float64(0.037)), ('wages', np.float64(0.0368)), ('poised', np.float64(0.0368)), ('accountability', np.float64(0.0366)), ('leaning', np.float64(0.0366)), ('initiatives', np.float64(0.0365)), ('arrests', np.float64(0.0365)), ('endorsed', np.float64(0.0364)), ('nicole', np.float64(0.0364)), ('notable', np.float64(0.0361)), ('reforms', np.float64(0.036)), ('retire', np.float64(0.0359)), ('disappointing', np.float64(0.0358)), ('away', np.float64(0.0357)), ('pledged', np.float64(0.0351)), ('item', np.float64(0.0349)), ('night', np.float64(0.0347)), ('fixed', np.float64(0.0344)), ('tank', np.float64(0.0343)), ('advocacy', np.float64(0.0343)), ('aides', np.float64(0.0338)), ('requested', np.float64(0.0337)), ('arguing', np.float64(0.0337)), ('overtime', np.float64(0.0335)), ('amounts', np.float64(0.0335)), ('stops', np.float64(0.0332)), ('notion', np.float64(0.0332)), ('creation', np.float64(0.0332)), ('signature', np.float64(0.0332)), ('conversations', np.float64(0.0331)), ('celebrated', np.float64(0.0329)), ('78', np.float64(0.0328)), ('relationships', np.float64(0.0327)), ('extend', np.float64(0.0327)), ('year', np.float64(0.0326)), ('surprising', np.float64(0.0324)), ('apparent', np.float64(0.0323)), ('priority', np.float64(0.0322)), ('significantly', np.float64(0.032)), ('expanded', np.float64(0.0317)), ('fought', np.float64(0.0317)), ('think', np.float64(0.0316)), ('crimes', np.float64(0.0313)), ('personnel', np.float64(0.0312)), ('stick', np.float64(0.0312)), ('000', np.float64(0.0311)), ('graduate', np.float64(0.0311)), ('intense', np.float64(0.0311)), ('right', np.float64(0.0309)), ('library', np.float64(0.0308)), ('academy', np.float64(0.0308)), ('retirement', np.float64(0.0308)), ('1990s', np.float64(0.0308)), ('afford', np.float64(0.0307)), ('upset', np.float64(0.0306)), ('limits', np.float64(0.0305)), ('reduced', np.float64(0.0304)), ('aggressive', np.float64(0.0302)), ('opposed', np.float64(0.0302)), ('week', np.float64(0.0298)), ('urban', np.float64(0.0297)), ('criticism', np.float64(0.0296)), ('represents', np.float64(0.0295)), ('initial', np.float64(0.0295)), ('increasing', np.float64(0.0294)), ('comfortable', np.float64(0.0293)), ('debut', np.float64(0.0293)), ('presented', np.float64(0.0293)), ('shift', np.float64(0.0292)), ('develop', np.float64(0.029)), ('manhattan', np.float64(0.029)), ('funding', np.float64(0.0289)), ('relations', np.float64(0.0289)), ('allows', np.float64(0.0287)), ('communities', np.float64(0.0286)), ('currently', np.float64(0.0284)), ('raising', np.float64(0.0284)), ('effective', np.float64(0.0284)), ('600', np.float64(0.0283)), ('grow', np.float64(0.0281)), ('request', np.float64(0.028)), ('39', np.float64(0.0279)), ('partner', np.float64(0.0278)), ('estate', np.float64(0.0278)), ('closer', np.float64(0.0278)), ('model', np.float64(0.0278)), ('amid', np.float64(0.0276)), ('funds', np.float64(0.0276)), ('improve', np.float64(0.0275)), ('benefits', np.float64(0.0274)), ('criminal', np.float64(0.0273)), ('fellow', np.float64(0.0271)), ('democrats', np.float64(0.027)), ('institute', np.float64(0.027)), ('drop', np.float64(0.027)), ('finding', np.float64(0.0269)), ('income', np.float64(0.0268)), ('worst', np.float64(0.0267)), ('34', np.float64(0.0266)), ('neighborhood', np.float64(0.0265)), ('proposed', np.float64(0.0265)), ('politics', np.float64(0.0265)), ('culture', np.float64(0.0264)), ('compared', np.float64(0.0263)), ('accused', np.float64(0.0263)), ('millions', np.float64(0.0262)), ('fund', np.float64(0.0262)), ('square', np.float64(0.0261)), ('impact', np.float64(0.0261)), ('size', np.float64(0.0258)), ('additional', np.float64(0.0254)), ('justice', np.float64(0.0253)), ('william', np.float64(0.0251)), ('areas', np.float64(0.0251)), ('addition', np.float64(0.025)), ('costs', np.float64(0.0249)), ('like', np.float64(0.0249)), ('wall', np.float64(0.0248)), ('pressure', np.float64(0.0247)), ('beginning', np.float64(0.0247)), ('form', np.float64(0.0246)), ('hall', np.float64(0.0246)), ('risk', np.float64(0.0244)), ('residents', np.float64(0.0241)), ('particularly', np.float64(0.0241)), ('period', np.float64(0.024)), ('allow', np.float64(0.0238)), ('killed', np.float64(0.0237)), ('step', np.float64(0.0237)), ('interview', np.float64(0.0236)), ('goes', np.float64(0.0233)), ('felt', np.float64(0.0233)), ('leader', np.float64(0.0232)), ('calls', np.float64(0.0232)), ('leaders', np.float64(0.0231)), ('term', np.float64(0.0229)), ('billion', np.float64(0.0228)), ('key', np.float64(0.0226)), ('problems', np.float64(0.0226)), ('june', np.float64(0.0221)), ('received', np.float64(0.022)), ('announced', np.float64(0.0218)), ('senior', np.float64(0.0218)), ('points', np.float64(0.0217)), ('problem', np.float64(0.0216)), ('issue', np.float64(0.0216)), ('turn', np.float64(0.0216)), ('probably', np.float64(0.0212)), ('taken', np.float64(0.0208)), ('david', np.float64(0.0208)), ('community', np.float64(0.0207)), ('hours', np.float64(0.0207)), ('saying', np.float64(0.0205)), ('pay', np.float64(0.0204)), ('street', np.float64(0.0203)), ('given', np.float64(0.0203)), ('record', np.float64(0.0203)), ('near', np.float64(0.0202)), ('recently', np.float64(0.0202)), ('doing', np.float64(0.0201)), ('100', np.float64(0.02)), ('close', np.float64(0.02)), ('added', np.float64(0.0199)), ('percent', np.float64(0.0198)), ('real', np.float64(0.0195)), ('getting', np.float64(0.0194)), ('thing', np.float64(0.0194)), ('nearly', np.float64(0.0193)), ('small', np.float64(0.0192)), ('members', np.float64(0.0191)), ('hard', np.float64(0.0188)), ('went', np.float64(0.0188)), ('united', np.float64(0.0188)), ('start', np.float64(0.0186)), ('recent', np.float64(0.0184)), ('news', np.float64(0.0181)), ('based', np.float64(0.018)), ('early', np.float64(0.0177)), ('came', np.float64(0.0176)), ('better', np.float64(0.0175)), ('team', np.float64(0.0175)), ('really', np.float64(0.0175)), ('group', np.float64(0.0172)), ('told', np.float64(0.0172)), ('days', np.float64(0.0171)), ('york', np.float64(0.017)), ('according', np.float64(0.017)), ('ve', np.float64(0.0169)), ('help', np.float64(0.0168)), ('come', np.float64(0.0165)), ('times', np.float64(0.0153)), ('high', np.float64(0.0151)), ('day', np.float64(0.0142)), ('way', np.float64(0.0141))]</tf_idf>
+<roberta_title_negative>0.0003</roberta_title_negative>
+<roberta_title_neutral>0.9985</roberta_title_neutral>
+<roberta_title_positive>0.0012</roberta_title_positive>
+<bert_title_negative>0.0012</bert_title_negative>
+<bert_title_positive>0.9988</bert_title_positive>
+</processed>
+</RECORD>

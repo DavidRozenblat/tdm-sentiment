@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>410323492</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Friday 4 Saturday 5 Sunday 6</Title>
+</TitleAtt>
+<NumericDate>2009-11-27</NumericDate>
+<StartDate>2009-11-27</StartDate>
+<EndDate>2009-11-27</EndDate>
+<AlphaDate>Nov 27, 2009</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright The Washington Post Company Nov 27, 2009</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>T.46</StartPage>
+<Pagination>T.46</Pagination>
+<DocSection>WEEKEND</DocSection>
+<DocEdition>FINAL</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>1911025521</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>49645811</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7653</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>TWP</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>WPXX2009112711C6CD3B</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1390</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Anonymous</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Anonymous</LastName>
+</LastNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Anonymous</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Abstract>
+<Medium WordCount="49">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Hear him perform at the State Theatre at 9 p.m. 220 N. Washington St., Falls Church. 703-237-0300. www.thestatetheatre.com. $26.The growth of hip-hop among young Palestinians is the focus of "Slingshot Hip Hop," a documentary screening at 3 p.m. at the D.C. Arts Center, 2438 18th St. NW Metro: &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="369">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Friday 4Saturday 5Sunday 6Monday 7Tuesday 8Wednesday 9Thursday 10CityDance performs "Crush," a program of dances inspired by Iraqi refugees, at 8 p.m. on Friday and Saturday. Music Center at Strathmore, 5301 Tuckerman Lane, North Bethesda (Metro: Grosvenor). 301-581-5100. www.strathmore.org. $20."Jumpin' Jack Flash," "Rock and Roll, Hoochie Koo," "It's All Over Now" . . . there simply isn't enough space to list all of Johnny Winter's hits. Hear him perform at the State Theatre at 9 p.m. 220 N. Washington St., Falls Church. 703-237-0300. www.thestatetheatre.com. $26.The growth of hip-hop among young Palestinians is the focus of "Slingshot Hip Hop," a documentary screening at 3 p.m. at the D.C. Arts Center, 2438 18th St. NW (Metro: Woodley Park). 202-462-7833. www.dcartscenter.org. $5.The Neo-Futurists return to Woolly Mammoth for "Too Much Light Makes the Baby Go Blind," right, a show featuring 30 plays in 60 minutes. Through Jan. 2. Woolly Mammoth Theatre, 641 D St. NW (Metro: Archives). 202-393-3939. www.woollymammoth.net. $30.The New York City Ballet celebrates its choreographers past and present, including George Balanchine, with Suzanne Farrell, right, with mixed-repertory programs through Dec. 13. Kennedy Center, Opera House, 2700 F St. NW (Metro: Foggy Bottom). 202-467-4600. www.kennedy-center.org. $29-$85. Friday 11Saturday 12Sunday 13Monday 14Tuesday 15Wednesday 16Thursday 17Missed comedian Paula Poundstone when she sold out the Birchmere? Well, this is your second chance: She performs at 6:30 and 9:30 p.m. at Rams Head Tavern, 33 West St., Annapolis. 410-268-4545. www.ramsheadtavern.com. $37.50.Watch boats adorned with colorful, twinkling lights float along the Annapolis waterfront as part of the Eastport Yacht Club Lights Parade, right. The parade runs from 6 to 8 p.m. 410-991-0410. www.eastportyc.org. Free.Camera crews followed four physicians from Doctors Without Borders;  the resulting documentary, "Living in Emergency," will be shown at seven area theaters at 7:30 p.m. www.livinginemergency.com.Virginia native Cameron Outlaw, right, brings his smooth jazz stylings back to town as his Outlaw Collective performs at 8 and 10 p.m. at Blues Alley, 1073 Wisconsin Ave. NW (rear). 202-337-4141. www.bluesalley.com. $22.Sloan Wainwright carries on her brother Loudon's bluegrass tradition. She performs at 7:30 p.m. with the Kennedys. BlackRock Center for the Arts, 12901 Town Commons Dr., Germantown. 301-528-2260. www.blackrockcenter.org. $22 in advance, $27 at the door.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>The Washington Post</Title>
+<MpubId>10327</MpubId>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<JournalCode>TWP</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>19740101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+<PublisherAddress>
+<Address1>1301 K Street, N.W.</Address1>
+<City>Washington</City>
+<Province>DC</Province>
+<ZipCode>20071</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.washingtonpost.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>The Washington Post</Title>
+<SortTitle>Washington Post The</SortTitle>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7653</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>01908286</Name>
+</Locator>
+</Locators>
+<CatalogNum>60208.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>The Washington Post</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19540317</EndIssueDate>
+<CatalogNum>60208.A0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post, Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19731231</EndIssueDate>
+<CatalogNum>60208.C0</CatalogNum>
+</History>
+<History>
+<Title>The Washington Post and Times Herald</Title>
+<Qualifier>Washington, D.C.</Qualifier>
+<EndIssueDate>19590827</EndIssueDate>
+<CatalogNum>60208.B0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<StartVolume>111</StartVolume>
+<StartIssue>58</StartIssue>
+<NumericStartDate>19880201</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Nov 27, 2009</AlphaDate>
+<StartDate>2009-11-27</StartDate>
+<EndDate>2009-11-27</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>49645811</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.03605307735742518</text_blob_sentiment><bert_sentiment>-0.9993477463722229</bert_sentiment></grades>
+<processed>
+<is_economic>0.0208</is_economic>
+<tf_idf>[('www', np.float64(0.3364)), ('performs', np.float64(0.1943)), ('org', np.float64(0.1927)), ('nw', np.float64(0.1798)), ('202', np.float64(0.1776)), ('metro', np.float64(0.1723)), ('st', np.float64(0.1347)), ('woolly', np.float64(0.1331)), ('strathmore', np.float64(0.1329)), ('30', np.float64(0.1278)), ('outlaw', np.float64(0.1151)), ('mammoth', np.float64(0.1145)), ('com', np.float64(0.1116)), ('center', np.float64(0.1105)), ('eastportyc', np.float64(0.1085)), ('0410', np.float64(0.1035)), ('annapolis', np.float64(0.0996)), ('410', np.float64(0.0987)), ('hop', np.float64(0.0932)), ('301', np.float64(0.0929)), ('parade', np.float64(0.0928)), ('hoochie', np.float64(0.0921)), ('dcartscenter', np.float64(0.0902)), ('ramsheadtavern', np.float64(0.0882)), ('bluesalley', np.float64(0.088)), ('poundstone', np.float64(0.0879)), ('documentary', np.float64(0.0876)), ('theatre', np.float64(0.0851)), ('hip', np.float64(0.0851)), ('thestatetheatre', np.float64(0.0843)), ('blackrockcenter', np.float64(0.084)), ('jumpin', np.float64(0.0837)), ('woollymammoth', np.float64(0.0831)), ('lights', np.float64(0.0821)), ('kennedy', np.float64(0.0812)), ('right', np.float64(0.0807)), ('eastport', np.float64(0.0802)), ('futurists', np.float64(0.0802)), ('7833', np.float64(0.0788)), ('slingshot', np.float64(0.0779)), ('12901', np.float64(0.0776)), ('2260', np.float64(0.0776)), ('2438', np.float64(0.0772)), ('loudon', np.float64(0.0763)), ('1073', np.float64(0.0753)), ('stylings', np.float64(0.0751)), ('koo', np.float64(0.075)), ('4141', np.float64(0.0737)), ('arts', np.float64(0.0736)), ('991', np.float64(0.0736)), ('4545', np.float64(0.0723)), ('0300', np.float64(0.0722)), ('kennedys', np.float64(0.0721)), ('grosvenor', np.float64(0.0719)), ('friday', np.float64(0.0719)), ('5301', np.float64(0.0715)), ('tuckerman', np.float64(0.071)), ('blackrock', np.float64(0.0707)), ('twinkling', np.float64(0.0707)), ('3939', np.float64(0.0702)), ('birchmere', np.float64(0.0693)), ('balanchine', np.float64(0.0687)), ('641', np.float64(0.0682)), ('woodley', np.float64(0.0672)), ('wainwright', np.float64(0.0668)), ('choreographers', np.float64(0.0656)), ('foggy', np.float64(0.0631)), ('528', np.float64(0.0628)), ('581', np.float64(0.0623)), ('462', np.float64(0.0617)), ('393', np.float64(0.0614)), ('5100', np.float64(0.0614)), ('commons', np.float64(0.0613)), ('bluegrass', np.float64(0.0605)), ('germantown', np.float64(0.0603)), ('town', np.float64(0.0599)), ('yacht', np.float64(0.0596)), ('sloan', np.float64(0.0595)), ('337', np.float64(0.0594)), ('farrell', np.float64(0.0594)), ('467', np.float64(0.0591)), ('268', np.float64(0.0589)), ('adorned', np.float64(0.0585)), ('4600', np.float64(0.0582)), ('2700', np.float64(0.0573)), ('22', np.float64(0.0569)), ('237', np.float64(0.0566)), ('float', np.float64(0.0561)), ('neo', np.float64(0.056)), ('tavern', np.float64(0.0558)), ('repertory', np.float64(0.0553)), ('waterfront', np.float64(0.0546)), ('dances', np.float64(0.0539)), ('suzanne', np.float64(0.0534)), ('crush', np.float64(0.0525)), ('palestinians', np.float64(0.0518)), ('archives', np.float64(0.0515)), ('ballet', np.float64(0.0513)), ('boats', np.float64(0.0512)), ('alley', np.float64(0.0512)), ('physicians', np.float64(0.0511)), ('paula', np.float64(0.0507)), ('comedian', np.float64(0.0503)), ('celebrates', np.float64(0.0502)), ('refugees', np.float64(0.0499)), ('rams', np.float64(0.0496)), ('220', np.float64(0.0489)), ('cameron', np.float64(0.0488)), ('flash', np.float64(0.0488)), ('crews', np.float64(0.0479)), ('screening', np.float64(0.0474)), ('blind', np.float64(0.0472)), ('bethesda', np.float64(0.0472)), ('703', np.float64(0.047)), ('rear', np.float64(0.0467)), ('colorful', np.float64(0.0466)), ('iraqi', np.float64(0.0464)), ('borders', np.float64(0.0461)), ('johnny', np.float64(0.0461)), ('resulting', np.float64(0.046)), ('smooth', np.float64(0.0458)), ('18th', np.float64(0.0455)), ('blues', np.float64(0.0455)), ('theaters', np.float64(0.0454)), ('opera', np.float64(0.0454)), ('collective', np.float64(0.0449)), ('jazz', np.float64(0.0429)), ('carries', np.float64(0.0421)), ('wisconsin', np.float64(0.0417)), ('tradition', np.float64(0.0407)), ('camera', np.float64(0.0404)), ('featuring', np.float64(0.0403)), ('85', np.float64(0.0398)), ('mixed', np.float64(0.0395)), ('roll', np.float64(0.0393)), ('lane', np.float64(0.0392)), ('perform', np.float64(0.0391)), ('doctors', np.float64(0.039)), ('falls', np.float64(0.0387)), ('brings', np.float64(0.0386)), ('inspired', np.float64(0.0382)), ('net', np.float64(0.0379)), ('advance', np.float64(0.0376)), ('native', np.float64(0.0369)), ('baby', np.float64(0.0368)), ('jack', np.float64(0.0367)), ('emergency', np.float64(0.0366)), ('shown', np.float64(0.0366)), ('hits', np.float64(0.0363)), ('dec', np.float64(0.0359)), ('winter', np.float64(0.0358)), ('37', np.float64(0.0357)), ('ave', np.float64(0.0353)), ('rock', np.float64(0.0348)), ('33', np.float64(0.0346)), ('present', np.float64(0.0345)), ('growth', np.float64(0.0343)), ('dr', np.float64(0.0341)), ('jan', np.float64(0.0337)), ('brother', np.float64(0.0333)), ('hear', np.float64(0.0329)), ('door', np.float64(0.0329)), ('sold', np.float64(0.0327)), ('virginia', np.float64(0.0327)), ('programs', np.float64(0.0324)), ('plays', np.float64(0.0323)), ('followed', np.float64(0.0323)), ('simply', np.float64(0.0319)), ('club', np.float64(0.0315)), ('church', np.float64(0.0313)), ('runs', np.float64(0.0313)), ('29', np.float64(0.0311)), ('watch', np.float64(0.031)), ('light', np.float64(0.031)), ('space', np.float64(0.031)), ('focus', np.float64(0.0309)), ('60', np.float64(0.0303)), ('music', np.float64(0.0302)), ('26', np.float64(0.0301)), ('27', np.float64(0.0301)), ('living', np.float64(0.0298)), ('list', np.float64(0.0298)), ('chance', np.float64(0.0292)), ('george', np.float64(0.0291)), ('isn', np.float64(0.0284)), ('return', np.float64(0.028)), ('minutes', np.float64(0.028)), ('north', np.float64(0.027)), ('west', np.float64(0.0266)), ('makes', np.float64(0.0265)), ('program', np.float64(0.0264)), ('park', np.float64(0.0264)), ('seven', np.float64(0.0262)), ('head', np.float64(0.0261)), ('saturday', np.float64(0.0256)), ('13', np.float64(0.0256)), ('50', np.float64(0.0255)), ('area', np.float64(0.0255)), ('young', np.float64(0.0253)), ('free', np.float64(0.0248)), ('past', np.float64(0.0236)), ('washington', np.float64(0.023)), ('house', np.float64(0.0229)), ('york', np.float64(0.0223)), ('20', np.float64(0.0219)), ('city', np.float64(0.0217)), ('second', np.float64(0.0207)), ('including', np.float64(0.0199)), ('state', np.float64(0.0199)), ('10', np.float64(0.0181)), ('new', np.float64(0.0143))]</tf_idf>
+<title_negative>0.0248</title_negative>
+<title_positive>0.9752</title_positive>
+<bert_paragraph_positive>0.0007</bert_paragraph_positive>
+<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
+<bert_paragraph_negative>0.9993</bert_paragraph_negative>
+</processed>
+</RECORD>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1625069727</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Sweden: Intruder Was a Foreign Vessel, Officials Say</Title>
+</TitleAtt>
+<SubTitleAtt>
+<SubTitle>[Foreign Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2014-11-15</NumericDate>
+<StartDate>2014-11-15</StartDate>
+<EndDate>2014-11-15</EndDate>
+<AlphaDate>Nov 15, 2014</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Nov 15, 2014</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.7</StartPage>
+<Pagination>A.7</Pagination>
+<DocSection>A</DocSection>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>3495981111</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>91764652</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<CODEN>NYTIAO</CODEN>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>NYT</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="NYT">
+<PublisherXID>349577-20141115</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1520</LexileScore>
+<Desk>Foreign Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Bilefsky, Dan</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Bilefsky</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Dan</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Dan Bilefsky</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>Associated Press</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>519110</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Battleships</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Submarines</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Armed forces</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Russia</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Sweden</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Personal>Lofven, Stefan</Personal>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="63">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The military said that a photograph taken by a civilian had shown an object moving at a speed of about one knot, as well as the "spray that arises when water is pushed out of scuttles at the top of a submarine."  [...]military sensors confirmed "echoes" in Swedish waters, and traces of an unspecified object had been found underwater, the statement said.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="627">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Swedish officials said Friday that a mysterious vessel detected in the waters off Stockholm last month was a foreign submarine that had violated its territorial waters.&lt;/p&gt;              &lt;p&gt;Although many in Sweden and elsewhere suspected that the submarine was Russian, the Swedish authorities said they were unable to determine the nationality of the intruder. Russia has denied conducting any recent operations in Swedish waters.&lt;/p&gt;              &lt;p&gt;"The Swedish armed forces now confirms that a submarine has violated Swedish territorial integrity," Sweden's top military officer, Gen. Sverker Goranson, said in a statement published on the armed forces' website, adding that results from an intelligence analysis conducted in October were unambiguous.&lt;/p&gt;              &lt;p&gt;"Swedish territory has been seriously and unacceptably violated by a foreign power," General Goranson said, adding, "The gravity of this is obvious."&lt;/p&gt;              &lt;p&gt;Sweden's prime minister, Stefan Lofven, was quoted by The Associated Press as saying that the intrusion into Swedish territorial waters was "totally unacceptable."&lt;/p&gt;              &lt;p&gt;The search for the unknown vessel prompted the biggest mobilization of its kind in Sweden since the end of the Cold War. Helicopters and ships, including minesweepers, scoured the Stockholm archipelago for a submarine. The search was called off after a week.&lt;/p&gt;              &lt;p&gt;The Swedish authorities said on Friday that the first suspicion that a foreign submarine had infiltrated Swedish waters came on Oct. 17, after several people reported spotting a suspicious object in the water near the archipelago. At the time, the Swedish news media reported that the military had detected a distress call from what was believed to be a Russian submarine that was possibly stranded underwater.&lt;/p&gt;              &lt;p&gt;Further fanning the mystery, news reports said Sweden had intercepted encrypted messages relayed between Swedish waters and around the Russian city of Kaliningrad, across the Baltic Sea from Sweden. Russia emphatically denied any involvement.&lt;/p&gt;              &lt;p&gt;While the Swedish authorities were careful not to name any country on Friday, the military nevertheless marshaled several pieces of evidence it said proved that the unknown vessel was a foreign submarine. The military said that a photograph taken by a civilian had shown an object moving at a speed of about one knot, as well as the "spray that arises when water is pushed out of scuttles at the top of a submarine."&lt;/p&gt;              &lt;p&gt;Moreover, military sensors confirmed "echoes" in Swedish waters, and traces of an unspecified object had been found underwater, the statement said. One Stockholm resident also reported observing "an underwater body with distinctive features."&lt;/p&gt;              &lt;p&gt;"Each of these observations has a high credibility," the statement said. "Together with other observations, and a confirmed submarine, they generate a pattern."&lt;/p&gt;              &lt;p&gt;Against the backdrop of heightened tensions between the West and Moscow, particularly over the crisis in Ukraine, the search for the vessel -- called "the hunt for reds in October" on social media -- captured the imagination of many Swedes, while stoking alarm in the region.&lt;/p&gt;              &lt;p&gt;The episode prompted numerous conspiracy theories in Sweden, a neutral country that is not a member of NATO and where memories of the Cold War are still vivid. Some had speculated that the Russians were testing a new minisubmarine. Others suggested that a Russian spy had been sent from Moscow, after a mysterious man was spotted wading near an unknown craft. Some news reports countered that the mystery man was, in fact, a fisherman.&lt;/p&gt;              &lt;p&gt;In Sweden, the episode brought back memories of another incident in 1981, when Sweden discovered that a Soviet submarine had run aground off Swedish shores at Karlskrona in the south of the country. The Swedish authorities held the vessel for 10 days, preventing the Soviets from rescuing the crew. Sweden suspected that nuclear weapons were on board.&lt;/p&gt;              &lt;p&gt;This is a more complete version of the story than the one that appeared in print. &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Nov 15, 2014</AlphaDate>
+<StartDate>2014-11-15</StartDate>
+<EndDate>2014-11-15</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>91764652</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.030058275058275068</text_blob_sentiment><bert_sentiment>-0.42847892045974734</bert_sentiment></grades>
+<processed>
+<is_economic>0.5323</is_economic>
+<tf_idf>[('swedish', np.float64(0.5274)), ('submarine', np.float64(0.3975)), ('sweden', np.float64(0.3347)), ('waters', np.float64(0.205)), ('vessel', np.float64(0.1787)), ('goranson', np.float64(0.1272)), ('stockholm', np.float64(0.123)), ('territorial', np.float64(0.1174)), ('underwater', np.float64(0.111)), ('russian', np.float64(0.1038)), ('military', np.float64(0.1025)), ('object', np.float64(0.0916)), ('violated', np.float64(0.0888)), ('archipelago', np.float64(0.0885)), ('authorities', np.float64(0.0866)), ('foreign', np.float64(0.0863)), ('unknown', np.float64(0.0854)), ('said', np.float64(0.0796)), ('karlskrona', np.float64(0.0766)), ('sverker', np.float64(0.0729)), ('observations', np.float64(0.0725)), ('minisubmarine', np.float64(0.0707)), ('detected', np.float64(0.07)), ('search', np.float64(0.0691)), ('minesweepers', np.float64(0.0647)), ('mysterious', np.float64(0.0634)), ('lofven', np.float64(0.0631)), ('moscow', np.float64(0.0614)), ('scuttles', np.float64(0.058)), ('mystery', np.float64(0.0577)), ('statement', np.float64(0.0574)), ('memories', np.float64(0.0561)), ('kaliningrad', np.float64(0.0557)), ('reported', np.float64(0.0554)), ('suspected', np.float64(0.0554)), ('episode', np.float64(0.0545)), ('prompted', np.float64(0.0537)), ('armed', np.float64(0.0514)), ('russia', np.float64(0.0508)), ('unacceptably', np.float64(0.0501)), ('confirmed', np.float64(0.0499)), ('denied', np.float64(0.0488)), ('marshaled', np.float64(0.0488)), ('aground', np.float64(0.048)), ('cold', np.float64(0.0472)), ('swedes', np.float64(0.047)), ('unambiguous', np.float64(0.0468)), ('friday', np.float64(0.0468)), ('news', np.float64(0.0462)), ('country', np.float64(0.0455)), ('forces', np.float64(0.0454)), ('encrypted', np.float64(0.0448)), ('october', np.float64(0.0446)), ('baltic', np.float64(0.0441)), ('infiltrated', np.float64(0.0433)), ('scoured', np.float64(0.0432)), ('stoking', np.float64(0.0432)), ('mobilization', np.float64(0.0431)), ('wading', np.float64(0.0431)), ('soviets', np.float64(0.0427)), ('intruder', np.float64(0.0427)), ('adding', np.float64(0.0426)), ('nationality', np.float64(0.0422)), ('rescuing', np.float64(0.042)), ('relayed', np.float64(0.0417)), ('reports', np.float64(0.0412)), ('emphatically', np.float64(0.0409)), ('intrusion', np.float64(0.0408)), ('spotting', np.float64(0.0407)), ('fanning', np.float64(0.0407)), ('stefan', np.float64(0.0405)), ('arises', np.float64(0.0404)), ('fisherman', np.float64(0.0402)), ('knot', np.float64(0.0401)), ('water', np.float64(0.0394)), ('sensors', np.float64(0.0383)), ('confirms', np.float64(0.0378)), ('observing', np.float64(0.0378)), ('media', np.float64(0.0378)), ('shores', np.float64(0.0369)), ('speculated', np.float64(0.0368)), ('war', np.float64(0.0365)), ('unspecified', np.float64(0.0364)), ('countered', np.float64(0.0356)), ('stranded', np.float64(0.0356)), ('intercepted', np.float64(0.0353)), ('echoes', np.float64(0.0352)), ('distress', np.float64(0.0351)), ('traces', np.float64(0.035)), ('gravity', np.float64(0.035)), ('near', np.float64(0.0344)), ('helicopters', np.float64(0.0344)), ('theories', np.float64(0.034)), ('unacceptable', np.float64(0.0336)), ('russians', np.float64(0.0336)), ('vivid', np.float64(0.0334)), ('reds', np.float64(0.0333)), ('heightened', np.float64(0.0333)), ('distinctive', np.float64(0.0333)), ('spray', np.float64(0.0332)), ('spy', np.float64(0.0329)), ('nato', np.float64(0.0327)), ('backdrop', np.float64(0.0327)), ('ships', np.float64(0.0326)), ('neutral', np.float64(0.0326)), ('suspicious', np.float64(0.0323)), ('preventing', np.float64(0.0318)), ('alarm', np.float64(0.0317)), ('imagination', np.float64(0.0317)), ('suspicion', np.float64(0.0314)), ('ukraine', np.float64(0.0313)), ('1981', np.float64(0.0312)), ('credibility', np.float64(0.0312)), ('conducting', np.float64(0.0309)), ('man', np.float64(0.0309)), ('spotted', np.float64(0.0308)), ('quoted', np.float64(0.0307)), ('integrity', np.float64(0.0304)), ('tensions', np.float64(0.0303)), ('soviet', np.float64(0.0302)), ('conspiracy', np.float64(0.0298)), ('craft', np.float64(0.0297)), ('civilian', np.float64(0.0296)), ('generate', np.float64(0.0293)), ('involvement', np.float64(0.0288)), ('hunt', np.float64(0.0286)), ('pattern', np.float64(0.0286)), ('careful', np.float64(0.0285)), ('called', np.float64(0.0283)), ('totally', np.float64(0.0278)), ('territory', np.float64(0.0278)), ('captured', np.float64(0.0277)), ('nuclear', np.float64(0.0276)), ('gen', np.float64(0.0275)), ('messages', np.float64(0.0273)), ('crew', np.float64(0.0263)), ('numerous', np.float64(0.0263)), ('website', np.float64(0.0263)), ('print', np.float64(0.0261)), ('obvious', np.float64(0.0261)), ('testing', np.float64(0.026)), ('proved', np.float64(0.0258)), ('analysis', np.float64(0.0256)), ('unable', np.float64(0.0256)), ('conducted', np.float64(0.0256)), ('intelligence', np.float64(0.0255)), ('weapons', np.float64(0.0254)), ('seriously', np.float64(0.0254)), ('possibly', np.float64(0.0253)), ('sea', np.float64(0.0252)), ('discovered', np.float64(0.0249)), ('incident', np.float64(0.0248)), ('resident', np.float64(0.0248)), ('pieces', np.float64(0.0247)), ('determine', np.float64(0.0244)), ('pushed', np.float64(0.0242)), ('shown', np.float64(0.0238)), ('speed', np.float64(0.0235)), ('features', np.float64(0.0234)), ('minister', np.float64(0.0233)), ('oct', np.float64(0.0233)), ('believed', np.float64(0.0231)), ('operations', np.float64(0.0228)), ('prime', np.float64(0.0227)), ('photograph', np.float64(0.0227)), ('suggested', np.float64(0.0227)), ('crisis', np.float64(0.0226)), ('published', np.float64(0.0224)), ('region', np.float64(0.0217)), ('version', np.float64(0.0214)), ('results', np.float64(0.0211)), ('evidence', np.float64(0.021)), ('complete', np.float64(0.0207)), ('officer', np.float64(0.0207)), ('body', np.float64(0.0205)), ('particularly', np.float64(0.0205)), ('moving', np.float64(0.0204)), ('associated', np.float64(0.0202)), ('biggest', np.float64(0.02)), ('sent', np.float64(0.0198)), ('brought', np.float64(0.0196)), ('social', np.float64(0.0192)), ('member', np.float64(0.0185)), ('board', np.float64(0.0184)), ('press', np.float64(0.0183)), ('fact', np.float64(0.0183)), ('appeared', np.float64(0.0183)), ('taken', np.float64(0.0177)), ('power', np.float64(0.0174)), ('saying', np.float64(0.0174)), ('south', np.float64(0.0173)), ('west', np.float64(0.0173)), ('17', np.float64(0.0173)), ('held', np.float64(0.0171)), ('story', np.float64(0.017)), ('general', np.float64(0.017)), ('kind', np.float64(0.017)), ('recent', np.float64(0.0157)), ('officials', np.float64(0.0151)), ('run', np.float64(0.0151)), ('came', np.float64(0.0149)), ('month', np.float64(0.0147)), ('days', np.float64(0.0145)), ('city', np.float64(0.0141)), ('end', np.float64(0.014)), ('including', np.float64(0.013)), ('high', np.float64(0.0128)), ('week', np.float64(0.0127)), ('10', np.float64(0.0118)), ('people', np.float64(0.0107)), ('time', np.float64(0.0096)), ('new', np.float64(0.0093))]</tf_idf>
+<roberta_title_negative>0.001</roberta_title_negative>
+<roberta_title_neutral>0.9986</roberta_title_neutral>
+<roberta_title_positive>0.0004</roberta_title_positive>
+<bert_title_negative>0.9927</bert_title_negative>
+<bert_title_positive>0.0073</bert_title_positive>
+</processed>
+</RECORD>

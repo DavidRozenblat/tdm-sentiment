@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>2300505438</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="EXT">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt HTMLContent="true">
+<Title>Republican 'Young Gun' Is Spoiling for Rematch</Title>
+</TitleAtt>
+<SubTitleAtt HTMLContent="true">
+<SubTitle>[National Desk]</SubTitle>
+</SubTitleAtt>
+<NumericDate>2019-10-04</NumericDate>
+<StartDate>2019-10-04</StartDate>
+<EndDate>2019-10-04</EndDate>
+<AlphaDate>Oct 4, 2019</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>Copyright New York Times Company Oct 4, 2019</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.17</StartPage>
+<Pagination>A.17</Pagination>
+<DocSection>A</DocSection>
+<ColumnNumber>0</ColumnNumber>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID>
+<PMID>7818</PMID>
+</ObjectID>
+<ObjectID>
+<PCID>PQ_7818_Oct42019______</PCID>
+</ObjectID>
+<ObjectID>
+<MSTARLegacyID>385514-20191004</MSTARLegacyID>
+</ObjectID>
+<ObjectID>
+<FullTextLinkID>https://www.nytimes.com/2019/10/03/us/young-kim-orange-county-congress.html</FullTextLinkID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1440</LexileScore>
+<Desk>National Desk</Desk>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Medina, Jennifer</NormalizedDisplayForm>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Jennifer</FirstName>
+</FirstNameAtt>
+<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<ContribPersonName>Jennifer Medina</ContribPersonName>
+</ContribPersonNameAtt>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Medina</LastName>
+</LastNameAtt>
+<OriginalFormAtt>
+<OriginalForm>Jennifer Medina</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Links>
+<OtherLink>
+<DocUrl>https://www.nytimes.com/2019/10/03/us/young-kim-orange-county-congress.html</DocUrl>
+</OtherLink>
+</Links>
+<Terms>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Republican Party</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>813940</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Congress</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>921120</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>University of Southern California</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>611310</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>National Republican Congressional Committee</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>813940</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<CompanyTerm TermSource="AutoCatNstein">
+<CompanyNameAtt TermVocab="CORP">
+<CompanyName>Public Policy Institute of California</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>813410</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Political parties</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Asian Americans</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Impeachment</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+<GenSubjValue>Women</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm TermSource="Editorial" TermVocab="PQSUBJ">
+<GenSubjValue>Mueller report</GenSubjValue>
+</GenSubjTerm>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Trump, Donald J</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Southern California</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Nixon, Richard M</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>McCarthy, Kevin</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Guam</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Bakersfield California</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Newsom, Gavin</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>California</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="PERS">
+<Personal>Royce, Ed</Personal>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Hawaii</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>Los Angeles California</Geographic>
+</Term>
+<Term TermSource="AutoCatNstein" TermVocab="GEOG">
+<Geographic>South Korea</Geographic>
+</Term>
+</Terms>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1375">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;She describes her life story as the "American dream" and would have been the first Korean-American woman in Congress. After losing a congressional race by a very thin margin, she is back for a rematch.&lt;/p&gt;&lt;p&gt;LA HABRA, Calif. -- When newly elected members of Congress traveled to Washington for freshman orientation in late November, Young Kim, 56, flew from her Orange County home to join them. Not all of the ballots in California's 39th Congressional District were counted, but Ms. Kim believed her narrow lead was solid. After shaking hands with other members at white-tablecloth lunches, she posed for her official portrait and a group photo of all new members. Ms. Kim was expected to be one of two Republican women of color and the first Korean-American woman in Congress.&lt;/p&gt;&lt;p&gt;Several days into her rookie duties in late November, with all of the 244,393 ballots in the district counted, the race was officially called: She lost the election. Gil Cisneros, her Democratic opponent and a former Republican who ran on preserving Obamacare, captured 51.6 percent of the vote. Ms. Kim would not be a member of the 116th Congress.&lt;/p&gt;&lt;p&gt;Less than six months later, Ms. Kim announced she would try again. Now, the rematch between Ms. Kim and Mr. Cisneros will test how blue the 2018 wave in Orange County really was. Republicans hope that after the narrow loss, they can reclaim the district and two others in the county, which encompasses the birthplace of Richard Nixon and has long been a bastion for conservatives.&lt;/p&gt;&lt;p&gt;"This district is not as far left as many political pundits in Washington would like people to believe," Ms. Kim said in an interview. Soon after the loss, Ms. Kim began discussing the possibility of running again with her husband, who is also active in local politics, and their four adult children. It was almost a given that she would try again. "Winners don't quit," she said. "That's why I got back in -- we know we can."&lt;/p&gt;&lt;p&gt;The rematch has a lot in common with the first time Ms. Kim and Mr. Cisneros ran against each other. But that time he was running as a moderate, almost highlighting the fact that he had been a registered Republican a decade ago, while she made every effort to distance herself from the Trump administration's immigration policies.&lt;/p&gt;&lt;p&gt;Now, impeachment proceedings are underway.&lt;/p&gt;&lt;p&gt;Last week, Mr. Cisneros, a Navy veteran, joined several of his colleagues with military backgrounds to call for an impeachment inquiry.&lt;/p&gt;&lt;p&gt;For months, Mr. Cisneros was one of the few Democratic freshman from California not to back an impeachment inquiry. It was rare, he said, that a constituent raised the impeachment issue with him, though he was confronted by one such voter during a recent town hall. And though national polls released late last week showed public support shifting, there is no clear indicator that an impeachment investigation would be widely embraced by voters here.&lt;/p&gt;&lt;p&gt;"I'm not worried about that right now," he said in a phone interview. "We thought it was the right thing to do. This wasn't the Mueller report, this is about national security and that will be clear to the American public."&lt;/p&gt;&lt;p&gt;Like many Republicans in competitive districts, Ms. Kim has so far stayed silent on the impeachment inquiry and declined an interview request.&lt;/p&gt;&lt;p&gt;President Trump is despised among much of California, but he remains popular among many Republicans in the state. And Ms. Kim has walked a careful tightrope: She frequently distanced herself from the president during the 2018 campaign, though she now says his record is "pretty good."&lt;/p&gt;&lt;p&gt;"A lot of people agree that the economy is the number one issue for them, and Donald Trump is doing the right thing in this area," Ms. Kim said, adding that many voters in the district tell her they support his efforts to dismantle many federal regulations. "That's a key issue for all voters and especially women," she said. "We're going to need to focus on the results."&lt;/p&gt;&lt;p&gt;The district straddles northern Orange County, eastern Los Angeles county and a slice of San Bernardino -- suburban areas that have become popular places for immigrants and their children to settle. Demographically, the area has transformed: The district is roughly evenly split between Asian-Americans, Latinos and whites. Like Ms. Kim, many were drawn to the area because of its schools and newer homes, and their influence is clear at strip malls all around the region: Ms. Kim's last campaign office was flanked by Taiwanese and Oaxacan restaurants.&lt;/p&gt;&lt;p&gt;"National issues here are local issues," said Mark Baldassare, the president of the Public Policy Institute of California, which released an extensive survey Wednesday showing that Mr. Trump's approval rating hovered around 30 percent in the region. "With demographic changes have come changes in attitude, not just about immigration but also on issues like the environment and taxes."&lt;/p&gt;&lt;p&gt;For years, Ms. Kim was a district aide to Congressman Ed Royce, and she decided to run almost immediately after his retirement announcement. But with an open primary, there was no guarantee that a Republican would advance to the general election and the national party initially stayed out of the race.&lt;/p&gt;&lt;p&gt;As Democrats rallied to capture several seats in Southern California during the midterms, many Republicans saw the brightest star in Ms. Kim, who routinely mentions her experiences as a Korean-American immigrant and mother of four. Ms. Kim's candidacy could be traced to Republican efforts after the 2012 election to recruit more candidates of color.&lt;/p&gt;&lt;p&gt;This time, top party officials have rallied behind Ms. Kim. The National Republican Congressional Committee listed her as a possible "Young Gun" -- a show of confidence in her ability to run a successful campaign -- which will lead to more donations and resources. And House Minority Leader Kevin McCarthy, who represents Bakersfield, praised her even before she decided to run again.&lt;/p&gt;&lt;p&gt;Ms. Kim believes that more Republicans will be motivated to vote with Mr. Trump at the top of the ticket, but at the same time, the political landscape does not seem more favorable to her.&lt;/p&gt;&lt;p&gt;There have been signs of a continued shift away from the Republican Party even since the midterms. As of last month, registered Democrats outnumbered registered Republicans in Orange County, though the opposite is true in the 39th Congressional district.&lt;/p&gt;&lt;p&gt;"They are being more realistic," she said of Republican leaders. "Mine is one of the top priority races for them," she added, pointing out that Democratic Gov. Gavin Newsom lost in the district, though he won in a landslide statewide. "That means if you have the right candidate, this is a Republican district."&lt;/p&gt;&lt;p&gt;Ms. Kim likes to refer to her life story as an American Dream: Her parents left Korea in the 1940s and raised their children in Guam and Hawaii. Ms. Kim, who was born in South Korea and spent her early years in Seoul, often served as their translator. After graduating from the University of Southern California, she opened a women's clothing manufacturing company with her husband, eventually leaving it to work for Mr. Royce, as a liaison to the Asian-American community in the district.&lt;/p&gt;&lt;p&gt;"For the longest time, the Republican Party has been the party of opportunities and I'm an example of that," she said.&lt;/p&gt;&lt;p&gt;Historically, the party has not cultivated people with her background for political opportunities, though that has changed dramatically in the last several years, particularly in Southern California, where several Asian-American women are running as Republicans in 2020.&lt;/p&gt;&lt;p&gt;But Ms. Kim bristles at the suggestion that she is being embraced simply because of a demographic imperative. "The party looks at us as qualified individuals who happen to be immigrant women. They are supporting me because they feel I'm the best candidate, not because of my background."&lt;/p&gt;&lt;p&gt;Still, Ms. Kim said, Republicans need to do much more to reach out to Asian and Latino voters. She pointed to chronic challenges with homelessness, for example, and the rising cost of living in California as problems created by Democrats. And if all anyone wants to talk about is impeachment, change the subject.&lt;/p&gt;&lt;p&gt;"Just tell them about the issues they care about," she said, "regardless of what they feel about our president as a person."&lt;/p&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="mstar_entity_type" value="Photograph" /&gt;&lt;param name="mstar_entity_inline" value="Y" /&gt;&lt;div class="Photograph_content"&gt;&lt;photo_caption&gt;"For the longest time, the Republican Party has been the party of opportunities and I'm an example of that," said Young Kim. (PHOTOGRAPH BY PHILIP CHEUNG FOR THE NEW YORK TIMES)&lt;/photo_caption&gt;&lt;/div&gt;&lt;/object&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>New York Times</Title>
+<MpubId>11561</MpubId>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<Edition>Late Edition (East Coast)</Edition>
+<JournalCode>NYT</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18570101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>New York Times Company</PublisherName>
+<PublisherAddress>
+<Address1>620 8th Ave</Address1>
+<City>NEW YORK</City>
+<Province>NY</Province>
+<ZipCode>10018</ZipCode>
+<Country>United States</Country>
+</PublisherAddress>
+<URL>http://www.nytimes.com/</URL>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>New York Times</Title>
+<SortTitle>New York Times</SortTitle>
+<Qualifier>New York, N.Y.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Edition>Late Edition (East Coast)</Edition>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7818</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>03624331</Name>
+</Locator>
+<Locator Type="CODEN">
+<Name>NYTIAO</Name>
+</Locator>
+</Locators>
+<CatalogNum>60001.00</CatalogNum>
+</CurrentTitle>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>1</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19800601</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 4, 2019</AlphaDate>
+<StartDate>2019-10-04</StartDate>
+<EndDate>2019-10-04</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7818_Oct42019______</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<grades><is_economic>1</is_economic><text_blob_sentiment>0.10698830095524309</text_blob_sentiment><bert_sentiment>0.16198211466824566</bert_sentiment></grades>
+<processed>
+<is_economic>0.1261</is_economic>
+<tf_idf>[('kim', np.float64(0.5149)), ('ms', np.float64(0.4051)), ('impeachment', np.float64(0.1996)), ('cisneros', np.float64(0.1944)), ('district', np.float64(0.1811)), ('republican', np.float64(0.1715)), ('republicans', np.float64(0.1513)), ('california', np.float64(0.1173)), ('party', np.float64(0.1077)), ('mr', np.float64(0.1)), ('trump', np.float64(0.0939)), ('american', np.float64(0.0912)), ('asian', np.float64(0.091)), ('rematch', np.float64(0.0898)), ('congressional', np.float64(0.081)), ('county', np.float64(0.0807)), ('orange', np.float64(0.0758)), ('voters', np.float64(0.0757)), ('inquiry', np.float64(0.0741)), ('korean', np.float64(0.0736)), ('women', np.float64(0.073)), ('said', np.float64(0.0715)), ('registered', np.float64(0.0703)), ('midterms', np.float64(0.0685)), ('39th', np.float64(0.0678)), ('congress', np.float64(0.0676)), ('royce', np.float64(0.0641)), ('issues', np.float64(0.0622)), ('national', np.float64(0.0577)), ('democrats', np.float64(0.0562)), ('demographic', np.float64(0.0553)), ('ballots', np.float64(0.0536)), ('democratic', np.float64(0.0522)), ('election', np.float64(0.0517)), ('counted', np.float64(0.0507)), ('race', np.float64(0.0505)), ('southern', np.float64(0.0503)), ('rallied', np.float64(0.0499)), ('embraced', np.float64(0.0497)), ('interview', np.float64(0.0491)), ('immigrant', np.float64(0.0488)), ('campaign', np.float64(0.0473)), ('korea', np.float64(0.047)), ('narrow', np.float64(0.0461)), ('immigration', np.float64(0.0457)), ('issue', np.float64(0.045)), ('baldassare', np.float64(0.0449)), ('clear', np.float64(0.0446)), ('freshman', np.float64(0.0443)), ('president', np.float64(0.0439)), ('running', np.float64(0.0437)), ('political', np.float64(0.0434)), ('background', np.float64(0.0431)), ('oaxacan', np.float64(0.0431)), ('right', np.float64(0.0429)), ('stayed', np.float64(0.0425)), ('2018', np.float64(0.0419)), ('children', np.float64(0.041)), ('116th', np.float64(0.0407)), ('area', np.float64(0.0407)), ('demographically', np.float64(0.0406)), ('opportunities', np.float64(0.0406)), ('dream', np.float64(0.0403)), ('members', np.float64(0.0398)), ('time', np.float64(0.0391)), ('candidate', np.float64(0.0383)), ('tablecloth', np.float64(0.0382)), ('late', np.float64(0.0374)), ('straddles', np.float64(0.0373)), ('bristles', np.float64(0.0372)), ('run', np.float64(0.0369)), ('guam', np.float64(0.0367)), ('tightrope', np.float64(0.0363)), ('despised', np.float64(0.0358)), ('november', np.float64(0.0355)), ('habra', np.float64(0.0355)), ('region', np.float64(0.0354)), ('ran', np.float64(0.0353)), ('constituent', np.float64(0.0352)), ('public', np.float64(0.0351)), ('like', np.float64(0.0345)), ('vote', np.float64(0.0341)), ('bastion', np.float64(0.0341)), ('raised', np.float64(0.0339)), ('changes', np.float64(0.0339)), ('taiwanese', np.float64(0.0338)), ('popular', np.float64(0.0336)), ('husband', np.float64(0.0335)), ('hovered', np.float64(0.0329)), ('distanced', np.float64(0.0328)), ('efforts', np.float64(0.0328)), ('encompasses', np.float64(0.0328)), ('decided', np.float64(0.0327)), ('393', np.float64(0.0326)), ('translator', np.float64(0.0325)), ('bakersfield', np.float64(0.0324)), ('newsom', np.float64(0.0321)), ('obamacare', np.float64(0.032)), ('example', np.float64(0.032)), ('outnumbered', np.float64(0.0319)), ('birthplace', np.float64(0.0319)), ('landslide', np.float64(0.0318)), ('color', np.float64(0.0318)), ('cultivated', np.float64(0.0318)), ('brightest', np.float64(0.0316)), ('lunches', np.float64(0.0315)), ('loss', np.float64(0.0315)), ('released', np.float64(0.0315)), ('dismantle', np.float64(0.0315)), ('homelessness', np.float64(0.0312)), ('liaison', np.float64(0.0311)), ('flanked', np.float64(0.031)), ('pundits', np.float64(0.031)), ('woman', np.float64(0.031)), ('244', np.float64(0.031)), ('tell', np.float64(0.0309)), ('reclaim', np.float64(0.0308)), ('imperative', np.float64(0.0306)), ('gil', np.float64(0.0304)), ('mentions', np.float64(0.0303)), ('seoul', np.float64(0.0302)), ('indicator', np.float64(0.0302)), ('malls', np.float64(0.0296)), ('traced', np.float64(0.0294)), ('mueller', np.float64(0.0294)), ('try', np.float64(0.0292)), ('evenly', np.float64(0.0291)), ('bernardino', np.float64(0.0291)), ('gavin', np.float64(0.0291)), ('orientation', np.float64(0.0289)), ('latinos', np.float64(0.0288)), ('highlighting', np.float64(0.0287)), ('backgrounds', np.float64(0.0283)), ('preserving', np.float64(0.0282)), ('1940s', np.float64(0.028)), ('graduating', np.float64(0.0279)), ('feel', np.float64(0.0279)), ('story', np.float64(0.0278)), ('support', np.float64(0.0278)), ('local', np.float64(0.0277)), ('lead', np.float64(0.0277)), ('candidacy', np.float64(0.0276)), ('newer', np.float64(0.0275)), ('percent', np.float64(0.0275)), ('lost', np.float64(0.0273)), ('whites', np.float64(0.027)), ('favorable', np.float64(0.027)), ('refer', np.float64(0.027)), ('nixon', np.float64(0.027)), ('thing', np.float64(0.027)), ('young', np.float64(0.0269)), ('congressman', np.float64(0.0268)), ('slice', np.float64(0.0268)), ('mccarthy', np.float64(0.0265)), ('shaking', np.float64(0.0264)), ('people', np.float64(0.0263)), ('chronic', np.float64(0.0262)), ('recruit', np.float64(0.0261)), ('confronted', np.float64(0.0261)), ('realistic', np.float64(0.026)), ('suggestion', np.float64(0.0257)), ('years', np.float64(0.0256)), ('months', np.float64(0.0254)), ('transformed', np.float64(0.0253)), ('proceedings', np.float64(0.0253)), ('underway', np.float64(0.0252)), ('posed', np.float64(0.0252)), ('far', np.float64(0.0252)), ('hawaii', np.float64(0.0252)), ('latino', np.float64(0.025)), ('routinely', np.float64(0.025)), ('voter', np.float64(0.025)), ('statewide', np.float64(0.025)), ('motivated', np.float64(0.0248)), ('shifting', np.float64(0.0248)), ('duties', np.float64(0.0247)), ('conservatives', np.float64(0.0246)), ('portrait', np.float64(0.0246)), ('washington', np.float64(0.0245)), ('historically', np.float64(0.0245)), ('discussing', np.float64(0.0244)), ('flew', np.float64(0.0243)), ('lot', np.float64(0.0241)), ('qualified', np.float64(0.0241)), ('dramatically', np.float64(0.0241)), ('margin', np.float64(0.024)), ('aide', np.float64(0.024)), ('guarantee', np.float64(0.024)), ('manufacturing', np.float64(0.024)), ('pointing', np.float64(0.0239)), ('silent', np.float64(0.0239)), ('need', np.float64(0.0238)), ('moderate', np.float64(0.0237)), ('districts', np.float64(0.0236)), ('describes', np.float64(0.0236)), ('quit', np.float64(0.0236)), ('life', np.float64(0.0236)), ('capture', np.float64(0.0236)), ('praised', np.float64(0.0235)), ('longest', np.float64(0.0234)), ('careful', np.float64(0.0232)), ('extensive', np.float64(0.0232)), ('strip', np.float64(0.0232)), ('attitude', np.float64(0.0232)), ('officially', np.float64(0.0231)), ('settle', np.float64(0.0231)), ('immigrants', np.float64(0.0229)), ('clothing', np.float64(0.0229)), ('experiences', np.float64(0.0228)), ('regulations', np.float64(0.0228)), ('polls', np.float64(0.0228)), ('winners', np.float64(0.0227)), ('captured', np.float64(0.0226)), ('landscape', np.float64(0.0226)), ('regardless', np.float64(0.0226)), ('races', np.float64(0.0226)), ('traveled', np.float64(0.0225)), ('rating', np.float64(0.0224)), ('priority', np.float64(0.0224)), ('opponent', np.float64(0.0223)), ('donations', np.float64(0.0223)), ('opposite', np.float64(0.0222)), ('navy', np.float64(0.0221)), ('left', np.float64(0.0221)), ('minority', np.float64(0.0219)), ('suburban', np.float64(0.0218)), ('ed', np.float64(0.0217)), ('newly', np.float64(0.0215)), ('listed', np.float64(0.0215)), ('likes', np.float64(0.0214)), ('wave', np.float64(0.0214)), ('retirement', np.float64(0.0214)), ('supporting', np.float64(0.0213)), ('frequently', np.float64(0.0213)), ('announcement', np.float64(0.0213)), ('split', np.float64(0.0213)), ('seats', np.float64(0.0212)), ('rookie', np.float64(0.0212)), ('competitive', np.float64(0.0212)), ('distance', np.float64(0.021)), ('restaurants', np.float64(0.021)), ('ticket', np.float64(0.021)), ('solid', np.float64(0.021)), ('colleagues', np.float64(0.021)), ('individuals', np.float64(0.021)), ('56', np.float64(0.0209)), ('survey', np.float64(0.0208)), ('adult', np.float64(0.0208)), ('week', np.float64(0.0207)), ('drawn', np.float64(0.0207)), ('pointed', np.float64(0.0207)), ('initially', np.float64(0.0207)), ('widely', np.float64(0.0206)), ('51', np.float64(0.0205)), ('represents', np.float64(0.0205)), ('gun', np.float64(0.0204)), ('taxes', np.float64(0.0204)), ('roughly', np.float64(0.0204)), ('shift', np.float64(0.0203)), ('possibility', np.float64(0.0203)), ('challenges', np.float64(0.0202)), ('2020', np.float64(0.0202)), ('approval', np.float64(0.0202)), ('active', np.float64(0.0202)), ('worried', np.float64(0.02)), ('advance', np.float64(0.02)), ('influence', np.float64(0.02)), ('policies', np.float64(0.0199)), ('environment', np.float64(0.0199)), ('elected', np.float64(0.0198)), ('calif', np.float64(0.0198)), ('candidates', np.float64(0.0198)), ('2012', np.float64(0.0197)), ('believes', np.float64(0.0197)), ('confidence', np.float64(0.0197)), ('agree', np.float64(0.0197)), ('primary', np.float64(0.0196)), ('eastern', np.float64(0.0195)), ('walked', np.float64(0.0195)), ('rare', np.float64(0.0195)), ('request', np.float64(0.0195)), ('rising', np.float64(0.0194)), ('resources', np.float64(0.0192)), ('join', np.float64(0.019)), ('donald', np.float64(0.019)), ('la', np.float64(0.0189)), ('signs', np.float64(0.0189)), ('believed', np.float64(0.0189)), ('veteran', np.float64(0.0188)), ('successful', np.float64(0.0188)), ('showing', np.float64(0.0188)), ('subject', np.float64(0.0187)), ('institute', np.float64(0.0187)), ('northern', np.float64(0.0186)), ('kevin', np.float64(0.0186)), ('gov', np.float64(0.0184)), ('politics', np.float64(0.0184)), ('joined', np.float64(0.0182)), ('places', np.float64(0.0181)), ('test', np.float64(0.0179)), ('losing', np.float64(0.0178)), ('immediately', np.float64(0.0178)), ('investigation', np.float64(0.0177)), ('eventually', np.float64(0.0177)), ('homes', np.float64(0.0177)), ('decade', np.float64(0.0177)), ('ability', np.float64(0.0177)), ('economy', np.float64(0.0176)), ('declined', np.float64(0.0175)), ('looks', np.float64(0.0174)), ('changed', np.float64(0.0174)), ('adding', np.float64(0.0174)), ('areas', np.float64(0.0174)), ('born', np.float64(0.0174)), ('leaving', np.float64(0.0174)), ('common', np.float64(0.0174)), ('continued', np.float64(0.0173)), ('results', np.float64(0.0172)), ('schools', np.float64(0.0172)), ('served', np.float64(0.0172)), ('happen', np.float64(0.0171)), ('hall', np.float64(0.0171)), ('just', np.float64(0.017)), ('blue', np.float64(0.017)), ('reach', np.float64(0.017)), ('hands', np.float64(0.017)), ('simply', np.float64(0.017)), ('opened', np.float64(0.0169)), ('phone', np.float64(0.0169)), ('created', np.float64(0.0168)), ('military', np.float64(0.0167)), ('particularly', np.float64(0.0167)), ('true', np.float64(0.0167)), ('remains', np.float64(0.0166)), ('committee', np.float64(0.0166)), ('showed', np.float64(0.0166)), ('pretty', np.float64(0.0165)), ('focus', np.float64(0.0165)), ('richard', np.float64(0.0164)), ('parents', np.float64(0.0163)), ('leader', np.float64(0.0161)), ('official', np.float64(0.0161)), ('policy', np.float64(0.0161)), ('leaders', np.float64(0.016)), ('americans', np.float64(0.0159)), ('town', np.float64(0.0159)), ('wants', np.float64(0.0159)), ('living', np.float64(0.0158)), ('means', np.float64(0.0158)), ('effort', np.float64(0.0157)), ('key', np.float64(0.0157)), ('problems', np.float64(0.0157)), ('saw', np.float64(0.0156)), ('security', np.float64(0.0155)), ('spent', np.float64(0.0154)), ('hope', np.float64(0.0154)), ('administration', np.float64(0.0153)), ('talk', np.float64(0.0153)), ('soon', np.float64(0.0153)), ('cost', np.float64(0.0153)), ('wasn', np.float64(0.0152)), ('star', np.float64(0.0152)), ('announced', np.float64(0.0151)), ('san', np.float64(0.0151)), ('mother', np.float64(0.0151)), ('member', np.float64(0.0151)), ('mark', np.float64(0.015)), ('fact', np.float64(0.015)), ('possible', np.float64(0.0149)), ('especially', np.float64(0.0149)), ('care', np.float64(0.0149)), ('believe', np.float64(0.0147)), ('person', np.float64(0.0146)), ('community', np.float64(0.0144)), ('thought', np.float64(0.0143)), ('south', np.float64(0.0142)), ('given', np.float64(0.0141)), ('expected', np.float64(0.0141)), ('record', np.float64(0.0141)), ('doing', np.float64(0.014)), ('general', np.float64(0.0139)), ('report', np.float64(0.0139)), ('added', np.float64(0.0138)), ('change', np.float64(0.0137)), ('angeles', np.float64(0.0137)), ('university', np.float64(0.0136)), ('began', np.float64(0.0136)), ('federal', np.float64(0.0136)), ('los', np.float64(0.0136)), ('number', np.float64(0.0134)), ('wednesday', np.float64(0.0133)), ('open', np.float64(0.0131)), ('white', np.float64(0.013)), ('office', np.float64(0.0129)), ('company', np.float64(0.0128)), ('recent', np.float64(0.0128)), ('does', np.float64(0.0126)), ('later', np.float64(0.0124)), ('away', np.float64(0.0124)), ('officials', np.float64(0.0123)), ('early', np.float64(0.0123)), ('house', np.float64(0.0122)), ('really', np.float64(0.0121)), ('ago', np.float64(0.0121)), ('says', np.float64(0.012)), ('month', np.float64(0.012)), ('got', np.float64(0.012)), ('won', np.float64(0.0119)), ('group', np.float64(0.0119)), ('days', np.float64(0.0118)), ('called', np.float64(0.0116)), ('come', np.float64(0.0115)), ('best', np.float64(0.0115)), ('30', np.float64(0.0113)), ('know', np.float64(0.011)), ('work', np.float64(0.0106)), ('state', np.float64(0.0106)), ('good', np.float64(0.0105)), ('going', np.float64(0.0104)), ('long', np.float64(0.0102)), ('photo', np.float64(0.0101)), ('home', np.float64(0.01)), ('don', np.float64(0.01)), ('new', np.float64(0.0076))]</tf_idf>
+<roberta_title_negative>0.001</roberta_title_negative>
+<roberta_title_neutral>0.9771</roberta_title_neutral>
+<roberta_title_positive>0.0219</roberta_title_positive>
+<bert_title_negative>0.986</bert_title_negative>
+<bert_title_positive>0.014</bert_title_positive>
+</processed>
+</RECORD>
