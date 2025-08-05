@@ -49,11 +49,11 @@ def load_models():
     """
     timings = {}
     t0 = time.time()
-    orig = sentiment_score.TextAnalysis(str(FINBERT_LOCAL_MODEL_PATH))
+    orig = sentiment_model.TextAnalysis(str(FINBERT_LOCAL_MODEL_PATH))
     timings['original'] = time.time() - t0
 
     t1 = time.time()
-    opt = sentiment_score.TextAnalysis(str(OPTIMIZED_FINBERT_MODEL_PATH))
+    opt = sentiment_model.TextAnalysis(str(OPTIMIZED_FINBERT_MODEL_PATH))
     #opt = optimized_model1.OptimizedFinBERT(
         #local_model_path=str(OPTIMIZED_FINBERT_MODEL_PATH),
         #original_model_path=str(FINBERT_LOCAL_MODEL_PATH),

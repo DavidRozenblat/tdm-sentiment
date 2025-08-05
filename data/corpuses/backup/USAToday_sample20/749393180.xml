@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>749393180</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Editorial(ECMS)">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>10 great places to zip into fall with a thrill</Title>
+      </TitleAtt>
+      <NumericDate>2010-09-03</NumericDate>
+      <StartDate>2010-09-03</StartDate>
+      <EndDate>2010-09-03</EndDate>
+      <AlphaDate>Sep 3, 2010</AlphaDate>
+      <Language>
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2010 USA Today. All Rights Reserved.)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>D.6</StartPage>
+         <Pagination>D.6</Pagination>
+         <DocSection>LIFE</DocSection>
+         <DocEdition>FINAL</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2128920661</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>54212771</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7631</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>USA</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>USAT37200785</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1280</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Bleiberg, Larry</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Bleiberg</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Larry</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Larry Bleiberg</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="NA" TermVocab="PQSUBJ" PndxHeader="true">
+            <GenSubjValue>Tourism -- United States--US</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" TermVocab="PQSUBJ" PndxHeader="true">
+            <GenSubjValue>Recreation</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" TermVocab="GEOG" PndxHeader="true">
+            <Geographic>United States--US</Geographic>
+         </Term>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="36">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Afterward, cool off with a dip in a spring-fed pond. 512-264-8880; cypressvalleycanopytours.com  Tamarack Canopy Zipline Tour  Tamarack, Idaho  Visitors fly over creeks, canyons and dense forest canopies on this course about 130 miles north of Boise.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+         <CreatedBy>OODS Backfile</CreatedBy>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="724" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;As leaves begin to change color, it's the perfect time to glide through treetops on a zipline. Part thrill ride, part eco-adventure, ziplines have taken off in the past decade, says Michael R. Smith, creator of ZiplineNirvana.com, a social media website for zipline lovers. Tours generally run from $80 to $180 for a three-hour experience. Smith says a good tour provides a sense of place, exploration and entertainment. He shares some of his favorites with Larry Bleiberg for USA TODAY.  &lt;/p&gt;              &lt;p&gt;Hocking Hills Canopy Tours  &lt;/p&gt;              &lt;p&gt;Rockbridge, Ohio  &lt;/p&gt;              &lt;p&gt;This course about an hour southeast of Columbus is one of the busiest in the country, attracting guests from across the region. The canopy tour includes 10 ziplines, passing over a cave, forest and river. The new Super Zip course lets you zoom along at speeds of up to 50 mph in a prone "superhero flying" position, Smith says. 740-385-9477;  hockinghillscanopytours.com  &lt;/p&gt;              &lt;p&gt;Kapalua Adventures  &lt;/p&gt;              &lt;p&gt;Lahaina, Hawaii  &lt;/p&gt;              &lt;p&gt;This Maui installation is one of the country's largest and most spectacular zipline tours, Smith says. Some segments stretch more than 2,000 feet. "This one has breathtaking panoramic views, and because the runs are so long, you have time to look out at the landscape and the ocean," he says. "It's a real thrill ride." 808-665-3753; kapaluaadventures.com  &lt;/p&gt;              &lt;p&gt;Captain Zipline  &lt;/p&gt;              &lt;p&gt;Salida, Colo.  &lt;/p&gt;              &lt;p&gt;Guests literally fling themselves off a canyon edge on this central Colorado tour. "When you step off those cliffs, it's a pretty awesome feeling," Smith says. "Your feet are still running while you're in the air." And the landing is just as spectacular. "You come into this ball-bearing-type gravel, and you put your feet down and come to a Fred Flintstone-type stop." 877-947-5463; captainzipline.com  &lt;/p&gt;              &lt;p&gt;Sonoma Canopy Tours  &lt;/p&gt;              &lt;p&gt;Occidental, Calif.  &lt;/p&gt;              &lt;p&gt;This new tour features the towering redwoods of Northern California, about 90 minutes north of San Francisco. "It's really hard to grasp the enormous size of these trees," Smith says -- until you're zipping through a forest of them. One segment has riders landing on a tree platform high above a creek and then climbing a spiral staircase leading to a sky bridge. 888-494-7868; sonomacanopytours.com  &lt;/p&gt;              &lt;p&gt;Berkshire East Canopy Tours  &lt;/p&gt;              &lt;p&gt;Charlemont, Mass.  &lt;/p&gt;              &lt;p&gt;New England's longest zipline "is breathtaking during the fall color change," Smith says. The attraction, about 70 miles east of Albany, N.Y., offers three options, ranging from a family-friendly introductory area to the heart-pounding Valley Jumping Tour course with the final run stretching a half-mile. 413-339-6617; berkshirezip.com  &lt;/p&gt;              &lt;p&gt;Cypress Valley Canopy Tours  &lt;/p&gt;              &lt;p&gt;Spicewood, Texas  &lt;/p&gt;              &lt;p&gt;One of the country's first zipline tours remains one of the best, Smith says. This family-run operation in the Texas Hill Country, about an hour northwest of Austin, takes visitors through giant old-growth cypress with views of streams and limestone walls. Afterward, cool off with a dip in a spring-fed pond. 512-264-8880;  cypressvalleycanopytours.com  &lt;/p&gt;              &lt;p&gt;Tamarack Canopy Zipline Tour  &lt;/p&gt;              &lt;p&gt;Tamarack, Idaho  &lt;/p&gt;              &lt;p&gt;Visitors fly over creeks, canyons and dense forest canopies on this course about 130 miles north of Boise. Smith says the tour offers a variety of experiences and environments over its 4,400-foot length. "Some of the ziplines are sheltered, and you feel encapsulated; others are out in the open and way above the trees," Smith says. 208-325-1000; tamarackzipline.com  &lt;/p&gt;              &lt;p&gt;Navitat Canopy Adventures  &lt;/p&gt;              &lt;p&gt;Barnardsville, N.C.  &lt;/p&gt;              &lt;p&gt;North Carolina is a leading state for ziplines, and Smith calls this tour near Asheville one of the best in the nation. The design pays as much attention to aesthetics and the environment as to providing a thrilling ride. "The sense of being in a remote location is overwhelming," he says. "There are big sky bridges and custom platforms built into really unique trees." 828-626-3700; navitat.com  &lt;/p&gt;              &lt;p&gt;TreeTops New River Gorge Canopy Tour  &lt;/p&gt;              &lt;p&gt;Lansing, W.Va.  &lt;/p&gt;              &lt;p&gt;This tour swoops through hardwood forests and old-growth hemlocks above a canyon adjacent to the New River Gorge, which is famous for its whitewater rafting. Smith suggests visiting in spring, when the wild rhododendrons are in bloom and the water is roaring. "It's one of the most beautiful places I've been," Smith says. 877-811-5321; newrivergorgecanopytour.com  &lt;/p&gt;              &lt;p&gt;ZipQuest  &lt;/p&gt;              &lt;p&gt;Fayetteville, N.C.  &lt;/p&gt;              &lt;p&gt;This new course centers on a 150-foot-wide waterfall previously closed to the public. Set amid pines, mountain laurel and bald cypress trees, the tour offers eight ziplines, three sky bridges and three spiral staircases, including one suspended from a cable. "It explores this cool waterfall and a hidden ecosystem," Smith says. 910-488-8787; zipquest.com&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;PHOTO, B/W, Hocking Hills Canopy Tours; PHOTO, B/W, Navitat Canopy Adventures; Caption: &lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>USA TODAY</Title>
+         <MpubId>15008</MpubId>
+         <SortTitle>USA TODAY</SortTitle>
+         <Qualifier>McLean, Va.</Qualifier>
+         <JournalCode>USA</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19820101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>7950 Jones Branch Drive</Address1>
+               <City>MacLean</City>
+               <Province>VA</Province>
+               <ZipCode>22108</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.usatoday.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7631</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>07347456</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60430.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>USA TODAY</Title>
+            <SortTitle>USA TODAY</SortTitle>
+            <Qualifier>McLean, Va.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7631</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>07347456</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60430.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19890102</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Sep 3, 2010</AlphaDate>
+         <StartDate>2010-09-03</StartDate>
+         <EndDate>2010-09-03</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>54212771</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

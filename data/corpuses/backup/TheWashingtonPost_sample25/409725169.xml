@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>409725169</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Area Attractions The Washin ...</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[FINAL Edition]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2004-12-10</NumericDate>
+      <StartDate>2004-12-10</StartDate>
+      <EndDate>2004-12-10</EndDate>
+      <AlphaDate>Dec 10, 2004</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright The Washington Post Company Dec 10, 2004</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>T.21</StartPage>
+         <Pagination>T21</Pagination>
+         <DocSection>WEEKEND</DocSection>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>759763831</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>14259541</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXX2004121007B53CEC</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1040</LexileScore>
+      <Abstract>
+         <Short WordCount="218">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   The Washington, D.C., Visitor Information Center is in the Ronald Reagan Building and International Trade Center, 1300 Pennsylvania Ave. NW (Metro: Federal Triangle, Metro Center). Call 202-328-4748 for more information.&lt;/p&gt;              &lt;p&gt;   2700 F St. NW. 202-416-8340 (TDD: 202-416- 8728). Free guided tours of the Kennedy Center are given in English Monday through Friday from 10 to 5 and Saturday and Sunday from 10 to 1. Reservations recommended for groups of 20 or more. Printed guides are available in English, Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Polish, Russian, Spanish and Turkish. Tours depart from the parking plaza on Level A, and feature the Hall of States and Hall of Nations, the center's theaters, and the dozens of paintings, sculptures, and other artworks given to the center by foreign countries.&lt;/p&gt;              &lt;p&gt;   U.S. CAPITOL  --  East Capitol Street and First Street NW (Metro: Capitol South, Union Station); 202-225-6827. Open daily from 9 a.m. to 3:30 p.m. (closed Sundays, open national holidays) March through August, 9 to 3:30. September through February. Guided tours offered Monday through Saturday from 9:30 to 3:30. Free timed tickets distributed at 8:15 each morning. The line forms at the southwest corner of the Capitol grounds at the corner of Independence Avenue and First Street SW, across from the Botanic Gardens.  (One ticket per person.) Free admission.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="752" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   Area Attractions&lt;/p&gt;              &lt;p&gt;   The Washington, D.C., Visitor Information Center is in the Ronald Reagan Building and International Trade Center, 1300 Pennsylvania Ave. NW (Metro: Federal Triangle, Metro Center). Call 202-328-4748 for more information.&lt;/p&gt;              &lt;p&gt;   The National Park Service can answer questions about many events, monuments and memorials in town. Call 202-619-7222.&lt;/p&gt;              &lt;p&gt;   Here are some of the major tourist attractions in the Washington area:&lt;/p&gt;              &lt;p&gt;   ARLINGTON NATIONAL CEMETERY  --  Memorial Drive, at southern end of Memorial Bridge (Metro: Arlington National Cemetery); 703-607- 8000. The cemetery is open to the public at 8 a.m. daily. From April 1 to Sept. 30 the cemetery closes at 7; the other six months it closes at 5. Major attractions include the Tomb of the Unknowns, where a formal changing of the guard ceremony is held every half- hour in the summer and on the hour the rest of the year.&lt;/p&gt;              &lt;p&gt;   BUREAU OF ENGRAVING &amp;amp; PRINTING  --  14th and C streets SW (Metro: Smithsonian); 202-874-3188. Guided tours of the currency printing facility available Monday through Friday 9 to 2 (and from 5 to 6:40 June through August). Admission is free. From September through February, no tickets are required.&lt;/p&gt;              &lt;p&gt;   FORD'S THEATRE AND LINCOLN MUSEUM -- 517 10th St. NW (Metro: Metro Center, Federal Triangle); 202-426-6924. Tours are free and self-guided. Open daily 9 to 5 except during rehearsals and performances. Ranger talks are offered at 15 minutes after the hour daily.&lt;/p&gt;              &lt;p&gt;   FRANKLIN DELANO ROOSEVELT MEMORIAL  --  In West Potomac Park, between the Lincoln and Jefferson memorials; 202-426-6841. Open 8 a.m. to midnight daily. Free admission. The seven-acre, outdoor memorial has four galleries, each representing a different term in FDR's presidency.&lt;/p&gt;              &lt;p&gt;   JEFFERSON MEMORIAL  --  South bank of the Tidal Basin (Metro: Smithsonian); 202-426-6821. Open daily 8 a.m. to midnight.&lt;/p&gt;              &lt;p&gt;   KENNEDY CENTER  --  2700 F St. NW. 202-416-8340 (TDD: 202-416- 8728). Free guided tours of the Kennedy Center are given in English Monday through Friday from 10 to 5 and Saturday and Sunday from 10 to 1. Reservations recommended for groups of 20 or more. Printed guides are available in English, Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Polish, Russian, Spanish and Turkish. Tours depart from the parking plaza on Level A, and feature the Hall of States and Hall of Nations, the center's theaters, and the dozens of paintings, sculptures, and other artworks given to the center by foreign countries.&lt;/p&gt;              &lt;p&gt;   KOREAN WAR VETERANS MEMORIAL  --  Constitution Avenue, between 21st and 22nd streets NW; 202-426-6841. Open 24 hours a day; staffed daily from 8 a.m. to 11:45 p.m.  This memorial consists of 19 larger- than-life statues of soldiers from each branch of the armed forces whose images are reflected in a 164-foot-long wall bearing this message inlaid in silver: Freedom Is Not Free.&lt;/p&gt;              &lt;p&gt;   LINCOLN MEMORIAL  --  23rd Street NW, between Constitution and Independence avenues; 202-426-6842. Open daily 8 a.m. to midnight. Free admission.&lt;/p&gt;              &lt;p&gt;   MOUNT VERNON  --  At the south end of the George Washington Parkway, eight miles south of Alexandria; 703-780-2000. The 45-acre estate, home and burial place of George Washington is open daily 9 to 4 November through February, 8 to 5 April through August, 9 to 5 in other months. Adults $11, seniors $10.50, ages 6 through 11 $5, under 6 free.&lt;/p&gt;              &lt;p&gt;   U.S. CAPITOL  --  East Capitol Street and First Street NW (Metro: Capitol South, Union Station); 202-225-6827. Open daily from 9 a.m. to 3:30 p.m. (closed Sundays, open national holidays) March through August, 9 to 3:30. September through February. Guided tours offered Monday through Saturday from 9:30 to 3:30. Free timed tickets distributed at 8:15 each morning. The line forms at the southwest corner of the Capitol grounds at the corner of Independence Avenue and First Street SW, across from the Botanic Gardens.  (One ticket per person.) Free admission.&lt;/p&gt;              &lt;p&gt;   VIETNAM VETERANS MEMORIAL  --  23rd Street and Constitution Avenue NW; 202-634-1568. Free admission. Open 24 hours, staffed from 8 a.m. to 11:45 p.m.&lt;/p&gt;              &lt;p&gt;   WASHINGTON NATIONAL CATHEDRAL  --  Wisconsin and Massachusetts avenues NW; 202-537-6200. Open fall, winter, and spring Mondays through Fridays 10-5:30; Saturdays 10-4:30; Sundays 8-6:30; May 1 through Labor Day, weekdays 10 to 8, weekends 10 to 4:30. Suggested donation $3 adults, $1 children. Guided tours also available; call for schedules.&lt;/p&gt;              &lt;p&gt;   WHITE HOUSE  --  1600 Pennsylvania Ave. NW. 202-208-1631 or 202- 456-7041 (TDD: 202-208-1636 or 202-456-2121). Tours of the White House can be arranged only through the office of a member of Congress.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Dec 10, 2004</AlphaDate>
+         <StartDate>2004-12-10</StartDate>
+         <EndDate>2004-12-10</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>14259541</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

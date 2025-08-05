@@ -26,7 +26,7 @@ import data_utils.tdm_parser as tdm_parser
 import data_utils.xml_to_df as xml_to_df
 import data_utils.properties_modifier as properties_modifier
 
-import sentiment.sentiment_model.sentiment_score as sentiment_score
+import sentiment.sentiment_model.sentiment_model as sentiment_model
 
 import topic_modeling.tf_idf_model.tf_idf_model as tf_idf_extractor
 import topic_modeling.tf_idf_model.tf_idf_trainer as tf_idf_trainer

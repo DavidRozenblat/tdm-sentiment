@@ -58,7 +58,7 @@ def load_models():
     
     # Load original FinBERT model
     start_time = time.time()
-    original_model = sentiment_score.TextAnalysis(ORIGINAL_MODEL_PATH)
+    original_model = sentiment_model.TextAnalysis(ORIGINAL_MODEL_PATH)
     original_load_time = time.time() - start_time
     print(f"Original model loaded in {original_load_time:.2f}s")
     

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1027415041</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Big success of 'Downton' has PBS looking up</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>Series moves past the Great War and into the '20s</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2012-07-23</NumericDate>
+      <StartDate>2012-07-23</StartDate>
+      <EndDate>2012-07-23</EndDate>
+      <AlphaDate>Jul 23, 2012</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2012 USA Today. All Rights Reserved.)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>D.3</StartPage>
+         <Pagination>D.3</Pagination>
+         <DocSection>LIFE</DocSection>
+         <DocEdition>FINAL</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2718402141</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>70717662</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7631</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>USA</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>USAT50163508</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1300</LexileScore>
+      <DateLine>LOS ANGELES</DateLine>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Bianco, Robert</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Bianco</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Robert</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Robert Bianco</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Actors</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="36">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The Dust Bowl, a two-part film airing on PBS Nov. 18-19, is an oral history of the devastating storms that struck the Southwest in the 1930s, spawned by a deadly combination of overfarming and drought.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="772" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;If PBS is hot these days, it's thanks to the glow of Downton Abbey.  &lt;/p&gt;              &lt;p&gt;Having won a slew of awards last year, including an Emmy for best miniseries, the show has been nominated for 16 Emmys in the series category this season, making it the most honored non-American series ever.  &lt;/p&gt;              &lt;p&gt;How do the actors feel about that? "Gobsmacked. I don't know whether it translates. Overwhelmed," says Hugh Bonneville, who plays Lord Crawley in the British period drama. "To have the show embraced so wholeheartedly from America is a great thrill for all of us."  &lt;/p&gt;              &lt;p&gt;Downton returns in January for a third season, and "this season," says creator Julian Fellowes, "in a way is about the recovery from (World War I).  That's really the kind of theme of the season. There are chills and thrills involved for all the characters."  &lt;/p&gt;              &lt;p&gt;And this year joining those characters is Cora's (Elizabeth McGovern) American mother -- played by Shirley MacLaine, who said sharing a news conference Saturday with the other actors was like "being back with my family. It was an extraordinary experience for me, also for stamina and work ethic. We were shooting outside in the wind and the rain with our formal gear on and nobody seemed to notice, so I quickly stepped in there and acted like I didn't notice, either."  &lt;/p&gt;              &lt;p&gt;With the war  behind it, Downton is entering the 1920s -- and that, says Fellowes, is where it will stay; he has no interest to push forward to the '30s. "The '20s are a far more nebulous time," he says. "I think it's rather fun to be journeying through that stuff. (I) think we'll be moving fairly slowly."  &lt;/p&gt;              &lt;p&gt;A new 'Neighborhood'  &lt;/p&gt;              &lt;p&gt;A new generation of neighbors is moving into Mister Rogers' Neighborhood. Premiering Sept. 3, Daniel Tiger's Neighborhood is an animated extension of the late Fred Rogers' beloved PBS classic.  &lt;/p&gt;              &lt;p&gt;The star in this new half-hour weekday series, aimed at children ages 2 to 4, is Daniel Tiger, 4-year-old son of Daniel Striped Tiger, Rogers' first puppet. He and his friends, all sons and daughters of Rogers' original puppet characters, go through adventures and sing songs meant to teach social skills.  &lt;/p&gt;              &lt;p&gt;Produced by The Fred Rogers Company, the show arrives with the cooperation and blessing of Rogers' widow, Joanne Rogers. "My feeling is he would really be pleased with this," she says.  &lt;/p&gt;              &lt;p&gt;Unlike the original show, which was built around Rogers as our guide to the Land of Make Believe, Daniel is led by an animated tiger cub. Joanne Rogers had originally hoped to find a human host to step into her husband's tennis shoes, but, she says, "there is nobody else. It really is as simple as that. Fred didn't spend much time worrying about that when he was alive, because he thought there were people who might be possibilities. But it just didn't work."  &lt;/p&gt;              &lt;p&gt;And while the old Neighborhood used puppets instead of cartoons, that's not because Fred Rogers was opposed to animation, she says. "He looked into it. It just never happened. He liked the idea of having some animation."  &lt;/p&gt;              &lt;p&gt;Burns visits 'Dust Bowl'  &lt;/p&gt;              &lt;p&gt;In his National Parks series, Ken Burns chronicled the natural beauty of our land. Next, the historian-director serves up a  slice of its potential for horror.  &lt;/p&gt;              &lt;p&gt;The Dust Bowl, a two-part film airing on PBS Nov. 18-19, is an oral history of the devastating storms that struck the Southwest in the 1930s, spawned by a deadly combination of overfarming and drought.  He calls it a "cautionary tale."  &lt;/p&gt;              &lt;p&gt;"This is the story of the greatest man-made ecological disaster in American history, a 10-year apocalypse," he says. And hitting at the height of the Great Depression, he says, left "an epic of human pain and suffering."  &lt;/p&gt;              &lt;p&gt;The storms swept across Oklahoma, Colorado and the rest of the Southwest, where there could be miles between houses. The residents had never seen anything like it. "The isolation was so complete,  you can imagine what it would be like for one of these mountain ranges coming toward you and not knowing what it was," he says. Many of them thought it was the end of the world. "I don't know how they survived.  (I) don't know how they understood what was going on."&lt;/p&gt;              &lt;p&gt;Credit: Robert Bianco, USA TODAY&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Photo By Frederick M. Brown, Getty Images; Extraordinary experienc Elizabeth McGovern, left, with Shirley MacLaine, who joins the Downton Abbey cast next season.; Caption: &lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>USA TODAY</Title>
+         <MpubId>15008</MpubId>
+         <SortTitle>USA TODAY</SortTitle>
+         <Qualifier>McLean, Va.</Qualifier>
+         <JournalCode>USA</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19820101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>7950 Jones Branch Drive</Address1>
+               <City>MacLean</City>
+               <Province>VA</Province>
+               <ZipCode>22108</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.usatoday.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7631</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>07347456</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60430.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>USA TODAY</Title>
+            <SortTitle>USA TODAY</SortTitle>
+            <Qualifier>McLean, Va.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7631</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>07347456</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60430.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19890102</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jul 23, 2012</AlphaDate>
+         <StartDate>2012-07-23</StartDate>
+         <EndDate>2012-07-23</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>70717662</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

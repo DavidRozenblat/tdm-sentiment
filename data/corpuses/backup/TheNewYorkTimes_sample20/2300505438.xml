@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>2300505438</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="EXT">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt HTMLContent="true">
+         <Title>Republican 'Young Gun' Is Spoiling for Rematch</Title>
+      </TitleAtt>
+      <SubTitleAtt HTMLContent="true">
+         <SubTitle>[National Desk]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2019-10-04</NumericDate>
+      <StartDate>2019-10-04</StartDate>
+      <EndDate>2019-10-04</EndDate>
+      <AlphaDate>Oct 4, 2019</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company Oct 4, 2019</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>A.17</StartPage>
+         <Pagination>A.17</Pagination>
+         <DocSection>A</DocSection>
+         <ColumnNumber>0</ColumnNumber>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID>
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <PCID>PQ_7818_Oct42019______</PCID>
+         </ObjectID>
+         <ObjectID>
+            <MSTARLegacyID>385514-20191004</MSTARLegacyID>
+         </ObjectID>
+         <ObjectID>
+            <FullTextLinkID>https://www.nytimes.com/2019/10/03/us/young-kim-orange-county-congress.html</FullTextLinkID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1440</LexileScore>
+      <Desk>National Desk</Desk>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Medina, Jennifer</NormalizedDisplayForm>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Jennifer</FirstName>
+               </FirstNameAtt>
+               <ContribPersonNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <ContribPersonName>Jennifer Medina</ContribPersonName>
+               </ContribPersonNameAtt>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Medina</LastName>
+               </LastNameAtt>
+               <OriginalFormAtt>
+                  <OriginalForm>Jennifer Medina</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Links>
+         <OtherLink>
+            <DocUrl>https://www.nytimes.com/2019/10/03/us/young-kim-orange-county-congress.html</DocUrl>
+         </OtherLink>
+      </Links>
+      <Terms>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>Republican Party</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813940</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>Congress</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>921120</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>University of Southern California</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>611310</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>National Republican Congressional Committee</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813940</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>Public Policy Institute of California</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813410</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Political parties</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Asian Americans</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Impeachment</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Women</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="Editorial" TermVocab="PQSUBJ">
+            <GenSubjValue>Mueller report</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Trump, Donald J</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>Southern California</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Nixon, Richard M</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>McCarthy, Kevin</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>Guam</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>Bakersfield California</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Newsom, Gavin</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>California</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Royce, Ed</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>Hawaii</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>Los Angeles California</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>South Korea</Geographic>
+         </Term>
+      </Terms>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="1375" HTMLContent="true">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;She describes her life story as the "American dream" and would have been the first Korean-American woman in Congress. After losing a congressional race by a very thin margin, she is back for a rematch.&lt;/p&gt;&lt;p&gt;LA HABRA, Calif. -- When newly elected members of Congress traveled to Washington for freshman orientation in late November, Young Kim, 56, flew from her Orange County home to join them. Not all of the ballots in California's 39th Congressional District were counted, but Ms. Kim believed her narrow lead was solid. After shaking hands with other members at white-tablecloth lunches, she posed for her official portrait and a group photo of all new members. Ms. Kim was expected to be one of two Republican women of color and the first Korean-American woman in Congress.&lt;/p&gt;&lt;p&gt;Several days into her rookie duties in late November, with all of the 244,393 ballots in the district counted, the race was officially called: She lost the election. Gil Cisneros, her Democratic opponent and a former Republican who ran on preserving Obamacare, captured 51.6 percent of the vote. Ms. Kim would not be a member of the 116th Congress.&lt;/p&gt;&lt;p&gt;Less than six months later, Ms. Kim announced she would try again. Now, the rematch between Ms. Kim and Mr. Cisneros will test how blue the 2018 wave in Orange County really was. Republicans hope that after the narrow loss, they can reclaim the district and two others in the county, which encompasses the birthplace of Richard Nixon and has long been a bastion for conservatives.&lt;/p&gt;&lt;p&gt;"This district is not as far left as many political pundits in Washington would like people to believe," Ms. Kim said in an interview. Soon after the loss, Ms. Kim began discussing the possibility of running again with her husband, who is also active in local politics, and their four adult children. It was almost a given that she would try again. "Winners don't quit," she said. "That's why I got back in -- we know we can."&lt;/p&gt;&lt;p&gt;The rematch has a lot in common with the first time Ms. Kim and Mr. Cisneros ran against each other. But that time he was running as a moderate, almost highlighting the fact that he had been a registered Republican a decade ago, while she made every effort to distance herself from the Trump administration's immigration policies.&lt;/p&gt;&lt;p&gt;Now, impeachment proceedings are underway.&lt;/p&gt;&lt;p&gt;Last week, Mr. Cisneros, a Navy veteran, joined several of his colleagues with military backgrounds to call for an impeachment inquiry.&lt;/p&gt;&lt;p&gt;For months, Mr. Cisneros was one of the few Democratic freshman from California not to back an impeachment inquiry. It was rare, he said, that a constituent raised the impeachment issue with him, though he was confronted by one such voter during a recent town hall. And though national polls released late last week showed public support shifting, there is no clear indicator that an impeachment investigation would be widely embraced by voters here.&lt;/p&gt;&lt;p&gt;"I'm not worried about that right now," he said in a phone interview. "We thought it was the right thing to do. This wasn't the Mueller report, this is about national security and that will be clear to the American public."&lt;/p&gt;&lt;p&gt;Like many Republicans in competitive districts, Ms. Kim has so far stayed silent on the impeachment inquiry and declined an interview request.&lt;/p&gt;&lt;p&gt;President Trump is despised among much of California, but he remains popular among many Republicans in the state. And Ms. Kim has walked a careful tightrope: She frequently distanced herself from the president during the 2018 campaign, though she now says his record is "pretty good."&lt;/p&gt;&lt;p&gt;"A lot of people agree that the economy is the number one issue for them, and Donald Trump is doing the right thing in this area," Ms. Kim said, adding that many voters in the district tell her they support his efforts to dismantle many federal regulations. "That's a key issue for all voters and especially women," she said. "We're going to need to focus on the results."&lt;/p&gt;&lt;p&gt;The district straddles northern Orange County, eastern Los Angeles county and a slice of San Bernardino -- suburban areas that have become popular places for immigrants and their children to settle. Demographically, the area has transformed: The district is roughly evenly split between Asian-Americans, Latinos and whites. Like Ms. Kim, many were drawn to the area because of its schools and newer homes, and their influence is clear at strip malls all around the region: Ms. Kim's last campaign office was flanked by Taiwanese and Oaxacan restaurants.&lt;/p&gt;&lt;p&gt;"National issues here are local issues," said Mark Baldassare, the president of the Public Policy Institute of California, which released an extensive survey Wednesday showing that Mr. Trump's approval rating hovered around 30 percent in the region. "With demographic changes have come changes in attitude, not just about immigration but also on issues like the environment and taxes."&lt;/p&gt;&lt;p&gt;For years, Ms. Kim was a district aide to Congressman Ed Royce, and she decided to run almost immediately after his retirement announcement. But with an open primary, there was no guarantee that a Republican would advance to the general election and the national party initially stayed out of the race.&lt;/p&gt;&lt;p&gt;As Democrats rallied to capture several seats in Southern California during the midterms, many Republicans saw the brightest star in Ms. Kim, who routinely mentions her experiences as a Korean-American immigrant and mother of four. Ms. Kim's candidacy could be traced to Republican efforts after the 2012 election to recruit more candidates of color.&lt;/p&gt;&lt;p&gt;This time, top party officials have rallied behind Ms. Kim. The National Republican Congressional Committee listed her as a possible "Young Gun" -- a show of confidence in her ability to run a successful campaign -- which will lead to more donations and resources. And House Minority Leader Kevin McCarthy, who represents Bakersfield, praised her even before she decided to run again.&lt;/p&gt;&lt;p&gt;Ms. Kim believes that more Republicans will be motivated to vote with Mr. Trump at the top of the ticket, but at the same time, the political landscape does not seem more favorable to her.&lt;/p&gt;&lt;p&gt;There have been signs of a continued shift away from the Republican Party even since the midterms. As of last month, registered Democrats outnumbered registered Republicans in Orange County, though the opposite is true in the 39th Congressional district.&lt;/p&gt;&lt;p&gt;"They are being more realistic," she said of Republican leaders. "Mine is one of the top priority races for them," she added, pointing out that Democratic Gov. Gavin Newsom lost in the district, though he won in a landslide statewide. "That means if you have the right candidate, this is a Republican district."&lt;/p&gt;&lt;p&gt;Ms. Kim likes to refer to her life story as an American Dream: Her parents left Korea in the 1940s and raised their children in Guam and Hawaii. Ms. Kim, who was born in South Korea and spent her early years in Seoul, often served as their translator. After graduating from the University of Southern California, she opened a women's clothing manufacturing company with her husband, eventually leaving it to work for Mr. Royce, as a liaison to the Asian-American community in the district.&lt;/p&gt;&lt;p&gt;"For the longest time, the Republican Party has been the party of opportunities and I'm an example of that," she said.&lt;/p&gt;&lt;p&gt;Historically, the party has not cultivated people with her background for political opportunities, though that has changed dramatically in the last several years, particularly in Southern California, where several Asian-American women are running as Republicans in 2020.&lt;/p&gt;&lt;p&gt;But Ms. Kim bristles at the suggestion that she is being embraced simply because of a demographic imperative. "The party looks at us as qualified individuals who happen to be immigrant women. They are supporting me because they feel I'm the best candidate, not because of my background."&lt;/p&gt;&lt;p&gt;Still, Ms. Kim said, Republicans need to do much more to reach out to Asian and Latino voters. She pointed to chronic challenges with homelessness, for example, and the rising cost of living in California as problems created by Democrats. And if all anyone wants to talk about is impeachment, change the subject.&lt;/p&gt;&lt;p&gt;"Just tell them about the issues they care about," she said, "regardless of what they feel about our president as a person."&lt;/p&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="mstar_entity_type" value="Photograph" /&gt;&lt;param name="mstar_entity_inline" value="Y" /&gt;&lt;div class="Photograph_content"&gt;&lt;photo_caption&gt;"For the longest time, the Republican Party has been the party of opportunities and I'm an example of that," said Young Kim. (PHOTOGRAPH BY PHILIP CHEUNG FOR THE NEW YORK TIMES)&lt;/photo_caption&gt;&lt;/div&gt;&lt;/object&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Oct 4, 2019</AlphaDate>
+         <StartDate>2019-10-04</StartDate>
+         <EndDate>2019-10-04</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>PQ_7818_Oct42019______</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

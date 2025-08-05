@@ -173,5 +173,11 @@
 <processed>
 <is_economic>0.32277901588024843</is_economic>
 <tf_idf>[('mad', np.float64(0.4707)), ('hamm', np.float64(0.3336)), ('elisabeth', np.float64(0.3217)), ('olson', np.float64(0.2874)), ('men', np.float64(0.2801)), ('moss', np.float64(0.2723)), ('incorrectly', np.float64(0.2665)), ('actress', np.float64(0.2183)), ('jon', np.float64(0.2149)), ('actors', np.float64(0.2133)), ('photographs', np.float64(0.1916)), ('character', np.float64(0.1827)), ('gave', np.float64(0.142)), ('sunday', np.float64(0.13)), ('caption', np.float64(0.1043))]</tf_idf>
+
+<roberta_title_negative>0.0009</roberta_title_negative>
+
+<roberta_title_neutral>0.9981</roberta_title_neutral>
+
+<roberta_title_positive>0.001</roberta_title_positive>
 </processed>
 </RECORD>

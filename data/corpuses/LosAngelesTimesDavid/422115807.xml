@@ -162,5 +162,11 @@
 <processed>
 <is_economic>0.6704013155177949</is_economic>
 <tf_idf>[('silicon', np.float64(0.5077)), ('compound', np.float64(0.4009)), ('liners', np.float64(0.2274)), ('67412', np.float64(0.2222)), ('dec', np.float64(0.2093)), ('silpat', np.float64(0.2063)), ('section', np.float64(0.2025)), ('element', np.float64(0.1806)), ('item', np.float64(0.1772)), ('food', np.float64(0.1733)), ('correction', np.float64(0.1727)), ('referred', np.float64(0.1673)), ('silicone', np.float64(0.1342)), ('parchment', np.float64(0.1315)), ('ran', np.float64(0.1291)), ('misspelled', np.float64(0.1186)), ('cookie', np.float64(0.107)), ('baking', np.float64(0.1051)), ('appended', np.float64(0.103)), ('record', np.float64(0.103)), ('16', np.float64(0.1014)), ('sheets', np.float64(0.0989)), ('wednesday', np.float64(0.0972)), ('sheet', np.float64(0.0931)), ('pan', np.float64(0.0923)), ('manufacturing', np.float64(0.0876)), ('baker', np.float64(0.0873)), ('preparing', np.float64(0.0805)), ('paper', np.float64(0.0704)), ('word', np.float64(0.0649)), ('article', np.float64(0.0616)), ('message', np.float64(0.0615)), ('different', np.float64(0.0495)), ('used', np.float64(0.0446)), ('20', np.float64(0.0426))]</tf_idf>
+
+<roberta_title_negative>0.0004</roberta_title_negative>
+
+<roberta_title_neutral>0.9982</roberta_title_neutral>
+
+<roberta_title_positive>0.0014</roberta_title_positive>
 </processed>
 </RECORD>

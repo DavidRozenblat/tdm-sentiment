@@ -59,12 +59,15 @@ def step_tfidf_tags(corpus_dir: Path, model_path: Path):
     log_list = logger_instance.get_file_names()
 
     for xml_name in list(log_list):
-        xml_file = corpus_dir / xml_name
-        soup = parser.get_xml_soup(xml_file)
-        text = parser.get_art_text(soup)
-        tf_idf_values = extractor.extract_top_keywords(txt_str=text)
-        parser.modify_tag(soup, 'tf_idf', tf_idf_values)
-        
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = parser.get_xml_soup(xml_file)
+            text = parser.get_art_text(soup)
+            tf_idf_values = extractor.extract_top_keywords(txt_str=text)
+            parser.modify_tag(soup, 'tf_idf', tf_idf_values)
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+            continue
         # rewrite to file
         parser.write_xml_soup(soup, xml_file)
         log_list.remove(xml_name)
@@ -73,7 +76,7 @@ def step_tfidf_tags(corpus_dir: Path, model_path: Path):
       
 def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict, log_file_name: str):
     """Add a sentiment label to each article title."""
-    analyzer = sentiment_score.TextAnalysis(model_path)
+    analyzer = sentiment_model.TextAnalysis(model_path)
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
@@ -81,13 +84,16 @@ def step_title_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: di
     
     # Loop through each XML file in the corpus directory
     for xml_name in list(log_list):
-        xml_file = corpus_dir / xml_name
-        soup = parser.get_xml_soup(xml_file)
-        title = parser.get_tag_value(soup, 'Title')
-        sentiment_dict = analyzer.txt_sentiment_dict(title) 
-        for label in sentiment_dict.keys():
-            soup = parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
-            
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = parser.get_xml_soup(xml_file)
+            title = parser.get_tag_value(soup, 'Title')
+            sentiment_dict = analyzer.txt_sentiment_dict(title) 
+            for label in sentiment_dict.keys():
+                soup = parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+            continue
         # rewrite to file
         parser.write_xml_soup(soup, xml_file)
         log_list.remove(xml_name)
@@ -123,7 +129,7 @@ def article_average_sentiment_helper(paragraphs, analyzer):
 def step_paragraph_sentiment_prob(corpus_dir: Path, model_path: Path, label_dict: dict):
     """Calculate sentiment probabilities for article paragraphs."""
     
-    analyzer = sentiment_score.TextAnalysis(model_path)
+    analyzer = sentiment_model.TextAnalysis(model_path)
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines() 
     
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'article_sentiment', corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
@@ -199,13 +205,13 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid
+    corpus_dir = CORPUSES_PATH / 'TheWashingtonPostDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid
     #step_identify_economic(corpus_dir)
     #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
     step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
-    #title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
+    title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
     #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict, log_file_name='bert_title_sentiment')
     #title_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=ROBERTA_MODEL_PATH, label_dict=title_label_dict)
+    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=ROBERTA_MODEL_PATH, label_dict=title_label_dict, log_file_name='roberta_title_sentiment')
     #paragraph_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
     #step_paragraph_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=paragraph_label_dict)

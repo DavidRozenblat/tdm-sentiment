@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1620547810</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Editorial(ECMS)">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>The 'Get Smart' Desk</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[House &amp; Home/Style Desk]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2014-11-06</NumericDate>
+      <StartDate>2014-11-06</StartDate>
+      <EndDate>2014-11-06</EndDate>
+      <AlphaDate>Nov 6, 2014</AlphaDate>
+      <Language>
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company Nov 6, 2014</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>D.3</StartPage>
+         <Pagination>D.3</Pagination>
+         <DocSection>D</DocSection>
+         <ColumnHeader>Furniture</ColumnHeader>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>3483266311</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>91538072</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <CODEN>NYTIAO</CODEN>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>NYT</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="NYT">
+            <PublisherXID>150789-20141106</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1150</LexileScore>
+      <Desk>House &amp; Home/Style Desk</Desk>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Suqi, Rima</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Suqi</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Rima</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Rima Suqi</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" TermVocab="PQSUBJ" PndxHeader="true">
+            <GenSubjValue>Furniture</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+      <Abstract>
+         <Medium WordCount="19">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Henrybuilt, a Seattle company known for its kitchen systems, has introduced a writer's desk ($3,100) and a chair ($1,450).&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: $</MappingVersion>
+         <CreatedBy>OODS Backfile</CreatedBy>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="146" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Henrybuilt, a Seattle company known for its kitchen systems, has introduced a writer's desk ($3,100) and a chair ($1,450). "It was a design exercise, not a business exercise," said Scott Hudson, the founder. "We wanted to produce something with as few parts as possible that perfectly represented the design philosophy of our brand."&lt;/p&gt;              &lt;p&gt;He designed the pieces with Jed Jedrzejewski, a woodworker; each item is made with interlocking components and no hardware. The desk has trim dimensions to accommodate a person working on a laptop and not much else.&lt;/p&gt;              &lt;p&gt;Mr. Hudson, who has a 13-year-old daughter, said that he believed the minimalist design helps teenagers focus. "It's a super-simple desk with no place to put all their distractions," he said. "It says to the kid, 'When you sit here, you're going to get smart.' "&lt;/p&gt;              &lt;p&gt;Henrybuilt, 79 Grand Street (Wooster Street). Information: 212-966-5797 or henrybuilt.com.&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="Photograph_content"&gt;&lt;p&gt;Photo&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Nov 6, 2014</AlphaDate>
+         <StartDate>2014-11-06</StartDate>
+         <EndDate>2014-11-06</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>91538072</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

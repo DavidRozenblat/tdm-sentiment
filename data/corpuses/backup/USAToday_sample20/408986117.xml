@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>408986117</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">Feature</other>
+         <mstar>Feature</mstar>
+         <mstar>Article</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Treehouses lovely as a poem ; New designs go out on a whim</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[FINAL Edition]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2006-07-26</NumericDate>
+      <StartDate>2006-07-26</StartDate>
+      <EndDate>2006-07-26</EndDate>
+      <AlphaDate>Jul 26, 2006</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2006 USA Today. All Rights Reserved.)</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>D.1</StartPage>
+         <Pagination>D.1</Pagination>
+         <DocSection>LIFE</DocSection>
+         <ColumnHeader>COVER STORY</ColumnHeader>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>1083726391</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>32856041</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7631</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>USA</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>USAT12179730</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1390</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>della Cava, Marco R</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>della Cava</LastName>
+               </LastNameAtt>
+               <MiddleNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <MiddleName>R</MiddleName>
+               </MiddleNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Marco</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Marco R. della Cava</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Trees</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Houses</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Nostalgia</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+      <Abstract>
+         <Short WordCount="155">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   "I'll fib and say it's for my kids, but it's really for me," says Kilmer, 46, flashing that famous army of white teeth, his blond locks  buzzed for his just-wrapped role in the upcoming CBS miniseries Comanche Moon. "I had a treehouse as a child. So being an adult  ... well, it's strangely, weirdly satisfying to sit in a tree."&lt;/p&gt;              &lt;p&gt;   "Two reasons treehouses have become more popular," says Roderick Romero, a New York   treehouse builder to the stars, including Kilmer. "First, they provide wonderful relief in these fast-paced, stressed-out times, and second, the structures themselves can now be built very safe, so they'll support all ages and last nearly forever."&lt;/p&gt;              &lt;p&gt;   About 30 yards away, a stand of five oaks clung bravely to an almost sheer rock face. Romero imagined a "little house that would look like it had fallen from the mesa above and gotten stuck in these five trees." Kilmer loved the idea.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+      <LegacyDataMapping>
+         <MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="1662" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   ROWE, N.M. -- So where does an intense actor like Val Kilmer, known for disappearing into emotionally toxic roles such as Jim Morrison, go to find himself?&lt;/p&gt;              &lt;p&gt;   The answer is found up a steep embankment of loose shale that snakes alongside the lazy Pecos River. There, five oak trees embrace a cocoon of wood and tin, one artist's rendition of that most iconic of childhood getaways: the treehouse.&lt;/p&gt;              &lt;p&gt;   "I'll fib and say it's for my kids, but it's really for me," says Kilmer, 46, flashing that famous army of white teeth, his blond locks  buzzed for his just-wrapped role in the upcoming CBS miniseries Comanche Moon. "I had a treehouse as a child. So being an adult  ... well, it's strangely, weirdly satisfying to sit in a tree."&lt;/p&gt;              &lt;p&gt;   It doesn't hurt that Kilmer's trees sit on a 6,000-acre ranch so remote that one of his nearest neighbors, Jane Fonda, is a long hawk's flight away. But such epic real estate isn't required to experience the escapist magic  of communing with birds' nests.&lt;/p&gt;              &lt;p&gt;   From funky New York gardens to manicured California backyards, the treehouse is newly in vogue as homeowners seek to either reclaim their youth or provide children with at-home fun. Or both. And while a dad with a hammer  can  do the job, many are calling on a small number of specialized builders who give the tree its say and can charge lofty sums for the privilege.&lt;/p&gt;              &lt;p&gt;   What's workable is whatever is imaginable. While some treehouses remain little more than airy clubhouses in the clouds, others boast beds, crown molding, fireplaces and just about any other comfort from shelters  on terra firma. The add-on that's added up.&lt;/p&gt;              &lt;p&gt;   "Two reasons treehouses have become more popular," says Roderick Romero, a New York   treehouse builder to the stars, including Kilmer. "First, they provide wonderful relief in these fast-paced, stressed-out times, and second, the structures themselves can now be built very safe, so they'll support all ages and last nearly forever."&lt;/p&gt;              &lt;p&gt;   Specifically, the development of a steel support called the Garnier Limb, or GL, lets trees bear weights far beyond what they could without the device, allowing for veritable mini-mansions to sprout from backyard trees.&lt;/p&gt;              &lt;p&gt;   The considerable cost of building in trees means it's largely the rich and famous who are pushing the genre's envelope. Many of them have come to Romero. His eclectic essence -- he's a fully tattooed yoga fanatic with two braids that reach his waist -- has endeared him to the likes of Sting, Donna Karan and Julianne Moore, for whom he has built treehouses in Italy, Long Island and Manhattan, respectively.&lt;/p&gt;              &lt;p&gt;   Romero discreetly says his fee "varies," but his creations were trumpeted last year as one of the  Neiman Marcus Christmas catalog's fantasy gifts, priced at $50,000 or more. Emphasis on more.&lt;/p&gt;              &lt;p&gt;   While Romero's work so far largely has appealed to kids in adult bodies, San Francisco-based treehouse builder Barbara Butler  is on a mission  "to get kids out of the house and away from air conditioning, carpeting and computers."&lt;/p&gt;              &lt;p&gt;   Though  known for fanciful ground-based play structures that can exceed $200,000, her  passion is  putting children  up high  in trees.&lt;/p&gt;              &lt;p&gt;   "Growing up, I'd be gone all day and home by dark," she says. "Today, the world's different.  So if the family yard is where time is spent now, why not help make those encounters come to life  in a treehouse that's both artistic and sturdy?"&lt;/p&gt;              &lt;p&gt;   Meg Burnham of Santa Barbara has just hired Butler to help get her young grandkids  off the ground on her 187-acre estate. "We're thinking of having  a ship in one tree with a rope ladder that will lead to  the next one,"  she says.&lt;/p&gt;              &lt;p&gt;   Scurrying up trunks is in our genes, dating to the days when early humans sought to escape predators that couldn't climb, says David Greenberg, curator of Treehouses in Paradise, a playful exhibit of 100 treehouse designs  that runs through July 31 at the Pacific Design Center in Los Angeles.&lt;/p&gt;              &lt;p&gt;   "What you see is that this treehouse fantasy is something the whole world relates to," says Greenberg, whose own projects have been built as far away as China. "Women may see trees as romantic, while guys sometimes do the Tarzan thing. But we all connect with them in some way."&lt;/p&gt;              &lt;p&gt;   Evidence of that can be found in Treehouses of the World by Pete Nelson,  a partner in the Seattle-based construction firm TreeHouse Workshop. Nelson's book showcases such madcap designs  as the Ewok treehouse in Oxfordshire, England. (Think Star Wars meets Edward Scissorhands.)&lt;/p&gt;              &lt;p&gt;   "Some folks ask for kitchens and bathrooms, but at that point I start to lose some interest, because you're moving away from what the treehouse is all about," says Nelson, whose projects average $80,000 for 200 square feet, some insulation and a few electrical outlets. "But this is definitely gaining momentum."  Revenue at TreeHouse Workshop has increased by 20% a year during the past three years.&lt;/p&gt;              &lt;p&gt;   "We're  seeing more builders at our seminars and getting more photos each week" from people showing off their backyard babies.&lt;/p&gt;              &lt;p&gt;   Although clients often have elaborate ideas, experienced  builders say it's important to let Mother Nature do some of the talking.&lt;/p&gt;              &lt;p&gt;   "The  key  is to come to the land without any preconceived ideas," Romero says. "You want to see what the trees tell you to build."&lt;/p&gt;              &lt;p&gt;   That certainly was the approach Kilmer wanted Romero to take when he arrived here in early July.&lt;/p&gt;              &lt;p&gt;   Initially a lone Ponderosa pine beckoned, but Romero was concerned both for his own safety -- the house would have sat some 40 feet above the river -- and natural aesthetics. "That tree was perfect the way it was. It wasn't asking for a house in it," he says.&lt;/p&gt;              &lt;p&gt;   But about 30 yards away, a stand of five oaks clung bravely to an almost sheer rock face. Romero imagined a "little house that would look like it had fallen from the mesa above and gotten stuck in these five trees." Kilmer loved the idea.&lt;/p&gt;              &lt;p&gt;   Wood for the project was sourced from a decaying 100-year-old barn, metal from local salvage yards.  "I want to do everything here in an ecologically friendly way," says Kilmer, who eight years ago purchased this spread, once owned by actress Greer Garson.&lt;/p&gt;              &lt;p&gt;   Kilmer eventually will "build a new house here by the river, have some organic gardens to farm what I need and just get back to the land. In a way, this treehouse is my first step in that direction."&lt;/p&gt;              &lt;p&gt;   Kilmer has lived in the wilds of northern New Mexico for 20 years, going back to his breakthrough role in Top Gun (1986). He even got married in the area, to now ex-wife Joanne Whalley.&lt;/p&gt;              &lt;p&gt;   The couple's two children, Mercedes, 14, and Jack, 11, live with their actress mother in L.A. Kilmer clearly delights in them; the dash  of his beat-up Land Rover sports an array of graffiti, including "Jack Rocks" and "Mercedes Rules."&lt;/p&gt;              &lt;p&gt;   He hopes the treehouse will be a magnet for their attention.&lt;/p&gt;              &lt;p&gt;   "They haven't seen this place yet, but I can't wait," says Kilmer, lying on the treehouse deck in shorts and a sweat-soaked khaki shirt. "My son's a monkey. He'll be up on that tin roof in no time."&lt;/p&gt;              &lt;p&gt;   If Dad doesn't get there first, that is. Though the structure has been up only a few weeks, Kilmer has bonded with it. He credits both an inherent familial connection -- a distant cousin, poet Joyce Kilmer, is famous for his poem Trees -- and a need to decompress. "My business is very self-oriented and takes enormous energy, so any chance to truly get away is welcome."&lt;/p&gt;              &lt;p&gt;   Kilmer talks mostly in sentence fragments,  a shifting cadence that's  in sync with life's whimsical pace here.  The horses whinny and dart, only to suddenly stand still in a patch of shade. The river mostly glides though canyons etched eons ago, but occasionally accelerates over rocks in a rapid rush.&lt;/p&gt;              &lt;p&gt;   And up in a treehouse sits not a movie star, but a man momentarily whisked back to childhood.&lt;/p&gt;              &lt;p&gt;   Put another way: Kilmer could live in the grandest of mansions, yet he seems more at home in a  300-square-foot platform in the sky.&lt;/p&gt;              &lt;p&gt;   "Look at this tree. It's so solid and yet so fragile that it moves with the wind," he says, grasping one of the oaks. "There's a sense of freedom and wonderment up here."&lt;/p&gt;              &lt;p&gt;   A fast-moving afternoon storm starts to lay siege. Within minutes, rain drops are pounding the treehouse's tin roof while lightning zigzags ominously nearby. And Kilmer is going exactly nowhere.&lt;/p&gt;              &lt;p&gt;   "In places like this," he says, "I can figure out what I'm all about."&lt;/p&gt;              &lt;p&gt;   Tips for would-be builders&lt;/p&gt;              &lt;p&gt;   So you have a tree. But are you a candidate for a treehouse?&lt;/p&gt;              &lt;p&gt;   Treehouse designer and builder Roderick Romero says people who consider this sylvan architectural adventure should keep in mind:&lt;/p&gt;              &lt;p&gt;   *Tree type. "The harder the better," he says. Oak, ficus and banyan are his preferences.&lt;/p&gt;              &lt;p&gt;   *Location. Build as far from the main house as possible. "Aim to disguise the creation as best you can, so it just fades away into nature," using the contours of the tree to dictate shape and incorporating downed tree limbs in its construction.&lt;/p&gt;              &lt;p&gt;   *Recycling. Use reclaimed materials when possible, "so you're not celebrating one tree in your backyard at the expense of one that was chopped down in the Amazon."&lt;/p&gt;              &lt;p&gt;   *Expertise. "Hire people who've built treehouses before, and that's not meant to be an ad for me," Romero says, laughing. "Your trees will thank you, and you'll keep the treehouse longer."&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;PHOTOS, Color, Robert Hanashiro, USA TODAY (2); PHOTO, B/W, Robert Hanashiro, USA TODAY&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>USA TODAY</Title>
+         <MpubId>15008</MpubId>
+         <SortTitle>USA TODAY</SortTitle>
+         <Qualifier>McLean, Va.</Qualifier>
+         <JournalCode>USA</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19820101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>7950 Jones Branch Drive</Address1>
+               <City>MacLean</City>
+               <Province>VA</Province>
+               <ZipCode>22108</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.usatoday.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7631</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>07347456</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60430.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>USA TODAY</Title>
+            <SortTitle>USA TODAY</SortTitle>
+            <Qualifier>McLean, Va.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7631</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>07347456</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60430.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19890102</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jul 26, 2006</AlphaDate>
+         <StartDate>2006-07-26</StartDate>
+         <EndDate>2006-07-26</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>32856041</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

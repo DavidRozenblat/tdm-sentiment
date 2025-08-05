@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>409883681</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publication">NEWSPAPER</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Oprah Winfrey Helps The FBI Get Its Man</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[FINAL Edition]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2005-10-08</NumericDate>
+      <StartDate>2005-10-08</StartDate>
+      <EndDate>2005-10-08</EndDate>
+      <AlphaDate>Oct 8, 2005</AlphaDate>
+      <PageCount>0</PageCount>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language>
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright The Washington Post Company Oct 8, 2005</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>C.07</StartPage>
+         <Pagination>C07</Pagination>
+         <DocSection>STYLE</DocSection>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID IDOrigin="PQ">
+            <DOCID>908455301</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>16397831</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXX2005100809096EC4</PublisherXID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1400</LexileScore>
+      <DateLine>CHICAGO, Oct. 7</DateLine>
+      <Terms>
+         <CompanyTerm TermSource="Editorial">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>Federal Bureau of Investigation--FBI</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>922120</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+      </Terms>
+      <Abstract>
+         <Short WordCount="112">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   A partnership between the FBI and [Oprah Winfrey]'s TV talk show to publicize the identities of fugitive child molesters has nabbed its first suspect, the FBI said Friday.&lt;/p&gt;              &lt;p&gt;   FBI agents picked up William Davis, 33, in Fargo, N.D., on a tip from an Oprah viewer. Davis faces felony charges of molesting three Indiana boys last year and failing to register as a sex offender. He was convicted of child molestation in 1992.&lt;/p&gt;              &lt;p&gt;   The identities of suspected child molesters are provided to the nationally syndicated "Oprah Winfrey Show" by the FBI under a new partnership, and this was believed the first time someone featured on the show was apprehended, [Paul McCabe] said.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Short>
+      </Abstract>
+      <LegacyDataMapping>
+         <CreatedBy>OODS Backfile</CreatedBy>
+      </LegacyDataMapping>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="370" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;   A partnership between the FBI and Oprah Winfrey's TV talk show to publicize the identities of fugitive child molesters has nabbed its first suspect, the FBI said Friday.&lt;/p&gt;              &lt;p&gt;   FBI agents picked up William Davis, 33, in Fargo, N.D., on a tip from an Oprah viewer. Davis faces felony charges of molesting three Indiana boys last year and failing to register as a sex offender. He was convicted of child molestation in 1992.&lt;/p&gt;              &lt;p&gt;   "The arrest was a direct result of someone viewing Tuesday's show where [Davis] was featured," FBI agent Paul McCabe told Reuters from Minneapolis.&lt;/p&gt;              &lt;p&gt;   "She called her friend, who went to the Oprah.com Web site and recognized him," he said.&lt;/p&gt;              &lt;p&gt;   The Fargo Forum newspaper quoted the tipster as saying she hoped to buy a house with the reward, which was advertised on the television show as $100,000.&lt;/p&gt;              &lt;p&gt;   The identities of suspected child molesters are provided to the nationally syndicated "Oprah Winfrey Show" by the FBI under a new partnership, and this was believed the first time someone featured on the show was apprehended, McCabe said.&lt;/p&gt;              &lt;p&gt;   Jean Rosenthal of Moorhead, Minn., recognized Davis as "Mark," a neighbor of her friend Karie Miller. She called Miller on Wednesday, and the 29-year-old Fargo deli worker discovered the man's identity Thursday morning on the Web site.&lt;/p&gt;              &lt;p&gt;   "His picture came up and I started shaking so bad, I couldn't hold my coffee," Miller told the Forum in Friday editions.&lt;/p&gt;              &lt;p&gt;   Davis, who was on the FBI's Most Wanted Fugitives list, was one of several fugitive sex offenders shown on Winfrey's program Tuesday. The reward, offered by her production company, applies to fugitives presented on the show and her Web site.&lt;/p&gt;              &lt;p&gt;   Miller was in shock after learning of her neighbor's background. She had helped care for him since he broke his leg in a car accident a few weeks ago.&lt;/p&gt;              &lt;p&gt;   "I've been cooking for him; I've been doing his laundry," she said.&lt;/p&gt;              &lt;p&gt;   In a news release Friday, Winfrey said, "This is a great day and we're just getting started."&lt;/p&gt;              &lt;p&gt;   She will present the reward during a live broadcast of her show on Tuesday.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>1301 K Street, N.W.</Address1>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="LION_CONTENT_TYPE">Reviews</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Oct 8, 2005</AlphaDate>
+         <StartDate>2005-10-08</StartDate>
+         <EndDate>2005-10-08</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>16397831</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>
