@@ -215,13 +215,10 @@
 </GroupFrosting>
 </DFS>
 <processed>
-<is_economic>0.9312732447088585</is_economic>
+<is_economic>0.9313</is_economic>
 <tf_idf>[('detected', np.float64(0.2935)), ('ysidro', np.float64(0.2838)), ('border', np.float64(0.2825)), ('methamphetamine', np.float64(0.2392)), ('canine', np.float64(0.2237)), ('officers', np.float64(0.1906)), ('customs', np.float64(0.1865)), ('pickup', np.float64(0.1726)), ('port', np.float64(0.1623)), ('hidden', np.float64(0.1607)), ('undercarriage', np.float64(0.1554)), ('san', np.float64(0.1552)), ('truck', np.float64(0.149)), ('vehicle', np.float64(0.137)), ('protection', np.float64(0.1333)), ('anomalies', np.float64(0.1314)), ('release', np.float64(0.1218)), ('authorities', np.float64(0.121)), ('369', np.float64(0.1127)), ('imaging', np.float64(0.1092)), ('seizing', np.float64(0.1076)), ('reported', np.float64(0.1033)), ('flores', np.float64(0.103)), ('nissan', np.float64(0.1029)), ('frontier', np.float64(0.0974)), ('112', np.float64(0.0941)), ('inspection', np.float64(0.0941)), ('encountered', np.float64(0.0911)), ('detained', np.float64(0.0904)), ('packages', np.float64(0.0898)), ('processing', np.float64(0.0895)), ('valued', np.float64(0.0882)), ('credited', np.float64(0.0874)), ('screening', np.float64(0.0862)), ('homeland', np.float64(0.0836)), ('crossing', np.float64(0.0835)), ('team', np.float64(0.083)), ('seized', np.float64(0.0828)), ('vital', np.float64(0.0818)), ('pete', np.float64(0.0816)), ('waited', np.float64(0.0813)), ('citizen', np.float64(0.081)), ('investigations', np.float64(0.0807)), ('tool', np.float64(0.0798)), ('entry', np.float64(0.0768)), ('68', np.float64(0.0751)), ('false', np.float64(0.0751)), ('secure', np.float64(0.0739)), ('pounds', np.float64(0.0727)), ('bed', np.float64(0.0726)), ('vehicles', np.float64(0.0724)), ('agents', np.float64(0.0722)), ('drugs', np.float64(0.0717)), ('enter', np.float64(0.0706)), ('diego', np.float64(0.07)), ('driver', np.float64(0.0684)), ('said', np.float64(0.0667)), ('arrested', np.float64(0.0654)), ('helping', np.float64(0.064)), ('finding', np.float64(0.0639)), ('operations', np.float64(0.0636)), ('driving', np.float64(0.0631)), ('agency', np.float64(0.0547)), ('statement', np.float64(0.0535)), ('security', np.float64(0.053)), ('turned', np.float64(0.051)), ('24', np.float64(0.0501)), ('field', np.float64(0.0499)), ('40', np.float64(0.0491)), ('wednesday', np.float64(0.0455)), ('line', np.float64(0.0454)), ('director', np.float64(0.0435)), ('man', np.float64(0.0432)), ('news', np.float64(0.0431)), ('according', np.float64(0.0404)), ('000', np.float64(0.037)), ('old', np.float64(0.0365)), ('year', np.float64(0.0259))]</tf_idf>
-
 <roberta_title_negative>0.003</roberta_title_negative>
-
 <roberta_title_neutral>0.9961</roberta_title_neutral>
-
 <roberta_title_positive>0.0009</roberta_title_positive>
 </processed>
 </RECORD>

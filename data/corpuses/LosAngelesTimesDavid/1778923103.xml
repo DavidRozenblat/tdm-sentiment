@@ -168,13 +168,10 @@
 </GroupFrosting>
 </DFS>
 <processed>
-<is_economic>0.5990587910364348</is_economic>
+<is_economic>0.5991</is_economic>
 <tf_idf>[('azerbaijani', np.float64(0.4285)), ('nakhchivan', np.float64(0.3725)), ('armenian', np.float64(0.3383)), ('cease', np.float64(0.2594)), ('forces', np.float64(0.2358)), ('ministry', np.float64(0.2244)), ('exclave', np.float64(0.1707)), ('nagorno', np.float64(0.1435)), ('karabakh', np.float64(0.143)), ('armenia', np.float64(0.1197)), ('fighting', np.float64(0.119)), ('azerbaijan', np.float64(0.1182)), ('mortars', np.float64(0.1169)), ('allay', np.float64(0.1147)), ('shelled', np.float64(0.1103)), ('outburst', np.float64(0.104)), ('truce', np.float64(0.1034)), ('separatist', np.float64(0.103)), ('observing', np.float64(0.0983)), ('midday', np.float64(0.0972)), ('artillery', np.float64(0.0966)), ('war', np.float64(0.0948)), ('rockets', np.float64(0.0865)), ('occasions', np.float64(0.0849)), ('erupted', np.float64(0.0847)), ('wednesday', np.float64(0.0846)), ('tension', np.float64(0.078)), ('turkey', np.float64(0.078)), ('battles', np.float64(0.0779)), ('firing', np.float64(0.077)), ('iran', np.float64(0.0752)), ('surrounded', np.float64(0.0743)), ('marked', np.float64(0.0694)), ('63', np.float64(0.0693)), ('reaching', np.float64(0.0688)), ('intense', np.float64(0.0687)), ('claimed', np.float64(0.0663)), ('troops', np.float64(0.0663)), ('russia', np.float64(0.066)), ('involving', np.float64(0.0649)), ('breaking', np.float64(0.0648)), ('1994', np.float64(0.0647)), ('sides', np.float64(0.0618)), ('sought', np.float64(0.0601)), ('heavy', np.float64(0.0595)), ('worst', np.float64(0.059)), ('violence', np.float64(0.0588)), ('fear', np.float64(0.0585)), ('largely', np.float64(0.0584)), ('accused', np.float64(0.058)), ('region', np.float64(0.0563)), ('returned', np.float64(0.0555)), ('adding', np.float64(0.0554)), ('raised', np.float64(0.0539)), ('weekend', np.float64(0.0529)), ('killed', np.float64(0.0523)), ('ended', np.float64(0.0522)), ('defense', np.float64(0.0497)), ('held', np.float64(0.0445)), ('tuesday', np.float64(0.0413)), ('late', np.float64(0.0397)), ('days', np.float64(0.0377)), ('people', np.float64(0.0279)), ('new', np.float64(0.0242)), ('said', np.float64(0.0207))]</tf_idf>
-
 <roberta_title_negative>0.0004</roberta_title_negative>
-
 <roberta_title_neutral>0.9987</roberta_title_neutral>
-
 <roberta_title_positive>0.0009</roberta_title_positive>
 </processed>
 </RECORD>

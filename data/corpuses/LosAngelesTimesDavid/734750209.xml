@@ -168,13 +168,10 @@
 </GroupFrosting>
 </DFS>
 <processed>
-<is_economic>0.42879117541472384</is_economic>
+<is_economic>0.4288</is_economic>
 <tf_idf>[('bieber', np.float64(0.5096)), ('def', np.float64(0.3221)), ('jam', np.float64(0.2542)), ('feature', np.float64(0.1952)), ('island', np.float64(0.1822)), ('film', np.float64(0.1664)), ('scooter', np.float64(0.1602)), ('vip', np.float64(0.1591)), ('braun', np.float64(0.1566)), ('usher', np.float64(0.1489)), ('backstage', np.float64(0.1455)), ('valentine', np.float64(0.138)), ('mtv', np.float64(0.1365)), ('paramount', np.float64(0.1312)), ('mentor', np.float64(0.1308)), ('reid', np.float64(0.1284)), ('memoir', np.float64(0.1283)), ('footage', np.float64(0.1207)), ('titled', np.float64(0.1192)), ('life', np.float64(0.1139)), ('producing', np.float64(0.1125)), ('justin', np.float64(0.1075)), ('concert', np.float64(0.1034)), ('announcement', np.float64(0.1027)), ('films', np.float64(0.1025)), ('singer', np.float64(0.101)), ('pictures', np.float64(0.1003)), ('2011', np.float64(0.0977)), ('writing', np.float64(0.0917)), ('tour', np.float64(0.0896)), ('appear', np.float64(0.088)), ('release', np.float64(0.0858)), ('movie', np.float64(0.0844)), ('signed', np.float64(0.0835)), ('pass', np.float64(0.0811)), ('chairman', np.float64(0.081)), ('weekend', np.float64(0.0802)), ('music', np.float64(0.0775)), ('offer', np.float64(0.077)), ('companies', np.float64(0.0758)), ('manager', np.float64(0.0748)), ('career', np.float64(0.072)), ('16', np.float64(0.0669)), ('said', np.float64(0.0627)), ('tuesday', np.float64(0.0627)), ('set', np.float64(0.0578)), ('group', np.float64(0.0577)), ('world', np.float64(0.0524)), ('old', np.float64(0.0515)), ('day', np.float64(0.0477)), ('year', np.float64(0.0365))]</tf_idf>
-
 <roberta_title_negative>0.0002</roberta_title_negative>
-
 <roberta_title_neutral>0.9992</roberta_title_neutral>
-
 <roberta_title_positive>0.0006</roberta_title_positive>
 </processed>
 </RECORD>

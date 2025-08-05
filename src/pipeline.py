@@ -205,13 +205,13 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
-    step_identify_economic(corpus_dir)
-    step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
-    step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
+    corpus_dir = CORPUSES_PATH / 'USATodayDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
+    #step_identify_economic(corpus_dir)
+    #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
+    #step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
     title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
-    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict, log_file_name='bert_title_sentiment')
-    #title_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=ROBERTA_MODEL_PATH, label_dict=title_label_dict, log_file_name='roberta_title_sentiment')
+    step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict, log_file_name='bert_title_sentiment')
+    title_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=ROBERTA_MODEL_PATH, label_dict=title_label_dict, log_file_name='roberta_title_sentiment')
     #paragraph_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
     #step_paragraph_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=paragraph_label_dict)
