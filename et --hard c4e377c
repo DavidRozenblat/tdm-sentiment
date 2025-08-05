@@ -1,0 +1,32 @@
+[33m706530a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update USATodayDavid corpus files and processing pipeline
+[33ma5ca348[m Refactor data processing and modeling components
+[33me6c5f4f[m Removes outdated newspaper size data and unnecessary packages
+[33mbc084f7[m push allmost final change
+[33m8f8c546[m change corpus location
+[33m3eed032[m Implement feature X to enhance user experience and optimize performance
+[33m969361b[m Add economic_files.txt with initial XML file list
+[33m187a78f[m modified pipeline
+[33mfa08cf9[m modefy code especially pipline.file
+[33m7e750e0[m Merge pull request #6 from DavidRozenblat/codex/extend-logger-methods-and-update-step_tfidf_tags
+[33ma98721f[m[33m ([m[1;31morigin/codex/extend-logger-methods-and-update-step_tfidf_tags[m[33m)[m Extend logger pattern and update tfidf step
+[33m06283b1[m Refactor TdmXmlParser and pipeline functions to improve XML handling and add new methods for tag manipulation
+[33m74967f7[m Merge branch 'main' of https://github.com/DavidRozenblat/tdm-sentiment
+[33mdecc3cf[m Refactor TdmXmlParser and update pipeline with new XML tag handling function
+[33m6849cbc[m readme and pipline changes
+[33m4c02178[m notebooks
+[33m0b4fd39[m modifed readme
+[33m377af70[m Merge pull request #5 from DavidRozenblat/0naodk-codex/create-pipeline-script-with-argparse-options
+[33m20b8015[m[33m ([m[1;31morigin/0naodk-codex/create-pipeline-script-with-argparse-options[m[33m)[m Merge branch 'main' into 0naodk-codex/create-pipeline-script-with-argparse-options
+[33m612cf71[m Clarify pipeline steps
+[33me7cd74c[m Merge pull request #3 from DavidRozenblat/codex/wrap-demo-variables-in-main-check
+[33m668097d[m[33m ([m[1;31morigin/codex/wrap-demo-variables-in-main-check[m[33m)[m Merge branch 'main' into codex/wrap-demo-variables-in-main-check
+[33m372b4fd[m Merge pull request #4 from DavidRozenblat/codex/create-pipeline-script-with-argparse-options
+[33m5e19e08[m[33m ([m[1;31morigin/codex/create-pipeline-script-with-argparse-options[m[33m)[m Add pipeline script and CLI usage
+[33m477586e[m Wrap demo code under main guard
+[33m9c389d7[m properties modifier modify
+[33m5072b2b[m Merge pull request #2 from DavidRozenblat/codex/update-directory-variable-defaults
+[33m034712d[m[33m ([m[1;31morigin/codex/update-directory-variable-defaults[m[33m)[m Use config paths for model training scripts
+[33m3d42b6b[m Merge pull request #1 from DavidRozenblat/codex/update-readme-with-setup-instructions
+[33m2c4ea67[m[33m ([m[1;31morigin/codex/update-readme-with-setup-instructions[m[33m)[m Add README and update setup instructions
+[33m8f55a2c[m delete corpuses-> data
+[33m822d61d[m md modified

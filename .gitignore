@@ -1,3 +1,6 @@
 venv/
 data/processed/real_results/
-src/sentiment/sentiment_model
+src/sentiment/sentiment_model/distilbert-base-uncased-finetuned-sst-2-english/
+src/sentiment/sentiment_model/finbert_local/
+src/sentiment/sentiment_model/optimized_finbert/
+src/sentiment/sentiment_model/sentiment-roberta-large-english-3-classes/
