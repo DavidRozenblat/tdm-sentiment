@@ -205,9 +205,9 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'TheWashingtonPostDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid
-    #step_identify_economic(corpus_dir)
-    #step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
+    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
+    step_identify_economic(corpus_dir)
+    step_write_economic_file_names(corpus_dir, prob_threshold=0.2)
     step_tfidf_tags(corpus_dir=corpus_dir, model_path=TF_IDF_MODEL_PATH)
     title_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
     #step_title_sentiment_prob(corpus_dir=corpus_dir, model_path=BERT_MODEL_PATH, label_dict=title_label_dict, log_file_name='bert_title_sentiment')
