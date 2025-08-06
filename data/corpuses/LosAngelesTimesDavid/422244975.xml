@@ -172,9 +172,12 @@
 </DFS>
 <processed>
 <is_economic>0.3228</is_economic>
-<tf_idf>[('mad', np.float64(0.4707)), ('hamm', np.float64(0.3336)), ('elisabeth', np.float64(0.3217)), ('olson', np.float64(0.2874)), ('men', np.float64(0.2801)), ('moss', np.float64(0.2723)), ('incorrectly', np.float64(0.2665)), ('actress', np.float64(0.2183)), ('jon', np.float64(0.2149)), ('actors', np.float64(0.2133)), ('photographs', np.float64(0.1916)), ('character', np.float64(0.1827)), ('gave', np.float64(0.142)), ('sunday', np.float64(0.13)), ('caption', np.float64(0.1043))]</tf_idf>
+<tf_idf>[('mad', 0.4707), ('hamm', 0.3336), ('elisabeth', 0.3217), ('olson', 0.2874), ('men', 0.2801), ('moss', 0.2723), ('incorrectly', 0.2665), ('actress', 0.2183), ('jon', 0.2149), ('actors', 0.2133), ('photographs', 0.1916), ('character', 0.1827), ('gave', 0.142), ('sunday', 0.13), ('caption', 0.1043)]</tf_idf>
 <roberta_title_negative>0.0009</roberta_title_negative>
 <roberta_title_neutral>0.9981</roberta_title_neutral>
 <roberta_title_positive>0.001</roberta_title_positive>
+<roberta_paragraph_positive>0.0008</roberta_paragraph_positive>
+<roberta_paragraph_neutral>0.9382</roberta_paragraph_neutral>
+<roberta_paragraph_negative>0.061</roberta_paragraph_negative>
 </processed>
 </RECORD>

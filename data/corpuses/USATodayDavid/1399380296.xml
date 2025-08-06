@@ -159,7 +159,7 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<grades><is_economic>1</is_economic><text_blob_sentiment>0.09749417249417248</text_blob_sentiment><bert_sentiment>0.12659472823143006</bert_sentiment></grades>
+
 <processed>
 <is_economic>0.8105</is_economic>
 <tf_idf>[('usatoday', 0.5096), ('com', 0.2358), ('tennis', 0.1508), ('lumia', 0.1492), ('harrer', 0.1369), ('tech', 0.1271), ('drysdale', 0.125), ('baby', 0.1244), ('1020', 0.1153), ('today', 0.1152), ('congestive', 0.1151), ('check', 0.114), ('autistic', 0.1138), ('nokia', 0.1135), ('follow', 0.1119), ('duchess', 0.1116), ('minute', 0.1112), ('judge', 0.1105), ('unveils', 0.1096), ('finnish', 0.1093), ('sports', 0.1056), ('inducted', 0.102), ('manslaughter', 0.0977), ('zimmerman', 0.0964), ('star', 0.0964), ('nearing', 0.0946), ('smartphone', 0.0934), ('frenzy', 0.0925), ('aggravated', 0.0889), ('clues', 0.0888), ('bets', 0.0886), ('cliff', 0.0863), ('fever', 0.0861), ('travis', 0.0843), ('portfolio', 0.0835), ('click', 0.0833), ('lesser', 0.083), ('money', 0.0822), ('plea', 0.0804), ('kate', 0.0801), ('news', 0.08), ('formally', 0.0799), ('stroke', 0.0798), ('70s', 0.0795), ('bloomberg', 0.0773), ('randy', 0.0767), ('conclusion', 0.0767), ('unemployment', 0.0761), ('life', 0.075), ('mortgage', 0.0749), ('neighbor', 0.0745), ('royal', 0.0742), ('1960s', 0.0728), ('new', 0.0724), ('aaron', 0.0717), ('maker', 0.0714), ('birth', 0.0706), ('fame', 0.0698), ('reaching', 0.0687), ('weekly', 0.0676), ('assault', 0.067), ('ruling', 0.0665), ('pitch', 0.0665), ('thinks', 0.0661), ('treated', 0.0656), ('prosecutors', 0.0649), ('prince', 0.0647), ('murder', 0.0641), ('andrew', 0.0624), ('suffered', 0.0617), ('claims', 0.061), ('arrested', 0.0607), ('missing', 0.0606), ('trial', 0.0605), ('boy', 0.06), ('rates', 0.06), ('filed', 0.0587), ('details', 0.0569), ('economy', 0.0558), ('william', 0.0553), ('charges', 0.0553), ('online', 0.0552), ('numbers', 0.0549), ('hall', 0.0542), ('phone', 0.0538), ('popular', 0.0534), ('fans', 0.0534), ('residents', 0.0532), ('weekend', 0.0528), ('watch', 0.0524), ('heart', 0.0524), ('interview', 0.0521), ('average', 0.0513), ('music', 0.051), ('gets', 0.0506), ('player', 0.0504), ('released', 0.0501), ('george', 0.0492), ('media', 0.049), ('talk', 0.0487), ('players', 0.0482), ('health', 0.0463), ('report', 0.044), ('government', 0.0406), ('country', 0.0393), ('york', 0.0376), ('city', 0.0367), ('come', 0.0365), ('caption', 0.0344), ('day', 0.0314), ('make', 0.0301)]</tf_idf>
@@ -171,11 +171,8 @@
 <bert_paragraph_positive>0.5266</bert_paragraph_positive>
 <bert_paragraph_neutral>0.0</bert_paragraph_neutral>
 <bert_paragraph_negative>0.4734</bert_paragraph_negative>
-
 <roberta_paragraph_positive>0.0016399999999999997</roberta_paragraph_positive>
-
 <roberta_paragraph_neutral>0.9925200000000001</roberta_paragraph_neutral>
-
 <roberta_paragraph_negative>0.00584</roberta_paragraph_negative>
 </processed>
 </RECORD>

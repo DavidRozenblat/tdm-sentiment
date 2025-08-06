@@ -16,7 +16,7 @@ from concurrent.futures import ProcessPoolExecutor
 from bs4 import BeautifulSoup
 
 # Create a Logger instance
-tdm_parser = tdm_parser.TdmXmlParser()
+tdm_parser = tdm_parser_module.TdmXmlParser()
 
 publisher_corpus_dic = {
     'New York Times':'Newyork20042023', 'Los Angeles Times':'LosAngelesTimesDavid', 

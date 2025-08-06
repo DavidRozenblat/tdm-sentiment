@@ -147,7 +147,7 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<grades><is_economic>1</is_economic><text_blob_sentiment>0.0</text_blob_sentiment><bert_sentiment>-0.9605253509112767</bert_sentiment></grades>
+
 <processed>
 <is_economic>0.6741</is_economic>
 <tf_idf>[('avg', 0.9415), ('unleaded', 0.1934), ('ago', 0.1876), ('gallon', 0.1408), ('yesterday', 0.0927), ('regular', 0.0894), ('175', 0.0675)]</tf_idf>
@@ -159,11 +159,8 @@
 <bert_paragraph_positive>0.039485714285714284</bert_paragraph_positive>
 <bert_paragraph_neutral>0.0</bert_paragraph_neutral>
 <bert_paragraph_negative>0.9605142857142858</bert_paragraph_negative>
-
 <roberta_paragraph_positive>0.0007428571428571429</roberta_paragraph_positive>
-
 <roberta_paragraph_neutral>0.9981142857142856</roberta_paragraph_neutral>
-
 <roberta_paragraph_negative>0.001157142857142857</roberta_paragraph_negative>
 </processed>
 </RECORD>
