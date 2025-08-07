@@ -111,14 +111,13 @@ def article_average_sentiment_helper(paragraphs, analyzer):
     if not paragraphs:
         print("Warning: No paragraphs provided for sentiment analysis.")
         return sums
-    n = len(paragraphs)
+    probs_list = analyzer.batch_txt_sentiment_dict(paragraphs) or []
+    n = len(probs_list)
 
-    for p in paragraphs:
-        probs = analyzer.txt_sentiment_dict(p) or {}
+    for probs in probs_list:
         sums['negative'] += probs.get('negative', 0)
         sums['neutral']  += probs.get('neutral',  0)
         sums['positive'] += probs.get('positive', 0)
-
 
     if n == 0:
         return {k: 0.0 for k in sums}
