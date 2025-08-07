@@ -2,20 +2,37 @@ from pathlib import Path
 
 class Logger:
     def __init__(self, log_dir: Path, log_file_name: str, corpus_name:str, initiate_file_list: list):
+        """Create a logger instance.
+
+        Parameters
+        ----------
+        log_dir : Path
+            Directory where log files are stored.
+        log_file_name : str
+            Base name of the log file.
+        corpus_name : str
+            Name of the corpus being processed.
+        initiate_file_list : list
+            List of all files that should eventually be processed.
+
+        Notes
+        -----
+        The log file now tracks *processed* files.  Each time a file is
+        successfully handled, its name is appended to this log.  Pending files
+        are derived by subtracting the processed log from ``initiate_file_list``.
+        """
         # pull in LOGS_PATH _at runtime_ and inject it into the module namespace
         self.log_path = log_dir / corpus_name / f'{log_file_name}_log.txt'
         self.log_path.parent.mkdir(parents=True, exist_ok=True) # Ensure the directory exists
-        
+
         self.initiate_file_list = initiate_file_list # Store the list
         
         
     # --- Logging Functions ---
     def write_initial_file_list(self):
-        """initiate log file names out of input file list"""
-        # Write the names to the log file
-        with self.log_path.open('w', encoding='utf-8') as f:
-            for name in self.initiate_file_list:
-                f.write(f"{name}\n")
+        """Initialise the log file if it doesn't exist."""
+        # Simply touch the file so subsequent appends work.
+        self.log_path.open('a', encoding='utf-8').close()
 
 
     def read_file_names(self):
@@ -30,21 +47,27 @@ class Logger:
 
 
     def get_file_names(self):
-        """Ensure the log file exists and return its contents as a list of file names."""
+        """Return the list of files that still need to be processed."""
         if not self.log_path.exists():
-            # initiate the log file by writing file names from result_folder_path.
+            # Ensure the log file exists before reading.
             self.write_initial_file_list()
 
-        # Read file names into a list.
-        file_names_lst = self.read_file_names()
+        processed_files = set(self.read_file_names())
+        # Determine which files have not yet been processed.
+        file_names_lst = [name for name in self.initiate_file_list if name not in processed_files]
         return file_names_lst
 
 
-    def update_log_file(self, remaining_files: list):
-        """Overwrite the log file with the updated list of remaining files to process."""
-        with self.log_path.open('w', encoding='utf-8') as f:
-            for file_name in remaining_files:
-                f.write(file_name + '\n')
+    def update_log_file(self, processed_file: str):
+        """Append a processed file name to the log.
+
+        Parameters
+        ----------
+        processed_file : str
+            The name of the file that has just been processed.
+        """
+        with self.log_path.open('a', encoding='utf-8') as f:
+            f.write(processed_file + '\n')
 
 
 
