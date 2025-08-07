@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RECORD>
-<GOID>422244975</GOID>
+<GOID>734750209</GOID>
 <Obj>
 <SourceRollupType>Newspapers</SourceRollupType>
 <ObjectTypes>
@@ -9,15 +9,12 @@
 </ObjectTypes>
 <ObjectRollupType>Articles - All Types</ObjectRollupType>
 <TitleAtt>
-<Title>For the record</Title>
+<Title>QUICK TAKES; Bieber's career rates film too</Title>
 </TitleAtt>
-<SubTitleAtt>
-<SubTitle>[2]</SubTitle>
-</SubTitleAtt>
-<NumericDate>2008-11-02</NumericDate>
-<StartDate>2008-11-02</StartDate>
-<EndDate>2008-11-02</EndDate>
-<AlphaDate>Nov 2, 2008</AlphaDate>
+<NumericDate>2010-08-04</NumericDate>
+<StartDate>2010-08-04</StartDate>
+<EndDate>2010-08-04</EndDate>
+<AlphaDate>Aug 4, 2010</AlphaDate>
 <Language>
 <RawLang>English</RawLang>
 </Language>
@@ -28,20 +25,20 @@
 </ISO>
 </Language>
 <Copyright>
-<CopyrightData>(Copyright (c) 2008 Los Angeles Times)</CopyrightData>
+<CopyrightData>(Copyright (c) 2010 Los Angeles Times)</CopyrightData>
 </Copyright>
 <PrintLocation>
-<StartPage>E.2</StartPage>
-<Pagination>E.2</Pagination>
-<DocSection>Sunday Calendar; Part E; Calendar Desk</DocSection>
+<StartPage>D.3</StartPage>
+<Pagination>D.3</Pagination>
+<DocSection>Calendar; Part D; Entertainment Desk</DocSection>
 <DocEdition>HOME EDITION</DocEdition>
 </PrintLocation>
 <ObjectIDs>
 <ObjectID IDOrigin="PQ">
-<DOCID>1587458741</DOCID>
+<DOCID>2099421591</DOCID>
 </ObjectID>
 <ObjectID IDOrigin="PQ">
-<PCID>40913771</PCID>
+<PCID>53704701</PCID>
 </ObjectID>
 <ObjectID IDOrigin="PQ">
 <PMID>7683</PMID>
@@ -50,10 +47,10 @@
 <ProvJournalCode>ANGE</ProvJournalCode>
 </ObjectID>
 <ObjectID IDOrigin="DTI">
-<PublisherXID>LATM080052252</PublisherXID>
+<PublisherXID>LATM100029172</PublisherXID>
 </ObjectID>
 </ObjectIDs>
-<LexileScore>1220</LexileScore>
+<LexileScore>1470</LexileScore>
 <Contributors>
 <Contributor ContribOrder="1">
 <Author>
@@ -75,7 +72,7 @@
 </LegacyDataMapping>
 </Obj>
 <TextInfo>
-<Text HTMLContent="true" WordCount="39">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;"Mad Men" actress: A caption under photographs last Sunday of "Mad Men" actors Jon Hamm and Elisabeth Moss incorrectly gave her last name as Olson, her character's last name.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+<Text HTMLContent="true" WordCount="113">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;A day after the announcement that he was writing a memoir, Paramount Pictures, MTV Films and Island Def Jam said Tuesday that 16-year-old singer Justin Bieber has signed on to appear in a feature film about his life and career.&lt;/p&gt;              &lt;p&gt;The yet-to-be-titled movie is set for release on "Valentine's weekend" of 2011, the companies said.&lt;/p&gt;              &lt;p&gt;It will offer a "VIP backstage pass" into Bieber's life and will feature 3-D footage from his "My World 2.0" concert tour.&lt;/p&gt;              &lt;p&gt;Bieber will also be producing the film, along with mentor Usher, manager Scooter Braun and Island Def Jam Music Group Chairman L.A. Reid.&lt;/p&gt;              &lt;p&gt;Credit: Associated Press&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
 </TextInfo>
 <DFS>
 <PubFrosting>
@@ -160,41 +157,15 @@
 <ContentModel>CM_DEFAULT</ContentModel>
 </PubFrosting>
 <GroupFrosting>
-<AlphaDate>Nov 2, 2008</AlphaDate>
-<StartDate>2008-11-02</StartDate>
-<EndDate>2008-11-02</EndDate>
+<AlphaDate>Aug 4, 2010</AlphaDate>
+<StartDate>2010-08-04</StartDate>
+<EndDate>2010-08-04</EndDate>
 <Locators>
 <Locator Type="PQPCID">
-<Name>40913771</Name>
+<Name>53704701</Name>
 </Locator>
 </Locators>
 </GroupFrosting>
 </DFS>
-<processed>
-<is_economic>0.3228</is_economic>
 
-<tf_idf>[('mad', 0.4707), ('hamm', 0.3336), ('elisabeth', 0.3217), ('olson', 0.2874), ('men', 0.2801), ('moss', 0.2723), ('incorrectly', 0.2665), ('actress', 0.2183), ('jon', 0.2149), ('actors', 0.2133), ('photographs', 0.1916), ('character', 0.1827), ('gave', 0.142), ('sunday', 0.13), ('caption', 0.1043)]</tf_idf>
-
-<roberta_title_negative>0.0009</roberta_title_negative>
-
-<roberta_title_neutral>0.9981</roberta_title_neutral>
-
-<roberta_title_positive>0.001</roberta_title_positive>
-
-<roberta_paragraph_positive>0.0008</roberta_paragraph_positive>
-
-<roberta_paragraph_neutral>0.9382</roberta_paragraph_neutral>
-
-<roberta_paragraph_negative>0.061</roberta_paragraph_negative>
-
-<bert_title_negative>0.0004</bert_title_negative>
-
-<bert_title_positive>0.9996</bert_title_positive>
-
-<bert_paragraph_positive>0.0016</bert_paragraph_positive>
-
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-
-<bert_paragraph_negative>0.9984</bert_paragraph_negative>
-</processed>
 </RECORD>

@@ -214,31 +214,5 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<processed>
-<is_economic>0.9313</is_economic>
 
-<tf_idf>[('detected', 0.2935), ('ysidro', 0.2838), ('border', 0.2825), ('methamphetamine', 0.2392), ('canine', 0.2237), ('officers', 0.1906), ('customs', 0.1865), ('pickup', 0.1726), ('port', 0.1623), ('hidden', 0.1607), ('undercarriage', 0.1554), ('san', 0.1552), ('truck', 0.149), ('vehicle', 0.137), ('protection', 0.1333), ('anomalies', 0.1314), ('release', 0.1218), ('authorities', 0.121), ('369', 0.1127), ('imaging', 0.1092), ('seizing', 0.1076), ('reported', 0.1033), ('flores', 0.103), ('nissan', 0.1029), ('frontier', 0.0974), ('112', 0.0941), ('inspection', 0.0941), ('encountered', 0.0911), ('detained', 0.0904), ('packages', 0.0898), ('processing', 0.0895), ('valued', 0.0882), ('credited', 0.0874), ('screening', 0.0862), ('homeland', 0.0836), ('crossing', 0.0835), ('team', 0.083), ('seized', 0.0828), ('vital', 0.0818), ('pete', 0.0816), ('waited', 0.0813), ('citizen', 0.081), ('investigations', 0.0807), ('tool', 0.0798), ('entry', 0.0768), ('68', 0.0751), ('false', 0.0751), ('secure', 0.0739), ('pounds', 0.0727), ('bed', 0.0726), ('vehicles', 0.0724), ('agents', 0.0722), ('drugs', 0.0717), ('enter', 0.0706), ('diego', 0.07), ('driver', 0.0684), ('said', 0.0667), ('arrested', 0.0654), ('helping', 0.064), ('finding', 0.0639), ('operations', 0.0636), ('driving', 0.0631), ('agency', 0.0547), ('statement', 0.0535), ('security', 0.053), ('turned', 0.051), ('24', 0.0501), ('field', 0.0499), ('40', 0.0491), ('wednesday', 0.0455), ('line', 0.0454), ('director', 0.0435), ('man', 0.0432), ('news', 0.0431), ('according', 0.0404), ('000', 0.037), ('old', 0.0365), ('year', 0.0259)]</tf_idf>
-
-<roberta_title_negative>0.003</roberta_title_negative>
-
-<roberta_title_neutral>0.9961</roberta_title_neutral>
-
-<roberta_title_positive>0.0009</roberta_title_positive>
-
-<roberta_paragraph_positive>0.0012</roberta_paragraph_positive>
-
-<roberta_paragraph_neutral>0.986</roberta_paragraph_neutral>
-
-<roberta_paragraph_negative>0.0128</roberta_paragraph_negative>
-
-<bert_title_negative>0.9942</bert_title_negative>
-
-<bert_title_positive>0.0058</bert_title_positive>
-
-<bert_paragraph_positive>0.0203</bert_paragraph_positive>
-
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-
-<bert_paragraph_negative>0.9797</bert_paragraph_negative>
-</processed>
 </RECORD>

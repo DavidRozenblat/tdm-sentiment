@@ -16,12 +16,8 @@ tdm_parser = tdm_parser_module.TdmXmlParser()
 
 
 def step_identify_economic(soup: BeautifulSoup, 
-                           economic_classifier: is_economic_module.EconomicClassifier, 
-                           del_grades: bool = False): 
+                           economic_classifier: is_economic_module.EconomicClassifier): 
     """for each xml file on corpus add probability tag that it's economic article."""
-    if del_grades:
-        tdm_parser.delete_tag(soup, tag_name='grades')  
-
     text = tdm_parser.get_art_text(soup)
     value = economic_classifier.is_economic_prob(text)
     soup = tdm_parser.modify_tag(soup, tag_name='is_economic', value=value, modify=True)
@@ -47,7 +43,7 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
     is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL) # load the economic classifier
     file_path = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
     file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
-    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] #TODO change
+    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
     pending = deque(logger_instance.get_file_names())
     
@@ -59,9 +55,12 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
                 xml_path = corpus_dir / xml_name
                 goid = xml_path.stem
                 soup = tdm_parser.get_xml_soup(xml_path)
-                soup = step_identify_economic(soup, is_economic_classifier, del_grades=del_grades)
+                #if del_grades:
+                    #tdm_parser.delete_tag(soup, tag_name='grades') 'processed'
+                
+                soup = step_identify_economic(soup, is_economic_classifier)
                 # rewrite to file
-                tdm_parser.write_xml_soup(soup, xml_path)
+                tdm_parser.write_xml_soup(soup, xml_path)  
                 # Check if the article is economic and write to file if it is
                 if is_above_threshold(soup, prob_threshold): 
                     f.write(f"{xml_path.name}\n")
@@ -102,7 +101,7 @@ def step_title_sentiment_prob(soup: BeautifulSoup,
     return soup
 
 
-def article_average_sentiment_helper(paragraphs, analyzer): #todo
+def article_average_sentiment_helper(paragraphs, analyzer): 
     """
     Compute the average positive, neutral, and negative scores
     over a list of paragraphs.
@@ -211,7 +210,7 @@ if __name__ == '__main__':
     #main()
     corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
     # run is economic step holder
-    is_economic_step_holder(corpus_dir, prob_threshold=0.2) #TODO # Example usage of the economic step holder
+    is_economic_step_holder(corpus_dir, del_grades=True,  prob_threshold=0.2) #TODO # Example usage of the economic step holder
     
     log_file_name = 'main_step_tf_idf_roberta_bert_sentiment' 
     roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}

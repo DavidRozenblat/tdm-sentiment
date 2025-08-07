@@ -167,31 +167,5 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<processed>
-<is_economic>0.5991</is_economic>
 
-<tf_idf>[('azerbaijani', 0.4285), ('nakhchivan', 0.3725), ('armenian', 0.3383), ('cease', 0.2594), ('forces', 0.2358), ('ministry', 0.2244), ('exclave', 0.1707), ('nagorno', 0.1435), ('karabakh', 0.143), ('armenia', 0.1197), ('fighting', 0.119), ('azerbaijan', 0.1182), ('mortars', 0.1169), ('allay', 0.1147), ('shelled', 0.1103), ('outburst', 0.104), ('truce', 0.1034), ('separatist', 0.103), ('observing', 0.0983), ('midday', 0.0972), ('artillery', 0.0966), ('war', 0.0948), ('rockets', 0.0865), ('occasions', 0.0849), ('erupted', 0.0847), ('wednesday', 0.0846), ('tension', 0.078), ('turkey', 0.078), ('battles', 0.0779), ('firing', 0.077), ('iran', 0.0752), ('surrounded', 0.0743), ('marked', 0.0694), ('63', 0.0693), ('reaching', 0.0688), ('intense', 0.0687), ('claimed', 0.0663), ('troops', 0.0663), ('russia', 0.066), ('involving', 0.0649), ('breaking', 0.0648), ('1994', 0.0647), ('sides', 0.0618), ('sought', 0.0601), ('heavy', 0.0595), ('worst', 0.059), ('violence', 0.0588), ('fear', 0.0585), ('largely', 0.0584), ('accused', 0.058), ('region', 0.0563), ('returned', 0.0555), ('adding', 0.0554), ('raised', 0.0539), ('weekend', 0.0529), ('killed', 0.0523), ('ended', 0.0522), ('defense', 0.0497), ('held', 0.0445), ('tuesday', 0.0413), ('late', 0.0397), ('days', 0.0377), ('people', 0.0279), ('new', 0.0242), ('said', 0.0207)]</tf_idf>
-
-<roberta_title_negative>0.0004</roberta_title_negative>
-
-<roberta_title_neutral>0.9987</roberta_title_neutral>
-
-<roberta_title_positive>0.0009</roberta_title_positive>
-
-<roberta_paragraph_positive>0.0019</roberta_paragraph_positive>
-
-<roberta_paragraph_neutral>0.972</roberta_paragraph_neutral>
-
-<roberta_paragraph_negative>0.0261</roberta_paragraph_negative>
-
-<bert_title_negative>0.0373</bert_title_negative>
-
-<bert_title_positive>0.9627</bert_title_positive>
-
-<bert_paragraph_positive>0.2561</bert_paragraph_positive>
-
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-
-<bert_paragraph_negative>0.7438</bert_paragraph_negative>
-</processed>
 </RECORD>

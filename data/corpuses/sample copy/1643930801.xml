@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RECORD>
-<GOID>422244975</GOID>
+<GOID>1643930801</GOID>
 <Obj>
 <SourceRollupType>Newspapers</SourceRollupType>
 <ObjectTypes>
-<other ObjectTypeOrigin="Publisher">General Information</other>
-<mstar>General Information</mstar>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
 </ObjectTypes>
 <ObjectRollupType>Articles - All Types</ObjectRollupType>
 <TitleAtt>
-<Title>For the record</Title>
+<Title>CALIFORNIA BRIEFING; SAN DIEGO; Charges filed in smuggling case</Title>
 </TitleAtt>
-<SubTitleAtt>
-<SubTitle>[2]</SubTitle>
-</SubTitleAtt>
-<NumericDate>2008-11-02</NumericDate>
-<StartDate>2008-11-02</StartDate>
-<EndDate>2008-11-02</EndDate>
-<AlphaDate>Nov 2, 2008</AlphaDate>
+<NumericDate>2015-01-10</NumericDate>
+<StartDate>2015-01-10</StartDate>
+<EndDate>2015-01-10</EndDate>
+<AlphaDate>Jan 10, 2015</AlphaDate>
 <Language>
 <RawLang>English</RawLang>
 </Language>
@@ -28,20 +25,20 @@
 </ISO>
 </Language>
 <Copyright>
-<CopyrightData>(Copyright (c) 2008 Los Angeles Times)</CopyrightData>
+<CopyrightData>(Copyright (c) 2015 Los Angeles Times)</CopyrightData>
 </Copyright>
 <PrintLocation>
-<StartPage>E.2</StartPage>
-<Pagination>E.2</Pagination>
-<DocSection>Sunday Calendar; Part E; Calendar Desk</DocSection>
+<StartPage>AA.7</StartPage>
+<Pagination>AA.7</Pagination>
+<DocSection>California; Part AA; Metro Desk</DocSection>
 <DocEdition>HOME EDITION</DocEdition>
 </PrintLocation>
 <ObjectIDs>
 <ObjectID IDOrigin="PQ">
-<DOCID>1587458741</DOCID>
+<DOCID>3552783011</DOCID>
 </ObjectID>
 <ObjectID IDOrigin="PQ">
-<PCID>40913771</PCID>
+<PCID>93171842</PCID>
 </ObjectID>
 <ObjectID IDOrigin="PQ">
 <PMID>7683</PMID>
@@ -50,32 +47,51 @@
 <ProvJournalCode>ANGE</ProvJournalCode>
 </ObjectID>
 <ObjectID IDOrigin="DTI">
-<PublisherXID>LATM080052252</PublisherXID>
+<PublisherXID>LATM150000982</PublisherXID>
 </ObjectID>
 </ObjectIDs>
-<LexileScore>1220</LexileScore>
+<LexileScore>1520</LexileScore>
 <Contributors>
 <Contributor ContribOrder="1">
 <Author>
-<NormalizedDisplayForm>Anonymous</NormalizedDisplayForm>
-<ContribPersonNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
-<ContribPersonName>Anonymous</ContribPersonName>
-</ContribPersonNameAtt>
+<NormalizedDisplayForm>Perry, Tony</NormalizedDisplayForm>
 <LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
-<LastName>Anonymous</LastName>
+<LastName>Perry</LastName>
 </LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Tony</FirstName>
+</FirstNameAtt>
 <OriginalFormAtt ContribOrigin="pqauth">
-<OriginalForm>Anonymous</OriginalForm>
+<OriginalForm>Tony Perry</OriginalForm>
 </OriginalFormAtt>
 </Author>
 </Contributor>
 </Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Furniture industry</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Public prosecutors</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Mexico</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>China</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="28">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The owner of a Los Angeles furniture business was charged Friday with smuggling endangered sea creatures from Mexico and shipping them to China, where they are delicacies.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
 <LegacyDataMapping>
 <MappingVersion>$Header: $</MappingVersion>
 </LegacyDataMapping>
 </Obj>
 <TextInfo>
-<Text HTMLContent="true" WordCount="39">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;"Mad Men" actress: A caption under photographs last Sunday of "Mad Men" actors Jon Hamm and Elisabeth Moss incorrectly gave her last name as Olson, her character's last name.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+<Text HTMLContent="true" WordCount="144">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The owner of a Los Angeles furniture business was charged Friday with smuggling endangered sea creatures from Mexico and shipping them to China, where they are delicacies.&lt;/p&gt;              &lt;p&gt;Kam Wing Chan, 61, of Monterey Park, is charged with eight felony counts of smuggling abalone, sea cucumber and totoaba fish from Mexico to San Diego.&lt;/p&gt;              &lt;p&gt;Charges have also been filed against Chan's business, Kaven Co., which imports furniture from China.&lt;/p&gt;              &lt;p&gt;The company was used as a front for bringing the sea creatures, worth more than $3 million, into the U.S. and then shipping them to China to companies owned by Chan's relatives, according to federal prosecutors.&lt;/p&gt;              &lt;p&gt;A dried totoaba swim bladder, used for soup, can be sold for $1,400 to $4,000 in Mexico, and for up to $40,000 in Asia, prosecutors said.&lt;/p&gt;              &lt;p&gt;-- Tony Perry&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
 </TextInfo>
 <DFS>
 <PubFrosting>
@@ -160,41 +176,15 @@
 <ContentModel>CM_DEFAULT</ContentModel>
 </PubFrosting>
 <GroupFrosting>
-<AlphaDate>Nov 2, 2008</AlphaDate>
-<StartDate>2008-11-02</StartDate>
-<EndDate>2008-11-02</EndDate>
+<AlphaDate>Jan 10, 2015</AlphaDate>
+<StartDate>2015-01-10</StartDate>
+<EndDate>2015-01-10</EndDate>
 <Locators>
 <Locator Type="PQPCID">
-<Name>40913771</Name>
+<Name>93171842</Name>
 </Locator>
 </Locators>
 </GroupFrosting>
 </DFS>
-<processed>
-<is_economic>0.3228</is_economic>
 
-<tf_idf>[('mad', 0.4707), ('hamm', 0.3336), ('elisabeth', 0.3217), ('olson', 0.2874), ('men', 0.2801), ('moss', 0.2723), ('incorrectly', 0.2665), ('actress', 0.2183), ('jon', 0.2149), ('actors', 0.2133), ('photographs', 0.1916), ('character', 0.1827), ('gave', 0.142), ('sunday', 0.13), ('caption', 0.1043)]</tf_idf>
-
-<roberta_title_negative>0.0009</roberta_title_negative>
-
-<roberta_title_neutral>0.9981</roberta_title_neutral>
-
-<roberta_title_positive>0.001</roberta_title_positive>
-
-<roberta_paragraph_positive>0.0008</roberta_paragraph_positive>
-
-<roberta_paragraph_neutral>0.9382</roberta_paragraph_neutral>
-
-<roberta_paragraph_negative>0.061</roberta_paragraph_negative>
-
-<bert_title_negative>0.0004</bert_title_negative>
-
-<bert_title_positive>0.9996</bert_title_positive>
-
-<bert_paragraph_positive>0.0016</bert_paragraph_positive>
-
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-
-<bert_paragraph_negative>0.9984</bert_paragraph_negative>
-</processed>
 </RECORD>
