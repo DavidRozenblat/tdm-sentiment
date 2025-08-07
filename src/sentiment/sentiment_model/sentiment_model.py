@@ -81,7 +81,7 @@ class TextAnalysis:
             tokenizer = AutoTokenizer.from_pretrained(str(self.local_model_path))
 
             self.sentiment_pipeline = pipeline(
-                "sentiment-analysis", 
+                "sentiment-analysis",
                 model=model,
                 tokenizer=tokenizer,
                 device=self.device
@@ -91,6 +91,18 @@ class TextAnalysis:
         except Exception as e:
             print(f"Error loading BERT model from '{self.local_model_path}': {e}")
             raise
+
+    def __enter__(self):
+        """Enable use as a context manager."""
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Release model resources and clear GPU memory on exit."""
+        if hasattr(self, "sentiment_pipeline"):
+            del self.sentiment_pipeline
+            self.sentiment_pipeline = None
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
 
     def txt_sentiment_dict(self, my_txt: str) -> dict:

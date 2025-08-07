@@ -142,39 +142,70 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
 
     
 
-def main_step_holder(corpus_dir: Path, 
+def main_step_holder(corpus_dir: Path,
                     log_file_name: str,
                     roberta_title_sentiment_label_dict: dict,
                     roberta_paragraph_sentiment_label_dict: dict,
                     bert_title_sentiment_label_dict: dict,
-                    bert_paragraph_sentiment_label_dict: dict): 
+                    bert_paragraph_sentiment_label_dict: dict):
     """Main step holder for processing a corpus directory."""
-    tfidf_extractor = tf_idf_extractor.TfidfKeywordExtractor(TF_IDF_MODEL_PATH)  # load the TF-IDF extractor model
-    roberta_sentiment_analyzer = sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH)  # load the sentiment model
-    bert_sentiment_analyzer = sentiment_model.TextAnalysis(BERT_MODEL_PATH)  # load the sentiment model
-    
+    tfidf_extractor = tf_idf_extractor.TfidfKeywordExtractor(TF_IDF_MODEL_PATH)
+
     # get the list of economic files and initialize logger
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
-    pending = deque(logger_instance.get_file_names())
+    logger_instance = logger.Logger(
+        log_dir=LOGS_PATH,
+        log_file_name=log_file_name,
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=economic_files,
+    )
 
-    while pending:
-        xml_name = pending.popleft()
-        try:
-            xml_file = corpus_dir / xml_name
-            soup = tdm_parser.get_xml_soup(xml_file)
-            soup = step_tfidf_tags(soup=soup, tfidf_extractor=tfidf_extractor)  # append TF-IDF tags
-            soup = step_title_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_title_sentiment_label_dict)  # add title sentiment
-            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_paragraph_sentiment_label_dict)  # add paragraph sentiment
-            soup = step_title_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_title_sentiment_label_dict)  # add title sentiment
-            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_paragraph_sentiment_label_dict)  # add paragraph sentiment
-            # rewrite to file
-            tdm_parser.write_xml_soup(soup, xml_file)
-        except Exception as e:
-            print(f"Error processing {xml_name}: {e}")
-        finally:
-            # 4) update log regardless of success/failure
-            logger_instance.update_log_file(xml_name)
+    # First pass: process TF-IDF and RoBERTa sentiments
+    pending = deque(economic_files)
+    with sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH) as roberta_sentiment_analyzer:
+        while pending:
+            xml_name = pending.popleft()
+            try:
+                xml_file = corpus_dir / xml_name
+                soup = tdm_parser.get_xml_soup(xml_file)
+                soup = step_tfidf_tags(soup=soup, tfidf_extractor=tfidf_extractor)
+                soup = step_title_sentiment_prob(
+                    soup=soup,
+                    sentiment_model=roberta_sentiment_analyzer,
+                    label_dict=roberta_title_sentiment_label_dict,
+                )
+                soup = step_paragraph_sentiment_prob(
+                    soup=soup,
+                    sentiment_model=roberta_sentiment_analyzer,
+                    label_dict=roberta_paragraph_sentiment_label_dict,
+                )
+                tdm_parser.write_xml_soup(soup, xml_file)
+            except Exception as e:
+                print(f"Error processing {xml_name}: {e}")
+
+    # Second pass: load BERT model and append its sentiment scores
+    pending = deque(economic_files)
+    with sentiment_model.TextAnalysis(BERT_MODEL_PATH) as bert_sentiment_analyzer:
+        while pending:
+            xml_name = pending.popleft()
+            try:
+                xml_file = corpus_dir / xml_name
+                soup = tdm_parser.get_xml_soup(xml_file)
+                soup = step_title_sentiment_prob(
+                    soup=soup,
+                    sentiment_model=bert_sentiment_analyzer,
+                    label_dict=bert_title_sentiment_label_dict,
+                )
+                soup = step_paragraph_sentiment_prob(
+                    soup=soup,
+                    sentiment_model=bert_sentiment_analyzer,
+                    label_dict=bert_paragraph_sentiment_label_dict,
+                )
+                tdm_parser.write_xml_soup(soup, xml_file)
+            except Exception as e:
+                print(f"Error processing {xml_name}: {e}")
+            finally:
+                logger_instance.update_log_file(xml_name)
 
 
 
