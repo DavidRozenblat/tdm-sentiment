@@ -49,9 +49,9 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
     initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] #TODO change
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
     pending = logger_instance.get_file_names()
-
+    
     # Loop through each XML file in the corpus directory
-    with open(file_path, 'w') as f:
+    with open(file_path, 'a') as f:
         while pending:
             xml_name = pending.pop(0)
             try:            
@@ -143,14 +143,17 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
 
     
 
-def main_step_older(corpus_dir: Path, 
+def main_step_holder(corpus_dir: Path, 
                     log_file_name: str,
-                    sentiment_model_path: Path, 
-                    title_sentiment_label_dict: dict,
-                    paragraph_sentiment_label_dict: dict): 
+                    roberta_title_sentiment_label_dict: dict,
+                    roberta_paragraph_sentiment_label_dict: dict,
+                    bert_title_sentiment_label_dict: dict,
+                    bert_paragraph_sentiment_label_dict: dict): 
     """Main step holder for processing a corpus directory."""
     tfidf_extractor = tf_idf_extractor.TfidfKeywordExtractor(TF_IDF_MODEL_PATH)  # load the TF-IDF extractor model
-    sentiment_analyzer = sentiment_model.TextAnalysis(sentiment_model_path)  # load the sentiment model
+    roberta_sentiment_analyzer = sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH)  # load the sentiment model
+    bert_sentiment_analyzer = sentiment_model.TextAnalysis(BERT_MODEL_PATH)  # load the sentiment model
+    
     # get the list of economic files and initialize logger
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
@@ -162,8 +165,10 @@ def main_step_older(corpus_dir: Path,
             xml_file = corpus_dir / xml_name
             soup = tdm_parser.get_xml_soup(xml_file)
             soup = step_tfidf_tags(soup=soup, tfidf_extractor=tfidf_extractor)  # append TF-IDF tags
-            soup = step_title_sentiment_prob(soup=soup, sentiment_model=sentiment_analyzer, label_dict=title_sentiment_label_dict)  # add title sentiment
-            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=sentiment_analyzer, label_dict=paragraph_sentiment_label_dict)  # add paragraph sentiment
+            soup = step_title_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_title_sentiment_label_dict)  # add title sentiment
+            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_paragraph_sentiment_label_dict)  # add paragraph sentiment
+            soup = step_title_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_title_sentiment_label_dict)  # add title sentiment
+            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_paragraph_sentiment_label_dict)  # add paragraph sentiment
             # rewrite to file
             tdm_parser.write_xml_soup(soup, xml_file)
         except Exception as e:
@@ -202,20 +207,23 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    corpus_dir = CORPUSES_PATH / 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
+    corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
     # run is economic step holder
-    #is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.2) #TODO # Example usage of the economic step holder
+    is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.2) #TODO # Example usage of the economic step holder
     
     log_file_name = 'main_step_tf_idf_roberta_sentiment' 
-    sentiment_model_path = ROBERTA_MODEL_PATH  # or ROBERTA_MODEL_PATH
-    title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
+    roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
+    bert_title_sentiment_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
+    bert_paragraph_sentiment_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
     # Run the main step with the specified parameters
-    main_step_older(corpus_dir=corpus_dir,
+
+    main_step_holder(corpus_dir=corpus_dir,
                     log_file_name=log_file_name, 
-                    sentiment_model_path=sentiment_model_path, 
-                    title_sentiment_label_dict=title_sentiment_label_dict, 
-                    paragraph_sentiment_label_dict=paragraph_sentiment_label_dict)
+                    roberta_title_sentiment_label_dict=roberta_title_sentiment_label_dict, 
+                    paragraph_sentiment_label_dict=roberta_paragraph_sentiment_label_dict,
+                    bert_title_sentiment_label_dict=bert_title_sentiment_label_dict,
+                    bert_paragraph_sentiment_label_dict=bert_paragraph_sentiment_label_dict)
     
     
     

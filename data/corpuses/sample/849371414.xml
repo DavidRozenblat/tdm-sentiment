@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>849371414</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>THE REGION; Lunar New Year parade draws a crowd</Title>
+</TitleAtt>
+<NumericDate>2011-02-06</NumericDate>
+<StartDate>2011-02-06</StartDate>
+<EndDate>2011-02-06</EndDate>
+<AlphaDate>Feb 6, 2011</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2011 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.29</StartPage>
+<Pagination>A.29</Pagination>
+<DocSection>Main News; Part A; Metro Desk</DocSection>
+<DocEdition>HOME EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>2258749741</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>57961881</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM110004737</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1320</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Vives, Ruben</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Vives</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Ruben</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Ruben Vives</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>New year</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Festivals</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Parades</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="NA">
+<GenSubjValue>Chinese culture</GenSubjValue>
+</GenSubjTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Los Angeles California</Geographic>
+</Term>
+</Terms>
+<Abstract>
+<Medium WordCount="30">
+<AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;According to the Chinese zodiac, each new year is ruled by one of 12 animals -- rat, tiger, rabbit, dragon, snake, dog, horse, sheep, rooster, pig, monkey and ox.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="602">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;The rabbit and the cat ruled Chinatown on Saturday as hundreds of people from Asian communities throughout the Los Angeles area rang in the lunar new year at the district's annual Golden Dragon Parade and Festival.&lt;/p&gt;              &lt;p&gt;Smoke curled from the gatekeeper dragons on North Broadway, and beyond them, many of the small shops, restaurants and sidewalks of Hill Street and Broadway were jam-packed. By noon the streets were closed off. Many children threw party snappers on the ground and chased confetti that was shot up in the air.&lt;/p&gt;              &lt;p&gt;The event, sponsored by the Chinese Chamber of Commerce, is expected to draw huge crowds throughout the weekend, said board member Y.H. Yeung. "We hold the event each weekend after the Lunar New Year day," Yeung said.&lt;/p&gt;              &lt;p&gt;According to the Chinese zodiac, each new year is ruled by one of 12 animals -- rat, tiger, rabbit, dragon, snake, dog, horse, sheep, rooster, pig, monkey and ox. This year is ruled by the rabbit. For the Vietnamese community, celebrating Tet, it's the year of the cat.&lt;/p&gt;              &lt;p&gt;At the corner of College Street and Broadway, a parking lot was converted into a food court with a staging area. There, the air was mixed with the scent of barbecue smoke and fireworks. Dance groups and singers performed on stage while people sat at tables eating egg rolls, plates of barbecue and pad Thai.&lt;/p&gt;              &lt;p&gt;"Everyone brings in their own culture here," said May Chiang, the entertainment organizer. The tiny district, she said, also has populations from Vietnam, Taiwan and other areas of Southeast Asia.&lt;/p&gt;              &lt;p&gt;Nearby, Citlalli Cuevas, 27, wandered along the white tents with her 6-year-old daughter, Jimena, who was dressed up as a white rabbit. Cuevas said she moved to Los Angeles from Mexico more than a year ago because of her husband's new job. She learned about Saturday's event through the Internet and her daughter's school.&lt;/p&gt;              &lt;p&gt;"I thought it would be fun to bring her here," Cuevas said, looking down at her daughter. "But dressing up was her idea."&lt;/p&gt;              &lt;p&gt;Around 1 p.m., a line of vintage vehicles carrying political figures made its way up Hill Street. Dozens of floats, colorful dragons and martial arts students followed behind, occasionally stopping to perform for the crowd.&lt;/p&gt;              &lt;p&gt;Among the many dignitaries who participated in the parade was Los Angeles Councilman Ed Reyes, whose district includes Chinatown. "It is a tremendous showing of diversity and culture, and a reflection of the international state of this great city," Reyes said of the event.&lt;/p&gt;              &lt;p&gt;But perhaps it was Assemblyman Mike Eng (D-Monterey Park) who best summarized Saturday's Lunar New Year celebration.&lt;/p&gt;              &lt;p&gt;"Remember, this is the year of the rabbit," Eng told the crowd as his vehicle moved slowly south on Broadway. "Please multiply your friendships and your relationships, because at the end all we have is each other, so hug your friends and your family and wish them a happy new year."&lt;/p&gt;              &lt;p&gt;ruben.vives@latimes.com&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Caption: PHOTO: TRADITION: Vivian Chan, 5, portrays a lion at the Golden Dragon Festival and Parade in Chinatown.; PHOTOGRAPHER:Liz O. Baylen Los Angeles Times; PHOTO: (A1) CHINATOWN CELEBRATION: Children react to dancers at the Golden Dragon Parade. Thousands are expected at the weekend lunar new year festival. CALIFORNIA, A29; PHOTOGRAPHER:Liz O. Baylen Los Angeles Times; PHOTO: (A27) WAVING HELLO TO A NEW YEAR: Young performers march through Chinatown during the annual Golden Dragon Parade and Festival. Hundreds came downtown to join the celebration and to usher in the lunar new year. PAGE A29; PHOTOGRAPHER:Liz O. Baylen Los Angeles Times&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Feb 6, 2011</AlphaDate>
+<StartDate>2011-02-06</StartDate>
+<EndDate>2011-02-06</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>57961881</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.7669</is_economic>
+<tf_idf>[('lunar', 0.2685), ('chinatown', 0.2535), ('dragon', 0.2424), ('rabbit', 0.2395), ('baylen', 0.2094), ('cuevas', 0.2), ('parade', 0.1982), ('year', 0.1578), ('a29', 0.1539), ('broadway', 0.1466), ('yeung', 0.1444), ('liz', 0.1358), ('festival', 0.1356), ('angeles', 0.1321), ('los', 0.1308), ('golden', 0.1306), ('eng', 0.1277), ('new', 0.1098), ('dragons', 0.1093), ('celebration', 0.1067), ('event', 0.1053), ('ruled', 0.1006), ('reyes', 0.0959), ('citlalli', 0.0956), ('barbecue', 0.0917), ('daughter', 0.0822), ('jimena', 0.0806), ('weekend', 0.0801), ('cat', 0.0787), ('smoke', 0.075), ('snappers', 0.0744), ('said', 0.0731), ('a27', 0.0731), ('district', 0.0728), ('photographer', 0.0713), ('tet', 0.0682), ('street', 0.068), ('chinese', 0.0679), ('saturday', 0.0656), ('gatekeeper', 0.0626), ('zodiac', 0.0624), ('chiang', 0.0603), ('rooster', 0.0596), ('culture', 0.059), ('hill', 0.0588), ('crowd', 0.0579), ('summarized', 0.0579), ('confetti', 0.057), ('ox', 0.0565), ('hundreds', 0.0565), ('curled', 0.055), ('multiply', 0.055), ('dignitaries', 0.0545), ('annual', 0.0537), ('floats', 0.0525), ('vivian', 0.0521), ('times', 0.0513), ('moved', 0.0511), ('monterey', 0.0508), ('scent', 0.0507), ('friendships', 0.05), ('wandered', 0.0498), ('monkey', 0.0497), ('usher', 0.0496), ('snake', 0.049), ('photo', 0.0489), ('assemblyman', 0.0488), ('air', 0.0488), ('vietnamese', 0.0487), ('rat', 0.0486), ('tents', 0.0484), ('thai', 0.0483), ('chan', 0.048), ('portrays', 0.048), ('rang', 0.048), ('sheep', 0.048), ('pig', 0.0472), ('martial', 0.0469), ('pad', 0.0467), ('taiwan', 0.0466), ('sidewalks', 0.0465), ('a1', 0.0465), ('chased', 0.046), ('fireworks', 0.0458), ('organizer', 0.0455), ('hello', 0.0454), ('hug', 0.0454), ('expected', 0.0453), ('waving', 0.0449), ('lion', 0.0442), ('children', 0.0439), ('councilman', 0.0438), ('staging', 0.0437), ('area', 0.0436), ('populations', 0.0435), ('react', 0.0432), ('reflection', 0.0431), ('singers', 0.0429), ('dancers', 0.0425), ('plates', 0.0424), ('jam', 0.0423), ('dressing', 0.0422), ('white', 0.0418), ('egg', 0.0416), ('rolls', 0.041), ('tiger', 0.041), ('participated', 0.0409), ('vintage', 0.0403), ('converted', 0.0401), ('colorful', 0.0398), ('stopping', 0.0396), ('performers', 0.0394), ('diversity', 0.0394), ('vietnam', 0.039), ('crowds', 0.039), ('celebrating', 0.0389), ('tables', 0.0388), ('tremendous', 0.0385), ('southeast', 0.0384), ('shops', 0.0378), ('horse', 0.0372), ('chamber', 0.0369), ('dressed', 0.0367), ('asian', 0.0366), ('asia', 0.0365), ('relationships', 0.0365), ('occasionally', 0.0363), ('packed', 0.0358), ('animals', 0.0356), ('eating', 0.0354), ('commerce', 0.0352), ('sponsored', 0.0352), ('slowly', 0.0352), ('ed', 0.0349), ('tradition', 0.0348), ('noon', 0.0341), ('vehicles', 0.034), ('carrying', 0.0339), ('mixed', 0.0338), ('restaurants', 0.0338), ('performed', 0.0337), ('wish', 0.0336), ('tiny', 0.0335), ('perform', 0.0334), ('dog', 0.0334), ('threw', 0.033), ('brings', 0.0329), ('parking', 0.0327), ('dance', 0.0325), ('draw', 0.0323), ('vehicle', 0.0322), ('dozens', 0.032), ('mexico', 0.032), ('communities', 0.0319), ('entertainment', 0.0319), ('sat', 0.0318), ('downtown', 0.0318), ('arts', 0.0314), ('corner', 0.0312), ('figures', 0.0307), ('join', 0.0306), ('streets', 0.0304), ('nearby', 0.0303), ('showing', 0.0302), ('internet', 0.0299), ('remember', 0.0293), ('fun', 0.029), ('learned', 0.0288), ('people', 0.0282), ('happy', 0.028), ('closed', 0.028), ('areas', 0.028), ('stage', 0.0279), ('huge', 0.0278), ('page', 0.0276), ('followed', 0.0276), ('thousands', 0.027), ('husband', 0.0269), ('students', 0.0269), ('ground', 0.0267), ('mike', 0.0261), ('groups', 0.0261), ('includes', 0.0259), ('27', 0.0257), ('hold', 0.0255), ('food', 0.0254), ('idea', 0.025), ('party', 0.0247), ('bring', 0.0246), ('shot', 0.0245), ('friends', 0.0245), ('march', 0.0242), ('member', 0.0242), ('board', 0.0242), ('international', 0.0238), ('college', 0.0237), ('california', 0.0236), ('political', 0.0233), ('community', 0.0231), ('north', 0.0231), ('thought', 0.023), ('south', 0.0228), ('looking', 0.0226), ('park', 0.0226), ('court', 0.0225), ('job', 0.0222), ('young', 0.0216), ('small', 0.0214), ('line', 0.0213), ('great', 0.0198), ('family', 0.0197), ('school', 0.0196), ('came', 0.0196), ('12', 0.0195), ('ago', 0.0195), ('lot', 0.0194), ('told', 0.0192), ('according', 0.019), ('city', 0.0185), ('best', 0.0184), ('end', 0.0184), ('caption', 0.0174), ('old', 0.0171), ('state', 0.017), ('day', 0.0159), ('way', 0.0157)]</tf_idf>
+<roberta_title_negative>0.0005</roberta_title_negative>
+<roberta_title_neutral>0.9853</roberta_title_neutral>
+<roberta_title_positive>0.0142</roberta_title_positive>
+<roberta_paragraph_positive>0.08897692307692308</roberta_paragraph_positive>
+<roberta_paragraph_neutral>0.9106461538461539</roberta_paragraph_neutral>
+<roberta_paragraph_negative>0.0003692307692307692</roberta_paragraph_negative>
+</processed>
+</RECORD>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORD>
+<GOID>1825336436</GOID>
+<Obj>
+<SourceRollupType>Newspapers</SourceRollupType>
+<ObjectTypes>
+<other ObjectTypeOrigin="Publisher">News</other>
+<mstar>News</mstar>
+</ObjectTypes>
+<ObjectRollupType>Articles - All Types</ObjectRollupType>
+<TitleAtt>
+<Title>Should a rape accuser remain anonymous?; The civil case against NBA's Derrick Rose poses a legal dilemma.</Title>
+</TitleAtt>
+<NumericDate>2016-10-04</NumericDate>
+<StartDate>2016-10-04</StartDate>
+<EndDate>2016-10-04</EndDate>
+<AlphaDate>Oct 4, 2016</AlphaDate>
+<Language>
+<RawLang>English</RawLang>
+</Language>
+<Language IsPrimary="true">
+<ISO>
+<ISOCode>ENG</ISOCode>
+<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+</ISO>
+</Language>
+<Copyright>
+<CopyrightData>(Copyright (c) 2016 Los Angeles Times)</CopyrightData>
+</Copyright>
+<PrintLocation>
+<StartPage>A.1</StartPage>
+<Pagination>A.1</Pagination>
+<DocSection>Main News; Part A; Metro Desk</DocSection>
+<DocEdition>HOME EDITION</DocEdition>
+</PrintLocation>
+<ObjectIDs>
+<ObjectID IDOrigin="PQ">
+<DOCID>4202535261</DOCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PCID>108150162</PCID>
+</ObjectID>
+<ObjectID IDOrigin="PQ">
+<PMID>7683</PMID>
+</ObjectID>
+<ObjectID>
+<ProvJournalCode>ANGE</ProvJournalCode>
+</ObjectID>
+<ObjectID IDOrigin="DTI">
+<PublisherXID>LATM2016100426636</PublisherXID>
+</ObjectID>
+</ObjectIDs>
+<LexileScore>1510</LexileScore>
+<Contributors>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Rubin, Joel</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Rubin</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Joel</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt>
+<OriginalForm>Joel Rubin</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+<Contributor ContribOrder="1">
+<Author>
+<NormalizedDisplayForm>Rubin, Joel</NormalizedDisplayForm>
+<LastNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<LastName>Rubin</LastName>
+</LastNameAtt>
+<FirstNameAtt ContribOrigin="AuthorNormalization" IsNormalized="true">
+<FirstName>Joel</FirstName>
+</FirstNameAtt>
+<OriginalFormAtt ContribOrigin="pqauth">
+<OriginalForm>Joel Rubin</OriginalForm>
+</OriginalFormAtt>
+</Author>
+</Contributor>
+</Contributors>
+<Terms>
+<CompanyTerm PndxHeader="true" TermSource="ABI">
+<CompanyNameAtt>
+<CompanyName>National Basketball Association</CompanyName>
+</CompanyNameAtt>
+<CompanyNAICAtt>
+<CompanyNAIC>813990</CompanyNAIC>
+</CompanyNAICAtt>
+</CompanyTerm>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>California</Geographic>
+</Term>
+<Term PndxHeader="true" TermSource="ABI">
+<Geographic>Los Angeles County California</Geographic>
+</Term>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>ROSE, DERRICK</TitleKeyword>
+</FlexTerm>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>RAPE</TitleKeyword>
+</FlexTerm>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>TRIALS</TitleKeyword>
+</FlexTerm>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>NAMES</TitleKeyword>
+</FlexTerm>
+<FlexTerm TermSource="ABI">
+<TitleKeyword>DISCLOSURE OF INFORMATION</TitleKeyword>
+</FlexTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Rape</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Federal court decisions</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Trials</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Court hearings &amp; proceedings</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Professional basketball</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Sex crimes</GenSubjValue>
+</GenSubjTerm>
+<GenSubjTerm PndxHeader="true" TermSource="ABI">
+<GenSubjValue>Victims of crime</GenSubjValue>
+</GenSubjTerm>
+</Terms>
+<Abstract>
+<Medium WordCount="64">
+<AbsText HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;[...]in a case frequently cited by judges and lawyers, the federal appeals court in California allowed a group of immigrant garment workers to sue their employer anonymously because of deportation concerns.  The tendency of civil court judges to favor openness when it comes to rape claims frustrates Ressler and others, such as Meg Garvin, executive director of the National Crime Victim Law Institute.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+</Medium>
+</Abstract>
+<LegacyDataMapping>
+<MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+</LegacyDataMapping>
+</Obj>
+<TextInfo>
+<Text HTMLContent="true" WordCount="1432">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title&gt; &lt;/title&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Her lawsuit alleging she was raped by NBA star Derrick Rose has made national headlines.&lt;/p&gt;              &lt;p&gt;The New York Knicks point guard has been dogged by questions about her claim during preseason appearances. And she recently gave a lengthy interview with reporters during a conference call about the case.&lt;/p&gt;              &lt;p&gt;But since she filed suit against Rose a year ago, the woman identified in court filings only as "Jane Doe" has remained anonymous.&lt;/p&gt;              &lt;p&gt;That secrecy is about to end.&lt;/p&gt;              &lt;p&gt;A federal judge has ruled that once the case goes to trial, the 30-year-old will have to be named. Barring a last-minute settlement, jury selection will begin Tuesday.&lt;/p&gt;              &lt;p&gt;The case is the latest to raise a persistent legal and ethical dilemma: Should the accuser in a rape case have the right to remain anonymous in court?&lt;/p&gt;              &lt;p&gt;The woman at the center of the lawsuit argued that her identity should be kept secret because she fears Rose's fans would harass and possibly harm her and her family if her name became known.&lt;/p&gt;              &lt;p&gt;Rose and the other men have not been criminally charged, although Los Angeles police say they continue to investigate the case after the woman filed a complaint last year -- two years after the alleged 2013 rape.&lt;/p&gt;              &lt;p&gt;U.S. District Judge Michael W. Fitzgerald ruled that the plaintiff could remain anonymous during pretrial proceedings, but not during the trial itself. In so doing, he sought a middle ground between conflicting legal principles.&lt;/p&gt;              &lt;p&gt;"The public does, of course, have some interest in [her] true identity, especially in light of the publicity surrounding this action," Fitzgerald wrote. "The public has an equally strong interest, however, in encouraging victims of sexual assault to bring claims against their assailants."&lt;/p&gt;              &lt;p&gt;Judges have often allowed people who brought civil cases involving rape allegations or other highly sensitive matters to keep their identities cloaked at trial. Perhaps the most notable is the landmark abortion rights case Roe vs. Wade, in which the plaintiff was known as Jane Roe. And in a case frequently cited by judges and lawyers, the federal appeals court in California allowed a group of immigrant garment workers to sue their employer anonymously because of deportation concerns.&lt;/p&gt;              &lt;p&gt;But usually, federal judges insist that the parties in a lawsuit be identified at trial, experts said. Attempts to shield information presented in court from public view must be weighed against the longstanding principle that shining a light on the workings of the judiciary guards against injustice, incompetence or fraud.&lt;/p&gt;              &lt;p&gt;"For the most part, judges have been reluctant to allow pseudonyms, because they're afraid of violating this very fundamental tenet of judicial openness," said Jayne Ressler, a professor at Brooklyn Law School who has studied the question of anonymity in courts.&lt;/p&gt;              &lt;p&gt;Ressler said many states, including California, readily grant anonymity to rape victims in criminal proceedings, but those protections do not necessarily carry over into civil trials.&lt;/p&gt;              &lt;p&gt;In a similar case, a 27-year-old woman also using the pseudonym Jane Doe filed a lawsuit two years ago in Washington, D.C., accusing Cincinnati Reds pitcher Alfredo Simon Cabrera of rape. A federal court judge ruled that she could remain anonymous only until the trial. The case was dismissed at her request late last year.&lt;/p&gt;              &lt;p&gt;The tendency of civil court judges to favor openness when it comes to rape claims frustrates Ressler and others, such as Meg Garvin, executive director of the National Crime Victim Law Institute. Allowing a woman to go through trial as a Jane Doe does little to reduce a court's transparency, they said, whereas exposing her identity harms her and discourages future victims of sexual assault from coming forward.&lt;/p&gt;              &lt;p&gt;"The name doesn't matter. What's important is what happened. Did the man rape this woman?" Ressler said.&lt;/p&gt;              &lt;p&gt;The speed with which information now spreads through social media raises the stakes. While most mainstream media outlets generally do not name accusers in rape cases, people posting to online platforms are not bound by such rules.&lt;/p&gt;              &lt;p&gt;The case involving Rose, who was for many years a marquee player with the Chicago Bulls until a recent trade to New York, has provided a particularly stark example of the conflict between privacy and openness. Despite a career beset by injuries, Rose, the youngest player ever to win the NBA's most valuable player award, has built a huge fan base, as evidenced by his 2.45 million Twitter followers.&lt;/p&gt;              &lt;p&gt;Rose and two friends, Randall Hampton and Ryan Allen, are accused in the lawsuit of sexually assaulting the woman in the early morning hours one day in August 2013. Rose and the woman had been in a relationship for a few years, and on the night in question, the woman has recounted, she went to a party with Rose, who was living temporarily in Los Angeles.&lt;/p&gt;              &lt;p&gt;The woman alleges that afterward, while drinking at Rose's house, the men secretly drugged her. Hours later, after she had departed, the men drove to the woman's apartment. The woman alleges the men sexually assaulted her while she was in an "incapacitated state of consciousness."&lt;/p&gt;              &lt;p&gt;Rose and the others acknowledge they had sex with the woman, but say it was consensual.&lt;/p&gt;              &lt;p&gt;The woman sued in Los Angeles County Superior Court. Rose's lawyers successfully petitioned to move the case to federal district court, saying Rose was not a resident of California.&lt;/p&gt;              &lt;p&gt;The months of legal wrangling in the lead-up to trial have often been ugly. Rose's attorney, Mark Baute, has taken a pugnacious approach, saying the woman's demand for $21 million shows she is trying to shake down Rose.&lt;/p&gt;              &lt;p&gt;"This is not a rape case. It's pure and simple extortion by a plaintiff who wants to hide behind the cloak of anonymity while seeking millions in damages from a celebrity," Baute wrote in one of many filings.&lt;/p&gt;              &lt;p&gt;Baute forced the issue of the woman's anonymity, arguing in June that the case should be dismissed or the woman be forced to identify herself because Rose had been badly disadvantaged by her hidden identity. Baute said she had given up her claim to anonymity because she had posted provocative photos of herself using her name online.&lt;/p&gt;              &lt;p&gt;Baute declined to comment on the issue of the woman's anonymity.&lt;/p&gt;              &lt;p&gt;Her attorney, Brandon Anand, did not respond to requests for comment.&lt;/p&gt;              &lt;p&gt;Fitzgerald rejected Baute's arguments, finding that Rose's fame heightened the likelihood that identifying the woman "could subject her to significant harassment and humiliation from the public." And the judge admonished Baute for citing the woman's online photos in his argument, saying they made her no less deserving of protection.&lt;/p&gt;              &lt;p&gt;"Defendant Rose," the judge wrote, "appears to suggest that women who publicly portray themselves as 'sexual' are less likely to experience embarrassment, humiliation and harassment associated with gang rape. Such rhetoric has no place in this court."&lt;/p&gt;              &lt;p&gt;In his ruling, Fitzgerald cited the 2003 sex assault case against Los Angeles Lakers star Kobe Bryant, who was accused by a 19-year-old Colorado hotel worker of raping her while she was at work at a mountain resort.&lt;/p&gt;              &lt;p&gt;Despite efforts by the judge in those criminal proceedings to conceal her identity, the woman endured harassment and threats when her name was leaked and spread widely.&lt;/p&gt;              &lt;p&gt;In his ruling last month, however, Fitzgerald wrote that "as trial approaches, the public's interest in disclosure also increases." It is well-established, he explained, that open courtrooms are an important element of journalists' and the general public's constitutional right to free speech. Keeping the woman's name secret, he said, would risk impinging on those rights.&lt;/p&gt;              &lt;p&gt;The judge added a second reason for his ruling. If jurors heard the woman referred to as Jane Doe, they might infer she was being protected because of harm caused by the defendants.&lt;/p&gt;              &lt;p&gt;The woman's attorney made a last-ditch effort last week to get the judge to reconsider, filing a letter from a Los Angeles police detective who said she was actively investigating the rape allegation for possible criminal charges and would like the woman's identity to remain secret while the inquiry continued.&lt;/p&gt;              &lt;p&gt;In the same filing, on which Fitzgerald has not ruled, the attorney also submitted screen grabs from social media sites on which people discussed the case and named the woman, denigrating her decision to sue Rose. One post dismissed her as a "gold digger."&lt;/p&gt;              &lt;p&gt;The harassment, the woman's lawyer argued, would probably worsen if the woman's identity was made public in court.&lt;/p&gt;              &lt;p&gt;--&lt;/p&gt;              &lt;p&gt;joel.rubin@latimes.com&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="41"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Illustration"/&gt;&lt;div class="Illustration_content"&gt;&lt;p&gt;Caption: PHOTO: IN THE lawsuit, Derrick Rose and two other men are accused of sexual assault in L.A. in 2013.; PHOTOGRAPHER:Michael Reaves Getty Images&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+</TextInfo>
+<DFS>
+<PubFrosting>
+<Title>Los Angeles Times</Title>
+<MpubId>46999</MpubId>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<JournalCode>ANGE</JournalCode>
+<SourceType>Newspapers</SourceType>
+<StartDate>18860101</StartDate>
+<EndDate>99991231</EndDate>
+<publisher>
+<PublisherName>Los Angeles Times Communications LLC</PublisherName>
+<PublisherAddress>
+<City>Los Angeles</City>
+<Province>CA</Province>
+<Country>United States</Country>
+</PublisherAddress>
+</publisher>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+<Languages>
+<Language>eng</Language>
+</Languages>
+<Flags>
+<Flag Type="BLOCK_BY_PUB">N</Flag>
+<Flag Type="ARTICLE_TRANSLATION">N</Flag>
+<Flag Type="ALERTING_FLAG">Y</Flag>
+<Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+<Flag Type="UNSTRUCTURED_DATA">N</Flag>
+<Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+<Flag Type="OPEN_LAYER_RIGHTS">OL_IN_ALL</Flag>
+<Flag Type="OL_CRAWL_BLOCKED">N</Flag>
+<Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+<Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+<Flag Type="INCLUDE_IN_PAC">N</Flag>
+</Flags>
+<Subjects>
+<Subject>General Interest Periodicals--United States</Subject>
+</Subjects>
+<CurrentTitle>
+<Title>Los Angeles Times</Title>
+<SortTitle>Los Angeles Times</SortTitle>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>99991231</EndIssueDate>
+<Locators>
+<Locator Type="PQPMID">
+<Name>7683</Name>
+</Locator>
+<Locator Type="ISSN">
+<Name>04583035</Name>
+</Locator>
+</Locators>
+<CatalogNum>60200.00</CatalogNum>
+</CurrentTitle>
+<PubHistory>
+<History>
+<Title>Los Angeles Daily Times</Title>
+<Qualifier>Los Angeles, Calif.</Qualifier>
+<EndIssueDate>18861022</EndIssueDate>
+<CatalogNum>60200.A0</CatalogNum>
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Oct 4, 2016</AlphaDate>
+<StartDate>2016-10-04</StartDate>
+<EndDate>2016-10-04</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>108150162</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.303</is_economic>
+<tf_idf>[('woman', 0.3889), ('baute', 0.3429), ('rose', 0.3166), ('rape', 0.2532), ('case', 0.1779), ('ressler', 0.1674), ('fitzgerald', 0.1501), ('court', 0.1382), ('identity', 0.1367), ('trial', 0.1365), ('anonymity', 0.1272), ('judge', 0.1246), ('doe', 0.1221), ('lawsuit', 0.1126), ('jane', 0.1054), ('judges', 0.1044), ('harassment', 0.0942), ('anonymous', 0.09), ('plaintiff', 0.0845), ('openness', 0.0826), ('assault', 0.0756), ('ruled', 0.0748), ('public', 0.0735), ('sexual', 0.073), ('proceedings', 0.068), ('men', 0.0651), ('angeles', 0.0614), ('federal', 0.0609), ('los', 0.0608), ('attorney', 0.0605), ('dismissed', 0.0604), ('remain', 0.0595), ('humiliation', 0.0573), ('ruling', 0.0562), ('wrote', 0.0562), ('2013', 0.0555), ('roe', 0.0552), ('secret', 0.0536), ('victims', 0.0534), ('criminal', 0.051), ('alleges', 0.0509), ('filings', 0.0508), ('derrick', 0.0499), ('filed', 0.0496), ('accused', 0.049), ('civil', 0.0487), ('online', 0.0467), ('said', 0.0466), ('sexually', 0.0454), ('legal', 0.0452), ('sue', 0.0436), ('impinging', 0.0429), ('player', 0.0427), ('filing', 0.0417), ('media', 0.0415), ('harm', 0.0414), ('year', 0.0406), ('california', 0.0394), ('nba', 0.0387), ('pseudonyms', 0.0385), ('saying', 0.0382), ('garvin', 0.038), ('cited', 0.0379), ('denigrating', 0.0369), ('involving', 0.0366), ('argued', 0.0366), ('lawyers', 0.0364), ('reaves', 0.0358), ('sex', 0.0357), ('digger', 0.0356), ('infer', 0.0354), ('identified', 0.0353), ('anand', 0.0353), ('frustrates', 0.035), ('claim', 0.0349), ('pugnacious', 0.0348), ('claims', 0.0344), ('incapacitated', 0.0335), ('drugged', 0.0332), ('pseudonym', 0.033), ('cloaked', 0.0329), ('discourages', 0.0328), ('courtrooms', 0.0326), ('admonished', 0.0324), ('photos', 0.0323), ('cloak', 0.0318), ('harass', 0.0315), ('jayne', 0.0314), ('accusers', 0.0314), ('forced', 0.0313), ('petitioned', 0.0311), ('consensual', 0.031), ('comment', 0.031), ('harms', 0.0308), ('accuser', 0.0307), ('years', 0.0306), ('criminally', 0.0303), ('tenet', 0.0303), ('alfredo', 0.0302), ('cases', 0.0301), ('evidenced', 0.0299), ('incompetence', 0.0299), ('wrangling', 0.0297), ('rights', 0.0297), ('raping', 0.0297), ('named', 0.0297), ('pretrial', 0.0296), ('light', 0.0295), ('assailants', 0.0294), ('workings', 0.0294), ('beset', 0.0294), ('extortion', 0.0293), ('anonymously', 0.0292), ('garment', 0.0292), ('allowed', 0.0291), ('worsen', 0.0288), ('old', 0.0287), ('disadvantaged', 0.0286), ('deserving', 0.0285), ('meg', 0.0283), ('conceal', 0.0282), ('social', 0.0281), ('dogged', 0.0276), ('cabrera', 0.0276), ('assaulting', 0.0276), ('deportation', 0.0275), ('star', 0.0272), ('question', 0.0272), ('district', 0.0271), ('issue', 0.0269), ('secrecy', 0.0268), ('longstanding', 0.0268), ('using', 0.0267), ('despite', 0.0267), ('ditch', 0.0266), ('exposing', 0.0266), ('spreads', 0.0265), ('grabs', 0.0265), ('marquee', 0.0265), ('shining', 0.0264), ('injustice', 0.0264), ('raped', 0.0264), ('allegation', 0.0263), ('recounted', 0.026), ('conflicting', 0.026), ('reconsider', 0.0259), ('leaked', 0.0258), ('dilemma', 0.0258), ('michael', 0.0258), ('hours', 0.0257), ('identities', 0.0257), ('information', 0.0256), ('randall', 0.0255), ('provocative', 0.0255), ('portray', 0.0255), ('knicks', 0.0255), ('hampton', 0.0255), ('departed', 0.0255), ('embarrassment', 0.0254), ('police', 0.0254), ('important', 0.0254), ('barring', 0.0253), ('readily', 0.0253), ('secretly', 0.0252), ('kobe', 0.0251), ('assaulted', 0.025), ('tendency', 0.0249), ('likelihood', 0.0247), ('consciousness', 0.0247), ('ethical', 0.0247), ('law', 0.0246), ('transparency', 0.0245), ('jurors', 0.0244), ('reds', 0.0244), ('heightened', 0.0244), ('alleging', 0.0244), ('persistent', 0.0243), ('shield', 0.0243), ('platforms', 0.0242), ('identifying', 0.0242), ('actively', 0.0242), ('known', 0.0242), ('weighed', 0.024), ('endured', 0.0237), ('judiciary', 0.0237), ('people', 0.0236), ('damages', 0.0236), ('defendant', 0.0235), ('followers', 0.0235), ('accusing', 0.0235), ('stark', 0.0234), ('protections', 0.0234), ('principle', 0.0233), ('preseason', 0.0233), ('publicity', 0.0233), ('judicial', 0.0233), ('defendants', 0.0233), ('detective', 0.0233), ('disclosure', 0.0232), ('posting', 0.0231), ('rhetoric', 0.0231), ('wade', 0.0231), ('principles', 0.023), ('employer', 0.0229), ('violating', 0.0229), ('outlets', 0.0228), ('insist', 0.0228), ('approaches', 0.0228), ('lakers', 0.0226), ('does', 0.0226), ('headlines', 0.0226), ('trials', 0.0226), ('lengthy', 0.0225), ('abortion', 0.0225), ('youngest', 0.0225), ('notable', 0.0225), ('ugly', 0.0223), ('bulls', 0.0223), ('bryant', 0.0223), ('pure', 0.0222), ('inquiry', 0.0222), ('element', 0.0221), ('fundamental', 0.0221), ('submitted', 0.022), ('temporarily', 0.022), ('reluctant', 0.0219), ('successfully', 0.0219), ('immigrant', 0.0219), ('hide', 0.0218), ('landmark', 0.0218), ('mainstream', 0.0218), ('ago', 0.0217), ('simon', 0.0217), ('acknowledge', 0.0217), ('privacy', 0.0217), ('shake', 0.0217), ('stakes', 0.0217), ('guards', 0.0217), ('sued', 0.0214), ('gang', 0.0214), ('constitutional', 0.0214), ('journalists', 0.0213), ('arguments', 0.0213), ('encouraging', 0.0213), ('brandon', 0.0212), ('york', 0.0212), ('resort', 0.0212), ('badly', 0.0211), ('protected', 0.0211), ('investigate', 0.0211), ('complaint', 0.0211), ('hidden', 0.021), ('superior', 0.021), ('cincinnati', 0.021), ('arguing', 0.021), ('raises', 0.0208), ('appearances', 0.0208), ('celebrity', 0.0208), ('studied', 0.0207), ('national', 0.0207), ('drinking', 0.0206), ('million', 0.0206), ('equally', 0.0206), ('bound', 0.0206), ('requests', 0.0206), ('afterward', 0.0206), ('settlement', 0.0205), ('referred', 0.0205), ('sensitive', 0.0205), ('appeals', 0.0203), ('threats', 0.0203), ('pitcher', 0.0202), ('fraud', 0.0202), ('discussed', 0.0201), ('selection', 0.0201), ('afraid', 0.0201), ('valuable', 0.02), ('investigating', 0.02), ('necessarily', 0.0198), ('fears', 0.0198), ('fame', 0.0197), ('surrounding', 0.0197), ('brooklyn', 0.0196), ('courts', 0.0196), ('citing', 0.0196), ('mountain', 0.0195), ('argument', 0.0195), ('jury', 0.0195), ('identify', 0.0194), ('increases', 0.0194), ('right', 0.0192), ('allegations', 0.0192), ('colorado', 0.0191), ('frequently', 0.0191), ('victim', 0.0191), ('attempts', 0.019), ('allen', 0.019), ('rejected', 0.019), ('vs', 0.019), ('worker', 0.019), ('explained', 0.019), ('say', 0.0189), ('twitter', 0.0188), ('conflict', 0.0188), ('alleged', 0.0186), ('possibly', 0.0185), ('suggest', 0.0185), ('drove', 0.0185), ('widely', 0.0185), ('grant', 0.0184), ('did', 0.0184), ('matters', 0.0184), ('presented', 0.0182), ('publicly', 0.0182), ('sites', 0.0181), ('suit', 0.0181), ('resident', 0.0181), ('respond', 0.0181), ('established', 0.0181), ('fan', 0.018), ('apartment', 0.018), ('posted', 0.0179), ('award', 0.0179), ('favor', 0.0178), ('getty', 0.0178), ('injuries', 0.0178), ('parties', 0.0177), ('screen', 0.0176), ('speech', 0.0176), ('protection', 0.0175), ('request', 0.0175), ('gold', 0.0174), ('generally', 0.0174), ('spread', 0.0174), ('highly', 0.0174), ('allowing', 0.0174), ('ryan', 0.0173), ('speed', 0.0172), ('reduce', 0.0172), ('remained', 0.0172), ('carry', 0.0172), ('reporters', 0.017), ('hotel', 0.017), ('sought', 0.0169), ('demand', 0.0169), ('letter', 0.0168), ('caused', 0.0168), ('subject', 0.0168), ('institute', 0.0168), ('finding', 0.0167), ('keeping', 0.0167), ('lawyer', 0.0167), ('2003', 0.0167), ('crime', 0.0166), ('appears', 0.0166), ('simple', 0.0165), ('august', 0.0164), ('relationship', 0.0164), ('images', 0.0163), ('millions', 0.0163), ('guard', 0.0163), ('raise', 0.0162), ('professor', 0.0161), ('approach', 0.0159), ('concerns', 0.0159), ('base', 0.0158), ('provided', 0.0158), ('experts', 0.0158), ('usually', 0.0157), ('minute', 0.0157), ('declined', 0.0157), ('seeking', 0.0157), ('charged', 0.0156), ('charges', 0.0156), ('significant', 0.0156), ('continued', 0.0155), ('rules', 0.0155), ('huge', 0.0155), ('trade', 0.0153), ('kept', 0.0152), ('risk', 0.0152), ('happened', 0.0152), ('fans', 0.0151), ('heard', 0.0151), ('45', 0.015), ('built', 0.015), ('particularly', 0.015), ('true', 0.015), ('workers', 0.015), ('ground', 0.0149), ('associated', 0.0148), ('allow', 0.0148), ('view', 0.0147), ('efforts', 0.0147), ('latest', 0.0147), ('interview', 0.0147), ('begin', 0.0145), ('goes', 0.0145), ('questions', 0.0144), ('reason', 0.0144), ('example', 0.0143), ('similar', 0.0143), ('brought', 0.0143), ('27', 0.0143), ('forward', 0.0143), ('wants', 0.0143), ('living', 0.0142), ('action', 0.0142), ('shows', 0.0141), ('effort', 0.0141), ('conference', 0.0141), ('morning', 0.0141), ('experience', 0.014), ('middle', 0.014), ('matter', 0.0139), ('party', 0.0138), ('june', 0.0138), ('bring', 0.0137), ('strong', 0.0137), ('friends', 0.0137), ('new', 0.0136), ('continue', 0.0136), ('mark', 0.0135), ('post', 0.0135), ('21', 0.0134), ('decision', 0.0134), ('career', 0.0134), ('possible', 0.0134), ('especially', 0.0133), ('future', 0.0133), ('photographer', 0.0133), ('probably', 0.0132), ('gave', 0.0132), ('course', 0.0132), ('women', 0.0131), ('likely', 0.013), ('taken', 0.0129), ('19', 0.0129), ('comes', 0.0129), ('executive', 0.0129), ('coming', 0.0127), ('given', 0.0126), ('recently', 0.0126), ('doing', 0.0125), ('general', 0.0125), ('lead', 0.0124), ('win', 0.0124), ('added', 0.0124), ('county', 0.0121), ('chicago', 0.012), ('doesn', 0.0119), ('trying', 0.0119), ('free', 0.0118), ('open', 0.0117), ('went', 0.0117), ('tuesday', 0.0116), ('recent', 0.0115), ('states', 0.0114), ('director', 0.0114), ('months', 0.0114), ('man', 0.0113), ('late', 0.0112), ('later', 0.0112), ('point', 0.0111), ('family', 0.011), ('early', 0.011), ('washington', 0.011), ('school', 0.011), ('house', 0.0109), ('night', 0.0108), ('month', 0.0107), ('group', 0.0107), ('place', 0.0106), ('center', 0.0105), ('end', 0.0103), ('little', 0.0103), ('30', 0.0102), ('second', 0.0098), ('caption', 0.0097), ('work', 0.0096), ('including', 0.0095), ('state', 0.0095), ('week', 0.0093), ('photo', 0.0091), ('day', 0.0089), ('like', 0.0077)]</tf_idf>
+<roberta_title_negative>0.0007</roberta_title_negative>
+<roberta_title_neutral>0.9989</roberta_title_neutral>
+<roberta_title_positive>0.0005</roberta_title_positive>
+<roberta_paragraph_positive>0.0008789473684210529</roberta_paragraph_positive>
+<roberta_paragraph_neutral>0.6468184210526314</roberta_paragraph_neutral>
+<roberta_paragraph_negative>0.3522973684210527</roberta_paragraph_negative>
+</processed>
+</RECORD>
