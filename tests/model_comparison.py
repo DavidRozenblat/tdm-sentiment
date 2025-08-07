@@ -250,7 +250,6 @@ def format_comparison_table(execution_times, memory_usage, diff_stats, load_time
             f"±{diff_stats['max_diff']['neutral']:.6f}"
         ]
     }
-    
     df = pd.DataFrame(data)
     
     # Format as string table
