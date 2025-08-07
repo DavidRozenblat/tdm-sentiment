@@ -99,7 +99,7 @@ def xml_to_csv(corpus_dir: Path, file_names_path: Path, processed_tags: list = [
             del data
 
 
-def load_df_from_xml(file_names_path: Path, chunk_size: int = 2000, processed_tags: list = []):
+def load_df_from_xml(corpus_dir: Path ,file_names_path: Path, chunk_size: int = 2000, processed_tags: list = []):
     """
     Load XML files in chunks and return a DataFrame.
     
@@ -113,7 +113,7 @@ def load_df_from_xml(file_names_path: Path, chunk_size: int = 2000, processed_ta
     results_lst = []
     for i, file_chunk in enumerate(read_file_names_in_chunks(file_names_path, chunk_size)):
         # Construct full paths for each file name.
-        chunk_paths = [file_name for file_name in file_chunk]
+        chunk_paths = [corpus_dir / file_name for file_name in file_chunk]
 
         # Process files in parallel with a progress bar.
         with tqdm(total=len(chunk_paths), desc=f"Processing chunk {i}") as pbar:
@@ -166,19 +166,27 @@ def update_csv_with_new_tags(csv_path: Path, corpus_dir: Path, processed_tags: l
 
 if __name__ == "__main__":
     # Example usage
-    corpus_name = 'USATodayDavid'  #'LosAngelesTimesDavid'  
+    corpus_name = 'sample' #'USATodayDavid'  #'LosAngelesTimesDavid'  
     csv_path = RESULTS_PATH / corpus_name / 'chunk_0_data.csv'
     corpus_dir = CORPUSES_PATH / corpus_name
-    processed_tags = ['tf_idf','roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive']
+    processed_tags = ['is_economic', 
+                      'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive', 
+                      'bert_title_negative', 'bert_title_neutral', 'bert_title_positive', 
+                      'roberta_paragraph_negative', 'roberta_paragraph_neutral', 'roberta_paragraph_positive',
+                      'bert_paragraph_negative', 'bert_paragraph_neutral', 'bert_paragraph_positive',
+                      'tf_idf']
     
     # Update the CSV with new tags
     #update_csv_with_new_tags(csv_path, corpus_dir, processed_tags)
-    file_names_path = FILE_NAMES_PATH / corpus_dir.stem / 'economic_files'
-    #xml_to_csv(corpus_dir=corpus_dir, file_names_path=file_names_path, processed_tags=processed_tags, chunk_size=2000)
-
+    file_names_path = FILE_NAMES_PATH / corpus_dir.stem / 'economic_files.txt'
+    xml_to_csv(corpus_dir=corpus_dir, file_names_path=file_names_path, processed_tags=processed_tags, chunk_size=2000)
+    df = load_df_from_xml(corpus_dir=corpus_dir, file_names_path=file_names_path, chunk_size=2000, processed_tags=processed_tags)
+    print(df.head())
 
     #'is_economic', 'tf_idf', 'bert_title_negative', 'bert_title_neutral', 'bert_title_positive',
     # 'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive'
+    # roberta_paragraph_negative', 'roberta_paragraph_neutral', 'roberta_paragraph_positive',
+    # bert_paragraph_negative', 'bert_paragraph_neutral', 'bert_paragraph_positive'
 
     # Define file paths
     corpuses_dir = CORPUSES_PATH  #'all_dataset_file_names.txt' LosAngelesTimesDavid all_dataset_file_names.txt # Path to the input text file
@@ -188,5 +196,4 @@ if __name__ == "__main__":
     #get_file_paths_sample(corpuses_dir, output_path, sample_size=1000)
     
     file_names_path = FILE_NAMES_PATH / 'all_files.txt'  # Path to the file containing the list of XML file name
-    df = load_df_from_xml(file_names_path)
-    print(df.head())
+    
