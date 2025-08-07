@@ -7,6 +7,7 @@ Each function corresponds to a stage in the end-to-end workflow.
 from pathlib import Path
 from config import *
 from bs4 import BeautifulSoup
+from collections import deque
 # Instantiate logger for pipeline steps
 
 tdm_parser = tdm_parser_module.TdmXmlParser()
@@ -48,12 +49,12 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
     file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
     initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] #TODO change
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
-    pending = logger_instance.get_file_names()
+    pending = deque(logger_instance.get_file_names())
     
     # Loop through each XML file in the corpus directory
     with open(file_path, 'a') as f:
         while pending:
-            xml_name = pending.pop(0)
+            xml_name = pending.popleft()
             try:            
                 xml_path = corpus_dir / xml_name
                 goid = xml_path.stem
@@ -157,10 +158,10 @@ def main_step_holder(corpus_dir: Path,
     # get the list of economic files and initialize logger
     economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
-    pending = logger_instance.get_file_names()
+    pending = deque(logger_instance.get_file_names())
 
     while pending:
-        xml_name = pending.pop(0)
+        xml_name = pending.popleft()
         try:
             xml_file = corpus_dir / xml_name
             soup = tdm_parser.get_xml_soup(xml_file)
