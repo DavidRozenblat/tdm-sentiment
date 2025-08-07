@@ -211,7 +211,7 @@ if __name__ == '__main__':
     #main()
     corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
     # run is economic step holder
-    #is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.2) #TODO # Example usage of the economic step holder
+    is_economic_step_holder(corpus_dir, prob_threshold=0.2) #TODO # Example usage of the economic step holder
     
     log_file_name = 'main_step_tf_idf_roberta_bert_sentiment' 
     roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
