@@ -69,7 +69,7 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
                 print(f"Error processing {xml_path}: {e}")
             finally:
                 # 4) update log regardless of success/failure
-                logger_instance.update_log_file(pending)
+                logger_instance.update_log_file(xml_name)
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {file_path}.")
 
@@ -176,7 +176,7 @@ def main_step_holder(corpus_dir: Path,
             print(f"Error processing {xml_name}: {e}")
         finally:
             # 4) update log regardless of success/failure
-            logger_instance.update_log_file(pending)
+            logger_instance.update_log_file(xml_name)
 
 
 
