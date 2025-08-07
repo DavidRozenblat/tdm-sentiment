@@ -111,6 +111,36 @@ class TextAnalysis:
         scores = {entry['label'].lower(): round(entry['score'], 4) for entry in pipeline_result[0]}
         return scores
 
+    def batch_txt_sentiment_dict(self, texts: List[str]) -> List[dict]:
+        """Return sentiment score dictionaries for a list of texts.
+
+        This method sends the list of texts through the underlying
+        HuggingFace pipeline in a single call for efficiency.
+
+        Parameters
+        ----------
+        texts : List[str]
+            List of input texts to analyse.
+
+        Returns
+        -------
+        List[dict]
+            A list where each element is a dictionary mapping sentiment
+            labels (lower–cased) to their corresponding probabilities.
+        """
+        if not isinstance(texts, list) or not all(isinstance(t, str) for t in texts):
+            raise ValueError("Input must be a list of strings.")
+
+        # Truncate texts longer than 512 characters
+        processed_texts = [t[:511] if len(t) > 512 else t for t in texts]
+        pipeline_result = self.get_pipeline()(processed_texts, return_all_scores=True)
+
+        results: List[dict] = []
+        for res in pipeline_result:
+            scores = {entry['label'].lower(): round(entry['score'], 4) for entry in res}
+            results.append(scores)
+        return results
+
 
 
     def txt_score(self, my_txt: str) -> float:
