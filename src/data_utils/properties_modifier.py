@@ -41,7 +41,7 @@ def modify_csv_title_sentiment(result_folder_path, corpus_name, sentiment_analyz
     """
     Process CSV files by adding a 'title_sentiment' column using sentiment analysis.
     """
-    log_file_names_list = logger.get_logger_file_names('modify_sentiment_title', result_folder_path, corpus_name)
+    log_file_names_list = tdm_logger.get_logger_file_names('modify_sentiment_title', result_folder_path, corpus_name)
     if log_file_names_list is None:
         print("Modification aborted by the user.")
         return
@@ -78,7 +78,7 @@ def modify_csv_title_sentiment(result_folder_path, corpus_name, sentiment_analyz
             unprocessed_files.remove(file_name)
 
         # Update the log file with the remaining files.
-        logger.update_log_file(result_folder_path, 'modify_sentiment_title', unprocessed_files, corpus_name)
+        tdm_logger.update_log_file(result_folder_path, 'modify_sentiment_title', unprocessed_files, corpus_name)
 
     print("All files processed successfully!")
 
@@ -104,7 +104,7 @@ def modify_csv_title_sentiment_prob(result_folder_path, corpus_name, sentiment_a
     """
     Process CSV files by adding a 'title_sentiment' column using sentiment analysis.
     """
-    log_file_names_list = logger.get_logger_file_names('modify_sentiment_title_prob', result_folder_path, corpus_name)
+    log_file_names_list = tdm_logger.get_logger_file_names('modify_sentiment_title_prob', result_folder_path, corpus_name)
     if log_file_names_list is None:
         print("Modification aborted by the user.")
         return
@@ -140,7 +140,7 @@ def modify_csv_title_sentiment_prob(result_folder_path, corpus_name, sentiment_a
             unprocessed_files.remove(file_name)
 
         # Update the log file with the remaining files.
-        logger.update_log_file(result_folder_path, 'modify_sentiment_title_probs', unprocessed_files, corpus_name)
+        tdm_logger.update_log_file(result_folder_path, 'modify_sentiment_title_probs', unprocessed_files, corpus_name)
 
     print("All files processed successfully!")
     
@@ -171,7 +171,7 @@ def modify_csv_paragraph_sentiment_prob(result_folder_path, corpus_name, sentime
          'paragraph_avg_neutral', 'paragraph_avg_negative'.
     """
     # Retrieve files to process
-    log_file_names_list = logger.get_logger_file_names(
+    log_file_names_list = tdm_logger.get_logger_file_names(
         'modify_sentiment_paragraph_prob',
         result_folder_path,
         corpus_name
@@ -241,7 +241,7 @@ def modify_csv_paragraph_sentiment_prob(result_folder_path, corpus_name, sentime
         # Update unprocessed_files and log
         if file_name in unprocessed_files:
             unprocessed_files.remove(file_name)
-        logger.update_log_file(
+        tdm_logger.update_log_file(
             result_folder_path,
             'modify_sentiment_paragraph_prob',
             unprocessed_files,
@@ -298,7 +298,7 @@ def modify_csv_tf_idf(result_folder_path, corpus_name, tf_idf_extractor, top_n):
     """
     Process CSV files by adding a `tf_idf_tags` column.
     """
-    log_file_names_list = logger.get_logger_file_names('tf_idf_tags', result_folder_path, corpus_name)
+    log_file_names_list = tdm_logger.get_logger_file_names('tf_idf_tags', result_folder_path, corpus_name)
     if log_file_names_list is None:
         print("Modification aborted by the user.")
         return
@@ -335,7 +335,7 @@ def modify_csv_tf_idf(result_folder_path, corpus_name, tf_idf_extractor, top_n):
         if file_name in unprocessed_files:
             unprocessed_files.remove(file_name)
         # Update the log file with the remaining files.
-        logger.update_log_file(result_folder_path, 'tf_idf_tags', unprocessed_files, corpus_name)
+        tdm_logger.update_log_file(result_folder_path, 'tf_idf_tags', unprocessed_files, corpus_name)
     print("All files processed successfully!")
     
     
@@ -358,7 +358,7 @@ def add_a_tdm_tag_to_csv(result_folder_path, corpus_name, tag_name):
     """
     Process CSV files by adding a `tag from tdm` column.
     """
-    log_file_names_list = logger.get_logger_file_names(f'adding_{tag_name}', result_folder_path, corpus_name)
+    log_file_names_list = tdm_logger.get_logger_file_names(f'adding_{tag_name}', result_folder_path, corpus_name)
     if log_file_names_list is None:
         print("Modification aborted by the user.")
         return
@@ -396,7 +396,7 @@ def add_a_tdm_tag_to_csv(result_folder_path, corpus_name, tag_name):
         if file_name in unprocessed_files:
             unprocessed_files.remove(file_name)
         # Update the log file with the remaining files.
-        logger.update_log_file(result_folder_path, f'adding_{tag_name}', unprocessed_files, corpus_name)
+        tdm_logger.update_log_file(result_folder_path, f'adding_{tag_name}', unprocessed_files, corpus_name)
     print("All files processed successfully!")
 
 

@@ -20,7 +20,7 @@ import sys
 sys.path.append(str(SRC_PATH))
 
 # import custom libraries and functions
-import logger as logger 
+import tdm_logger as logger_module 
 import data_utils.tdm_parser as tdm_parser_module
 
 

@@ -1,5 +1,7 @@
 """Command-line pipeline for running article processing steps.
 Each function corresponds to a stage in the end-to-end workflow. 
+step_identify_economic runs separately to identify economic articles. using the is_economic_step_holder function.
+Other steps can be run in sequence using the `run_steps` function.
 """
 from pathlib import Path
 from config import *
@@ -7,8 +9,8 @@ from bs4 import BeautifulSoup
 from collections import deque
 from typing import Any, Callable, Dict, Iterable, Optional, Tuple
 
-# Instantiate logger for pipeline steps
-tdm_parser = tdm_parser_module.TdmXmlParser()
+
+tdm_parser = tdm_parser_module.TdmXmlParser()  # Instantiate tdm parser
 
 
 def step_identify_economic(soup: BeautifulSoup, 
@@ -34,13 +36,13 @@ def is_above_threshold(soup: BeautifulSoup, prob_threshold: float):
         return False
 
 
-def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_threshold: float = 0.7): 
+def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_threshold: float = 0.5): 
     """for each xml file on corpus add probability tag that it's economic article."""
     is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL) # load the economic classifier
     file_path = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
     file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
     initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
-    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
+    logger_instance = logger_module.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
     pending = deque(logger_instance.get_file_names())
     processed_buffer = []
 
@@ -113,7 +115,7 @@ def run_steps(
 
     # Determine deterministic file ordering
     initial_files = sorted(xml.name for xml in corpus_dir.glob("*.xml"))
-    logger_instance = logger.Logger(
+    logger_instance = logger_module.Logger(
         log_dir=LOGS_PATH,
         log_file_name=log_file_name,
         corpus_name=corpus_dir.stem,

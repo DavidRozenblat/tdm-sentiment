@@ -1,6 +1,6 @@
 from pathlib import Path
 
-class Logger:
+class TDMLogger:
     def __init__(self, log_dir: Path, log_file_name: str, corpus_name:str, initiate_file_list: list):
         """Create a logger instance.
 
