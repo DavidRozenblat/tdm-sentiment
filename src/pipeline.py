@@ -46,33 +46,38 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
     initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
     logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
     pending = deque(logger_instance.get_file_names())
-    
+    processed_buffer = []
+
     # Loop through each XML file in the corpus directory
     with open(file_path, 'a') as f:
         while pending:
             xml_name = pending.popleft()
-            try:            
+            try:
                 xml_path = corpus_dir / xml_name
                 goid = xml_path.stem
                 soup = tdm_parser.get_xml_soup(xml_path)
                 #if del_grades:
                     #tdm_parser.delete_tag(soup, tag_name='grades') 'processed'
-                
+
                 soup = step_identify_economic(soup, is_economic_classifier)
                 # rewrite to file
-                tdm_parser.write_xml_soup(soup, xml_path)  
+                tdm_parser.write_xml_soup(soup, xml_path)
                 # Check if the article is economic and write to file if it is
-                if is_above_threshold(soup, prob_threshold): 
+                if is_above_threshold(soup, prob_threshold):
                     f.write(f"{xml_path.name}\n")
             except Exception as e:
                 print(f"Error processing {xml_path}: {e}")
             finally:
                 # 4) update log regardless of success/failure
-                logger_instance.update_log_file(xml_name)
+                processed_buffer.append(xml_name)
+                if len(processed_buffer) >= 200:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {file_path}.")
-
-
 #---
 
 def step_tfidf_tags(soup: BeautifulSoup, 
@@ -249,12 +254,12 @@ if __name__ == '__main__':
     bert_paragraph_sentiment_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
     # Run the main step with the specified parameters
     
-    main_step_holder(corpus_dir=corpus_dir,
-                    log_file_name=log_file_name, 
-                    roberta_title_sentiment_label_dict=roberta_title_sentiment_label_dict, 
-                    roberta_paragraph_sentiment_label_dict=roberta_paragraph_sentiment_label_dict,
-                    bert_title_sentiment_label_dict=bert_title_sentiment_label_dict,
-                    bert_paragraph_sentiment_label_dict=bert_paragraph_sentiment_label_dict)
+    #main_step_holder(corpus_dir=corpus_dir,
+                    #log_file_name=log_file_name, 
+                    #roberta_title_sentiment_label_dict=roberta_title_sentiment_label_dict, 
+                    #roberta_paragraph_sentiment_label_dict=roberta_paragraph_sentiment_label_dict,
+                    #bert_title_sentiment_label_dict=bert_title_sentiment_label_dict,
+                    #bert_paragraph_sentiment_label_dict=bert_paragraph_sentiment_label_dict)
     
     
     

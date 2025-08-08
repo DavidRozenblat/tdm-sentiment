@@ -70,6 +70,19 @@ class Logger:
             f.write(processed_file + '\n')
 
 
+    def update_log_batch(self, processed_files: list[str]):
+        """Append multiple processed file names to the log in one operation.
+
+        Parameters
+        ----------
+        processed_files : list[str]
+        A list of file names that have just been processed.
+        """
+        if not processed_files:
+            return
+        with self.log_path.open('a', encoding='utf-8') as f:
+            f.write('\n'.join(processed_files))
+            f.write('\n')
 
 
 
