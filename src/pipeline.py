@@ -1,6 +1,3 @@
-
-
-
 """Command-line pipeline for running article processing steps.
 Each function corresponds to a stage in the end-to-end workflow. 
 """
@@ -11,9 +8,73 @@ from collections import deque
 from typing import Any, Callable, Dict, Iterable, Optional, Tuple
 
 # Instantiate logger for pipeline steps
-
 tdm_parser = tdm_parser_module.TdmXmlParser()
 
+
+def step_identify_economic(soup: BeautifulSoup, 
+                           economic_classifier: is_economic_module.EconomicClassifier): 
+    """for each xml file on corpus add probability tag that it's economic article."""
+    text = tdm_parser.get_art_text(soup)
+    value = economic_classifier.is_economic_prob(text)
+    soup = tdm_parser.modify_tag(soup, tag_name='is_economic', value=value, modify=True)
+    return soup
+
+
+def is_above_threshold(soup: BeautifulSoup, prob_threshold: float):
+    """write a txt file of files that are classified as economic articles."""
+    is_economic = tdm_parser.get_tag_value(soup, 'is_economic')
+    # try if is_economic can be converted to numeric
+    try:
+        is_economic = float(is_economic)
+        if is_economic > prob_threshold:
+            return True
+        else:
+            return False
+    except:
+        return False
+
+
+def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_threshold: float = 0.7): 
+    """for each xml file on corpus add probability tag that it's economic article."""
+    is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL) # load the economic classifier
+    file_path = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
+    file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
+    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
+    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
+    pending = deque(logger_instance.get_file_names())
+    processed_buffer = []
+
+    # Loop through each XML file in the corpus directory
+    with open(file_path, 'a') as f:
+        while pending:
+            xml_name = pending.popleft()
+            try:
+                xml_path = corpus_dir / xml_name
+                goid = xml_path.stem
+                soup = tdm_parser.get_xml_soup(xml_path)
+                #if del_grades:
+                    #tdm_parser.delete_tag(soup, tag_name='grades') 'processed'
+
+                soup = step_identify_economic(soup, is_economic_classifier)
+                # rewrite to file
+                tdm_parser.write_xml_soup(soup, xml_path)
+                # Check if the article is economic and write to file if it is
+                if is_above_threshold(soup, prob_threshold):
+                    f.write(f"{xml_path.name}\n")
+            except Exception as e:
+                print(f"Error processing {xml_path}: {e}")
+            finally:
+                # 4) update log regardless of success/failure
+                processed_buffer.append(xml_name)
+                if len(processed_buffer) >= 200:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+
+    print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {file_path}.")
+#---
 
 def run_steps(
     corpus_dir: Path,
@@ -96,73 +157,6 @@ def run_steps(
     return stats, failures
 
 
-
-
-def step_identify_economic(soup: BeautifulSoup, 
-                           economic_classifier: is_economic_module.EconomicClassifier): 
-    """for each xml file on corpus add probability tag that it's economic article."""
-    text = tdm_parser.get_art_text(soup)
-    value = economic_classifier.is_economic_prob(text)
-    soup = tdm_parser.modify_tag(soup, tag_name='is_economic', value=value, modify=True)
-    return soup
-
-
-def is_above_threshold(soup: BeautifulSoup, prob_threshold: float):
-    """write a txt file of files that are classified as economic articles."""
-    is_economic = tdm_parser.get_tag_value(soup, 'is_economic')
-    # try if is_economic can be converted to numeric
-    try:
-        is_economic = float(is_economic)
-        if is_economic > prob_threshold:
-            return True
-        else:
-            return False
-    except:
-        return False
-
-
-def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_threshold: float = 0.7): 
-    """for each xml file on corpus add probability tag that it's economic article."""
-    is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL) # load the economic classifier
-    file_path = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
-    file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
-    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
-    logger_instance = logger.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
-    pending = deque(logger_instance.get_file_names())
-    processed_buffer = []
-
-    # Loop through each XML file in the corpus directory
-    with open(file_path, 'a') as f:
-        while pending:
-            xml_name = pending.popleft()
-            try:
-                xml_path = corpus_dir / xml_name
-                goid = xml_path.stem
-                soup = tdm_parser.get_xml_soup(xml_path)
-                #if del_grades:
-                    #tdm_parser.delete_tag(soup, tag_name='grades') 'processed'
-
-                soup = step_identify_economic(soup, is_economic_classifier)
-                # rewrite to file
-                tdm_parser.write_xml_soup(soup, xml_path)
-                # Check if the article is economic and write to file if it is
-                if is_above_threshold(soup, prob_threshold):
-                    f.write(f"{xml_path.name}\n")
-            except Exception as e:
-                print(f"Error processing {xml_path}: {e}")
-            finally:
-                # 4) update log regardless of success/failure
-                processed_buffer.append(xml_name)
-                if len(processed_buffer) >= 200:
-                    logger_instance.update_log_batch(processed_buffer)
-                    processed_buffer.clear()
-
-    if processed_buffer:
-        logger_instance.update_log_batch(processed_buffer)
-
-    print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {file_path}.")
-#---
-
 def step_tfidf_tags(soup: BeautifulSoup, 
                     tfidf_extractor: tf_idf_extractor.TfidfKeywordExtractor,): 
     """Append TF-IDF keyword tags to article."""
@@ -213,7 +207,6 @@ def article_average_sentiment_helper(paragraphs, analyzer):
     return {k: round(v / n, 4) for k, v in sums.items()}
 
 
-
 def step_paragraph_sentiment_prob(soup: BeautifulSoup,
                                   sentiment_model: sentiment_model.TextAnalysis,
                                   label_dict: dict):
@@ -228,97 +221,11 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
         print(f"Error processing paragraph sentiment: {e}")
     return soup
 
-    
-
-def main_step_holder(corpus_dir: Path,
-                    log_file_name: str,
-                    roberta_title_sentiment_label_dict: dict,
-                    roberta_paragraph_sentiment_label_dict: dict,
-                    bert_title_sentiment_label_dict: dict,
-                    bert_paragraph_sentiment_label_dict: dict):
-    """Main step holder for processing a corpus directory."""
-    tfidf_extractor = tf_idf_extractor.TfidfKeywordExtractor(TF_IDF_MODEL_PATH)
-
-    # get the list of economic files and initialize logger
-    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    logger_instance = logger.Logger(
-        log_dir=LOGS_PATH,
-        log_file_name=log_file_name,
-        corpus_name=corpus_dir.stem,
-        initiate_file_list=economic_files,
-    )
-
-    # First pass: process TF-IDF and RoBERTa sentiments
-    pending = deque(economic_files)
-    with sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH) as roberta_sentiment_analyzer:
-        while pending:
-            xml_name = pending.popleft()
-            try:
-                xml_file = corpus_dir / xml_name
-                soup = tdm_parser.get_xml_soup(xml_file)
-                soup = step_tfidf_tags(soup=soup, tfidf_extractor=tfidf_extractor)
-                soup = step_title_sentiment_prob(
-                    soup=soup,
-                    sentiment_model=roberta_sentiment_analyzer,
-                    label_dict=roberta_title_sentiment_label_dict,
-                )
-                soup = step_paragraph_sentiment_prob(
-                    soup=soup,
-                    sentiment_model=roberta_sentiment_analyzer,
-                    label_dict=roberta_paragraph_sentiment_label_dict,
-                )
-                tdm_parser.write_xml_soup(soup, xml_file)
-            except Exception as e:
-                print(f"Error processing {xml_name}: {e}")
-
-    # Second pass: load BERT model and append its sentiment scores
-    pending = deque(economic_files)
-    with sentiment_model.TextAnalysis(BERT_MODEL_PATH) as bert_sentiment_analyzer:
-        while pending:
-            xml_name = pending.popleft()
-            try:
-                xml_file = corpus_dir / xml_name
-                soup = tdm_parser.get_xml_soup(xml_file)
-                soup = step_title_sentiment_prob(
-                    soup=soup,
-                    sentiment_model=bert_sentiment_analyzer,
-                    label_dict=bert_title_sentiment_label_dict,
-                )
-                soup = step_paragraph_sentiment_prob(
-                    soup=soup,
-                    sentiment_model=bert_sentiment_analyzer,
-                    label_dict=bert_paragraph_sentiment_label_dict,
-                )
-                tdm_parser.write_xml_soup(soup, xml_file)
-            except Exception as e:
-                print(f"Error processing {xml_name}: {e}")
-            finally:
-                logger_instance.update_log_file(xml_name)
-
-
-
 
 def step_xml_to_csv(corpus_dir: Path, output_dir: Path): 
     """Convert a corpus of XML files to DataFrame and save as CSV."""
     pass
     
-STEP_FUNCTIONS = {
-    #'economic': step_identify_economic,
-    #'title_sentiment': step_title_sentiment,
-    #'title_sentiment_prob': step_title_sentiment_prob,
-    #'paragraph_sentiment_prob': step_paragraph_sentiment_prob,
-    #'tfidf_tags': step_tfidf_tags,
-}
-
-STEP_DESCRIPTIONS = {
-    #'economic': 'classify article as economic',
-    #'title_sentiment': 'add sentiment label to titles',
-    #'title_sentiment_prob': 'compute sentiment probabilities for titles',
-    #'paragraph_sentiment_prob': 'compute sentiment probabilities for paragraphs',
-    #'tfidf_tags': 'append top TF-IDF keywords',
-}
-
-
 
 def main():
     import argparse
