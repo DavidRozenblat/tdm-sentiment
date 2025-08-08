@@ -8,9 +8,92 @@ from pathlib import Path
 from config import *
 from bs4 import BeautifulSoup
 from collections import deque
+from typing import Any, Callable, Dict, Iterable, Optional, Tuple
+
 # Instantiate logger for pipeline steps
 
 tdm_parser = tdm_parser_module.TdmXmlParser()
+
+
+def run_steps(
+    corpus_dir: Path,
+    steps: Iterable[Tuple[Callable, Dict[str, Any]]],
+    model: Optional[Any] = None,
+    context: Optional[Dict[str, Any]] = None,
+    batch_size: int = 200,
+    log_file_name: str = "step_runner",
+):
+    """Run pipeline ``steps`` on XML files in ``corpus_dir``.
+
+    Parameters
+    ----------
+    corpus_dir:
+        Directory containing XML files.
+    steps:
+        Iterable of ``(callable, kwargs)`` pairs defining the steps to run.  If a
+        step's ``kwargs`` contains ``{"requires_model": True}``, the shared
+        ``model`` will be passed to that function under the ``model`` keyword.
+    model:
+        Optional shared model instance to be used by at most one step.
+    context:
+        Optional mapping of extra keyword arguments passed to every step.
+    batch_size:
+        Number of processed files to buffer before updating the log.
+    log_file_name:
+        Base name for the log file.
+    """
+    context = context or {}
+
+    requires_model = [kw for _, kw in steps if kw.get("requires_model")]
+    if len(requires_model) > 1:
+        raise ValueError("Only one step may require a model")
+    if requires_model and model is None:
+        raise ValueError("A required model was not provided")
+
+    # Determine deterministic file ordering
+    initial_files = sorted(xml.name for xml in corpus_dir.glob("*.xml"))
+    logger_instance = logger.Logger(
+        log_dir=LOGS_PATH,
+        log_file_name=log_file_name,
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=initial_files,
+    )
+    pending = deque(logger_instance.get_file_names())
+
+    processed_buffer: list[str] = []
+    failures: list[Tuple[str, str]] = []
+    stats = {
+        "total_files": len(initial_files),
+        "processed": 0,
+        "failed": 0,
+    }
+
+    while pending:
+        xml_name = pending.popleft()
+        xml_path = corpus_dir / xml_name
+        try:
+            soup = tdm_parser.get_xml_soup(xml_path)
+            for func, kw in steps:
+                kw = kw.copy()
+                if kw.pop("requires_model", False):
+                    kw["model"] = model
+                kw.update(context)
+                soup = func(soup=soup, **kw)
+            tdm_parser.write_xml_soup(soup, xml_path)
+            stats["processed"] += 1
+        except Exception as e:
+            failures.append((xml_name, str(e)))
+            stats["failed"] += 1
+        finally:
+            processed_buffer.append(xml_name)
+            if len(processed_buffer) >= batch_size:
+                logger_instance.update_log_batch(processed_buffer)
+                processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+
+    return stats, failures
 
 
 
@@ -236,30 +319,25 @@ STEP_DESCRIPTIONS = {
 }
 
 
+
 def main():
-    pass
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Run pipeline steps on a corpus")
+    parser.add_argument("corpus_dir", type=Path, help="Directory containing XML files")
+    parser.add_argument("steps", nargs="+", choices=STEP_FUNCTIONS.keys(), help="Steps to execute")
+    parser.add_argument("--batch-size", type=int, default=200, dest="batch_size")
+    parser.add_argument("--log-file-name", default="step_runner", dest="log_file_name")
+    args = parser.parse_args()
+
+    step_defs = [(STEP_FUNCTIONS[name], {}) for name in args.steps]
+    run_steps(
+        corpus_dir=args.corpus_dir,
+        steps=step_defs,
+        batch_size=args.batch_size,
+        log_file_name=args.log_file_name,
+    )
 
 
-
-if __name__ == '__main__':
-    #main()
-    corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
-    # run is economic step holder
-    is_economic_step_holder(corpus_dir, del_grades=True,  prob_threshold=0.2) #TODO # Example usage of the economic step holder
-    
-    log_file_name = 'main_step_tf_idf_roberta_bert_sentiment' 
-    roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
-    bert_title_sentiment_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
-    bert_paragraph_sentiment_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
-    # Run the main step with the specified parameters
-    
-    #main_step_holder(corpus_dir=corpus_dir,
-                    #log_file_name=log_file_name, 
-                    #roberta_title_sentiment_label_dict=roberta_title_sentiment_label_dict, 
-                    #roberta_paragraph_sentiment_label_dict=roberta_paragraph_sentiment_label_dict,
-                    #bert_title_sentiment_label_dict=bert_title_sentiment_label_dict,
-                    #bert_paragraph_sentiment_label_dict=bert_paragraph_sentiment_label_dict)
-    
-    
-    
+if __name__ == "__main__":
+    main()
