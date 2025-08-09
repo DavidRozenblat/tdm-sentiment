@@ -4,10 +4,13 @@ step_identify_economic runs separately to identify economic articles. using the 
 Other steps can be run in sequence using the `run_steps` function.
 """
 from pathlib import Path
+SRC_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/src/')
+import sys
+sys.path.append(str(SRC_PATH))
 from config import *
 from bs4 import BeautifulSoup
 from collections import deque
-from typing import Any, Callable, Dict, Iterable, Optional, Tuple
+from typing import Iterable, Tuple, Callable, Dict, Any, Optional, List
 
 
 tdm_parser = tdm_parser_module.TdmXmlParser()  # Instantiate tdm parser
@@ -42,7 +45,7 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
     file_path = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
     file_path.parent.mkdir(parents=True, exist_ok=True) # ensure path exist
     initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')] 
-    logger_instance = logger_module.Logger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = 'is_economic', corpus_name = corpus_dir.stem, initiate_file_list = initial_file_list)
     pending = deque(logger_instance.get_file_names())
     processed_buffer = []
 
@@ -76,89 +79,8 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
         logger_instance.update_log_batch(processed_buffer)
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {file_path}.")
+
 #---
-
-def run_steps(
-    corpus_dir: Path,
-    steps: Iterable[Tuple[Callable, Dict[str, Any]]],
-    model: Optional[Any] = None,
-    context: Optional[Dict[str, Any]] = None,
-    batch_size: int = 200,
-    log_file_name: str = "step_runner",
-):
-    """Run pipeline ``steps`` on XML files in ``corpus_dir``.
-
-    Parameters
-    ----------
-    corpus_dir:
-        Directory containing XML files.
-    steps:
-        Iterable of ``(callable, kwargs)`` pairs defining the steps to run.  If a
-        step's ``kwargs`` contains ``{"requires_model": True}``, the shared
-        ``model`` will be passed to that function under the ``model`` keyword.
-    model:
-        Optional shared model instance to be used by at most one step.
-    context:
-        Optional mapping of extra keyword arguments passed to every step.
-    batch_size:
-        Number of processed files to buffer before updating the log.
-    log_file_name:
-        Base name for the log file.
-    """
-    context = context or {}
-
-    requires_model = [kw for _, kw in steps if kw.get("requires_model")]
-    if len(requires_model) > 1:
-        raise ValueError("Only one step may require a model")
-    if requires_model and model is None:
-        raise ValueError("A required model was not provided")
-
-    # Determine deterministic file ordering
-    initial_files = sorted(xml.name for xml in corpus_dir.glob("*.xml"))
-    logger_instance = logger_module.Logger(
-        log_dir=LOGS_PATH,
-        log_file_name=log_file_name,
-        corpus_name=corpus_dir.stem,
-        initiate_file_list=initial_files,
-    )
-    pending = deque(logger_instance.get_file_names())
-
-    processed_buffer: list[str] = []
-    failures: list[Tuple[str, str]] = []
-    stats = {
-        "total_files": len(initial_files),
-        "processed": 0,
-        "failed": 0,
-    }
-
-    while pending:
-        xml_name = pending.popleft()
-        xml_path = corpus_dir / xml_name
-        try:
-            soup = tdm_parser.get_xml_soup(xml_path)
-            for func, kw in steps:
-                kw = kw.copy()
-                if kw.pop("requires_model", False):
-                    kw["model"] = model
-                kw.update(context)
-                soup = func(soup=soup, **kw)
-            tdm_parser.write_xml_soup(soup, xml_path)
-            stats["processed"] += 1
-        except Exception as e:
-            failures.append((xml_name, str(e)))
-            stats["failed"] += 1
-        finally:
-            processed_buffer.append(xml_name)
-            if len(processed_buffer) >= batch_size:
-                logger_instance.update_log_batch(processed_buffer)
-                processed_buffer.clear()
-
-    if processed_buffer:
-        logger_instance.update_log_batch(processed_buffer)
-
-    return stats, failures
-
-
 def step_tfidf_tags(soup: BeautifulSoup, 
                     tfidf_extractor: tf_idf_extractor.TfidfKeywordExtractor,): 
     """Append TF-IDF keyword tags to article."""
@@ -170,6 +92,49 @@ def step_tfidf_tags(soup: BeautifulSoup,
         print(f"Error extracting TF-IDF tags: {e}")
     return soup
 
+
+def step_xml_to_csv(corpus_dir: Path, output_dir: Path): 
+    """Convert a corpus of XML files to DataFrame and save as CSV."""
+    pass
+    
+
+def roberta_step_holder(corpus_dir: Path, 
+                    log_file_name: str,
+                    roberta_title_label: dict,
+                    roberta_paragraph_label: dict,): 
+    """Main step holder for processing a corpus directory."""
+    roberta_sentiment_analyzer = sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH)  # load the sentiment model
+    
+    # get the list of economic files and initialize logger
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    pending = deque(logger_instance.get_file_names())
+    processed_buffer = []
+    
+    while pending:
+        xml_name = pending.popleft()
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = tdm_parser.get_xml_soup(xml_file)
+            soup = step_title_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_title_label)  # add title sentiment
+            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=roberta_sentiment_analyzer, label_dict=roberta_paragraph_label)  # add paragraph sentiment
+            # rewrite to file
+            tdm_parser.write_xml_soup(soup, xml_file)
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+        finally:
+                # 4) update log regardless of success/failure
+                processed_buffer.append(xml_name)
+                if len(processed_buffer) >= 200:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+        
+    print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
+
+
       
 def step_title_sentiment_prob(soup: BeautifulSoup,
                               sentiment_model: sentiment_model.TextAnalysis, 
@@ -179,7 +144,7 @@ def step_title_sentiment_prob(soup: BeautifulSoup,
         title = tdm_parser.get_tag_value(soup, 'Title')
         sentiment_dict = sentiment_model.txt_sentiment_dict(title) 
         for label in sentiment_dict.keys():
-            soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
+            soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label], modify=False)  # modify sentiment labels
     except Exception as e:
         print(f"Error processing title sentiment: {e}")
     return soup
@@ -218,35 +183,26 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
         paragraphs_lst = tdm_parser.get_art_text(soup, return_str=False)
         sentiment_dict = article_average_sentiment_helper(paragraphs_lst, sentiment_model)
         for label in sentiment_dict.keys():
-            soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label])  # modify sentiment labels
+            soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label], modify=False)  # modify sentiment labels
     except Exception as e:
         print(f"Error processing paragraph sentiment: {e}")
     return soup
 
 
-def step_xml_to_csv(corpus_dir: Path, output_dir: Path): 
-    """Convert a corpus of XML files to DataFrame and save as CSV."""
-    pass
-    
-
-def main():
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Run pipeline steps on a corpus")
-    parser.add_argument("corpus_dir", type=Path, help="Directory containing XML files")
-    parser.add_argument("steps", nargs="+", choices=STEP_FUNCTIONS.keys(), help="Steps to execute")
-    parser.add_argument("--batch-size", type=int, default=200, dest="batch_size")
-    parser.add_argument("--log-file-name", default="step_runner", dest="log_file_name")
-    args = parser.parse_args()
-
-    step_defs = [(STEP_FUNCTIONS[name], {}) for name in args.steps]
-    run_steps(
-        corpus_dir=args.corpus_dir,
-        steps=step_defs,
-        batch_size=args.batch_size,
-        log_file_name=args.log_file_name,
-    )
-
-
 if __name__ == "__main__":
-    main()
+    corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
+    # run is economic step holder
+    is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5) #TODO # Example usage of the economic step holder
+    
+    log_file_name = 'main_step_roberta' 
+    roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
+    #bert_title_sentiment_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
+    #bert_paragraph_sentiment_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
+    # Run the main step with the specified parameters
+    
+    roberta_step_holder(corpus_dir=corpus_dir,
+                    log_file_name=log_file_name, 
+                    roberta_title_label=roberta_title_sentiment_label_dict, 
+                    roberta_paragraph_label=roberta_paragraph_sentiment_label_dict)
+    
