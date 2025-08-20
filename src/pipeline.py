@@ -135,6 +135,44 @@ def roberta_step_holder(corpus_dir: Path,
     print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
 
 
+def bert_step_holder(corpus_dir: Path, 
+                    log_file_name: str,
+                    bert_title_label: dict,
+                    bert_paragraph_label: dict,): 
+    """Main step holder for processing a corpus directory."""
+    bert_sentiment_analyzer = sentiment_model.TextAnalysis(BERT_MODEL_PATH)  # load the sentiment model
+    
+    # get the list of economic files and initialize logger
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    pending = deque(logger_instance.get_file_names())
+    processed_buffer = []
+    
+    while pending:
+        xml_name = pending.popleft()
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = tdm_parser.get_xml_soup(xml_file)
+            soup = step_title_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_title_label)  # add title sentiment
+            soup = step_paragraph_sentiment_prob(soup=soup, sentiment_model=bert_sentiment_analyzer, label_dict=bert_paragraph_label)  # add paragraph sentiment
+            # rewrite to file
+            tdm_parser.write_xml_soup(soup, xml_file)
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+        finally:
+                # 4) update log regardless of success/failure
+                processed_buffer.append(xml_name)
+                if len(processed_buffer) >= 200:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+        
+    print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
+
+
+
       
 def step_title_sentiment_prob(soup: BeautifulSoup,
                               sentiment_model: sentiment_model.TextAnalysis, 
@@ -189,20 +227,45 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
     return soup
 
 
+def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
+    """
+    update new tags to xml files from a folder of csv result files.
+    processed_tags is a dict a dict with column names as keys and tag names as value
+    """        
+    # get corpus csv file names 
+    csv_dir = RESULTS_PATH / corpus_dir.name 
+    csv_file_pathes = [csv_path for csv_path in csv_dir.glob('*.csv')] 
+    
+    # get list of economic files and initialize logger
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    xml_file_names = list(logger_instance.get_file_names()) 
+    
+    for csv_path in csv_file_pathes:
+        try:
+            xml_processed = file_process.csv_to_xml(csv_path=csv_path, corpus_dir=corpus_dir, processed_tags=processed_tags, xml_file_names=xml_file_names)
+            logger_instance.update_log_batch(xml_processed)#update logger 
+        except Exception as e:
+            print(f"Error processing {csv_path.stem}: {e}")
+    
+    print(f"Finished processing all {corpus_dir.stem} csv files.")
+        
+        
+
 if __name__ == "__main__":
-    corpus_dir = CORPUSES_PATH / 'sample'#'LosAngelesTimesDavid' #'LosAngelesTimesDavid' # 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
+    corpus_dir = CORPUSES_PATH / 'sample' #'sample' 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
     # run is economic step holder
-    is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5) #TODO # Example usage of the economic step holder
+    #is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5) #TODO # Example usage of the economic step holder
     
-    log_file_name = 'main_step_roberta' 
-    roberta_title_sentiment_label_dict = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
-    #bert_title_sentiment_label_dict = {'negative': 'bert_title_negative', 'neutral': 'bert_title_neutral', 'positive': 'bert_title_positive'}
-    #bert_paragraph_sentiment_label_dict = {'negative': 'bert_paragraph_negative', 'neutral': 'bert_paragraph_neutral', 'positive': 'bert_paragraph_positive'}
+    log_file_name = 'main_step_bert' 
+    # = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    #roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
+    bert_title_label = {'negative': 'bert_title_negative', 'positive': 'bert_title_positive'}
+    bert_paragraph_label = {'negative': 'bert_paragraph_negative', 'positive': 'bert_paragraph_positive'}
     # Run the main step with the specified parameters
+    bert_step_holder(corpus_dir, log_file_name, bert_title_label, bert_paragraph_label)
+    #roberta_step_holder(corpus_dir=corpus_dir, log_file_name=log_file_name, roberta_title_label=roberta_title_sentiment_label_dict, roberta_paragraph_label=roberta_paragraph_sentiment_label_dict)
+    #processed_tags = {'title_negative_prob':'bert_title_negative', 'title_positive_prob':'bert_title_positive', 'paragraph_avg_negative': 'bert_paragraph_negative', 'paragraph_avg_positive': 'bert_paragraph_positive'}
+    #csvs_to_xml(corpus_dir, processed_tags, log_file_name)
     
-    roberta_step_holder(corpus_dir=corpus_dir,
-                    log_file_name=log_file_name, 
-                    roberta_title_label=roberta_title_sentiment_label_dict, 
-                    roberta_paragraph_label=roberta_paragraph_sentiment_label_dict)
     

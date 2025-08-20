@@ -184,13 +184,5 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<processed>
-<is_economic>0.9104</is_economic>
-<roberta_title_negative>0.0004</roberta_title_negative>
-<roberta_title_neutral>0.998</roberta_title_neutral>
-<roberta_title_positive>0.0016</roberta_title_positive>
-<roberta_paragraph_positive>0.0903</roberta_paragraph_positive>
-<roberta_paragraph_neutral>0.7975</roberta_paragraph_neutral>
-<roberta_paragraph_negative>0.1122</roberta_paragraph_negative>
-</processed>
+
 </RECORD>

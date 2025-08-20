@@ -10,7 +10,7 @@ from tqdm import tqdm
 from joblib import Parallel, delayed
 import random
 # Initialize variables
-parser = tdm_parser_module.TdmXmlParser()
+tdm_parser = tdm_parser_module.TdmXmlParser()
 
 TDM_PROPERTY_TAGS = [
     'GOID', 'SortTitle', 'NumericDate', 'mstar', 'DocSection', 
@@ -68,8 +68,8 @@ def xml_to_dict(file_path: Path, processed_tags: list):
     Parse the XML file and convert its contents into a dictionary,
     including custom tags like 'is_economic' and 'bert_sentiment'.
     """
-    soup = parser.get_xml_soup(file_path)
-    content_dict = parser.soup_to_dict(
+    soup = tdm_parser.get_xml_soup(file_path)
+    content_dict = tdm_parser.soup_to_dict(
         soup, tdm_property_tags=TDM_PROPERTY_TAGS + processed_tags, property_names=PROPERTY_NAMES + processed_tags
     )
     return content_dict
@@ -134,7 +134,7 @@ def load_df_from_xml(corpus_dir: Path ,file_names_path: Path, chunk_size: int = 
 
 def update_csv_with_new_tags(csv_path: Path, corpus_dir: Path, processed_tags: list):
     """
-    Update the CSV file with new tags from the XML files in the corpus.
+    Update a result CSV file with new tags from the XML files in the corpus.
     
     Parameters:
     - csv_path: Path to the existing CSV file.
@@ -155,14 +155,52 @@ def update_csv_with_new_tags(csv_path: Path, corpus_dir: Path, processed_tags: l
     goid_list = [str(goid) for goid in goid_list]
     xml_file_path_list = [file for file in corpus_dir.glob('*.xml') if file.stem in goid_list]
     for xml_file in xml_file_path_list:
-        soup = parser.get_xml_soup(xml_file)
+        soup = tdm_parser.get_xml_soup(xml_file)
         goid = xml_file.stem
         if soup:
-            content_dict = parser.soup_to_dict(soup, tdm_property_tags=processed_tags, property_names=processed_tags)
+            content_dict = tdm_parser.soup_to_dict(soup, tdm_property_tags=processed_tags, property_names=processed_tags)
             if goid in df['goid'].values:
                 for tag in processed_tags:
                     df.loc[df['goid'] == goid, tag] = content_dict.get(tag)
     df.to_csv(csv_path, index=False)
+
+
+def csv_to_xml(csv_path: Path, corpus_dir: Path, xml_file_names:list ,processed_tags: dict):
+    """
+    Update new tags to XML files from a result CSV file.
+    Parameters:
+    - csv_path: Path to CSV file.
+    - corpus_path: Path to the directory containing XML files.
+    - processed_tags: a dict with column names as keys and tag names as value, tags to be added to the relevant xml file (match by GOID number).
+    - xml_file_names: a list of goid numbers 
+    Returns:
+    - list of goid numbers of processed files
+    """
+    df = pd.read_csv(csv_path) #open csv file
+    
+    # clear rows with goid na values 
+    #df['goid'] = pd.to_numeric(df['goid'], errors='coerce')
+    df = df.dropna(subset=['goid']).copy()
+    
+    processed_goid = []
+    # loop over each row and update relevant xml 
+    for _, row in df.iterrows():
+        goid = row['goid'] 
+        if f'{goid}.xml' not in xml_file_names:
+            continue
+        xml_path = corpus_dir / f'{goid}.xml'
+        soup = tdm_parser.get_xml_soup(xml_path)
+        
+        # add all processed_tags
+        for k, v in processed_tags.items():
+            value = round(float(row[k]), 5)
+            soup = tdm_parser.modify_tag(soup, tag_name=v, value=str(value), modify=True)
+        # save soup to file
+        tdm_parser.write_xml_soup(soup, xml_path)
+        processed_goid.append(f'{goid}.xml')
+    return processed_goid
+
+
 
 if __name__ == "__main__":
     # Example usage
@@ -178,10 +216,10 @@ if __name__ == "__main__":
     
     # Update the CSV with new tags
     #update_csv_with_new_tags(csv_path, corpus_dir, processed_tags)
-    file_names_path = FILE_NAMES_PATH / corpus_dir.stem / 'economic_files.txt'
-    xml_to_csv(corpus_dir=corpus_dir, file_names_path=file_names_path, processed_tags=processed_tags, chunk_size=2000)
-    df = load_df_from_xml(corpus_dir=corpus_dir, file_names_path=file_names_path, chunk_size=2000, processed_tags=processed_tags)
-    print(df.head())
+    #file_names_path = FILE_NAMES_PATH / corpus_dir.stem / 'economic_files.txt'
+    #xml_to_csv(corpus_dir=corpus_dir, file_names_path=file_names_path, processed_tags=processed_tags, chunk_size=2000)
+    #df = load_df_from_xml(corpus_dir=corpus_dir, file_names_path=file_names_path, chunk_size=2000, processed_tags=processed_tags)
+    #print(df.head())
 
     #'is_economic', 'tf_idf', 'bert_title_negative', 'bert_title_neutral', 'bert_title_positive',
     # 'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive'
@@ -195,5 +233,11 @@ if __name__ == "__main__":
     # Example usage
     #get_file_paths_sample(corpuses_dir, output_path, sample_size=1000)
     
-    file_names_path = FILE_NAMES_PATH / 'all_files.txt'  # Path to the file containing the list of XML file name
+    #file_names_path = FILE_NAMES_PATH / 'all_files.txt'  # Path to the file containing the list of XML file name
     
+    
+    corpus_name = 'LosAngelesTimesDavid'
+    csv_path = RESULTS_PATH / corpus_name / 'chunk_0_data.csv'
+    corpus_dir = CORPUSES_PATH / corpus_name
+    processed_tags = {'paragraph_avg_positive': 'bert_paragraph_positive', 'paragraph_avg_negative': 'bert_paragraph_negative'}
+    csv_to_xml(csv_path, corpus_dir, processed_tags)

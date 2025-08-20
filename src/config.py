@@ -25,7 +25,6 @@ import data_utils.tdm_parser as tdm_parser_module
 
 
 import data_utils.file_process as file_process
-import data_utils.properties_modifier as properties_modifier
 
 import sentiment.sentiment_model.sentiment_model as sentiment_model
 

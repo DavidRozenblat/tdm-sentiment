@@ -17,7 +17,7 @@ class TdmXmlParser:
         """Retrieve the property tags and names."""
         return self.TDM_PROPERTY_TAGS, self.PROPERTY_NAMES
 
-    def get_xml_soup(self, file_path):
+    def get_xml_soup(self, file_path: Path):
         """helper functon, Parse an XML file and return the BeautifulSoup object."""
         try:
             with open(file_path, 'r', encoding='utf-8') as file:

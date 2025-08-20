@@ -36,7 +36,7 @@ class TDMLogger:
 
 
     def read_file_names(self):
-        """Read the log and returnn stripped lines as a list."""
+        """Read the log and return stripped lines as a list."""
         names = []
         with self.log_path.open("r", encoding="utf-8") as f:
             for line in f:
