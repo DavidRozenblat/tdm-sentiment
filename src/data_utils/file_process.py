@@ -193,7 +193,7 @@ def csv_to_xml(csv_path: Path, corpus_dir: Path, xml_file_names:list ,processed_
         
         # add all processed_tags
         for k, v in processed_tags.items():
-            value = round(float(row[k]), 5)
+            value = round(float(row[k]), 4)
             soup = tdm_parser.modify_tag(soup, tag_name=v, value=str(value), modify=True)
         # save soup to file
         tdm_parser.write_xml_soup(soup, xml_path)

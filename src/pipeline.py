@@ -82,7 +82,7 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
 
 #---
 def step_tfidf_tags(soup: BeautifulSoup, 
-                    tfidf_extractor: tf_idf_extractor.TfidfKeywordExtractor,): 
+                    tfidf_extractor: tf_idf_extractor.TfidfKeywordExtractor): 
     """Append TF-IDF keyword tags to article."""
     try:
         text = tdm_parser.get_art_text(soup)
@@ -91,6 +91,55 @@ def step_tfidf_tags(soup: BeautifulSoup,
     except Exception as e:
         print(f"Error extracting TF-IDF tags: {e}")
     return soup
+
+
+def _process_tfidf(xml_path: Path) -> Tuple[str, Optional[str]]:
+    """Read -> tag -> write for a single XML file. Returns (name, error_or_None)."""
+    try:
+        soup = tdm_parser.get_xml_soup(xml_path)
+        text = tdm_parser.get_art_text(soup)
+        tf_idf_values = _EXTRACTOR.extract_top_keywords(txt_str=text)
+        soup = tdm_parser.modify_tag(soup, 'tf_idf', tf_idf_values)
+        
+        return (xml_path.name, None)
+    except Exception as e:
+        return (xml_path.name, str(e))
+
+
+
+def tfidf_step_holder_old(corpus_dir: Path, 
+                    log_file_name: str): 
+    """Main step holder for processing a corpus directory."""
+    tfidf_extractor = tf_idf_extractor.TfidfKeywordExtractor(TF_IDF_MODEL_PATH) # load the tfidf extractor 
+    
+    # get the list of economic files and initialize logger
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
+    pending = deque(logger_instance.get_file_names())
+    processed_buffer = []
+    
+    while pending:
+        xml_name = pending.popleft()
+        try:
+            xml_file = corpus_dir / xml_name
+            soup = tdm_parser.get_xml_soup(xml_file)
+            soup = step_tfidf_tags(soup, tfidf_extractor)
+            # rewrite to file
+            tdm_parser.write_xml_soup(soup, xml_file)
+        except Exception as e:
+            print(f"Error processing {xml_name}: {e}")
+        finally:
+                # 4) update log regardless of success/failure
+                processed_buffer.append(xml_name)
+                if len(processed_buffer) >= 200:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+        
+    print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
+
 
 
 def step_xml_to_csv(corpus_dir: Path, output_dir: Path): 
@@ -172,8 +221,6 @@ def bert_step_holder(corpus_dir: Path,
     print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
 
 
-
-      
 def step_title_sentiment_prob(soup: BeautifulSoup,
                               sentiment_model: sentiment_model.TextAnalysis, 
                               label_dict: dict):
@@ -181,7 +228,7 @@ def step_title_sentiment_prob(soup: BeautifulSoup,
     try:
         title = tdm_parser.get_tag_value(soup, 'Title')
         sentiment_dict = sentiment_model.txt_sentiment_dict(title) 
-        for label in sentiment_dict.keys():
+        for label in label_dict.keys():
             soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label], modify=False)  # modify sentiment labels
     except Exception as e:
         print(f"Error processing title sentiment: {e}")
@@ -220,7 +267,7 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
     try:
         paragraphs_lst = tdm_parser.get_art_text(soup, return_str=False)
         sentiment_dict = article_average_sentiment_helper(paragraphs_lst, sentiment_model)
-        for label in sentiment_dict.keys():
+        for label in label_dict.keys():
             soup = tdm_parser.modify_tag(soup, label_dict[label], sentiment_dict[label], modify=False)  # modify sentiment labels
     except Exception as e:
         print(f"Error processing paragraph sentiment: {e}")
@@ -244,7 +291,7 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
     for csv_path in csv_file_pathes:
         try:
             xml_processed = file_process.csv_to_xml(csv_path=csv_path, corpus_dir=corpus_dir, processed_tags=processed_tags, xml_file_names=xml_file_names)
-            logger_instance.update_log_batch(xml_processed)#update logger 
+            logger_instance.update_log_batch(xml_processed) #update logger 
         except Exception as e:
             print(f"Error processing {csv_path.stem}: {e}")
     
@@ -252,20 +299,100 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
         
         
 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from concurrent.futures import ProcessPoolExecutor
+from multiprocessing import cpu_count
+from collections import deque
+from pathlib import Path
+from typing import Optional, Tuple
+
+# --- per-process global (loaded once per worker) ---
+_EXTRACTOR = None
+
+def _init_worker(tfidf_model_path: Path) -> None:
+    """Load the TF-IDF extractor once per worker."""
+    global _EXTRACTOR
+    _EXTRACTOR = tf_idf_extractor.TfidfKeywordExtractor(model_path=tfidf_model_path)
+
+
+
+def tfidf_step_holder(corpus_dir: Path, log_file_name: str) -> None:
+    """Main step holder for processing a corpus directory (parallel via executor.map)."""    
+    # get the list of economic files and initialize logger
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(
+        log_dir=LOGS_PATH,
+        log_file_name=log_file_name,
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=economic_files
+    )
+    pending = deque(logger_instance.get_file_names())
+    processed_buffer: list[str] = []
+
+    # generator → avoids materializing a huge list
+    def _path_iter():
+        while pending:
+            yield corpus_dir / pending.popleft()
+
+    workers = max(1, (cpu_count() or 2) - 1)
+    chunksize = 8 if len(economic_files) > 200 else 1  # tune as needed
+
+    with ProcessPoolExecutor(
+        max_workers=workers,
+        initializer=_init_worker,
+        initargs=(TF_IDF_MODEL_PATH,)
+    ) as ex:
+        for xml_name, err in ex.map(_process_tfidf, _path_iter(), chunksize=chunksize):
+            if err is not None:
+                print(f"Error processing {xml_name}: {err}")
+
+            # update log regardless of success/failure
+            processed_buffer.append(xml_name)
+            if len(processed_buffer) >= 200:
+                logger_instance.update_log_batch(processed_buffer)
+                processed_buffer.clear()
+
+    if processed_buffer:
+        logger_instance.update_log_batch(processed_buffer)
+
+    print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
+
+
+
+
+
 if __name__ == "__main__":
     corpus_dir = CORPUSES_PATH / 'sample' #'sample' 'LosAngelesTimesDavid' #'LosAngelesTimesDavid' 'Newyork20042023'  TheWashingtonPostDavid  USATodayDavid
     # run is economic step holder
     #is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5) #TODO # Example usage of the economic step holder
     
-    log_file_name = 'main_step_bert' 
+    #log_file_name = 'main_step_bert' 
     # = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
     #roberta_paragraph_sentiment_label_dict = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
     bert_title_label = {'negative': 'bert_title_negative', 'positive': 'bert_title_positive'}
     bert_paragraph_label = {'negative': 'bert_paragraph_negative', 'positive': 'bert_paragraph_positive'}
     # Run the main step with the specified parameters
-    bert_step_holder(corpus_dir, log_file_name, bert_title_label, bert_paragraph_label)
+    #bert_step_holder(corpus_dir, log_file_name, bert_title_label, bert_paragraph_label)
     #roberta_step_holder(corpus_dir=corpus_dir, log_file_name=log_file_name, roberta_title_label=roberta_title_sentiment_label_dict, roberta_paragraph_label=roberta_paragraph_sentiment_label_dict)
     #processed_tags = {'title_negative_prob':'bert_title_negative', 'title_positive_prob':'bert_title_positive', 'paragraph_avg_negative': 'bert_paragraph_negative', 'paragraph_avg_positive': 'bert_paragraph_positive'}
     #csvs_to_xml(corpus_dir, processed_tags, log_file_name)
-    
-    
+    log_file_name = 'tf_idf'
+    tfidf_step_holder(corpus_dir, log_file_name)
