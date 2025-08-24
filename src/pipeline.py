@@ -14,117 +14,6 @@ from typing import Iterable, Tuple, Callable, Dict, Any, Optional, List
 
 tdm_parser = tdm_parser_module.TdmXmlParser()  # Instantiate tdm parser
 
-
-def run_steps(
-    corpus_dir: Path,
-    steps: Iterable[tuple[Callable[[BeautifulSoup], BeautifulSoup], Dict[str, Any]]],
-    log_file_name: str,
-) -> tuple[Dict[str, int], List[str]]:
-    """Apply a sequence of functions to all XML files in ``corpus_dir``.
-
-    Parameters
-    ----------
-    corpus_dir:
-        Directory containing XML articles.
-    steps:
-        Iterable of ``(callable, kwargs)`` pairs.  Each callable receives the
-        current ``BeautifulSoup`` object and returns the modified soup.
-    log_file_name:
-        Name for the progress log written via :class:`TDMLogger`.
-
-    Returns
-    -------
-    stats, failures:
-        ``stats`` contains counts of processed and failed files while
-        ``failures`` lists the file names that raised an exception.
-    """
-
-    file_names = [xml.name for xml in corpus_dir.glob("*.xml")]
-
-    logger_cls = globals().get("logger_module")
-    if logger_cls and hasattr(logger_cls, "TDMLogger"):
-        logger_instance = logger_cls.TDMLogger(
-            log_dir=LOGS_PATH,
-            log_file_name=log_file_name,
-            corpus_name=corpus_dir.stem,
-            initiate_file_list=file_names,
-        )
-    else:
-        class _NoOpLogger:
-            def __init__(self, files: list[str]):
-                self._files = files
-
-            def get_file_names(self) -> list[str]:
-                return list(self._files)
-
-            def update_log_batch(self, processed_files: list[str]) -> None:
-                pass
-
-        logger_instance = _NoOpLogger(file_names)
-
-    parser = globals().get("tdm_parser")
-    if parser is None or not all(
-        hasattr(parser, attr) for attr in ("get_xml_soup", "write_xml_soup", "modify_tag")
-    ):
-        import importlib, sys
-
-        bs4_mod = importlib.import_module("bs4")
-        if getattr(bs4_mod, "BeautifulSoup", None) is object:
-            sys.modules.pop("bs4", None)
-            bs4_mod = importlib.import_module("bs4")
-        BS = bs4_mod.BeautifulSoup
-
-        class _FallbackParser:
-            def get_xml_soup(self, file_path: Path) -> BS:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    return BS(f.read(), "xml")
-
-            def write_xml_soup(self, soup: BS, file_path: Path) -> None:
-                with open(file_path, "w", encoding="utf-8") as f:
-                    f.write(str(soup))
-
-            def modify_tag(self, soup: BS, tag_name: str, value: Any, modify: bool = True):
-                tag = soup.find(tag_name)
-                if tag:
-                    if modify:
-                        tag.string = str(value)
-                else:
-                    tag = soup.new_tag(tag_name)
-                    tag.string = str(value)
-                    soup.append(tag)
-                return soup
-
-        parser = _FallbackParser()
-        globals()["tdm_parser"] = parser
-
-    pending = deque(logger_instance.get_file_names())
-    processed_buffer: list[str] = []
-    processed = 0
-    failures: list[str] = []
-
-    while pending:
-        xml_name = pending.popleft()
-        xml_path = corpus_dir / xml_name
-        try:
-            soup = parser.get_xml_soup(xml_path)
-            for func, kwargs in steps:
-                soup = func(soup, **kwargs)
-            parser.write_xml_soup(soup, xml_path)
-            processed += 1
-        except Exception:
-            failures.append(xml_name)
-        finally:
-            processed_buffer.append(xml_name)
-            if len(processed_buffer) >= 200:
-                logger_instance.update_log_batch(processed_buffer)
-                processed_buffer.clear()
-
-    if processed_buffer:
-        logger_instance.update_log_batch(processed_buffer)
-
-    return {"processed": processed, "failed": len(failures)}, failures
-
-
 def step_identify_economic(soup: BeautifulSoup,
                            economic_classifier: is_economic_module.EconomicClassifier):
     """for each xml file on corpus add probability tag that it's economic article."""
@@ -411,9 +300,6 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
 
 
     
-
-
-
 
 
 
