@@ -7,6 +7,7 @@ sys.path.append(str(SRC_PATH))
 from config import *
 from bs4 import BeautifulSoup
 from collections import deque
+import collections
 from typing import Iterable, Tuple, Callable, Dict, Any, Optional, List
 
 
@@ -507,7 +508,7 @@ def tfidf_step_holder(
     ) as ex:
         futures = {ex.submit(_process_one, p): p for p in xml_paths}
 
-        for fut in as_completed(futures):
+        for fut in as_completed(futures): 
             xml_name, err = fut.result()
             if err is None:
                 done += 1
