@@ -407,16 +407,18 @@ def tfidf_step_holder(
                     if hasattr(logger_instance, "log_error"):
                         logger_instance.log_error(file_name=xml_name, message=err)
                 except Exception:
-                    pass  # keep going even if error logging fails
+                    # Even error logging errors shouldn't halt processing
+                    pass
 
-                processed_buffer.append(xml_name)
+            # Record that this file was processed
+            processed_buffer.append(xml_name)
 
-                # Flush by size or time
-                now = time.time()
-                if len(processed_buffer) >= batch_log_size or (now - last_flush) >= batch_log_seconds:
-                    logger_instance.update_log_batch(processed_buffer)
-                    processed_buffer.clear()
-                    last_flush = now
+            # Flush by size or time
+            now = time.time()
+            if len(processed_buffer) >= batch_log_size or (now - last_flush) >= batch_log_seconds:
+                logger_instance.update_log_batch(processed_buffer)
+                processed_buffer.clear()
+                last_flush = now
 
             futures.difference_update(done_futs)
             while path_queue and len(futures) < workers * 2:
