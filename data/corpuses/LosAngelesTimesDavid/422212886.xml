@@ -185,9 +185,7 @@
 </DFS>
 <processed>
 <is_economic>0.1958</is_economic>
-
 <bert_paragraph_positive>0.5892</bert_paragraph_positive>
-
 <bert_paragraph_negative>0.4108</bert_paragraph_negative>
 </processed>
 </RECORD>

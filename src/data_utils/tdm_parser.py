@@ -50,7 +50,7 @@ class TdmXmlParser:
 
         try:
             text_content = text_tag.get_text()
-            html_soup = BeautifulSoup(text_content, 'html.parser')
+            html_soup = BeautifulSoup(text_content, 'lxml')
             paragraphs = html_soup.find_all('p')
             
             # Initialize an empty list to store valid paragraphs
@@ -85,7 +85,7 @@ class TdmXmlParser:
 
         try:
             text_content = text_tag.get_text()
-            html_soup = BeautifulSoup(text_content, 'html.parser')
+            html_soup = BeautifulSoup(text_content, 'lxml')
             paragraphs = html_soup.find_all('p')
             
             # Initialize an empty list to store valid paragraphs

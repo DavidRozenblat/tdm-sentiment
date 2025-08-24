@@ -205,9 +205,7 @@
 <roberta_paragraph_positive>0.086456</roberta_paragraph_positive>
 <roberta_paragraph_neutral>0.8612999999999998</roberta_paragraph_neutral>
 <roberta_paragraph_negative>0.05221199999999997</roberta_paragraph_negative>
-
 <bert_paragraph_positive>0.4815</bert_paragraph_positive>
-
 <bert_paragraph_negative>0.5185</bert_paragraph_negative>
 </processed>
 </RECORD>

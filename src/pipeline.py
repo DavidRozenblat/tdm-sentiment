@@ -1,7 +1,4 @@
 """Command-line pipeline for running article processing steps.
-Each function corresponds to a stage in the end-to-end workflow. 
-step_identify_economic runs separately to identify economic articles. using the is_economic_step_holder function.
-Other steps can be run in sequence using the `run_steps` function.
 """
 from pathlib import Path
 SRC_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/src/')
@@ -196,7 +193,7 @@ def step_tfidf_tags(soup: BeautifulSoup,
     """Append TF-IDF keyword tags to article."""
     try:
         text = tdm_parser.get_art_text(soup)
-        tf_idf_values = tfidf_extractor.extract_top_keywords(txt_str=text)
+        tf_idf_values = tfidf_extractor.extract_top_keywords(txt_str=text, top_n=200)
         soup = tdm_parser.modify_tag(soup, 'tf_idf', tf_idf_values)
     except Exception as e:
         print(f"Error extracting TF-IDF tags: {e}")
@@ -241,9 +238,10 @@ def tfidf_step_holder_old(corpus_dir: Path,
         finally:
                 # 4) update log regardless of success/failure
                 processed_buffer.append(xml_name)
-                if len(processed_buffer) >= 200:
+                if len(processed_buffer) >= 50:
                     logger_instance.update_log_batch(processed_buffer)
                     processed_buffer.clear()
+                    soup.clear()
 
     if processed_buffer:
         logger_instance.update_log_batch(processed_buffer)
@@ -428,64 +426,112 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
 
 
 
-from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from multiprocessing import cpu_count
-from collections import deque
 from pathlib import Path
 from typing import Optional, Tuple
+import time
+import traceback
+import os  # only for env var; all file ops use pathlib
 
-# --- per-process global (loaded once per worker) ---
+# Optional: disable GPU if TF-IDF doesn’t need it
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
+
+# Globals initialized per worker
 _EXTRACTOR = None
 
-def _init_worker(tfidf_model_path: Path) -> None:
-    """Load the TF-IDF extractor once per worker."""
+def _init_worker(tfidf_model_path: Path, stop_words: str = "english") -> None:
+    """Load the TF-IDF extractor once per process."""
     global _EXTRACTOR
-    _EXTRACTOR = tf_idf_extractor.TfidfKeywordExtractor(model_path=tfidf_model_path)
-
-
-
-def tfidf_step_holder(corpus_dir: Path, log_file_name: str) -> None:
-    """Main step holder for processing a corpus directory (parallel via executor.map)."""    
-    # get the list of economic files and initialize logger
-    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    logger_instance = logger_module.TDMLogger(
-        log_dir=LOGS_PATH,
-        log_file_name=log_file_name,
-        corpus_name=corpus_dir.stem,
-        initiate_file_list=economic_files
+    _EXTRACTOR = tf_idf_extractor.TfidfKeywordExtractor(
+        model_path=tfidf_model_path,   # keep as Path
+        stop_words=stop_words,
     )
+
+def _atomic_write_xml(soup, xml_path: Path) -> None:
+    """Atomic write with pathlib: write to .tmp then replace."""
+    tmp_path = xml_path.with_suffix(xml_path.suffix + ".tmp")
+    # If write_xml_soup expects a str, use str(tmp_path)
+    tdm_parser.write_xml_soup(soup, tmp_path)
+    tmp_path.replace(xml_path)  # atomic on POSIX
+
+def _process_one(xml_path: Path) -> Tuple[str, Optional[str]]:
+    """
+    Worker function.
+    Returns (xml_name, error_or_None).
+    """
+    try:
+        soup = tdm_parser.get_xml_soup(xml_path)
+        soup = step_tfidf_tags(soup, _EXTRACTOR)
+        _atomic_write_xml(soup, xml_path)
+        return (xml_path.name, None)
+    except Exception as e:
+        err = "".join(traceback.format_exception(type(e), e, e.__traceback__))
+        return (xml_path.name, err)
+
+def tfidf_step_holder(
+    corpus_dir: Path,
+    log_file_name: str,
+    *,
+    workers: Optional[int] = None,
+    batch_log_size: int = 200,
+    batch_log_seconds: float = 10.0,
+) -> None:
+    """
+    Parallel TF-IDF tagging (Python 3.10):
+    - pathlib-only file handling
+    - atomic writes
+    - processes every file (no 'skip unchanged' logic)
+    """
+    # Build worklist
+    economic_files = Path(FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    logger_instance = logger_module.TDMLogger(log_dir=LOGS_PATH, log_file_name = log_file_name, corpus_name = corpus_dir.stem, initiate_file_list = economic_files)
     pending = deque(logger_instance.get_file_names())
+
+    xml_paths = [corpus_dir / name for name in pending if (corpus_dir / name).is_file()]
+
+
     processed_buffer: list[str] = []
+    last_flush = time.time()
 
-    # generator → avoids materializing a huge list
-    def _path_iter():
-        while pending:
-            yield corpus_dir / pending.popleft()
+    # Worker count (leave one CPU free)
+    if workers is None:
+        workers = max(1, (cpu_count() or 2) - 1)
 
-    workers = max(1, (cpu_count() or 2) - 1)
-    chunksize = 8 if len(economic_files) > 200 else 1  # tune as needed
+    done = errors = 0
 
     with ProcessPoolExecutor(
         max_workers=workers,
         initializer=_init_worker,
-        initargs=(TF_IDF_MODEL_PATH,)
+        initargs=(TF_IDF_MODEL_PATH,),   # pass Path directly
     ) as ex:
-        for xml_name, err in ex.map(_process_tfidf, _path_iter(), chunksize=chunksize):
-            if err is not None:
-                print(f"Error processing {xml_name}: {err}")
+        futures = {ex.submit(_process_one, p): p for p in xml_paths}
 
-            # update log regardless of success/failure
+        for fut in as_completed(futures):
+            xml_name, err = fut.result()
+            if err is None:
+                done += 1
+            else:
+                errors += 1
+                try:
+                    if hasattr(logger_instance, "log_error"):
+                        logger_instance.log_error(file_name=xml_name, message=err)
+                except Exception:
+                    pass  # keep going even if error logging fails
+
             processed_buffer.append(xml_name)
-            if len(processed_buffer) >= 200:
+
+            # Flush by size or time
+            now = time.time()
+            if len(processed_buffer) >= batch_log_size or (now - last_flush) >= batch_log_seconds:
                 logger_instance.update_log_batch(processed_buffer)
                 processed_buffer.clear()
+                last_flush = now
 
     if processed_buffer:
         logger_instance.update_log_batch(processed_buffer)
 
-    print(f"Finished processing {len(economic_files)} files in {corpus_dir}.")
-
-
+    print(f"TF-IDF tagging: {done} updated, {errors} errors, workers={workers}")
 
 
 
@@ -506,3 +552,8 @@ if __name__ == "__main__":
     #csvs_to_xml(corpus_dir, processed_tags, log_file_name)
     log_file_name = 'tf_idf'
     tfidf_step_holder(corpus_dir, log_file_name)
+    
+    #print all files in dir /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample
+    my_path = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample')
+    my_dir = my_path.glob('*')
+    print(my_dir)

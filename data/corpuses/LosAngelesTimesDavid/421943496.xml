@@ -207,10 +207,9 @@
 </GroupFrosting>
 </DFS>
 <processed>
-<is_economic>0.0605</is_economic>
-
 <bert_paragraph_positive>0.6524</bert_paragraph_positive>
-
 <bert_paragraph_negative>0.3476</bert_paragraph_negative>
+
+<is_economic>0.0605</is_economic>
 </processed>
 </RECORD>
