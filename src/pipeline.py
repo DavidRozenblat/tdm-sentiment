@@ -7,6 +7,7 @@ sys.path.append(str(SRC_PATH))
 from config import *
 from bs4 import BeautifulSoup
 from collections import deque
+import collections
 from typing import Iterable, Tuple, Callable, Dict, Any, Optional, List
 
 
@@ -426,7 +427,7 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
 
 
 
-from concurrent.futures import ProcessPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED
 from multiprocessing import cpu_count
 from pathlib import Path
 from typing import Optional, Tuple
@@ -489,7 +490,7 @@ def tfidf_step_holder(
     pending = deque(logger_instance.get_file_names())
 
     xml_paths = [corpus_dir / name for name in pending if (corpus_dir / name).is_file()]
-
+    path_queue = collections.deque(xml_paths)
 
     processed_buffer: list[str] = []
     last_flush = time.time()
@@ -505,28 +506,36 @@ def tfidf_step_holder(
         initializer=_init_worker,
         initargs=(TF_IDF_MODEL_PATH,),   # pass Path directly
     ) as ex:
-        futures = {ex.submit(_process_one, p): p for p in xml_paths}
+        futures = set()
+        while path_queue and len(futures) < workers * 2:
+            futures.add(ex.submit(_process_one, path_queue.popleft()))
 
-        for fut in as_completed(futures):
-            xml_name, err = fut.result()
-            if err is None:
-                done += 1
-            else:
-                errors += 1
-                try:
-                    if hasattr(logger_instance, "log_error"):
-                        logger_instance.log_error(file_name=xml_name, message=err)
-                except Exception:
-                    pass  # keep going even if error logging fails
+        while futures:
+            done_futs, _ = wait(futures, return_when=FIRST_COMPLETED)
+            for fut in done_futs:
+                xml_name, err = fut.result()
+                if err is None:
+                    done += 1
+                else:
+                    errors += 1
+                    try:
+                        if hasattr(logger_instance, "log_error"):
+                            logger_instance.log_error(file_name=xml_name, message=err)
+                    except Exception:
+                        pass  # keep going even if error logging fails
 
-            processed_buffer.append(xml_name)
+                processed_buffer.append(xml_name)
 
-            # Flush by size or time
-            now = time.time()
-            if len(processed_buffer) >= batch_log_size or (now - last_flush) >= batch_log_seconds:
-                logger_instance.update_log_batch(processed_buffer)
-                processed_buffer.clear()
-                last_flush = now
+                # Flush by size or time
+                now = time.time()
+                if len(processed_buffer) >= batch_log_size or (now - last_flush) >= batch_log_seconds:
+                    logger_instance.update_log_batch(processed_buffer)
+                    processed_buffer.clear()
+                    last_flush = now
+
+            futures.difference_update(done_futs)
+            while path_queue and len(futures) < workers * 2:
+                futures.add(ex.submit(_process_one, path_queue.popleft()))
 
     if processed_buffer:
         logger_instance.update_log_batch(processed_buffer)
