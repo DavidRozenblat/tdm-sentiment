@@ -314,7 +314,7 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str):
 
 
 
-from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED
+from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED, as_completed
 from multiprocessing import cpu_count
 from pathlib import Path
 from typing import Optional, Tuple
