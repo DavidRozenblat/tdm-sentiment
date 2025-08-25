@@ -1,5 +1,4 @@
-"""Command-line pipeline for running article processing steps.
-"""
+"""Command-line pipeline for running article processing steps."""
 from pathlib import Path
 SRC_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/src/')
 import sys
@@ -17,11 +16,10 @@ from contextlib import contextmanager
 import os
 
 # -----------------------------
-# Parser instance (provided by your codebase)
+# Parser instance (provided by codebase)
 # -----------------------------
 
 tdm_parser = tdm_parser_module.TdmXmlParser()  # Instantiate tdm parser
-
 
 # =============================
 # Helper: temporarily hide CUDA
@@ -38,7 +36,6 @@ def masked_cuda_env():
             os.environ.pop("CUDA_VISIBLE_DEVICES", None)
         else:
             os.environ["CUDA_VISIBLE_DEVICES"] = old
-
 
 # =============================
 # Economic classification (CPU/GPU agnostic)
@@ -102,7 +99,6 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
         logger_instance.update_log_batch(processed_buffer)
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {out_list}.")
-
 
 # =============================
 # Sentiment steps (leave GPU visible; optional device wiring can be added later)
@@ -239,7 +235,6 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
         print(f"Error processing paragraph sentiment: {e}")
     return soup
 
-
 # =============================
 # CSV -> XML tag updater (unchanged scaffolding)
 # =============================
@@ -276,13 +271,10 @@ def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str) -> N
 
     print(f"Finished processing all {corpus_dir.stem} csv files.")
 
-
 # =============================
 # TF-IDF (CPU-only pool via masked CUDA)
 # =============================
-
 _EXTRACTOR = None  # initialized per worker
-
 
 def _init_worker_cpu(tfidf_model_path: Path, stop_words: str = "english") -> None:
     """Load the TF-IDF extractor once per process; ensure GPU is hidden."""
@@ -443,8 +435,6 @@ def tfidf_step_holder(
         f"workers={workers}, elapsed={dt:.1f}s, rate={rate:.2f} files/s"
     )
 
-
-
 # =============================
 # __main__ (example usage)
 # =============================
@@ -474,30 +464,8 @@ if __name__ == "__main__":
 
     # TF-IDF (CPU-only pool)
     log_file_name = 'tf_idf'
-    tfidf_step_holder_batched(corpus_dir, log_file_name)
+    tfidf_step_holder(corpus_dir, log_file_name)
 
     # Example: list files (avoid printing generator)
     # my_path = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample')
     # print(list(my_path.glob('*')))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
