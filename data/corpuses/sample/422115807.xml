@@ -160,4 +160,7 @@
 </GroupFrosting>
 </DFS>
 
+<processed>
+<tf_idf>[('silicon', 0.5077), ('compound', 0.4009), ('liners', 0.2274), ('67412', 0.2222), ('dec', 0.2093), ('silpat', 0.2063), ('section', 0.2025), ('element', 0.1806), ('item', 0.1772), ('food', 0.1733), ('correction', 0.1727), ('referred', 0.1673), ('silicone', 0.1342), ('parchment', 0.1315), ('ran', 0.1291), ('misspelled', 0.1186), ('cookie', 0.107), ('baking', 0.1051), ('appended', 0.103), ('record', 0.103), ('16', 0.1014), ('sheets', 0.0989), ('wednesday', 0.0972), ('sheet', 0.0931), ('pan', 0.0923), ('manufacturing', 0.0876), ('baker', 0.0873), ('preparing', 0.0805), ('paper', 0.0704), ('word', 0.0649), ('article', 0.0616), ('message', 0.0615), ('different', 0.0495), ('used', 0.0446), ('20', 0.0426)]</tf_idf>
+</processed>
 </RECORD>
