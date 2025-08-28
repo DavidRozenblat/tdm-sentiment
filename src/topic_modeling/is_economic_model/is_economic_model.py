@@ -57,7 +57,7 @@ class EconomicClassifier:
         df['Label'] = df[label_column].apply(lambda x: 1 if x in self.positive_set else 0 if x in self.negative_set else None)
         df.dropna(subset=['Label'], inplace=True)
         df.dropna(subset=[data_column], inplace=True)
-        logger.info(f"Training data size: {df.shape[0]}")
+        logger.info(f"Training data size: {round(df.shape[0]*0.8)} test size is {round(df.shape[0]*0.2)}")
         df['Processed_Text'] = df[data_column].apply(self.preprocess_text)
         df = df[df['Processed_Text'].str.len() >= min_text_length]
         X = self.vectorizer.fit_transform(df['Processed_Text'])

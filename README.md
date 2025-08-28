@@ -6,7 +6,7 @@ This project implements a comprehensive pipeline for analyzing sentiment and top
 
 ## Project Goals
 
-1. Process and extract news articles from major US newspapers stored in xml files and store them in csv tables (2000 articles in each table)
+1. Process and extract news articles from major US newspapers stored in xml files 
 2. Classify articles as economic or non-economic using a a logistic regression model (under src/topic_modeling/is_economic_model) and select economic articles for the following steps 
 3. Extract keywords from classified economic articles using tf idf method
 4. Analyze sentiment score for classified economic articles
@@ -23,16 +23,16 @@ Contains XML files from major news sources including:
 - USA Today
 
 ### `/data/`
-- `/file_names/`: Lists of files from each corpus selected for specific tasks
-- `/processed/classic_bert/results/` #TODO
-- `/processed/results/`: Contains processed data with rich details (full articles) #TODO will add here a new folder for FinBert 
-- `/processed/results_to_export/`: Contains processed data without raw content that can be exported
+- `/corpuses/`: for each corpus all xml files in a different folder 
+- `/file_names/`: for each corpus txt files of xml file names selected for specific tasks
+- `/processed/results/`: for each corpus Contains processed data in csv files with rich details (full articles) 
+- `/processed/results_to_export/`: for each corpus Contains processed data without raw content that can be exported
 
 ### `/logs/`
-Contains execution logs that track sentiment analysis runs and other processing activities.
+Contains execution logs that track for a given task or step in pipleline the xml files olready run so if excecution crash we dont need to restart from begining.
 
 ### `/notebooks/`
-- `/run/`: Main execution notebooks used to run functions, runs on GPU if available (preferred over pipline.py since TDM runs in Jupyter)
+- `/run/`: Main execution notebooks used to run functions, (preferred over pipline.py since TDM runs in Jupyter)
 - `/experiments/`: Test notebooks for trying functions before running
 - `/check_results/`: Notebooks for verifying processed results
 - `/visualization/`: Notebooks for data visualization and reporting (including text_view to look at a specific article)
@@ -47,10 +47,10 @@ Core source code:
   - `xml_to_df.py`: Converts XML to DataFrame format
   - `properties_modifier.py`: Modifies CSV files with sentiment or topic data
 - `/sentiment/`: Sentiment analysis components
-  - `/sentiment_model/`: BERT sentiment models stored locally
-  - `/salience_index/`: Weighted BERT sentiment model
+  - `/sentiment_model/`: BERT sentiment models stored locally runs on GPU if available
+  - `/salience_index/`: Weighted BERT sentiment model runs on GPU if available
 - `topic_modeling/`: Core topic‑modeling modules  
-  - `tf_idf_model/`: Extracts article tags using TF‑IDF  
+  - `tf_idf_model/`: Extracts article tags using TF‑IDF runs on CPU
     ```txt
     tfidf(t, d, D) = tf(t, d) * log(|D| / |{d' in D : t in d'}|)
 
@@ -60,9 +60,11 @@ Core source code:
       D            = corpus (set of all documents)
       tf(t, d)     = term frequency of t in d
     ```  
-  - `is_economic_model/`: Logistic‑regression classifier for economic articles  
+  - `is_economic_model/`: Logistic‑regression classifier for economic articles 
     - **Labels:** predefined sections  
     - **Features:** TF‑IDF–vectorized text  
+  the following is the model's performence for 0.5 and 0.7 thrasholds 
+  ![alt text](image.png)
 
 
 ## Key Files and Entry Points
@@ -72,16 +74,16 @@ Core source code:
 
 ### Data Processing
 - `src/data_utils/tdm_parser.py`: Handles TDM Studio XML format
-- `src/data_utils/xml_to_df.py`: Processes XML data into DataFrames
+- `src/data_utils/file_process.py`: handles file structer Processes XML data into 
 
 ### Analysis Components
-- `src/sentiment/sentiment_model/sentiment_score.py`: BERT-based sentiment analyzer
-- `src/topic_modeling/tf_idf_model/keyword_extractor.py`: TF-IDF keyword extraction
-- `src/topic_modeling/is_economic_model/train_model.py`: Economic content classifier
+- `src/sentiment/sentiment_model/sentiment_score.py`: sentiment analyzer models
+- `src/topic_modeling/tf_idf_model/tf_idf_model.py`: TF-IDF keyword extraction
+- `src/topic_modeling/is_economic_model/is_economic_model.py`: Economic content classifier
 
 ### Main Entry Points
-- `notebooks/run/run_title_sentiment.ipynb`: Runs sentiment analysis
-- `notebooks/run/run_tf_idf_tags.ipynb`: Generates topic tags
+- `notebooks/run/run_pipeline.ipynb`: Runs pipline functions
+- `notebooks/run/train_is_economic.ipynb`: Train and evaluate Economic content classifier model
 
 ## The `directory_map.txt` File
 
@@ -103,9 +105,9 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 3. **Proprietary Data**: The news articles are from proprietary sources and should be treated accordingly.
 4. **Model Size**: The BERT models are large and may require significant resources.
 
-## Setup and Running Instructions
+## Running Instructions
 
-### Requirements
+### Minimal Requirements
 - Python 3.7-10.9 
 - PyTorch
 - Transformers
@@ -114,44 +116,26 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 - BeautifulSoup
 - NLTK
 - Torch
+- joblib
+- Pathlib
 
-### Installation #TODO
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<user>/tdm-sentiment.git
-   ```
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-### Execution #TODO
+### Execution 
 Run the notebooks under `notebooks/run/` to process the data and calculate
 sentiment scores, or execute:
 ```bash
-python src/main.py
+python src/pipeline.py
 ```
 for scripted runs.
 
-### Command-Line Pipeline
-`src/pipeline.py` exposes the main steps of the project as a simple command line interface. The default paths are read from `src/config.py` but can be overridden.
-
-Example:
-```bash
-python src/pipeline.py --corpus-dir Newyork20042023 \
-    --steps xml_to_df,title_sentiment_prob
-```
-This runs XML extraction and sentiment scoring for the specified corpus using the configured directories.
+### Pipeline steps
+`src/pipeline.py` exposes the main steps of the project. The default paths are read from `src/config.py` but can be overridden.
 
 Available steps:
 
-- `xml_to_df` – convert XML files to CSV
-- `economic` – classify paragraphs as economic
-- `train_tfidf` – train the TF-IDF keyword extractor
-- `title_sentiment` – add sentiment label to titles
-- `title_sentiment_prob` – store sentiment probabilities for titles
-- `paragraph_sentiment_prob` – compute sentiment probabilities for paragraphs
-- `tfidf_tags` – append TF-IDF keywords
+- `xml_to_df` – convert XML corpus files to CSV #TODO
+- `is_economic_step_holder` – give probability for articles beeing economic
+- `tfidf_step_holder` – append TF-IDF keywords to a corpus 
+- `roberta_step_holder` – add sentiment label to titles and all article text using roberta model (https://huggingface.co/j-hartmann/sentiment-roberta-large-english-3-classes)
+- `bert_step_holder` – add sentiment label to titles and all article text using bert model (distilbert-base-uncased-finetuned-sst-2-english)
 
-
-With these steps you can reproduce the entire pipeline.
