@@ -1,0 +1,12 @@
+2025-08-28 16:29:50,257 - topic_modeling.is_economic_model.is_economic_model - Training data size:
+2025-08-28 16:29:50,262 - topic_modeling.is_economic_model.is_economic_model - Training data size: 17
+2025-08-28 16:29:50,312 - root - model evaluation with thrashold=0.22 is: 
+               precision    recall  f1-score   support
+
+           0       1.00      0.33      0.50         3
+           1       0.33      1.00      0.50         1
+
+    accuracy                           0.50         4
+   macro avg       0.67      0.67      0.50         4
+weighted avg       0.83      0.50      0.50         4
+

@@ -4,7 +4,8 @@ SRC_PATH = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/src/')
 import sys
 sys.path.append(str(SRC_PATH))
 from config import *
-
+import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 from tqdm import tqdm
 from joblib import Parallel, delayed
@@ -45,7 +46,8 @@ def get_file_paths_sample(corpuses_dir: Path, output_path: Path, sample_size: in
     # 4. Write out
     with output_path.open('w', encoding='utf-8') as f:
         for file_path in sampled_files:
-            f.write(f"{file_path}\n")
+            file_path_1 = Path(*file_path.parts[-2:])
+            f.write(f"{file_path_1}\n")
             
 
 def read_file_names_in_chunks(input_file, chunk_size):
@@ -99,37 +101,45 @@ def xml_to_csv(corpus_dir: Path, file_names_path: Path, processed_tags: list = [
             del data
 
 
-def load_df_from_xml(corpus_dir: Path ,file_names_path: Path, chunk_size: int = 2000, processed_tags: list = []):
-    """
-    Load XML files in chunks and return a DataFrame.
-    
-    Parameters:
-    - file_names_path: Path to the file containing the list of XML file names.
-    - chunk_size: The number of file names to process in each chunk.
+def load_df_from_xml(
+    corpus_dir: Path,
+    file_names_path: Path,
+    processed_tags: list = [],
+    chunk_size: int = 2000
+):
+    if processed_tags is None:
+        processed_tags = []
 
-    Returns:
-    - A pandas DataFrame constructed from the XML file data, or an empty DataFrame if no data is found.
-    """    
     results_lst = []
+
     for i, file_chunk in enumerate(read_file_names_in_chunks(file_names_path, chunk_size)):
-        # Construct full paths for each file name.
         chunk_paths = [corpus_dir / file_name for file_name in file_chunk]
 
-        # Process files in parallel with a progress bar.
         with tqdm(total=len(chunk_paths), desc=f"Processing chunk {i}") as pbar:
-            results = Parallel(n_jobs=-1, backend='threading')(
-                delayed(xml_to_dict)(path, processed_tags) for path in chunk_paths
-            )
+            # Threading is usually fine for I/O-heavy XML parsing; switch to ProcessPoolExecutor if CPU-bound
+            with ThreadPoolExecutor(max_workers=min(32, (os.cpu_count() or 4) * 2)) as ex:
+                fut_to_path = {ex.submit(xml_to_dict, p, processed_tags): p for p in chunk_paths}
 
-        # Append results if available.
-        if results:
-            results_lst.extend(results)
-    
-    # Return a DataFrame or an empty DataFrame if no results.
+                for fut in as_completed(fut_to_path):
+                    pbar.update(1)
+                    path = fut_to_path[fut]
+                    try:
+                        row = fut.result()
+                    except Exception as e:
+                        print("xml_to_dict failed for %s: %r", path, e)
+                        continue
+                    if row is not None:
+                        results_lst.append(row)
+
+    expected_cols = PROPERTY_NAMES + processed_tags
     if results_lst:
-        return pd.DataFrame(results_lst, columns=PROPERTY_NAMES + processed_tags)
+        df = pd.DataFrame(results_lst)
+        for col in expected_cols:
+            if col not in df.columns:
+                df[col] = pd.NA
+        return df[expected_cols]
     else:
-        return pd.DataFrame(columns=PROPERTY_NAMES + processed_tags)
+        return pd.DataFrame(columns=expected_cols)
 
 
 def update_csv_with_new_tags(csv_path: Path, corpus_dir: Path, processed_tags: list):
@@ -201,18 +211,21 @@ def csv_to_xml(csv_path: Path, corpus_dir: Path, xml_file_names:list ,processed_
     return processed_goid
 
 
-
 if __name__ == "__main__":
     # Example usage
     corpus_name = 'sample' #'USATodayDavid'  #'LosAngelesTimesDavid'  
     csv_path = RESULTS_PATH / corpus_name / 'chunk_0_data.csv'
-    corpus_dir = CORPUSES_PATH / corpus_name
+    corpus_dir = CORPUSES_PATH #/ corpus_name
     processed_tags = ['is_economic', 
                       'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive', 
                       'bert_title_negative', 'bert_title_neutral', 'bert_title_positive', 
                       'roberta_paragraph_negative', 'roberta_paragraph_neutral', 'roberta_paragraph_positive',
                       'bert_paragraph_negative', 'bert_paragraph_neutral', 'bert_paragraph_positive',
                       'tf_idf']
+    processed_tags = ['paragrph_text', 'Section']
+    file_names_path = FILE_NAMES_PATH / 'is_economic_train_files.txt'  # 'all_dataset_file_names.txt'  # Path to the file containing names
+    df = file_process.load_df_from_xml(corpus_dir, file_names_path, chunk_size=2000, processed_tags=processed_tags)
+    print(df.head())
     
     # Update the CSV with new tags
     #update_csv_with_new_tags(csv_path, corpus_dir, processed_tags)
@@ -240,4 +253,4 @@ if __name__ == "__main__":
     csv_path = RESULTS_PATH / corpus_name / 'chunk_0_data.csv'
     corpus_dir = CORPUSES_PATH / corpus_name
     processed_tags = {'paragraph_avg_positive': 'bert_paragraph_positive', 'paragraph_avg_negative': 'bert_paragraph_negative'}
-    csv_to_xml(csv_path, corpus_dir, processed_tags)
+    #csv_to_xml(csv_path, corpus_dir, processed_tags)

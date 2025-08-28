@@ -5,8 +5,12 @@ import sklearn.metrics
 from sklearn.model_selection import train_test_split 
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics import accuracy_score, roc_auc_score, classification_report
 import joblib
 from pathlib import Path
+import logging
+logger = logging.getLogger(__name__)
+
 
 class EconomicClassifier:
     def __init__(self, model_path:Path, initialize=False):
@@ -46,13 +50,14 @@ class EconomicClassifier:
             print(f'Preprocess error: {e}')
             return None
 
-    def train_classifier(self, df:pd.DataFrame, data_column:str='paragrph_text', lable_column:str='section', min_text_length: int=40):
+
+    def train_classifier(self, df:pd.DataFrame, data_column:str='paragrph_text', label_column:str='section', min_text_length: int=40):
         """Trains the logistic regression model using the DataFrame provided. and returns the test set."""
-        df[lable_column] = df[lable_column].apply(self.preprocess_text)
-        df['Label'] = df[lable_column].apply(lambda x: 1 if x in self.positive_set else 0 if x in self.negative_set else None)
+        df[label_column] = df[label_column].apply(self.preprocess_text)
+        df['Label'] = df[label_column].apply(lambda x: 1 if x in self.positive_set else 0 if x in self.negative_set else None)
         df.dropna(subset=['Label'], inplace=True)
         df.dropna(subset=[data_column], inplace=True)
-        print(f"Training data size: {df.shape[0]}")
+        logger.info(f"Training data size: {df.shape[0]}")
         df['Processed_Text'] = df[data_column].apply(self.preprocess_text)
         df = df[df['Processed_Text'].str.len() >= min_text_length]
         X = self.vectorizer.fit_transform(df['Processed_Text'])
@@ -76,14 +81,13 @@ class EconomicClassifier:
         joblib.dump(self.vectorizer, self.vectorizer_path)
 
 
-    def evaluate_model(self, X_test, y_test, thrashold: float):
+    def evaluate_model(self, X_test, y_test, threshold: float):
         """Evaluates the model's performance on the test set"""
         probabilities = self.model.predict_proba(X_test)[:, 1]
-        predictions = (probabilities > thrashold).astype(int)
+        predictions = (probabilities >= threshold).astype(int)
         return(sklearn.metrics.classification_report(y_test, predictions))
     
     
-
 if __name__ == "__main__":
     # Example usage
     from pathlib import Path
@@ -91,16 +95,20 @@ if __name__ == "__main__":
     import sys
     sys.path.append(str(SRC_PATH))
     from config import *
-    is_economic_model = is_economic_model.EconomicClassifier(model_path=IS_ECONOMIC_MODEL, initialize=True)  # Initialize the economic classifier
-    tdm_parser = tdm_parser.TdmXmlParser()
-
+    is_economic_model = is_economic_module.EconomicClassifier(model_path=IS_ECONOMIC_MODEL, initialize=True)  # Initialize the economic model
+    tdm_parser = tdm_parser_module.TdmXmlParser()
+    corpuses_dir = CORPUSES_PATH  #'all_dataset_file_names.txt' LosAngelesTimesDavid all_dataset_file_names.txt # Path to the input
+    output_path = FILE_NAMES_PATH / 'is_economic_train_files.txt'  # Path to the output text file
+    output_csv_path = PROJECT_DATA_PATH / 'train_data' / 'economic_classifier_train_data.csv'
+    file_names_path = FILE_NAMES_PATH / 'is_economic_train_files.txt'  # 'all_dataset_file_names.txt'  # Path to the file containing names
 
     # crate df
-    file_names_path = FILE_NAMES_PATH / 'all_files.txt'  # Path to the file containing the list of XML file name
-    df = file_process.load_df_from_xml(file_names_path, chunk_size=1000)
+    df = file_process.load_df_from_xml(corpuses_dir, file_names_path)
     
+    a = is_economic_model.evaluate_on_df(df)
+    a
     # Assuming df is a DataFrame with the necessary columns
-    X_test, y_test = is_economic_model.train_classifier(df, data_column='paragrph_text', lable_column='section')
+    #X_test, y_test = is_economic_model.train_classifier(df, data_column='paragrph_text', lable_column='section')
     # classifier.save_model()
-    print(is_economic_model.evaluate_model(X_test, y_test, thrashold=0.7))
-    pass
+    #print(is_economic_model.evaluate_model(X_test, y_test, thrashold=0.7))
+    #pass
