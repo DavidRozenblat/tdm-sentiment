@@ -14,6 +14,7 @@ from multiprocessing import cpu_count
 import time
 from contextlib import contextmanager
 import os
+import pandas as pd
 
 # -----------------------------
 # Parser instance (provided by codebase)
@@ -110,10 +111,7 @@ def roberta_step_holder(corpus_dir: Path,
                         roberta_paragraph_label: dict,) -> None:
     roberta_sentiment_analyzer = sentiment_model.TextAnalysis(ROBERTA_MODEL_PATH)  # may use GPU internally
 
-    try:
-        economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    except FileNotFoundError:
-        economic_files = [p.name for p in corpus_dir.glob('*.xml')]
+    economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
 
     logger_instance = logger_module.TDMLogger(
         log_dir=LOGS_PATH,
@@ -152,11 +150,7 @@ def bert_step_holder(corpus_dir: Path,
                      bert_paragraph_label: dict,) -> None:
     bert_sentiment_analyzer = sentiment_model.TextAnalysis(BERT_MODEL_PATH)  # may use GPU internally
 
-    try:
-        economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    except FileNotFoundError:
-        economic_files = [p.name for p in corpus_dir.glob('*.xml')]
-
+    economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
     logger_instance = logger_module.TDMLogger(
         log_dir=LOGS_PATH,
         log_file_name=log_file_name,
@@ -235,45 +229,9 @@ def step_paragraph_sentiment_prob(soup: BeautifulSoup,
         print(f"Error processing paragraph sentiment: {e}")
     return soup
 
-# =============================
-# CSV -> XML tag updater (unchanged scaffolding)
-# =============================
-
-def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str) -> None:
-    """Update new tags to XML files from a folder of CSV result files.
-    processed_tags is a dict with column names as keys and tag names as values.
-    """
-    csv_dir = RESULTS_PATH / corpus_dir.name
-    csv_file_paths = list(csv_dir.glob('*.csv'))
-
-    try:
-        economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
-    except FileNotFoundError:
-        economic_files = [p.name for p in corpus_dir.glob('*.xml')]
-
-    logger_instance = logger_module.TDMLogger(
-        log_dir=LOGS_PATH,
-        log_file_name=log_file_name,
-        corpus_name=corpus_dir.stem,
-        initiate_file_list=economic_files,
-    )
-    xml_file_names = list(logger_instance.get_file_names())
-
-    for csv_path in csv_file_paths:
-        try:
-            xml_processed = file_process.csv_to_xml(csv_path=csv_path,
-                                                    corpus_dir=corpus_dir,
-                                                    processed_tags=processed_tags,
-                                                    xml_file_names=xml_file_names)
-            logger_instance.update_log_batch(xml_processed)
-        except Exception as e:
-            print(f"Error processing {csv_path.stem}: {e}")
-
-    print(f"Finished processing all {corpus_dir.stem} csv files.")
-
-# =============================
+# ======================================
 # TF-IDF (CPU-only pool via masked CUDA)
-# =============================
+# ======================================
 _EXTRACTOR = None  # initialized per worker
 
 def _init_worker_cpu(tfidf_model_path: Path, stop_words: str = "english") -> None:
@@ -431,15 +389,97 @@ def tfidf_step_holder(
     total = done + errors
     rate = (total / dt) if dt > 0 else 0.0
     print(
-        f"All corpus done. TF-IDF tagging: {done} ok, {errors} errors, "
+        f"All {corpus_dir.stem} files done. TF-IDF tagging: {done} ok, {errors} errors, "
         f"workers={workers}, elapsed={dt:.1f}s, rate={rate:.2f} files/s"
     )
+
+# =============================
+# CSV -> XML tag updater (unchanged scaffolding)
+# =============================
+
+def csvs_to_xml(corpus_dir: Path, processed_tags: dict, log_file_name: str) -> None:
+    """Update new tags to XML files from a folder of CSV result files.
+    processed_tags is a dict with column names as keys and tag names as values.
+    """
+    csv_dir = RESULTS_PATH / corpus_dir.name
+    csv_file_paths = list(csv_dir.glob('*.csv'))
+
+    try:
+        economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+    except FileNotFoundError:
+        economic_files = [p.name for p in corpus_dir.glob('*.xml')]
+
+    logger_instance = logger_module.TDMLogger(
+        log_dir=LOGS_PATH,
+        log_file_name=log_file_name,
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=economic_files,
+    )
+    xml_file_names = list(logger_instance.get_file_names())
+
+    for csv_path in csv_file_paths:
+        try:
+            xml_processed = file_process.csv_to_xml(csv_path=csv_path,
+                                                    corpus_dir=corpus_dir,
+                                                    processed_tags=processed_tags,
+                                                    xml_file_names=xml_file_names)
+            logger_instance.update_log_batch(xml_processed)
+        except Exception as e:
+            print(f"Error processing {csv_path.stem}: {e}")
+
+    print(f"Finished processing all {corpus_dir.stem} csv files.")
+
+
+# =============================
+# XML -> CSV 
+# =============================
+
+def xmls_to_csv(corpus_dir: Path, log_file_name: str, processed_tags: list = [], chunk_size: int = 2000) -> None:
+    """Convert XML files in a folder to CSV format."""
+    economic_files = (FILE_NAMES_PATH / corpus_dir.stem / "economic_files.txt").read_text().splitlines()
+
+    logger_instance = logger_module.TDMLogger(
+        log_dir=LOGS_PATH,
+        log_file_name=log_file_name,
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=economic_files,
+    )
+    economic_files_list = logger_instance.get_file_names()
+    
+    for i in range(0, len(economic_files_list), chunk_size):
+        processed_buffer = economic_files_list[i:i+chunk_size]
+        data = file_process.xml_to_csv(corpus_dir, processed_buffer, processed_tags)
+        
+        output_file = RESULTS_PATH / corpus_dir.stem / f'chunk_{i}_data.csv'
+        output_file.parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
+        print(f"Saving chunk {i} to {output_file}") # TODO logging
+        data.to_csv(output_file, index=False)  # save df to csv
+
+        logger_instance.update_log_batch(processed_buffer)
+    print(f"Finished processing all {corpus_dir.stem} xml files.")
 
 # =============================
 # __main__ (example usage)
 # =============================
 if __name__ == "__main__":
-    corpus_dir = CORPUSES_PATH / 'sample'  # e.g. 'LosAngelesTimesDavid', 'USATodayDavid'
+    import logging
+    corpus_dir = CORPUSES_PATH / 'sample'  # 'sample' 'LosAngelesTimesDavid', 'USATodayDavid', 'Newyork20042023
+    log_file_name = 'xml_to_csv'
+    
+    # set logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+    logger.handlers.clear()
+    handler = logging.FileHandler(filename=LOGS_PATH / f'{log_file_name}.log') 
+    formatter =logging.Formatter('%(asctime)s - %(name)s - %(message)s')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
+    #--- run XML to CSV
+
+    processed_tags = ['tf_idf']
+
+    xmls_to_csv(corpus_dir, log_file_name, processed_tags)
 
     # Economic step example
     # is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5)
@@ -463,9 +503,16 @@ if __name__ == "__main__":
     # csvs_to_xml(corpus_dir, processed_tags, 'csv_to_xml')
 
     # TF-IDF (CPU-only pool)
-    log_file_name = 'tf_idf'
-    tfidf_step_holder(corpus_dir, log_file_name)
+    #tfidf_step_holder(corpus_dir, log_file_name)
 
     # Example: list files (avoid printing generator)
     # my_path = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample')
     # print(list(my_path.glob('*')))
+
+    
+    #processed_tags = ['is_economic', 'tf_idf',
+                      #'bert_title_negative', 'bert_title_positive', 'bert_paragraph_negative', 'bert_paragraph_positive',
+                      #'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive', 'roberta_paragraph_negative', 'roberta_paragraph_neutral', 'roberta_paragraph_positive',
+                      #]
+    
+    

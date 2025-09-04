@@ -10,8 +10,10 @@ import pandas as pd
 from tqdm import tqdm
 from joblib import Parallel, delayed
 import random
+import logging
 # Initialize variables
 tdm_parser = tdm_parser_module.TdmXmlParser()
+logger = logging.getLogger(__name__)
 
 TDM_PROPERTY_TAGS = [
     'GOID', 'SortTitle', 'NumericDate', 'mstar', 'DocSection', 
@@ -71,34 +73,36 @@ def xml_to_dict(file_path: Path, processed_tags: list):
     including custom tags like 'is_economic' and 'bert_sentiment'.
     """
     soup = tdm_parser.get_xml_soup(file_path)
-    content_dict = tdm_parser.soup_to_dict(
+    try:
+        content_dict = tdm_parser.soup_to_dict(
         soup, tdm_property_tags=TDM_PROPERTY_TAGS + processed_tags, property_names=PROPERTY_NAMES + processed_tags
-    )
-    return content_dict
+        )
+        tf_idf = content_dict.get('tf_idf')
+        if tf_idf is not None:
+            #if tf_idf is a string (e.g., from CSV), convert it to a list of tuples
+            if isinstance(tf_idf, str):
+                tf_idf = eval(tf_idf)
+            content_dict['tf_idf'] = [word for word, _ in tf_idf]
+        return content_dict
+    except Exception as e:
+        logger.error(f"Error processing {file_path}: {e}")
+        return None
 
 
-def xml_to_csv(corpus_dir: Path, file_names_path: Path, processed_tags: list = [], chunk_size: int = 2000):
+def xml_to_csv(corpus_dir: Path, processed_buffer: list, processed_tags: list = []):
     """
     Load XML files in chunks and return a DataFrame.
     """
-    for i, file_chunk in enumerate(read_file_names_in_chunks(file_names_path, chunk_size)):
-        # Construct full paths for each file name.
-        chunk_paths = [corpus_dir / file_name for file_name in file_chunk]
+    # Construct full paths for each file name.
+    chunk_paths = [corpus_dir / file_name for file_name in processed_buffer]
 
-        # Process files in parallel with a progress bar.
-        with tqdm(total=len(chunk_paths), desc=f"Processing chunk {i}") as pbar: 
-            results = Parallel(n_jobs=-1, backend='threading')(
-                delayed(xml_to_dict)(path, processed_tags) for path in chunk_paths
-            )
-            pbar.update(len(chunk_paths))
-
-        if results:
-            data = pd.DataFrame(results, columns=PROPERTY_NAMES + processed_tags)
-            output_file = RESULTS_PATH / corpus_dir.stem / f'chunk_{i}_data.csv'
-            output_file.parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
-            print(f"Saving chunk {i} to {output_file}")
-            data.to_csv(output_file, index=False)  # save df to csv
-            del data
+    # Process files in parallel.
+    results = Parallel(n_jobs=-1, backend='threading')(
+        delayed(xml_to_dict)(path, processed_tags) for path in chunk_paths
+    )
+    if results:
+        results = [res for res in results if res is not None]  # Filter out None results
+        return pd.DataFrame(results, columns=PROPERTY_NAMES + processed_tags)
 
 
 def load_df_from_xml(
@@ -121,7 +125,6 @@ def load_df_from_xml(
                 fut_to_path = {ex.submit(xml_to_dict, p, processed_tags): p for p in chunk_paths}
 
                 for fut in as_completed(fut_to_path):
-                    pbar.update(1)
                     path = fut_to_path[fut]
                     try:
                         row = fut.result()
@@ -224,8 +227,8 @@ if __name__ == "__main__":
                       'tf_idf']
     processed_tags = ['paragrph_text', 'Section']
     file_names_path = FILE_NAMES_PATH / 'is_economic_train_files.txt'  # 'all_dataset_file_names.txt'  # Path to the file containing names
-    df = file_process.load_df_from_xml(corpus_dir, file_names_path, chunk_size=2000, processed_tags=processed_tags)
-    print(df.head())
+    #df = file_process.load_df_from_xml(corpus_dir, file_names_path, chunk_size=2000, processed_tags=processed_tags)
+    #print(df.head())
     
     # Update the CSV with new tags
     #update_csv_with_new_tags(csv_path, corpus_dir, processed_tags)
@@ -254,3 +257,8 @@ if __name__ == "__main__":
     corpus_dir = CORPUSES_PATH / corpus_name
     processed_tags = {'paragraph_avg_positive': 'bert_paragraph_positive', 'paragraph_avg_negative': 'bert_paragraph_negative'}
     #csv_to_xml(csv_path, corpus_dir, processed_tags)
+    
+    
+    my_lst = [('bonds', 0.411), ('chronicle', 0.2483), ('records', 0.2085), ('prosecutors', 0.1776), ('investigation', 0.1541)]
+    tf_idf = [word for word, score in my_lst]
+    print(tf_idf)
