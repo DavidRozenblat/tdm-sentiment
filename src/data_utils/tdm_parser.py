@@ -4,14 +4,15 @@ from pathlib import Path
 class TdmXmlParser:
     TDM_PROPERTY_TAGS = [
         'GOID', 'SortTitle', 'NumericDate', 'mstar', 'DocSection', 
-        'GenSubjTerm', 'StartPage', 'WordCount', 'Title', 'CompanyName', 
-        'is_economic', 'bert_sentiment' 
+        'GenSubjTerm', 'StartPage', 'WordCount', 'Title', 'Text',
+        'CompanyName', 'Personal', 'LexileScore'
         ] 
     PROPERTY_NAMES = [
         'goid', 'publisher', 'date', 'article_type', 'section', 
-        'tdm_topic_tags', 'page', 'word_count', 'title', 'company_name', 
-        'is_economic', 'bert_sentiment',
+        'tdm_topic_tags', 'page', 'word_count', 'title', 'paragraph_text',
+        'company_name', 'author', 'lexile_score'
         ]
+
 
     def get_properties(self):
         """Retrieve the property tags and names."""

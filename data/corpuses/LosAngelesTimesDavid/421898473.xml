@@ -185,7 +185,6 @@
 <roberta_paragraph_negative>0.13893333333333333</roberta_paragraph_negative>
 <bert_paragraph_positive>0.5161</bert_paragraph_positive>
 <bert_paragraph_negative>0.4839</bert_paragraph_negative>
-
-<is_economic>0.2679</is_economic>
+<is_economic>0.235</is_economic>
 </processed>
 </RECORD>

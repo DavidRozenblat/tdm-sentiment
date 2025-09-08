@@ -11,6 +11,8 @@ from tqdm import tqdm
 from joblib import Parallel, delayed
 import random
 import logging
+import re, ast
+
 # Initialize variables
 tdm_parser = tdm_parser_module.TdmXmlParser()
 logger = logging.getLogger(__name__)
@@ -18,12 +20,12 @@ logger = logging.getLogger(__name__)
 TDM_PROPERTY_TAGS = [
     'GOID', 'SortTitle', 'NumericDate', 'mstar', 'DocSection', 
     'GenSubjTerm', 'StartPage', 'WordCount', 'Title', 'Text',
-    'CompanyName'
+    'CompanyName', 'Personal', 'LexileScore'
     ] 
 PROPERTY_NAMES = [
     'goid', 'publisher', 'date', 'article_type', 'section', 
     'tdm_topic_tags', 'page', 'word_count', 'title', 'paragrph_text',
-    'company_name', 
+    'company_name', 'author', 'lexile_score'
     ]
 
 
@@ -78,10 +80,9 @@ def xml_to_dict(file_path: Path, processed_tags: list):
         soup, tdm_property_tags=TDM_PROPERTY_TAGS + processed_tags, property_names=PROPERTY_NAMES + processed_tags
         )
         tf_idf = content_dict.get('tf_idf')
-        if tf_idf is not None:
-            #if tf_idf is a string (e.g., from CSV), convert it to a list of tuples
-            if isinstance(tf_idf, str):
-                tf_idf = eval(tf_idf)
+        if isinstance(tf_idf, str):
+            tf_idf = re.sub(r"np\.float(?:32|64)\(\s*([^)]+?)\s*\)", "None", tf_idf)
+            tf_idf = ast.literal_eval(tf_idf)
             content_dict['tf_idf'] = [word for word, _ in tf_idf]
         return content_dict
     except Exception as e:

@@ -171,7 +171,7 @@
 </GroupFrosting>
 </DFS>
 <processed>
-<is_economic>0.3228</is_economic>
+<is_economic>0.225</is_economic>
 <tf_idf>[('mad', 0.4707), ('hamm', 0.3336), ('elisabeth', 0.3217), ('olson', 0.2874), ('men', 0.2801), ('moss', 0.2723), ('incorrectly', 0.2665), ('actress', 0.2183), ('jon', 0.2149), ('actors', 0.2133), ('photographs', 0.1916), ('character', 0.1827), ('gave', 0.142), ('sunday', 0.13), ('caption', 0.1043)]</tf_idf>
 <roberta_title_negative>0.0009</roberta_title_negative>
 <roberta_title_neutral>0.9981</roberta_title_neutral>

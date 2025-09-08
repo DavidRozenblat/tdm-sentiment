@@ -132,4 +132,33 @@
 <Qualifier>Los Angeles, Calif.</Qualifier>
 <EndIssueDate>18861022</EndIssueDate>
 <CatalogNum>60200.A0</CatalogNum>
-</History
+</History>
+</PubHistory>
+<CoverImageType>None</CoverImageType>
+<BrowseType>IssueDateBrowse</BrowseType>
+<EmbargoDays>0</EmbargoDays>
+<HasGaps>0</HasGaps>
+<CoverageRange>
+<AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+<AlphaEndDate>Current</AlphaEndDate>
+<NumericStartDate>19961204</NumericStartDate>
+<NumericEndDate>99990101</NumericEndDate>
+</CoverageRange>
+<PubFrequencies/>
+<ContentModel>CM_DEFAULT</ContentModel>
+</PubFrosting>
+<GroupFrosting>
+<AlphaDate>Sep 27, 2023</AlphaDate>
+<StartDate>2023-09-27</StartDate>
+<EndDate>2023-09-27</EndDate>
+<Locators>
+<Locator Type="PQPCID">
+<Name>PQ_7683_Sep272023</Name>
+</Locator>
+</Locators>
+</GroupFrosting>
+</DFS>
+<processed>
+<is_economic>0.2245</is_economic>
+</processed>
+</RECORD>

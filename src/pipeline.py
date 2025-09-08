@@ -15,6 +15,7 @@ import time
 from contextlib import contextmanager
 import os
 import pandas as pd
+from joblib import Parallel, delayed
 
 # -----------------------------
 # Parser instance (provided by codebase)
@@ -60,7 +61,21 @@ def is_above_threshold(soup: BeautifulSoup, prob_threshold: float) -> bool:
         return False
 
 
-def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_threshold: float = 0.5) -> None:
+def _is_economic_step(xml_path: Path, classifier, del_grades: bool, prob_threshold: float) -> Tuple[str, bool, Optional[str]]:
+    """Helper for economic step; returns (xml_name, is_economic_bool, error_or_None)."""
+    try:
+        soup = tdm_parser.get_xml_soup(xml_path)
+        if del_grades:
+             tdm_parser.delete_tag(soup, tag_name='grades')
+        soup = step_identify_economic(soup, classifier)
+        tdm_parser.write_xml_soup(soup, xml_path)
+        return (xml_path.name, is_above_threshold(soup, prob_threshold), None)
+    except Exception as e:
+        err = "".join(traceback.format_exception(type(e), e, e.__traceback__))
+        return (xml_path.name, False, err)
+
+
+def is_economic_step_holder(corpus_dir: Path, del_grades: bool, prob_threshold: float = 0.5) -> None:
     """Add is_economic probability tag; write names above threshold to economic_files.txt."""
     is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL)  # load classifier
     out_list = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
@@ -82,8 +97,8 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
             xml_path = corpus_dir / xml_name
             try:
                 soup = tdm_parser.get_xml_soup(xml_path)
-                # if del_grades:
-                #     tdm_parser.delete_tag(soup, tag_name='grades')
+                if del_grades:
+                     tdm_parser.delete_tag(soup, tag_name='grades')
                 soup = step_identify_economic(soup, is_economic_classifier)
                 tdm_parser.write_xml_soup(soup, xml_path)
                 if is_above_threshold(soup, prob_threshold):
@@ -100,6 +115,44 @@ def is_economic_step_holder(corpus_dir: Path, del_grades: bool = False, prob_thr
         logger_instance.update_log_batch(processed_buffer)
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {out_list}.")
+
+
+
+def is_economic_step_holder_parallel(corpus_dir: Path, del_grades: bool, chunk_size: int = 200, prob_threshold: float = 0.5) -> None:
+    """Add is_economic probability tag; write names above threshold to economic_files.txt."""
+    is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL)  # load classifier
+    out_list = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
+    out_list.parent.mkdir(parents=True, exist_ok=True)
+
+    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')]
+    logger_instance = logger_module.TDMLogger(
+        log_dir=LOGS_PATH,
+        log_file_name='is_economic',
+        corpus_name=corpus_dir.stem,
+        initiate_file_list=initial_file_list,
+    )
+    pending_list = logger_instance.get_file_names()
+    processed_buffer = []
+
+    with out_list.open('a') as f:
+        for i in range(0, len(pending_list), chunk_size):
+            processed_buffer = pending_list[i:i+chunk_size]
+            
+            # Process files in parallel.
+            results = Parallel(n_jobs=-1, backend='threading')(
+                delayed(_is_economic_step)(corpus_dir / name, is_economic_classifier, del_grades, prob_threshold) for name in processed_buffer
+            )
+            # update economic and log files
+            for xml_name, above_threshold, err in results:
+                if err:
+                    print(f"Error processing {corpus_dir / xml_name}: {err}") # TODO
+                elif above_threshold:
+                    f.write(f"{xml_name}\n")
+    
+            logger_instance.update_log_batch(processed_buffer)
+
+    print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {out_list}.")
+
 
 # =============================
 # Sentiment steps (leave GPU visible; optional device wiring can be added later)
@@ -446,13 +499,20 @@ def xmls_to_csv(corpus_dir: Path, log_file_name: str, processed_tags: list = [],
     )
     economic_files_list = logger_instance.get_file_names()
     
+    # get highest number of existing chunk files
+    d = RESULTS_PATH / corpus_dir.stem
+    max_num = max(
+        (int(p.stem.rsplit("_", 2)[1]) for p in d.glob("chunk_*_data.csv")),
+        default=-1,
+    )
+    print(f'max existing chunk number: {max_num}')
     for i in range(0, len(economic_files_list), chunk_size):
         processed_buffer = economic_files_list[i:i+chunk_size]
         data = file_process.xml_to_csv(corpus_dir, processed_buffer, processed_tags)
-        
-        output_file = RESULTS_PATH / corpus_dir.stem / f'chunk_{i}_data.csv'
+
+        output_file = RESULTS_PATH / corpus_dir.stem / f'chunk_{(i // chunk_size) + 1 + max_num}_data.csv'
         output_file.parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
-        print(f"Saving chunk {i} to {output_file}") # TODO logging
+        print(f"Saving chunk {(i // chunk_size) + 1 + max_num} to {output_file}") # TODO logging
         data.to_csv(output_file, index=False)  # save df to csv
 
         logger_instance.update_log_batch(processed_buffer)
@@ -479,11 +539,11 @@ if __name__ == "__main__":
 
     processed_tags = ['tf_idf']
 
-    xmls_to_csv(corpus_dir, log_file_name, processed_tags)
+    #xmls_to_csv(corpus_dir, log_file_name, processed_tags)
 
     # Economic step example
     # is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5)
-
+    is_economic_step_holder_parallel(corpus_dir, del_grades=True, prob_threshold=0.1)
     # Sentiment examples
     # roberta_title = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
     # roberta_para  = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
@@ -514,5 +574,5 @@ if __name__ == "__main__":
                       #'bert_title_negative', 'bert_title_positive', 'bert_paragraph_negative', 'bert_paragraph_positive',
                       #'roberta_title_negative', 'roberta_title_neutral', 'roberta_title_positive', 'roberta_paragraph_negative', 'roberta_paragraph_neutral', 'roberta_paragraph_positive',
                       #]
-    
-    
+
+

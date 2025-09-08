@@ -196,5 +196,7 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-
+<processed>
+<is_economic>0.2229</is_economic>
+</processed>
 </RECORD>
