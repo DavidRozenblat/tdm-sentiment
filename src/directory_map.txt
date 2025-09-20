@@ -1,7 +1,7 @@
 project_root/
 │
 ├── README.md
-├── project_structure.txt
+├── directory_map.txt
 │
 ├── data/ # raw data is located outside project structure 
 │   ├── corpuses/ corpuses of xml files 
@@ -20,18 +20,17 @@ project_root/
 |
 ├── src/
 │   ├── pipline.py
-│   ├── logger.py 
+│   ├── tdm_logger.py 
 │   ├── config.py
-│   ├── data_utils/           # Data input/output and processing utilities
-│   │   ├── tdm_parser.py       # parser class for data xml files 
-│   │   ├── samples_creator.py # TODO get a sample of file names out of a selected corpus 
-|   |   └── xml_to_df.py    # get attributes of xml files into a df and save data in chunced df's or load df 
+│   ├── data_utils/            # Data input/output and processing utilities
+│   │   ├── tdm_parser.py      # parser class for data xml files 
+|   |   └── file_process.py    # file handling: xml→DataFrame, csv→xml, get files sampling, etc
 │   │     
 |   |
 │   ├── sentiment/
 │   │   ├── sentiment_model/
-│   │   │    ├── model folders /
-│   │   │    ├── sentiment_model.py # class to operate sentiment moidels  
+│   │   │    ├── model folders
+│   │   │    ├── sentiment_model.py # class to operate sentiment models  
 │   │   └── salience_index/ 
 │   │
 │   └── topic_modeling/

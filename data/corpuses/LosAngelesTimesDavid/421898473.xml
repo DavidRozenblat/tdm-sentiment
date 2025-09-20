@@ -177,14 +177,18 @@
 </GroupFrosting>
 </DFS>
 <processed>
+<is_economic>0.235</is_economic>
 <roberta_title_negative>0.0003</roberta_title_negative>
 <roberta_title_neutral>0.9987</roberta_title_neutral>
 <roberta_title_positive>0.001</roberta_title_positive>
-<roberta_paragraph_positive>0.0030250000000000003</roberta_paragraph_positive>
-<roberta_paragraph_neutral>0.8580416666666667</roberta_paragraph_neutral>
-<roberta_paragraph_negative>0.13893333333333333</roberta_paragraph_negative>
-<bert_paragraph_positive>0.5161</bert_paragraph_positive>
+<roberta_paragraph_negative>0.1389</roberta_paragraph_negative>
+<roberta_paragraph_neutral>0.858</roberta_paragraph_neutral>
+<roberta_paragraph_positive>0.003</roberta_paragraph_positive>
+<bert_title_negative>0.0042</bert_title_negative>
+<bert_title_positive>0.9958</bert_title_positive>
 <bert_paragraph_negative>0.4839</bert_paragraph_negative>
-<is_economic>0.235</is_economic>
+<bert_paragraph_positive>0.5161</bert_paragraph_positive>
+
+<tf_idf>[('timberwolves', 0.3171), ('olowokandi', 0.3098), ('saunders', 0.3089), ('aura', 0.23), ('cassell', 0.1805), ('able', 0.174), ('play', 0.152), ('series', 0.1412), ('basketball', 0.1388), ('games', 0.1378), ('lakers', 0.1242), ('kings', 0.1224), ('auras', 0.1184), ('throws', 0.116), ('points', 0.1112), ('afraid', 0.1101), ('expected', 0.1041), ('playoffs', 0.1041), ('hassell', 0.1033), ('peja', 0.0997), ('stojakovic', 0.0986), ('decoy', 0.0969), ('said', 0.096), ('stuff', 0.093), ('mchale', 0.0919), ('season', 0.0911), ('reinforcements', 0.0859), ('spasms', 0.0838), ('carmelo', 0.0822), ('trenton', 0.0821), ('believer', 0.0777), ('good', 0.0772), ('victory', 0.0758), ('wasn', 0.0748), ('players', 0.0747), ('shaquille', 0.0739), ('minutes', 0.0732), ('recurring', 0.0731), ('playing', 0.0729), ('rebounding', 0.0724), ('celtics', 0.0711), ('michael', 0.0707), ('kobe', 0.0689), ('clippers', 0.0685), ('win', 0.0682), ('270', 0.0671), ('hurting', 0.0668), ('execution', 0.0664), ('ll', 0.0652), ('free', 0.0649), ('matchup', 0.064), ('neal', 0.0635), ('turnovers', 0.0632), ('blocking', 0.0631), ('disappointment', 0.063), ('flip', 0.0629), ('semifinals', 0.0625), ('checking', 0.0612), ('bryant', 0.0611), ('game', 0.0608), ('forgotten', 0.0607), ('buried', 0.0603), ('sacramento', 0.0597), ('averaged', 0.0594), ('backup', 0.0589), ('11', 0.0588), ('center', 0.0578), ('big', 0.0576), ('83', 0.0573), ('enjoyed', 0.0554), ('rebounds', 0.0549), ('bench', 0.0543), ('pound', 0.0542), ('think', 0.054), ('prepare', 0.0532), ('sam', 0.0529), ('minnesota', 0.0516), ('going', 0.0511), ('active', 0.0496), ('definitely', 0.0496), ('wins', 0.0494), ('anthony', 0.0492), ('43', 0.0491), ('don', 0.0491), ('defensive', 0.0488), ('committed', 0.0478), ('sit', 0.0474), ('treatment', 0.0473), ('seconds', 0.0467), ('type', 0.0466), ('boston', 0.0465), ('38', 0.0464), ('kevin', 0.0458), ('guard', 0.0448), ('western', 0.044), ('80', 0.0438), ('scored', 0.0435), ('challenge', 0.0433), ('guys', 0.0432), ('block', 0.0429), ('regular', 0.0427), ('wouldn', 0.0426), ('deep', 0.0426), ('success', 0.0424), ('talking', 0.042), ('quarter', 0.0417), ('ready', 0.0409), ('showed', 0.0408), ('heart', 0.0405), ('mind', 0.0405), ('round', 0.0402), ('foot', 0.0399), ('rest', 0.0395), ('player', 0.0391), ('inside', 0.0388), ('conference', 0.0387), ('23', 0.0383), ('manager', 0.0381), ('role', 0.0378), ('level', 0.0376), ('needed', 0.0372), ('bad', 0.0371), ('building', 0.0368), ('coach', 0.0367), ('final', 0.0353), ('played', 0.0352), ('instead', 0.0351), ('feel', 0.0343), ('general', 0.0342), ('lead', 0.0341), ('16', 0.0341), ('thing', 0.0332), ('wednesday', 0.0327), ('far', 0.0311), ('making', 0.0308), ('early', 0.0302), ('took', 0.03), ('team', 0.0298), ('lot', 0.0297), ('need', 0.0293), ('help', 0.0287), ('best', 0.0282), ('second', 0.027), ('did', 0.0253), ('10', 0.0237), ('just', 0.021), ('year', 0.0186)]</tf_idf>
 </processed>
 </RECORD>

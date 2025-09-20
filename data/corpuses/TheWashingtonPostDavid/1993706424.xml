@@ -192,20 +192,19 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<grades><is_economic>1</is_economic><text_blob_sentiment>0.14791666666666667</text_blob_sentiment><bert_sentiment>-0.010957196354866028</bert_sentiment></grades>
 <processed>
-<is_economic>0.0336</is_economic>
-<tf_idf>[('critics', np.float64(0.3523)), ('enviably', np.float64(0.2205)), ('critic', np.float64(0.2132)), ('cockeyed', np.float64(0.1974)), ('concert', np.float64(0.1966)), ('hornaday', np.float64(0.1792)), ('identifiable', np.float64(0.1614)), ('streep', np.float64(0.1581)), ('meryl', np.float64(0.1543)), ('graceful', np.float64(0.142)), ('beethoven', np.float64(0.1413)), ('spoiled', np.float64(0.1407)), ('mantra', np.float64(0.1399)), ('prose', np.float64(0.1381)), ('leisure', np.float64(0.1351)), ('richards', np.float64(0.1334)), ('muscles', np.float64(0.1327)), ('keen', np.float64(0.1316)), ('spectrum', np.float64(0.1206)), ('phrase', np.float64(0.1161)), ('techniques', np.float64(0.1147)), ('responding', np.float64(0.1121)), ('swept', np.float64(0.1112)), ('tips', np.float64(0.1056)), ('reviews', np.float64(0.1048)), ('gallery', np.float64(0.1042)), ('extreme', np.float64(0.1038)), ('deadline', np.float64(0.1035)), ('follows', np.float64(0.1028)), ('writes', np.float64(0.1027)), ('want', np.float64(0.1024)), ('ann', np.float64(0.1006)), ('flying', np.float64(0.1002)), ('reporting', np.float64(0.0985)), ('barely', np.float64(0.0984)), ('guide', np.float64(0.0973)), ('going', np.float64(0.0953)), ('stretch', np.float64(0.0942)), ('entertainment', np.float64(0.0911)), ('picked', np.float64(0.0906)), ('pop', np.float64(0.0903)), ('notes', np.float64(0.0901)), ('arts', np.float64(0.0898)), ('turning', np.float64(0.089)), ('familiar', np.float64(0.0874)), ('writing', np.float64(0.0872)), ('difference', np.float64(0.0868)), ('eyes', np.float64(0.0852)), ('seeing', np.float64(0.0849)), ('hearing', np.float64(0.0833)), ('trip', np.float64(0.0821)), ('thinking', np.float64(0.0816)), ('fine', np.float64(0.0803)), ('movie', np.float64(0.0803)), ('chris', np.float64(0.0802)), ('pressure', np.float64(0.0787)), ('art', np.float64(0.0786)), ('ready', np.float64(0.0763)), ('watch', np.float64(0.0756)), ('ways', np.float64(0.0739)), ('music', np.float64(0.0737)), ('experience', np.float64(0.0718)), ('post', np.float64(0.069)), ('field', np.float64(0.067)), ('job', np.float64(0.0634)), ('line', np.float64(0.0609)), ('open', np.float64(0.06)), ('away', np.float64(0.0569)), ('washington', np.float64(0.0562)), ('really', np.float64(0.0556)), ('end', np.float64(0.0526)), ('little', np.float64(0.0525)), ('left', np.float64(0.0507)), ('people', np.float64(0.0403)), ('like', np.float64(0.0396)), ('years', np.float64(0.0391))]</tf_idf>
-<title_negative>0.0015</title_negative>
-<title_positive>0.9985</title_positive>
-<bert_paragraph_positive>0.48905</bert_paragraph_positive>
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-<bert_paragraph_negative>0.51095</bert_paragraph_negative>
-
+<is_economic>0.1944</is_economic>
 <roberta_title_negative>0.0006</roberta_title_negative>
-
 <roberta_title_neutral>0.9984</roberta_title_neutral>
-
 <roberta_title_positive>0.0009</roberta_title_positive>
+<roberta_paragraph_negative>0.0004</roberta_paragraph_negative>
+<roberta_paragraph_neutral>0.9984</roberta_paragraph_neutral>
+<roberta_paragraph_positive>0.0011</roberta_paragraph_positive>
+<bert_title_negative>0.0015</bert_title_negative>
+<bert_title_positive>0.9985</bert_title_positive>
+<bert_paragraph_negative>0.511</bert_paragraph_negative>
+<bert_paragraph_positive>0.489</bert_paragraph_positive>
+
+<tf_idf>[('critics', 0.3523), ('enviably', 0.2205), ('critic', 0.2132), ('cockeyed', 0.1974), ('concert', 0.1966), ('hornaday', 0.1792), ('identifiable', 0.1614), ('streep', 0.1581), ('meryl', 0.1543), ('graceful', 0.142), ('beethoven', 0.1413), ('spoiled', 0.1407), ('mantra', 0.1399), ('prose', 0.1381), ('leisure', 0.1351), ('richards', 0.1334), ('muscles', 0.1327), ('keen', 0.1316), ('spectrum', 0.1206), ('phrase', 0.1161), ('techniques', 0.1147), ('responding', 0.1121), ('swept', 0.1112), ('tips', 0.1056), ('reviews', 0.1048), ('gallery', 0.1042), ('extreme', 0.1038), ('deadline', 0.1035), ('follows', 0.1028), ('writes', 0.1027), ('want', 0.1024), ('ann', 0.1006), ('flying', 0.1002), ('reporting', 0.0985), ('barely', 0.0984), ('guide', 0.0973), ('going', 0.0953), ('stretch', 0.0942), ('entertainment', 0.0911), ('picked', 0.0906), ('pop', 0.0903), ('notes', 0.0901), ('arts', 0.0898), ('turning', 0.089), ('familiar', 0.0874), ('writing', 0.0872), ('difference', 0.0868), ('eyes', 0.0852), ('seeing', 0.0849), ('hearing', 0.0833), ('trip', 0.0821), ('thinking', 0.0816), ('fine', 0.0803), ('movie', 0.0803), ('chris', 0.0802), ('pressure', 0.0787), ('art', 0.0786), ('ready', 0.0763), ('watch', 0.0756), ('ways', 0.0739), ('music', 0.0737), ('experience', 0.0718), ('post', 0.069), ('field', 0.067), ('job', 0.0634), ('line', 0.0609), ('open', 0.06), ('away', 0.0569), ('washington', 0.0562), ('really', 0.0556), ('end', 0.0526), ('little', 0.0525), ('left', 0.0507), ('people', 0.0403), ('like', 0.0396), ('years', 0.0391)]</tf_idf>
 </processed>
 </RECORD>

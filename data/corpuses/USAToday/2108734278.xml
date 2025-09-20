@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>2108734278</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="ECMS">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt HTMLContent="true">
+         <Title>Stars sprint in and then sneak out</Title>
+      </TitleAtt>
+      <NumericDate>2018-09-19</NumericDate>
+      <StartDate>2018-09-19</StartDate>
+      <EndDate>2018-09-19</EndDate>
+      <AlphaDate>Sep 19, 2018</AlphaDate>
+      <Language>
+         <RawLang>English</RawLang>
+      </Language>
+      <Language IsPrimary="true">
+         <ISO>
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+      </Language>
+      <Copyright>
+         <CopyrightData>Copyright USA Today, a division of Gannett Satellite Information Network, Inc. Sep 19, 2018</CopyrightData>
+      </Copyright>
+      <PrintLocation>
+         <StartPage>D.2</StartPage>
+         <DocSection>LIFE</DocSection>
+         <DocEdition>FINAL</DocEdition>
+      </PrintLocation>
+      <ObjectIDs>
+         <ObjectID>
+            <PMID>7631</PMID>
+         </ObjectID>
+         <ObjectID>
+            <PCID>PQ_7631_Sep192018______</PCID>
+         </ObjectID>
+         <ObjectID>
+            <MSTARLegacyID>USATUSAT201809194OMUEFPG</MSTARLegacyID>
+         </ObjectID>
+      </ObjectIDs>
+      <LexileScore>1280</LexileScore>
+      <Contributors>
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Mandell, Andrea</NormalizedDisplayForm>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Andrea</FirstName>
+               </FirstNameAtt>
+               <ContribPersonNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <ContribPersonName>Andrea Mandell</ContribPersonName>
+               </ContribPersonNameAtt>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Mandell</LastName>
+               </LastNameAtt>
+               <OriginalFormAtt>
+                  <OriginalForm>Andrea Mandell</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+      </Contributors>
+      <Terms>
+         <CompanyTerm TermSource="AutoCatNstein">
+            <CompanyNameAtt TermVocab="CORP">
+               <CompanyName>Netflix Inc</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>512120</CompanyNAIC>
+            </CompanyNAICAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>518210</CompanyNAIC>
+            </CompanyNAICAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>532282</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Criss, Darren</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="GEOG">
+            <Geographic>United States--US</Geographic>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Russell, Keri</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Rae, Issa</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Sarandos, Ted</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Colbert, Stephen</Personal>
+         </Term>
+         <Term TermSource="AutoCatNstein" TermVocab="PERS">
+            <Personal>Borstein, Alex</Personal>
+         </Term>
+         <GenSubjTerm TermSource="AutoCatNstein" TermVocab="PQSUBJ">
+            <GenSubjValue>Bans</GenSubjValue>
+         </GenSubjTerm>
+      </Terms>
+   </Obj>
+   <TextInfo>
+      <Text WordCount="590" HTMLContent="true">&lt;html&gt;&lt;head&gt;&lt;meta name='ValidationSchema' content='http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'/&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Think you know everything that happened during Monday night's Emmy Awards? Think again. Here are five things you definitely didn't see on TV.&lt;/p&gt;
+&lt;p&gt;On the way into the show&lt;/p&gt;
+&lt;p&gt;Even stars have to deal with bottle-necked entry points at the Emmys. We spotted Keri Russell and Matthew Rhys snaking their way through a clogged pathway just minutes before the show started.&lt;/p&gt;
+&lt;p&gt;Stuck in the same situation, "GLOW" star Alison Brie made the best of it, taking selfies with fans. "Where's Dave?" a male fan shouted, ostensibly meaning Brie's husband, Dave Franco. "Out of town!" Brie replied.&lt;/p&gt;
+&lt;p&gt;Those stars trying to make the curtain call weren't alone: We saw Darren Criss sprint down a long corridor - in his tux, no less - to make his seat in time for the opening monologue.&lt;/p&gt;
+&lt;p&gt;Sometimes a gal needs to ditch her shoes&lt;/p&gt;
+&lt;p&gt;Hey, long awards shows aren't for everybody. After Laurie Metcalf took several "Roseanne" jokes on the chin during the opening monologue, she lost the  supporting actress race to "The Marvelous Mrs. Maisel's" Alex Borstein. But Metcalf didn't seem too upset after the loss. She got to exit the awards show early with her daughter - and ditched her white heels while she was at it. We spotted the future "Conners" star slipping her stilettos off in the bar area.&lt;/p&gt;
+&lt;p&gt;Stars refueled midshow&lt;/p&gt;
+&lt;p&gt;This is not a short show. The bar area (where everything from nachos to popcorn and Champagne was served) was in full swing during the ceremony, especially during commercial breaks. We spotted "Grown-ish" star Yara Shahidi buying a Wetzel's pretzel for her younger brother midshow and Netflix exec Ted Sarandos purchasing a hot dog toward the tail end.&lt;/p&gt;
+&lt;p&gt;This was the first year alcohol (including a $14 blood orange margarita) and assorted beverages were allowed inside the auditorium - to many attendees' delight. And in the bathrooms, an extra perk: Stars could retouch their makeup with free L'Oreal mascara and lipstick. Not too shabby.&lt;/p&gt;
+&lt;p&gt;An epic proposal&lt;/p&gt;
+&lt;p&gt;You caught the epic, midshow proposal, right? Well, not everyone in the Microsoft Theater did. Since no TVs are present in the bar area, during the surprise segment in which director Glenn Weiss proposed to his girlfriend, Jan Svendsen, on live TV, the bustling bar area was completely unaware. (This likely includes Stephen Colbert, who we spotted graciously taking photos with fans moments before.)&lt;/p&gt;
+&lt;p&gt;But inside the auditorium, the audience went crazy for the romantic gesture. "First of all, the man that's going to be with me is going to propose to me on the Emmy, OK?" deadpanned Leslie Jones from her seat after the big moment. "If you don't do that, then you ain't serious about our love. Real talk."&lt;/p&gt;
+&lt;p&gt;'Game' of fast exits&lt;/p&gt;
+&lt;p&gt;Here's what you don't see on TV toward the end of the three-hour telecast: Gauche or not, a third of the room makes a quick escape as the last trophies are being handed out. As soon as "Game of Thrones" was announced to have won best drama series, attendees were already streaming out the door to the Governors Ball.&lt;/p&gt;
+&lt;p&gt;But there was a far different tone earlier when "RuPaul's Drag Race" made history by winning best reality competition show. Jones and Issa Rae were the first to jump onto their feet for a standing ovation, and the entire room followed in thunderous cheers.&lt;/p&gt;
+&lt;p&gt;And the best post-show surprise of all? A talented young glee club performed for Emmy attendees as the crowd made its way out the door. Until next year!&lt;/p&gt;
+&lt;p&gt;CREDIT: Andrea Mandell, USA TODAY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</Text>
+   </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>USA TODAY</Title>
+         <MpubId>15008</MpubId>
+         <SortTitle>USA TODAY</SortTitle>
+         <Qualifier>McLean, Va.</Qualifier>
+         <JournalCode>USA</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19820101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>USA Today, a division of Gannett Satellite Information Network, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>7950 Jones Branch Drive</Address1>
+               <City>MacLean</City>
+               <Province>VA</Province>
+               <ZipCode>22108</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.usatoday.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7631</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>07347456</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60430.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>USA TODAY</Title>
+            <SortTitle>USA TODAY</SortTitle>
+            <Qualifier>McLean, Va.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7631</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>07347456</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60430.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jan 2, 1989</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19890102</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Sep 19, 2018</AlphaDate>
+         <StartDate>2018-09-19</StartDate>
+         <EndDate>2018-09-19</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>PQ_7631_Sep192018______</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+      
+   </DFS>
+   
+</RECORD>

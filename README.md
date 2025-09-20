@@ -13,7 +13,7 @@ This project implements a comprehensive pipeline for analyzing sentiment and top
 5. Create a structured dataset for further analysis
 
 ## Directory Structure
-
+under directory structare file
 ### `/corpuses/`
 Contains XML files from major news sources including:
 - Chicago Tribune
@@ -67,7 +67,6 @@ Core source code:
   ![alt text](image.png)
 
 
-## Key Files and Entry Points
 
 ### Configuration
 - `src/config.py`: Central configuration of paths and settings
@@ -109,7 +108,6 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 
 ### Minimal Requirements
 - Python 3.7-10.9 
-- PyTorch
 - Transformers
 - Scikit-learn
 - Pandas
@@ -118,24 +116,27 @@ This project is specifically designed to work with TDM Studio (ProQuest):
 - Torch
 - joblib
 - Pathlib
+- concurrent.futures
+- logging
+- datetime
+- numpy
+- re
 
 
 ### Execution 
-Run the notebooks under `notebooks/run/` to process the data and calculate
-sentiment scores, or execute:
-```bash
-python src/pipeline.py
-```
-for scripted runs.
+Run the notebooks under `notebooks/run/run.ipynb` to process the data and calculate
+pipeline steps 
 
 ### Pipeline steps
 `src/pipeline.py` exposes the main steps of the project. The default paths are read from `src/config.py` but can be overridden.
 
 Available steps:
 
-- `xml_to_df` – convert XML corpus files to CSV #TODO
 - `is_economic_step_holder` – give probability for articles beeing economic
-- `tfidf_step_holder` – append TF-IDF keywords to a corpus 
 - `roberta_step_holder` – add sentiment label to titles and all article text using roberta model (https://huggingface.co/j-hartmann/sentiment-roberta-large-english-3-classes)
 - `bert_step_holder` – add sentiment label to titles and all article text using bert model (distilbert-base-uncased-finetuned-sst-2-english)
+- `tfidf_step_holder` – append TF-IDF keywords to a corpus 
+- `xmls_to_csv` – convert XML corpus files to CSV 
 
+### export results 
+craete results to export (without paragraph text) using `notebooks/run/results_to_results_export.ipynb` in order to export results  

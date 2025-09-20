@@ -174,17 +174,19 @@
 </Locators>
 </GroupFrosting>
 </DFS>
-<grades><is_economic>1</is_economic><text_blob_sentiment>0.5</text_blob_sentiment><bert_sentiment>-0.9538861711819967</bert_sentiment></grades>
 <processed>
-<is_economic>0.3172</is_economic>
-<tf_idf>[('5650', np.float64(0.3075)), ('date', np.float64(0.2563)), ('20071', np.float64(0.252)), ('weekend', np.float64(0.2341)), ('1150', np.float64(0.2322)), ('notices', np.float64(0.2068)), ('listings', np.float64(0.2008)), ('permits', np.float64(0.1831)), ('concerts', np.float64(0.1804)), ('15th', np.float64(0.1799)), ('publication', np.float64(0.1754)), ('editorial', np.float64(0.1746)), ('washington', np.float64(0.1726)), ('lists', np.float64(0.1687)), ('nw', np.float64(0.1685)), ('ads', np.float64(0.1656)), ('deadline', np.float64(0.1589)), ('advertising', np.float64(0.1552)), ('heading', np.float64(0.1548)), ('appropriate', np.float64(0.1523)), ('content', np.float64(0.151)), ('display', np.float64(0.1467)), ('mail', np.float64(0.1367)), ('address', np.float64(0.1248)), ('stage', np.float64(0.1223)), ('events', np.float64(0.1193)), ('phone', np.float64(0.1192)), ('paid', np.float64(0.1163)), ('space', np.float64(0.116)), ('cost', np.float64(0.1076)), ('post', np.float64(0.1059)), ('st', np.float64(0.1009)), ('number', np.float64(0.0943)), ('free', np.float64(0.093)), ('days', np.float64(0.0835)), ('10', np.float64(0.0679)), ('time', np.float64(0.0551))]</tf_idf>
-<title_negative>0.1912</title_negative>
-<title_positive>0.8088</title_positive>
-<bert_paragraph_positive>0.04613333333333333</bert_paragraph_positive>
-<bert_paragraph_neutral>0.0</bert_paragraph_neutral>
-<bert_paragraph_negative>0.9538666666666668</bert_paragraph_negative>
+<is_economic>0.222</is_economic>
 <roberta_title_negative>0.0006</roberta_title_negative>
 <roberta_title_neutral>0.9986</roberta_title_neutral>
 <roberta_title_positive>0.0008</roberta_title_positive>
+<roberta_paragraph_negative>0.0005</roberta_paragraph_negative>
+<roberta_paragraph_neutral>0.9987</roberta_paragraph_neutral>
+<roberta_paragraph_positive>0.0008</roberta_paragraph_positive>
+<bert_title_negative>0.1912</bert_title_negative>
+<bert_title_positive>0.8088</bert_title_positive>
+<bert_paragraph_negative>0.9539</bert_paragraph_negative>
+<bert_paragraph_positive>0.0461</bert_paragraph_positive>
+
+<tf_idf>[('5650', 0.3075), ('date', 0.2563), ('20071', 0.252), ('weekend', 0.2341), ('1150', 0.2322), ('notices', 0.2068), ('listings', 0.2008), ('permits', 0.1831), ('concerts', 0.1804), ('15th', 0.1799), ('publication', 0.1754), ('editorial', 0.1746), ('washington', 0.1726), ('lists', 0.1687), ('nw', 0.1685), ('ads', 0.1656), ('deadline', 0.1589), ('advertising', 0.1552), ('heading', 0.1548), ('appropriate', 0.1523), ('content', 0.151), ('display', 0.1467), ('mail', 0.1367), ('address', 0.1248), ('stage', 0.1223), ('events', 0.1193), ('phone', 0.1192), ('paid', 0.1163), ('space', 0.116), ('cost', 0.1076), ('post', 0.1059), ('st', 0.1009), ('number', 0.0943), ('free', 0.093), ('days', 0.0835), ('10', 0.0679), ('time', 0.0551)]</tf_idf>
 </processed>
 </RECORD>

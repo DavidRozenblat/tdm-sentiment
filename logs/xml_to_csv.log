@@ -1,4 +1,11 @@
-2025-09-04 17:59:52,175 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample/422216858.xml: unterminated string literal (detected at line 1) (<string>, line 1)
-2025-09-04 18:02:38,519 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample/422216858.xml: unterminated string literal (detected at line 1) (<string>, line 1)
-2025-09-04 18:38:43,602 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample/422216858.xml: unterminated string literal (detected at line 1) (<string>, line 1)
-2025-09-07 11:43:41,764 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample/422216858.xml: unterminated string literal (detected at line 1) (<unknown>, line 1)
+2025-09-20 15:19:34,708 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/422216858.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,708 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/2098943050.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,709 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/422225372.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,711 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/422244975.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,712 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/1368532619.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,713 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/734750209.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,713 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/849371414.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,713 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/422115807.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,714 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/1825336436.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,714 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/422244463.xml: 'NoneType' object has no attribute 'get'
+2025-09-20 15:19:34,715 - data_utils.file_process - Error processing /home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/LosAngelesTimesDavid/2869108043.xml: 'NoneType' object has no attribute 'get'

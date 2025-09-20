@@ -185,7 +185,17 @@
 </DFS>
 <processed>
 <is_economic>0.2291</is_economic>
-<bert_paragraph_positive>0.5892</bert_paragraph_positive>
+<roberta_title_negative>0.001</roberta_title_negative>
+<roberta_title_neutral>0.0138</roberta_title_neutral>
+<roberta_title_positive>0.9851</roberta_title_positive>
+<roberta_paragraph_negative>0.2718</roberta_paragraph_negative>
+<roberta_paragraph_neutral>0.6369</roberta_paragraph_neutral>
+<roberta_paragraph_positive>0.0912</roberta_paragraph_positive>
+<bert_title_negative>0.0111</bert_title_negative>
+<bert_title_positive>0.9889</bert_title_positive>
 <bert_paragraph_negative>0.4108</bert_paragraph_negative>
+<bert_paragraph_positive>0.5892</bert_paragraph_positive>
+
+<tf_idf>[('hubbard', 0.3297), ('scientology', 0.2821), ('mastering', 0.2492), ('29the', 0.2039), ('educational', 0.1627), ('rouses', 0.159), ('taught', 0.153), ('teachers', 0.1496), ('smiths', 0.134), ('jada', 0.1339), ('subject', 0.1306), ('school', 0.1278), ('technology', 0.1229), ('innuendo', 0.1227), ('jargon', 0.1205), ('understand', 0.12), ('study', 0.1199), ('words', 0.1197), ('hands', 0.1183), ('students', 0.1166), ('moving', 0.1163), ('read', 0.116), ('invent', 0.1152), ('times', 0.1112), ('publishes', 0.1112), ('experience', 0.1091), ('matter', 0.108), ('level', 0.1065), ('cheers', 0.0974), ('monroe', 0.095), ('beliefs', 0.0937), ('taxpayer', 0.0935), ('innovative', 0.0925), ('promotion', 0.0899), ('technique', 0.0893), ('gaining', 0.0892), ('articles', 0.0887), ('centuries', 0.0882), ('past', 0.0876), ('methods', 0.0874), ('focuses', 0.0868), ('method', 0.0867), ('describing', 0.0861), ('great', 0.0858), ('worries', 0.0843), ('expense', 0.084), ('teaching', 0.0789), ('link', 0.0786), ('writes', 0.078), ('nick', 0.0763), ('regularly', 0.0762), ('ron', 0.0749), ('academy', 0.0745), ('knowledge', 0.0735), ('religious', 0.0734), ('skills', 0.0725), ('ideas', 0.0703), ('don', 0.0695), ('uses', 0.0694), ('founder', 0.0688), ('developed', 0.0687), ('responsible', 0.0682), ('village', 0.0674), ('trouble', 0.0661), ('reasons', 0.066), ('filled', 0.0653), ('piece', 0.0639), ('putting', 0.0636), ('smith', 0.0626), ('student', 0.0624), ('poor', 0.0622), ('education', 0.0597), ('maybe', 0.0573), ('performance', 0.0573), ('allowed', 0.0565), ('offer', 0.0556), ('social', 0.0546), ('june', 0.0536), ('star', 0.0528), ('instead', 0.0497), ('story', 0.0485), ('change', 0.0478), ('angeles', 0.0478), ('doesn', 0.0463), ('line', 0.0462), ('money', 0.0451), ('things', 0.0437), ('used', 0.0425), ('won', 0.0416), ('public', 0.0408), ('called', 0.0403), ('come', 0.04), ('think', 0.0382), ('say', 0.0368), ('good', 0.0364), ('did', 0.0358), ('make', 0.033), ('time', 0.0272), ('new', 0.0265)]</tf_idf>
 </processed>
 </RECORD>

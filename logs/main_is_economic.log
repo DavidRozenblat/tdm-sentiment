@@ -1,60 +1,90 @@
-2025-09-10 18:06:34,044 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,045 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,045 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,045 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,045 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,046 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,046 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,046 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,047 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,047 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,048 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,048 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,048 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,048 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,049 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,050 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,051 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,051 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,052 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,052 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,052 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,052 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,053 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,053 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,053 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,054 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,054 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,054 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,056 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,057 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,057 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,057 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,058 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,059 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,059 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,060 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,060 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,060 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,061 - charset_normalizer - Encoding detection on empty bytes, assuming utf_8 intention.
-2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,061 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,062 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,062 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,063 - charset_normalizer - Encoding detection: ascii is most likely the one.
-2025-09-10 18:06:34,063 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,064 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,065 - data_utils.tdm_parser - Tag 'grades' not found.
-2025-09-10 18:06:34,065 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
-2025-09-10 18:06:34,066 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-20 15:12:33,121 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,137 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,142 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,158 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,163 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,180 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,189 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,209 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,253 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,258 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,280 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,289 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,294 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,333 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,360 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,367 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,455 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,514 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,516 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,542 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,546 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,580 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,585 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,592 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,610 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,615 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,632 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,660 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,664 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,687 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,757 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,768 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,811 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,817 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,838 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,847 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,854 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,859 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:33,866 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:33,894 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,119 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,129 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,163 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,171 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,182 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,205 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,241 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,271 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,278 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,292 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,295 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,299 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,315 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,330 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,342 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,369 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,484 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,508 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,514 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,541 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,577 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,590 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,620 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,629 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,630 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,637 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,660 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,677 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,735 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,768 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,800 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,829 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,834 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,858 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,874 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,890 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,902 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,916 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:34,986 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,988 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:34,997 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:35,006 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:35,025 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:35,037 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:35,077 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:35,090 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:35,099 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:35,101 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-20 15:12:35,106 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-20 15:12:35,115 - data_utils.tdm_parser - Element 'is_economic' already exists.
