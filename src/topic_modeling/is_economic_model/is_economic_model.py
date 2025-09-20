@@ -36,6 +36,8 @@ class EconomicClassifier:
 
     def vectorize_text(self, text_data):
         """Transform text data to vectorized format."""
+        if text_data is None:
+            return None
         return self.vectorizer.transform([text_data])
 
 
@@ -47,7 +49,7 @@ class EconomicClassifier:
             text_data = re.sub(r'\s+', ' ', text_data).strip()
             return text_data
         except Exception as e:
-            print(f'Preprocess error: {e}')
+            logger.error(f"Preprocess error: {e}")
             return None
 
 

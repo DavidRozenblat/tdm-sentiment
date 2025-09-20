@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup, NavigableString
 from pathlib import Path
+import logging
+logger = logging.getLogger(__name__)
 
 class TdmXmlParser:
     TDM_PROPERTY_TAGS = [
@@ -21,12 +23,15 @@ class TdmXmlParser:
     def get_xml_soup(self, file_path: Path):
         """helper functon, Parse an XML file and return the BeautifulSoup object."""
         try:
-            with open(file_path, 'r', encoding='utf-8') as file:
-                xml_data = file.read()
-            soup = BeautifulSoup(xml_data, 'xml')
-            return soup
+            with open(file_path, 'rb') as fh:
+                return BeautifulSoup(fh, 'lxml-xml')
+            
+            #with open(file_path, 'r', encoding='utf-8') as file:
+                #xml_data = file.read()
+            #soup = BeautifulSoup(xml_data, 'xml')
+            #return soup
         except Exception as e:
-            print(f"Error reading or parsing the file '{file_path}': {e}")
+            logger.error(f"Error reading or parsing the file '{file_path}': {e}")
             return None
 
 
@@ -36,8 +41,9 @@ class TdmXmlParser:
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.write(str(soup))
         except Exception as e:
-            print(f"Error writing to the file '{file_path}': {e}")
-
+            logger.error(f"Error writing to the file '{file_path}': {e}")
+        finally:
+            return None
 
     # function for extracting valid paragraphs from soup
     def get_art_text(self, soup: BeautifulSoup, return_str=True):
@@ -175,11 +181,11 @@ class TdmXmlParser:
         # Look for existing tag inside <processed>
         existing = processed.find(tag_name)
         if existing:
-            print(f"Element '{tag_name}' already exists.")
+            logger.info(f"Element '{tag_name}' already exists.")
             if modify:
                 existing.string = str(value)
             else:
-                print(f"Not modifying '{tag_name}' as requested.")
+                logger.info(f"Not modifying '{tag_name}' as requested.")
                 return
         else:
              # Create and append new tag under <processed> with surrounding newlines in one line
@@ -196,7 +202,7 @@ class TdmXmlParser:
         if tag:
             tag.decompose()
         else:
-            print(f"Tag '{tag_name}' not found.")
+            logger.info(f"Tag '{tag_name}' not found.")
         return soup
 
 

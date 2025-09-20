@@ -1,0 +1,124 @@
+2025-09-10 18:04:21,084 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,091 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,098 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,108 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,117 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,132 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,154 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,173 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,196 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,216 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,251 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,276 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,290 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,296 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,302 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,321 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,402 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,419 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,436 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,467 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,490 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,531 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,537 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,546 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,551 - charset_normalizer - Encoding detection on empty bytes, assuming utf_8 intention.
+2025-09-10 18:04:21,551 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,552 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:04:21,554 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,572 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,584 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,593 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,595 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,622 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,672 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,681 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,697 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,712 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,721 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,727 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:21,733 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:04:21,756 - data_utils.tdm_parser - Element 'is_economic' already exists.
+2025-09-10 18:04:34,250 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,251 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,303 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,304 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,463 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,463 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,676 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,677 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,709 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,710 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,736 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,737 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:34,779 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:34,779 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,085 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,086 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,364 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,364 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,404 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,404 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,458 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,459 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,599 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,599 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,726 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,727 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,747 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,753 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,755 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,758 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,759 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,762 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,765 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,767 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,768 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,769 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,771 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,774 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:38,774 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:38,784 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:38,788 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,145 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,146 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,211 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,212 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,217 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,373 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,374 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,377 - charset_normalizer - Encoding detection on empty bytes, assuming utf_8 intention.
+2025-09-10 18:04:42,456 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,457 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,458 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,460 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,462 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,463 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,465 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,468 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,470 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,472 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,474 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,476 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,478 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,480 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,482 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,484 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,486 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,597 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,598 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,603 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,606 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,607 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:04:42,626 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,626 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:42,747 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:42,747 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:44,817 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:44,818 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:44,851 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:44,851 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:44,858 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:44,858 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.
+2025-09-10 18:04:44,905 - data_utils.tdm_parser - Element 'tf_idf' already exists.
+2025-09-10 18:04:44,905 - data_utils.tdm_parser - Not modifying 'tf_idf' as requested.

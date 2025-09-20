@@ -47,7 +47,10 @@ def step_identify_economic(soup: BeautifulSoup,
                            economic_classifier: is_economic_module.EconomicClassifier):
     """For each xml file add probability tag that it's an economic article."""
     text = tdm_parser.get_art_text(soup)
-    value = economic_classifier.is_economic_prob(text)
+    if text is None:
+        value = None
+    else:
+        value = economic_classifier.is_economic_prob(text)
     soup = tdm_parser.modify_tag(soup, tag_name='is_economic', value=value, modify=True)
     return soup
 
@@ -75,50 +78,7 @@ def _is_economic_step(xml_path: Path, classifier, del_grades: bool, prob_thresho
         return (xml_path.name, False, err)
 
 
-def is_economic_step_holder(corpus_dir: Path, del_grades: bool, prob_threshold: float = 0.5) -> None:
-    """Add is_economic probability tag; write names above threshold to economic_files.txt."""
-    is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL)  # load classifier
-    out_list = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
-    out_list.parent.mkdir(parents=True, exist_ok=True)
-
-    initial_file_list = [xml_file.name for xml_file in corpus_dir.glob('*.xml')]
-    logger_instance = logger_module.TDMLogger(
-        log_dir=LOGS_PATH,
-        log_file_name='is_economic',
-        corpus_name=corpus_dir.stem,
-        initiate_file_list=initial_file_list,
-    )
-    pending = deque(logger_instance.get_file_names())
-    processed_buffer: List[str] = []
-
-    with out_list.open('a') as f:
-        while pending:
-            xml_name = pending.popleft()
-            xml_path = corpus_dir / xml_name
-            try:
-                soup = tdm_parser.get_xml_soup(xml_path)
-                if del_grades:
-                     tdm_parser.delete_tag(soup, tag_name='grades')
-                soup = step_identify_economic(soup, is_economic_classifier)
-                tdm_parser.write_xml_soup(soup, xml_path)
-                if is_above_threshold(soup, prob_threshold):
-                    f.write(f"{xml_path.name}\n")
-            except Exception as e:
-                print(f"Error processing {xml_path}: {e}")
-            finally:
-                processed_buffer.append(xml_name)
-                if len(processed_buffer) >= 200:
-                    logger_instance.update_log_batch(processed_buffer)
-                    processed_buffer.clear()
-
-    if processed_buffer:
-        logger_instance.update_log_batch(processed_buffer)
-
-    print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {out_list}.")
-
-
-
-def is_economic_step_holder_parallel(corpus_dir: Path, del_grades: bool, chunk_size: int = 200, prob_threshold: float = 0.5) -> None:
+def is_economic_step_holder(corpus_dir: Path, del_grades: bool, chunk_size: int = 2000, prob_threshold: float = 0.5) -> None:
     """Add is_economic probability tag; write names above threshold to economic_files.txt."""
     is_economic_classifier = is_economic_module.EconomicClassifier(IS_ECONOMIC_MODEL)  # load classifier
     out_list = FILE_NAMES_PATH / corpus_dir.name / 'economic_files.txt'
@@ -150,6 +110,10 @@ def is_economic_step_holder_parallel(corpus_dir: Path, del_grades: bool, chunk_s
                     f.write(f"{xml_name}\n")
     
             logger_instance.update_log_batch(processed_buffer)
+            # clear buffer and results
+            processed_buffer.clear()
+            results.clear()
+            print(f"Processed {chunk_size} files...")
 
     print(f"Finished processing {len(initial_file_list)} files. Economic articles saved to {out_list}.")
 
@@ -333,8 +297,8 @@ def tfidf_step_holder(
     log_file_name: str,
     *,
     workers: Optional[int] = None,
-    batch_log_size: int = 2000,
-    batch_log_seconds: float = 40.0,
+    batch_log_size: int = 1000,
+    batch_log_seconds: float = 350.0,
     window_factor: int = 2,   # how many in-flight tasks per worker
 ) -> None:
     """
@@ -524,7 +488,7 @@ def xmls_to_csv(corpus_dir: Path, log_file_name: str, processed_tags: list = [],
 if __name__ == "__main__":
     import logging
     corpus_dir = CORPUSES_PATH / 'sample'  # 'sample' 'LosAngelesTimesDavid', 'USATodayDavid', 'Newyork20042023
-    log_file_name = 'xml_to_csv'
+    log_file_name = 'main_is_economic'
     
     # set logger
     logger = logging.getLogger()
@@ -536,22 +500,25 @@ if __name__ == "__main__":
     logger.addHandler(handler)
 
     #--- run XML to CSV
-
     processed_tags = ['tf_idf']
-
     #xmls_to_csv(corpus_dir, log_file_name, processed_tags)
 
+    #--- run is_economic step
     # Economic step example
     # is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.5)
-    is_economic_step_holder_parallel(corpus_dir, del_grades=True, prob_threshold=0.1)
-    # Sentiment examples
-    # roberta_title = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
-    # roberta_para  = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
-    # roberta_step_holder(corpus_dir, 'roberta', roberta_title, roberta_para)
+    is_economic_step_holder(corpus_dir, del_grades=True, prob_threshold=0.2)
+    
+    #--- run roberta sentiment step
+    roberta_title = {'negative': 'roberta_title_negative', 'neutral': 'roberta_title_neutral', 'positive': 'roberta_title_positive'}
+    roberta_para  = {'negative': 'roberta_paragraph_negative', 'neutral': 'roberta_paragraph_neutral', 'positive': 'roberta_paragraph_positive'}
+    log_file_name = 'main_step_roberta'
+    #roberta_step_holder(corpus_dir, log_file_name, roberta_title, roberta_para)
 
-    # bert_title = {'negative': 'bert_title_negative', 'positive': 'bert_title_positive'}
-    # bert_para  = {'negative': 'bert_paragraph_negative', 'positive': 'bert_paragraph_positive'}
-    # bert_step_holder(corpus_dir, 'bert', bert_title, bert_para)
+    #--- run bert sentiment step
+    bert_title = {'negative': 'bert_title_negative', 'positive': 'bert_title_positive'}
+    bert_para  = {'negative': 'bert_paragraph_negative', 'positive': 'bert_paragraph_positive'}
+    log_file_name = 'main_step_bert'
+    #bert_step_holder(corpus_dir, log_file_name, bert_title, bert_para)
 
     # CSV -> XML example
     # processed_tags = {
@@ -562,8 +529,12 @@ if __name__ == "__main__":
     # }
     # csvs_to_xml(corpus_dir, processed_tags, 'csv_to_xml')
 
+    #--- run TF-IDF step
     # TF-IDF (CPU-only pool)
+    log_file_name = 'main_step_tfidf'
     #tfidf_step_holder(corpus_dir, log_file_name)
+
+
 
     # Example: list files (avoid printing generator)
     # my_path = Path('/home/ec2-user/SageMaker/david/tdm-sentiment/data/corpuses/sample')

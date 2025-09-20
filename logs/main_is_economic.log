@@ -1,0 +1,60 @@
+2025-09-10 18:06:34,044 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,045 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,045 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,045 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,045 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,046 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,046 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,046 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,047 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,047 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,048 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,048 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,048 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,048 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,049 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,050 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,050 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,051 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,051 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,052 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,052 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,052 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,052 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,053 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,053 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,053 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,054 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,054 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,054 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,056 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,056 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,057 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,057 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,057 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,058 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,058 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,059 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,059 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,060 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,060 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,060 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,061 - charset_normalizer - Encoding detection on empty bytes, assuming utf_8 intention.
+2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,061 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,061 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,062 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,062 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,063 - charset_normalizer - Encoding detection: ascii is most likely the one.
+2025-09-10 18:06:34,063 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,064 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,065 - data_utils.tdm_parser - Tag 'grades' not found.
+2025-09-10 18:06:34,065 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
+2025-09-10 18:06:34,066 - topic_modeling.is_economic_model.is_economic_model - Preprocess error: 'NoneType' object has no attribute 'lower'
