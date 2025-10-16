@@ -12,16 +12,19 @@ This project implements a comprehensive pipeline for analyzing sentiment and top
 4. Analyze sentiment score for classified economic articles
 5. Create a structured dataset for further analysis
 
-## Directory Structure
-under directory structare file
-### `/corpuses/`
-Contains XML files from major news sources including:
+## `corpuses`
+From TDM Studio stored in XML files, we obtained datasets of English-language content from major newspapers. Each dataset was filtered to include:
+news, commentary, reviews, features, editorials, articles, reports, statistics/data reports, interviews, and documents articles. 
+from the following sources:
 - Chicago Tribune
 - Los Angeles Times
 - Newyork Times
 - The Washington Post
 - USA Today
 - The Jerusalem Post
+
+## Directory Structure
+under directory structare file
 
 ### `/data/`
 - `/corpuses/`: for each corpus all xml files in a different folder 
@@ -42,11 +45,10 @@ Contains execution logs that track for a given task or step in pipleline the xml
 Core source code:
 - `config.py`: Configures global variables and folder paths
 - `main.py`: Entry point for processing (limited use in TDM's Jupyter environment)
-- `logger.py`: Tracks function execution to enable process resumption after failures
+- `tdm_logger.py`: Tracks function execution to enable process resumption after failures
 - `/data_utils/`: Data processing utilities
-  - `tdm_parser.py`: Parser for TDM XML files
   - `xml_to_df.py`: Converts XML to DataFrame format
-  - `properties_modifier.py`: Modifies CSV files with sentiment or topic data
+  - `file_process.py`: Modifies CSV files with sentiment or topic data
 - `/sentiment/`: Sentiment analysis components
   - `/sentiment_model/`: BERT and ROBERTA sentiment models stored locally runs on GPU if available
   - `/salience_index/`: Weighted BERT sentiment model runs on GPU if available
