@@ -21,6 +21,7 @@ Contains XML files from major news sources including:
 - Newyork Times
 - The Washington Post
 - USA Today
+- The Jerusalem Post
 
 ### `/data/`
 - `/corpuses/`: for each corpus all xml files in a different folder 
