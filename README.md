@@ -48,7 +48,7 @@ Core source code:
   - `xml_to_df.py`: Converts XML to DataFrame format
   - `properties_modifier.py`: Modifies CSV files with sentiment or topic data
 - `/sentiment/`: Sentiment analysis components
-  - `/sentiment_model/`: BERT sentiment models stored locally runs on GPU if available
+  - `/sentiment_model/`: BERT and ROBERTA sentiment models stored locally runs on GPU if available
   - `/salience_index/`: Weighted BERT sentiment model runs on GPU if available
 - `topic_modeling/`: Core topic‑modeling modules  
   - `tf_idf_model/`: Extracts article tags using TF‑IDF runs on CPU
